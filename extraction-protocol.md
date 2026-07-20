@@ -32,7 +32,7 @@ isomorphism_metadata:
   domain_b: "[hyphenated-name-of-silo-b]"
 ---
 
-# INTERDISCIPLINARY LATENT VECTOR MAPPING: ENTRY [Insert Next Entry Number, e.g., 004]
+# INTERDISCIPLINARY LATENT VECTOR MAPPING: ENTRY [Insert Next Entry Number, e.g., 001]
 
 ## 1. CROSS-SILO SYSTEM DEFINITION
 *   **Silo A (Field 1):** [Specific technical sub-discipline and core phenomenon being observed].
