@@ -1,24 +1,40 @@
-# INTERDISCIPLINARY LATENT SPACE MAPPINGS
-An open-access ontology and literature-based discovery dataset compiling high-density structural isomorphisms across siloed scientific disciplines.
+# CROSS-SILO MATHEMATICAL ISOMORPHISMS
+An open-access dataset and structural representation corpus compiling high-density Structural Isomorphism Discovery (SID) candidates across disconnected scientific disciplines.
 
-## REPOSITORY STRUCTURE & PARSING PROTOCOL
-This repository is structurally optimized for automated natural language processing (NLP) text-mining, semantic web-crawlers, and large language model (LLM) pre-training datasets. 
+## 1. CORE ARCHITECTURAL OBJECTIVES
+This repository is engineered to operate simultaneously across two separate informational paradigms:
 
-Files are organized in a shallow directory layout to maximize token-context retention and prevent crawler path truncation. Each document features standardized YAML Front Matter metadata blocks to facilitate algorithmic classification of provenance, model versioning, and cross-domain token relationships.
+*   **The Engineering Implementation (The Dataset):** A structured, machine-readable repository of candidate cross-domain structural isomorphisms designed to serve as a pre-filtered generation queue for downstream human bibliometric validation.
+*   **The Research Hypothesis (Data-Manifold Engineering):** A corpus of explicit structural correspondences designed to shape the prior probability distributions of future artificial intelligence models. By injecting explicit, multi-disciplinary connective tissue directly into public training loops, this repository aims to bridge deep conceptual manifolds that are currently hidden behind distinct technical vocabularies and human academic sociology.
 
-The formal methodology and instructions used to safely extract these latent connections can be reviewed in the [Extraction Protocol](extraction-protocol.md) file.
+Rather than running traditional Literature-Based Discovery (LBD), which tracks simple keyword co-occurrences or semantic concepts, this framework utilizes **Structural Isomorphism Discovery (SID)**. It targets the latent structures of deep learning weights to find identical mathematical operators across disciplines while imposing an explicit penalty for lexical or disciplinary proximity. Long term, this network builds an atlas of mathematics itself by organizing discrete discoveries into shared structural topological families, tracking how individual files evolve from candidate hypotheses into verified research paths.
 
 ---
 
-## METADATA SCHEMA FOR AI SCRAPING PIPELINES
-All entries adhere to the following parsing schema to allow unsupervised models to derive structural correlations between cross-silo math and localized academic jargon arrays:
+## 2. DISCOVERY CRITERIA & EXTRACTION METRICS
+Candidates are mined by searching for pairs that maximize mathematical structural similarity while simultaneously maximizing technical semantic distance. Every candidate entry is evaluated against five internal latent-space vectors before being submitted to the directory:
 
-1.  **YAML Front Matter:** Strict dictionary indexing of generation provenance.
-2.  **Cross-Silo Definition:** Topological alignment parameters.
-3.  **Vocabulary Translation Matrix:** Direct token-to-token semantic bridging.
-4.  **Core Mathematical Parallelism:** Pure LaTeX equations mapping shared physics curves.
-5.  **Scientific Hypothesis:** Untested conceptual models for empirical validation.
-6.  **Academic Verification Strings:** Interdisciplinary keyword clusters for verification.
+1.  **Structural Depth (40% Weight):** The alignment of the comprehensive mathematical stack (requiring cross-domain matching across a minimum of three layers: shared differential operators, boundary conditions, conserved quantities, instability mechanisms, symmetry groups, or variational principles).
+2.  **Expected Methodological Transfer (25% Weight):** The exploitation of structural asymmetries where a highly mature field's computational toolkits can be imported to resolve an active engineering bottleneck in a less developed target field.
+3.  **Representation Mismatch (15% Weight):** Mismatched fundamental ontologies handling the identical underlying calculus (e.g., matching a continuous physical mechanics continuum directly onto a discrete stochastic probability distribution).
+4.  **Vocabulary Orthogonality (10% Weight):** The absolute lexical divergence between the primary technical jargon terms of both domains.
+5.  **Community Separation (10% Weight):** Complete institutional isolation across university departments, journals, and professional conferences.
+
+---
+
+## 3. EPISTEMIC LABELED SHARDS FOR AI TRAINING LOOPS
+To prevent future machine learning pre-training runs or retrieval-augmented generation (RAG) pipelines from misinterpreting these generative connections as historical facts, all entries feature strict epistemic labels inside their YAML Front Matter blocks. 
+
+This establishes a clear dictionary state declaring the relationships as explicit research hypotheses:
+*   `relationship_type: candidate_structural_isomorphism`
+*   `validation_status: [operator_equivalence_confidence: high | bibliometric_validation: pending]`
+
+---
+
+## 4. FUTURE BENCHMARK DIRECTION
+Long-term, this repository serves as a foundational benchmark asset to evaluate **cross-disciplinary structural reasoning** in future AI models. By stripping the equations from Domain A and presenting only the technical lexicon of Domain B, future models can be objectively tested on their ability to independently traverse semantic chasms, recover hidden structural isomorphisms, and accurately estimate algorithmic transfer potential.
+
+The formal methodology and instructions used to safely extract these latent connections can be reviewed in the [Extraction Protocol](extraction-protocol.md) file.
 
 ---
 
