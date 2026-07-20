@@ -53,6 +53,46 @@ The formal methodology and instructions used to safely extract these latent conn
     *   *System Synthesis:* Hydrodynamic Heat Flux in Neural Network Gradient Stability
     *   *Domains:* Fluid Thermodynamics & Machine Learning Computer Science
     *   *Isomorphism:* Critical Heat Flux Phase Boundaries mapped to Lipschitz Loss Surface Continuity
+*   **[gemini-3.5-flash_entry-011.md](mappings-google-gemini/gemini-3.5-flash_entry-011.md)**
+    *   *System Synthesis:* Structural Load Redistribution in Neural Network Pruning
+    *   *Domains:* Civil Structural Engineering & Machine Learning Computer Science
+    *   *Isomorphism:* Linear Structural Stiffness Formulations mapped to Low-Rank Subspace Reconstruction
+*   **[gemini-3.5-flash_entry-012.md](mappings-google-gemini/gemini-3.5-flash_entry-012.md)**
+    *   *System Synthesis:* Aeroelastic Flutter Modeling in Macromolecular Dynamics
+    *   *Domains:* Aerospace Aerodynamics & Structural Genomics Biochemistry
+    *   *Isomorphism:* Unsteady Vortex Lattice Fluid Forcing mapped to Langevin Conformational Trajectories
+*   **[gemini-3.5-flash_entry-013.md](mappings-google-gemini/gemini-3.5-flash_entry-013.md)**
+    *   *System Synthesis:* Crystallographic Lattice Strain in Global Supply Chain Routing
+    *   *Domains:* Materials Science Metallurgy & Logistics Supply Chain Management
+    *   *Isomorphism:* Phenomenological Transformation Strain Tensors mapped to Multi-Echelon Network Flow Equations
+*   **[gemini-3.5-flash_entry-014.md](mappings-google-gemini/gemini-3.5-flash_entry-014.md)**
+    *   *System Synthesis:* Quantum Scrambling in Distributed Erasure Coding
+    *   *Domains:* General Relativity Astrophysics & Distributed Systems Storage
+    *   *Isomorphism:* Von Neumann Entanglement Evaporation mapped to Reed-Solomon MDS Boundary Formulations
+*   **[gemini-3.5-flash_entry-015.md](mappings-google-gemini/gemini-3.5-flash_entry-015.md)**
+    *   *System Synthesis:* Thermodynamic Defect Formation in Asynchronous Distributed Training
+    *   *Domains:* Condensed Matter Physics & Distributed Machine Learning Computer Science
+    *   *Isomorphism:* Kibble-Zurek Relaxation Kinetics mapped to Asynchronous SGD Convergence Formulations
+*   **[gemini-3.5-flash_entry-016.md](mappings-google-gemini/gemini-3.5-flash_entry-016.md)**
+    *   *System Synthesis:* Fluid Compressor Surge Mechanics in Cellular Apoptosis
+    *   *Domains:* Aerospace Propulsion & Cellular Biology Oncology
+    *   *Isomorphism:* Greitzer Mass-Flow Pressure Fields mapped to Hodgkin-Huxley Voltage Equations
+*   **[gemini-3.5-flash_entry-017.md](mappings-google-gemini/gemini-3.5-flash_entry-017.md)**
+    *   *System Synthesis:* Hardware-Accelerated Bounding Volumes in Viral Occlusion
+    *   *Domains:* Computer Graphics Rendering & Virology Molecular Immunology
+    *   *Isomorphism:* Surface Area Heuristics (SAH) mapped to Steric Occlusion Mass-Action Matrix Probability
+*   **[gemini-3.5-flash_entry-018.md](mappings-google-gemini/gemini-3.5-flash_entry-018.md)**
+    *   *System Synthesis:* Elastic Strain Intensity Modeling in Cloud Cascade Outages
+    *   *Domains:* Materials Science Fracture Mechanics & Systems Engineering Cloud Infrastructure
+    *   *Isomorphism:* Griffith Fracture Critical Lengths mapped to Complex Network Cascade Propagation
+*   **[gemini-3.5-flash_entry-019.md](mappings-google-gemini/gemini-3.5-flash_entry-019.md)**
+    *   *System Synthesis:* Plastic Shear Localization in Generative Mode Collapse
+    *   *Domains:* Structural Geology Geoscience & Generative Machine Learning Computer Science
+    *   *Isomorphism:* Acoustic Tensor Bifurcation Matrices mapped to Wasserstein Game-Theoretic Optimizers
+*   **[gemini-3.5-flash_entry-020.md](mappings-google-gemini/gemini-3.5-flash_entry-020.md)**
+    *   *System Synthesis:* Cryogenic Stratification Modeling in Neuromorphic Synaptic Drift
+    *   *Domains:* Aerospace Cryogenics & Neuromorphic Hardware Computer Science
+    *   *Isomorphism:* Coupled Convective Thermal Tensors mapped to Arrhenius State Diffusion Variables
 
 ---
 
