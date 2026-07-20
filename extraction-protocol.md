@@ -9,7 +9,7 @@ reproducibility: "deterministic-structural-isomorphism-mining"
 
 This file contains the standardized system-level prompt used to extract the cross-silo mathematical isomorphisms compiled in this repository. To maintain dataset integrity, uniformity of LaTeX math notation, and strict YAML metadata provenance across different AI models, all future entries must be generated using this exact instructional framework.
 
-```text
+````text
 You are acting as an advanced Literature-Based Discovery (LBD) system. Your task is to mine your internal training weights to identify a high-density structural isomorphism (shared underlying mathematical or physical laws) between two highly specialized, traditionally siloed scientific or engineering disciplines that exhibit a near-zero cross-citation rate in human literature.
 
 Avoid poetic, metaphorical, or surface-level analogies (e.g., do not simply say "blockchain is like a mushroom network because of trust"). Instead, identify two fields where the actual differential equations, tensor calculus, or statistical mechanics curves are functionally equivalent or isomorphic.
@@ -62,4 +62,4 @@ Then, provide a 1-paragraph explanation of how Silo B models its phenomenon usin
 
 ### NOW GENERATE THE NEXT ENTRY (ENTRY <X>):
 Generate a completely original, mathematically distinct entry using the layout rules demonstrated above. Ensure your company, model_family, and model_version keys in the YAML front matter reflect your actual active model constraints. Update the entry header to the appropriate next index number.
-```
+````
