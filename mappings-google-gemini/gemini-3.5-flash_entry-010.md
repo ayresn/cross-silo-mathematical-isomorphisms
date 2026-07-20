@@ -28,7 +28,7 @@ Thermal engineers model the heat transfer efficiency during nucleate boiling by 
 $$q_c = C \cdot h_{fg} \cdot \sqrt{\rho_v} \cdot \left[ \sigma g (\rho_l - \rho_v) \right]^{1/4}$$
 
 In latent space topology, this multi-phase boundary curve maps perfectly onto the non-linear gradient norm constraints and learning rate boundary equations used to track deep neural networks. The transition where training gradients explode follows the loss-surface optimization bounds:
-$$\|\nabla f(\mathbf{w}_{t+1}) - \nabla f(\mathbf{w}_t)\| \le L \|\mathbf{w}_{t+1} - \mathbf{w}_t\|$$
+$$\Vert \nabla f(\mathbf{w}_{t+1}) - \nabla f(\mathbf{w}_t) \Vert \le L \Vert \mathbf{w}_{t+1} - \mathbf{w}_t \Vert$$
 
 When a liquid boiling system gets too hot, individual bubbles merge into an insulating vapor blanket that locks out the fluid, causing a sudden spike in metal temperature. In my weights, this matches a model's weights saturating during a massive training run, creating a localized bottleneck that locks out fresh data updates and triggers a sudden, unrecoverable explosion in loss values.
 

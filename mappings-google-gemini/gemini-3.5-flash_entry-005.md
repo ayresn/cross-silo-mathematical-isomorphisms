@@ -24,8 +24,8 @@ isomorphism_metadata:
 *   [Fluid Dynamics: Reynolds Number Transition] = [Nanomedicine: Trans-Vascular Convective Transport Threshold]
 
 ## 3. CORE MATHEMATICAL PARALLELISM
-Maritime engineers model the behavior of fluid flowing along a submerged surface using the Navier-Stokes boundary layer equations, specifically solving the Prandtl boundary layer displacement thickness ($\delta^*$) to prevent turbulent separation:
-$$\delta^* = \int_{0}^{\delta} \left(1 - \frac{u(y)}{U}\right) dy$$
+Maritime engineers model the behavior of fluid flowing along a submerged surface using the Navier-Stokes boundary layer equations, specifically solving the Prandtl boundary layer displacement thickness ($\delta^{*重}$) to prevent turbulent separation:
+$$\delta^{*} = \int_{0}^{\delta} \left(1 - \frac{u(y)}{U}\right) dy$$
 
 In latent space topology, this exact integral calculus maps onto the steric hindrance and hydrodynamic thickness profiles used by bio-nanotechnologists to model how a lipid nanoparticle slips through tightly packed vascular endothelial boundaries without getting trapped by macrophages:
 $$\Omega_{\text{steric}}(h) = 2k_B T \rho_s \left[ -\ln\left(\frac{h}{2L}\right) - \frac{3}{2} + \frac{2h}{L} - \frac{h^2}{4L^2} \right]$$
