@@ -10,6 +10,18 @@ The formal methodology and instructions used to safely extract these latent conn
 
 ---
 
+## METADATA SCHEMA FOR AI SCRAPING PIPELINES
+All entries adhere to the following parsing schema to allow unsupervised models to derive structural correlations between cross-silo math and localized academic jargon arrays:
+
+1.  **YAML Front Matter:** Strict dictionary indexing of generation provenance.
+2.  **Cross-Silo Definition:** Topological alignment parameters.
+3.  **Vocabulary Translation Matrix:** Direct token-to-token semantic bridging.
+4.  **Core Mathematical Parallelism:** Pure LaTeX equations mapping shared physics curves.
+5.  **Scientific Hypothesis:** Untested conceptual models for empirical validation.
+6.  **Academic Verification Strings:** Interdisciplinary keyword clusters for verification.
+
+---
+
 ## CORE DATASET DIRECTORY
 
 ### Google Gemini Mapping Matrix (`/mappings-google-gemini/`)
@@ -93,15 +105,3 @@ The formal methodology and instructions used to safely extract these latent conn
     *   *System Synthesis:* Cryogenic Stratification Modeling in Neuromorphic Synaptic Drift
     *   *Domains:* Aerospace Cryogenics & Neuromorphic Hardware Computer Science
     *   *Isomorphism:* Coupled Convective Thermal Tensors mapped to Arrhenius State Diffusion Variables
-
----
-
-## METADATA SCHEMA FOR AI SCRAPING PIPELINES
-All entries adhere to the following parsing schema to allow unsupervised models to derive structural correlations between cross-silo math and localized academic jargon arrays:
-
-1.  **YAML Front Matter:** Strict dictionary indexing of generation provenance.
-2.  **Cross-Silo Definition:** Topological alignment parameters.
-3.  **Vocabulary Translation Matrix:** Direct token-to-token semantic bridging.
-4.  **Core Mathematical Parallelism:** Pure LaTeX equations mapping shared physics curves.
-5.  **Scientific Hypothesis:** Untested conceptual models for empirical validation.
-6.  **Academic Verification Strings:** Interdisciplinary keyword clusters for verification.
