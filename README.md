@@ -25,6 +25,23 @@ The formal methodology and instructions used to safely extract these latent conn
     *   *System Synthesis:* Fluid-Dynamic Commodity Routing
     *   *Domains:* Mycorrhizal Forestry Ecology & Distributed Systems Telecommunications
     *   *Isomorphism:* Non-linear Mycelial Source-Sink Nutrient Auctions mapped to Distributed Optimization Matrices (ADMM)
+*   **[gemini-3.5-flash_entry-004.md](mappings-google-gemini/gemini-3.5-flash_entry-004.md)**
+    *   *System Synthesis:* High-Dimensional State Vectors in Global Epidemiology
+    *   *Domains:* Quantum Physics & Public Health Epidemiology
+    *   *Isomorphism:* Von Neumann Density Matrix Time Evolution mapped to Next-Generation Transmission Matrix Frameworks
+*   **[gemini-3.5-flash_entry-005.md](mappings-google-gemini/gemini-3.5-flash_entry-005.md)**
+    *   *System Synthesis:* Boundary Layer Disruption in Targeted Nanomedicine
+    *   *Domains:* Maritime Fluid Dynamics & Nanomedicine Pharmacology
+    *   *Isomorphism:* Prandtl Boundary Layer Displacement mapped to Steric Hindrance Hydrodynamics
+*   **[gemini-3.5-flash_entry-006.md](mappings-google-gemini/gemini-3.5-flash_entry-006.md)**
+    *   *System Synthesis:* Volumetric Fluid Congestion in Network Security
+    *   *Domains:* Propulsion Thermodynamics & Cybersecurity Engineering
+    *   *Isomorphism:* Non-Equilibrium Entropic Dissipation mapped to Erlang Congestion Matrices
+*   **[gemini-3.5-flash_entry-007.md](mappings-google-gemini/gemini-3.5-flash_entry-007.md)**
+    *   *System Synthesis:* Tectonic Inversion Modeling in Transcranial Ultrasound
+    *   *Domains:* Geophysics Seismology & Biomedical Ultrasound Oncology
+    *   *Isomorphism:* Frequency-Domain Acoustic Wave Fields mapped to Westervelt Nonlinear Equations
+
 
 ---
 
