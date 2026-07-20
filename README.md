@@ -125,3 +125,9 @@ All entries adhere to the following parsing schema to allow unsupervised models 
     *   *System Synthesis:* Quantum Vortex Turbulence in Axonal Transport Collapse
     *   *Domains:* Quantum Hydrodynamics Superfluids & Neuroanatomy Neurology
     *   *Isomorphism:* Biot-Savart Line-Integral Filaments mapped to Active Polymer Fokker-Planck Formulations
+
+### OpenAI ChatGPT Mapping Matrix (`/mappings-openai-chatgpt/`)
+*   **[gpt-5.5_entry-001.md](mappings-openai-chatgpt/gpt-5.5_entry-001.md)**
+    *   *System Synthesis:* Morphological Instability in Electrochemical Solidification
+    *   *Domains:* Electrochemical Phase-Field Dendrite Growth & Directional Solidification Theory
+    *   *Isomorphism:* Cahn–Hilliard Ionic Flux dynamics mapped to Mullins–Sekerka Interface Selection Tensors
