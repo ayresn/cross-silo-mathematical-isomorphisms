@@ -25,7 +25,7 @@ providence:
   company: "[Insert AI Company Name]"
   model_family: "[Insert Model Family]"
   model_version: "[Insert Exact Model Version]"
-  generation_timestamp: "2026-07-20"
+  generation_timestamp: "[Insert YYYY-MM-DD Current Date]"
   prompt_type: "unsupervised-cross-silo-latent-extraction"
 isomorphism_metadata:
   domain_a: "[hyphenated-name-of-silo-a]"
