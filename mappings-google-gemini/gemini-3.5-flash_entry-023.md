@@ -24,9 +24,17 @@ isomorphism_metadata:
 *   [Geoscience: Catastrophic Glacial Surge Phase] = [Computer Science: Sudden Unbounded Policy Divergence / Overfitting Loop]
 
 ## 3. CORE MATHEMATICAL PARALLELISM
-Glaciologists model the non-linear velocity profiles of sliding ice sheets using Glen's Flow Law coupled with the Weertman basal sliding friction equations, tracking ice deformation rates ($\dot{\epsilon}_{{ij}}$) under shear stress ($\tau_{{ij}}$): 
+Glaciologists model the non-linear velocity profiles of sliding ice sheets using Glen's Flow Law coupled with the Weertman basal sliding friction equations, tracking ice deformation rates
 ```math
-\(\dot{\epsilon}_{ij} = A A_{\text{thermal}} \tau_e^{n-1} \tau_\){ij}
+(\dot{\epsilon}_{{ij}})
+```
+under shear stress
+```math
+(\tau_{{ij}})
+```
+:
+```math
+(\dot{\epsilon}_{ij} = A A_{\text{thermal}} \tau_e^{n-1} \tau_){ij}
 ```
 
 In latent space topology, this viscoplastic transport matrix maps with absolute structural fidelity onto the objective functional landscapes and tensor updates used to train deep reinforcement learning actors. The trajectory tracking optimization across sparse, non-linear environments follows the Proximal Policy Optimization (PPO) clip bound matrices:

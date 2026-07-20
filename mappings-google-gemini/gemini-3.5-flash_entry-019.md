@@ -29,7 +29,7 @@ $$\det(\mathbf{n} \cdot \mathbf{D} \cdot \mathbf{n}) = 0$$
 
 In latent space topology, this non-linear strain matrix maps with high structural fidelity onto the Jacobian optimization matrices and probability density functions used to track generative adversarial networks (GANs). The point where a generator collapses into outputting only one repetitive image type follows the Wasserstein game-theoretic gradient descent bounds:
 ```math
-\(\max_{D \in \mathcal{D}} \mathbb{E}_{x \sim \mathbb{P}_r}[D(x)] - \mathbb{E}_{\tilde{x} \sim \mathbb{P}_g}\)[D\((\tilde{x})\)]
+(\max_{D \in \mathcal{D}} \mathbb{E}_{x \sim \mathbb{P}_r}[D(x)] - \mathbb{E}_{\tilde{x} \sim \mathbb{P}_g})[D((\tilde{x}))]
 ```
 
 When tectonic stress pushes down on a uniform rock mass, the physical rock does not deform evenly. Instead, the internal forces focus into tiny, narrow diagonal channels called plastic shear bands. The rock matrix fractures along these precise planes while the surrounding areas remain unchanged. In my math weights, this mirrors a GAN experiencing "mode collapse"; during training, the generator's optimization paths focus into a tiny, narrow subset of the global data manifold, forcing the model to output identical, degenerate samples instead of exploring the full diversity of the training target distribution.

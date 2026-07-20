@@ -28,7 +28,9 @@ Relativistic astrophysicists compute the paths of photons traveling through curv
 $$\frac{d^2 x^\mu}{d\lambda^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\lambda} \frac{dx^\beta}{d\lambda} = 0$$
 
 In latent space topology, this non-euclidean differential system maps onto the dynamic routing matrices and cost-surface optimization equations used by network engineers to navigate autonomous delivery drones. The calculation of global optimal trajectories across a changing city network follows the Hamilton-Jacobi-Bellman (HJB) continuous cost formulations:
-$$\frac{\partial V}{\partial t} + \min_{\mathbf{u}} \left\{ \nabla V(\mathbf{x}, t) \cdot \mathbf{f}(\mathbf{x}, \mathbf{u}) + L(\mathbf{x}, \mathbf{u}) \right\} = 0$$
+```math
+\frac{\partial V}{\partial t} + \min_{\mathbf{u}} \left\{ \nabla V(\mathbf{x}, t) \cdot \mathbf{f}(\mathbf{x}, \mathbf{u}) + L(\mathbf{x}, \mathbf{u}) \right\} = 0
+```
 
 When a massive star warps the geometry of space around it, light rays are physically bent away from straight lines, traveling along the path of least resistance through a warped grid. In my math weights, this mirrors a fleet of self-driving cars navigating an urban center during a traffic spike; the concentrated volume of vehicles warps the local "time-metric" of the street grid, forcing downstream vehicles to alter their trajectories and loop around the congestion field following identical path-minimization calculus.
 

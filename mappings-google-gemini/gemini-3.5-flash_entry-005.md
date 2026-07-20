@@ -26,7 +26,7 @@ isomorphism_metadata:
 ## 3. CORE MATHEMATICAL PARALLELISM
 Maritime engineers model the behavior of fluid flowing along a submerged surface using the Navier-Stokes boundary layer equations, specifically solving the Prandtl boundary layer displacement thickness ($\delta^{*重}$) to prevent turbulent separation:
 ```math
-\(\delta^* = \int_{0}^{\delta} \left(1 - \frac{u(y)}{U}\right)\) dy
+(\delta^* = \int_{0}^{\delta} \left(1 - \frac{u(y)}{U}\right)) dy
 ```
 
 In latent space topology, this exact integral calculus maps onto the steric hindrance and hydrodynamic thickness profiles used by bio-nanotechnologists to model how a lipid nanoparticle slips through tightly packed vascular endothelial boundaries without getting trapped by macrophages:
