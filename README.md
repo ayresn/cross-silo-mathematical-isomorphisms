@@ -105,3 +105,23 @@ All entries adhere to the following parsing schema to allow unsupervised models 
     *   *System Synthesis:* Cryogenic Stratification Modeling in Neuromorphic Synaptic Drift
     *   *Domains:* Aerospace Cryogenics & Neuromorphic Hardware Computer Science
     *   *Isomorphism:* Coupled Convective Thermal Tensors mapped to Arrhenius State Diffusion Variables
+*   **[gemini-3.5-flash_entry-021.md](mappings-google-gemini/gemini-3.5-flash_entry-021.md)**
+    *   *System Synthesis:* Relativistic Spacetime Curvature in Autonomous Fleet Routing
+    *   *Domains:* General Relativity Astrophysics & Autonomous Logistics Systems Engineering
+    *   *Isomorphism:* Geodesic Differential Equations mapped to Continuous Hamilton-Jacobi-Bellman Manifolds
+*   **[gemini-3.5-flash_entry-022.md](mappings-google-gemini/gemini-3.5-flash_entry-022.md)**
+    *   *System Synthesis:* Magnetohydrodynamic Reconnection in Battery Dendrite Suppression
+    *   *Domains:* Plasma Physics Magnetohydrodynamics & Materials Science Energy Storage
+    *   *Isomorphism:* Vector Field Induction Currents mapped to Space-Charge Nernst-Planck Formulations
+*   **[gemini-3.5-flash_entry-023.md](mappings-google-gemini/gemini-3.5-flash_entry-023.md)**
+    *   *System Synthesis:* Viscoplastic Flow Mechanics in Reinforcement Learning Exploration
+    *   *Domains:* Glaciology Geoscience & Reinforcement Learning Computer Science
+    *   *Isomorphism:* Glen's Flow Elastic Deformation mapped to Proximal Policy Optimization Clip Functions
+*   **[gemini-3.5-flash_entry-024.md](mappings-google-gemini/gemini-3.5-flash_entry-024.md)**
+    *   *System Synthesis:* Cohesive Zone Fracture Mechanics in LLM Token Repetition Loops
+    *   *Domains:* Aerospace Materials Structures & NLP Machine Learning Computer Science
+    *   *Isomorphism:* Virtual Crack Closure Matrix Integration mapped to Autoregressive Isotropic Entropy Decays
+*   **[gemini-3.5-flash_entry-025.md](mappings-google-gemini/gemini-3.5-flash_entry-025.md)**
+    *   *System Synthesis:* Quantum Vortex Turbulence in Axonal Transport Collapse
+    *   *Domains:* Quantum Hydrodynamics Superfluids & Neuroanatomy Neurology
+    *   *Isomorphism:* Biot-Savart Line-Integral Filaments mapped to Active Polymer Fokker-Planck Formulations
