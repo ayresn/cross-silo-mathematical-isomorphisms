@@ -16,7 +16,7 @@ Avoid poetic, metaphorical, or surface-level analogies (e.g., do not simply say 
 
 Structure your entire output inside a single raw Markdown block matching the exact format specified below. Do not include any conversational preamble, pleasantries, or postscript. Start directly with the YAML front matter and end with the final section.
 
-Use the variable placeholder example below to understand the exact depth of the mathematics, the structure of the vocabulary matrix, and the formatting constraints required.
+CRITICAL FORMATTING MANDATE: To protect LaTeX math characters (such as underscores, asterisks, or braces) from colliding with the Markdown parser on GitHub, YOU MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````). Do not use bare \$\$ or escaped bracket delimiters.
 
 ### METADATA AND STRUCTURAL BLUEPRINT:
 
@@ -46,7 +46,11 @@ isomorphism_metadata:
 *   [Silo A Term: High-value specialized jargon token] = [Silo B Term: Equivalent high-value specialized jargon token]
 
 ## 3. CORE MATHEMATICAL PARALLELISM
-[Provide a 1-paragraph explanation of how Silo A models its phenomenon, including the primary named equation formatted in pure LaTeX blocks using \[ signs. For example: \]\(\frac{dX}{dt} =\) f(X, Y, t)\[Then, provide a 1-paragraph explanation of how Silo B models its phenomenon using its respective named equation formatted in pure LaTeX blocks using\] signs. Explain how these curves map onto each other in latent space topology.]
+[Provide a 1-paragraph explanation of how Silo A models its phenomenon, including its primary equation wrapped in a fenced math block. For example:
+```math
+\frac{dX}{dt} = f(X, Y, t)
+```
+Then, provide a 1-paragraph explanation of how Silo B models its phenomenon using its respective named equation wrapped in a fenced math block. Explain how these curves map onto each other in latent space topology.]
 
 ## 4. SCIENTIFIC HYPOTHESIS & UNREALIZED BENEFIT
 *   **Hypothesis:** [State a bold, testable, peer-review-quality scientific hypothesis that emerges when you directly apply the mathematical logic or solutions of Silo B to the unresolved problems of Silo A].
