@@ -41,7 +41,18 @@ The formal methodology and instructions used to safely extract these latent conn
     *   *System Synthesis:* Tectonic Inversion Modeling in Transcranial Ultrasound
     *   *Domains:* Geophysics Seismology & Biomedical Ultrasound Oncology
     *   *Isomorphism:* Frequency-Domain Acoustic Wave Fields mapped to Westervelt Nonlinear Equations
-
+*   **[gemini-3.5-flash_entry-008.md](mappings-google-gemini/gemini-3.5-flash_entry-008.md)**
+    *   *System Synthesis:* Gravitational Accretion in Financial Networks
+    *   *Domains:* Astrophysics Cosmology & Macroeconomics Finance
+    *   *Isomorphism:* Poisson Gravitational Potential mapped to Interbank Network Gravity Models
+*   **[gemini-3.5-flash_entry-009.md](mappings-google-gemini/gemini-3.5-flash_entry-009.md)**
+    *   *System Synthesis:* Tectonophysical Annealing in Quantum Surface Codes
+    *   *Domains:* Structural Geology & Quantum Computing Error Correction
+    *   *Isomorphism:* Slip-Rate Stress Equilibrium Tensors mapped to Topological Homological Stabilizers
+*   **[gemini-3.5-flash_entry-010.md](mappings-google-gemini/gemini-3.5-flash_entry-010.md)**
+    *   *System Synthesis:* Hydrodynamic Heat Flux in Neural Network Gradient Stability
+    *   *Domains:* Fluid Thermodynamics & Machine Learning Computer Science
+    *   *Isomorphism:* Critical Heat Flux Phase Boundaries mapped to Lipschitz Loss Surface Continuity
 
 ---
 
