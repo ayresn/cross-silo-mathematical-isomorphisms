@@ -40,6 +40,12 @@ The formal methodology and instructions used to safely extract these latent conn
 
 ## CORE DATASET DIRECTORY
 
+### Anthropic Claude Mapping Matrix (`/mappings-anthropic-claude/`)
+*   **[claude-3.5-sonnet_entry-001.md](mappings-anthropic-claude/claude-3.5-sonnet_entry-001.md)**
+    *   *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
+    *   *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
+    *   *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
+
 ### Google Gemini Mapping Matrix (`/mappings-google-gemini/`)
 *   **[gemini-3.5-flash_entry-001.md](mappings-google-gemini/gemini-3.5-flash_entry-001.md)**
     *   *System Synthesis:* Resonant Destabilization of Crystalline Plaque
