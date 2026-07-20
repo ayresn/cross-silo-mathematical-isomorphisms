@@ -25,7 +25,9 @@ isomorphism_metadata:
 
 ## 3. CORE MATHEMATICAL PARALLELISM
 Glaciologists model the non-linear velocity profiles of sliding ice sheets using Glen's Flow Law coupled with the Weertman basal sliding friction equations, tracking ice deformation rates ($\dot{\epsilon}_{{ij}}$) under shear stress ($\tau_{{ij}}$): 
-$$\dot{\epsilon}_{{ij}} = A A_{\text{thermal}} \tau_e^{n-1} \tau_{ij}$$
+```math
+\(\dot{\epsilon}_{ij} = A A_{\text{thermal}} \tau_e^{n-1} \tau_\){ij}
+```
 
 In latent space topology, this viscoplastic transport matrix maps with absolute structural fidelity onto the objective functional landscapes and tensor updates used to train deep reinforcement learning actors. The trajectory tracking optimization across sparse, non-linear environments follows the Proximal Policy Optimization (PPO) clip bound matrices:
 $$L^{\text{CLIP}}(\theta) = \hat{\mathbb{E}}_t \left[ \min\left(r_t(\theta)\hat{A}_t, \text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon)\hat{A}_t\right) \right]$$
