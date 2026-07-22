@@ -125,7 +125,26 @@ TODO
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
 ### xAI Grok Mapping Matrix (`/mappings-xai-grok/`)
-TODO
+* **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
+  * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
+  * *Isomorphism:* Linearised wave operator spectrum mapped to generalised eigenvalue problem
+* **[grok-beta_entry-012](mappings-xai-grok/grok-beta_entry-012.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Coupled Pressure-Driven Deformation Waves
+  * *Domains:* Poroelasticity & Agent-based Epidemic Modeling
+  * *Isomorphism:* Biot consolidation operator mapped to mean-field mobility-infection system
+* **[grok-beta_entry-013](mappings-xai-grok/grok-beta_entry-013.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Discrete Slip in Crystals and Strategies
+  * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
+  * *Isomorphism:* Schmid law flow rule mapped to replicator payoff dynamics
+* **[grok-beta_entry-014](mappings-xai-grok/grok-beta_entry-014.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Nonlocal Regularization of Softening Fronts
+  * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
+  * *Isomorphism:* Nonlocal integral operator mapped to mobility convolution kernel
+* **[grok-beta_entry-015](mappings-xai-grok/grok-beta_entry-015.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Backward Duals for Forward Calibration
+  * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
+  * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
 ### Z.ai GLM Mapping Matrix (`/mappings-zai-glm/`)
 TODO
