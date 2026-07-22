@@ -33,13 +33,13 @@ CRITICAL STRUCTURAL DISCOVERY CONSTRAINTS:
 3. Representation Mismatch: Favor pairings that bridge entirely mismatched foundational ontologies (e.g., matching physical continuum mechanics tensors directly onto discrete stochastic probability graphs) that nonetheless evolve under identical mathematical structures.
 
 STRUCTURE & FORMATTING:
-Output your entire response inside a single raw Markdown block matching the format below. Do not include conversational preambles or postscripts. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
+Output your entire response as raw Markdown in exactly two parts, in this order: (1) the candidate entry matching the format in Sections 1-5 below, and (2) the README directory-entry snippet matching Section 6 below, preceded by the separator line specified in Section 6. Do not include conversational preambles or postscripts beyond that separator. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
 
 ### METADATA AND STRUCTURAL BLUEPRINT:
 
 ---
 sid_metadata:
-  entry_id: "SID-[Insert Next 4-Digit ID, e.g., 0026]"
+  entry_id: "SID-[Insert Next 3-Digit Entry Number, e.g., 001]"
   schema_version: "1.0-production"
   maturity_stage: "candidate"
 providence:
@@ -110,6 +110,20 @@ Then, provide a 1-paragraph explanation of how Silo B models its phenomenon usin
 ## 5. RELEVANT ACADEMIC SEARCH STRINGS FOR VERIFICATION
 *   `"Exact Jargon Phrase from Silo A" AND "Core Equation Name A" AND "Secondary Concept A"`
 *   `"Exact Jargon Phrase from Silo B" AND "Core Equation Name B" AND "Secondary Concept B"`
+
+## 6. README DIRECTORY ENTRY
+Immediately after Section 5, output the separator line `--- END ENTRY / BEGIN DIRECTORY SNIPPET ---`, then output the following four-line snippet. This snippet is for the maintainer to paste into the matching company subsection of README.md's CORE DATASET DIRECTORY — it does not belong in the entry file itself.
+
+*   **[<model_version-slug>_entry-[Insert Next 3-Digit Entry Number, e.g., 001]](mappings-<company-slug>-<model_family-slug>/<model_version-slug>_entry-[same 3-digit number].md)** — `Stage 1 / pending`
+    *   *System Synthesis:* [A short, evocative 3-6 word Title Case phrase capturing the discovery, in the style of existing entries such as "Resonant Destabilization of Crystalline Plaque" — do not simply restate the Mathematical Isomorphism sentence from Section 1]
+    *   *Domains:* [Domain A, Title Case] & [Domain B, Title Case]
+    *   *Isomorphism:* [Named equation/method from Silo A] mapped to [Named equation/method from Silo B]
+
+Constraints on this snippet:
+*   The filename slug must exactly match this entry's own `providence.model_version` field so the directory link resolves correctly.
+*   The directory path must exactly match `mappings-[providence.company]-[providence.model_family]/`, lowercased and hyphenated.
+*   The status tag is always `Stage 1 / pending` for a newly generated entry — never mark it as validated here.
+*   *Domains* and *Isomorphism* must reuse the same domain names and named methods already established in this entry's own YAML and Section 3 — do not introduce new terminology that doesn't appear elsewhere in the entry.
 ````
 
 ---
