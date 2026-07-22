@@ -94,23 +94,23 @@ TODO
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
 
 ### Meta Muse Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
-* **[muse-spark-1-1_entry-021](mappings-meta-muse-spark/muse-spark-1-1_entry-021.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-021](mappings-meta-muse/muse-spark-1-1_entry-021.md)** — `Stage 1 / pending`
   * *System Synthesis:* Void Coalescence As Cosmic Percolation
   * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
   * *Isomorphism:* GTN Porous Plasticity JMAK Kinetics mapped to False Vacuum Bubble Nucleation Avrami Kinetics
-* **[muse-spark-1-1_entry-022](mappings-meta-muse-spark/muse-spark-1-1_entry-022.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-022](mappings-meta-muse/muse-spark-1-1_entry-022.md)** — `Stage 1 / pending`
   * *System Synthesis:* Elastic Turbulence Of Echo Chambers
   * *Domains:* Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
   * *Isomorphism:* Oldroyd-B Conformation Transport mapped to Covariance Lyapunov Transport
-* **[muse-spark-1-1_entry-023](mappings-meta-muse-spark/muse-spark-1-1_entry-023.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-023](mappings-meta-muse/muse-spark-1-1_entry-023.md)** — `Stage 1 / pending`
   * *System Synthesis:* Coherence Collapse Of Epidemic Waves
   * *Domains:* Semiconductor Laser Dynamics & Mathematical Epidemiology
   * *Isomorphism:* Lang-Kobayashi Delay Model mapped to SIRS Delay Model
-* **[muse-spark-1-1_entry-024](mappings-meta-muse-spark/muse-spark-1-1_entry-024.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-024](mappings-meta-muse/muse-spark-1-1_entry-024.md)** — `Stage 1 / pending`
   * *System Synthesis:* Parton Showers Of Genomes
   * *Domains:* Parton Shower Dynamics & Gene Family Evolution
   * *Isomorphism:* DGLAP Evolution Equation mapped to Duplication Loss Master Equation
-* **[muse-spark-1-1_entry-025](mappings-meta-muse-spark/muse-spark-1-1_entry-025.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-025](mappings-meta-muse/muse-spark-1-1_entry-025.md)** — `Stage 1 / pending`
   * *System Synthesis:* Seismic Faults As Forgetting Synapses
   * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
   * *Isomorphism:* Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model
