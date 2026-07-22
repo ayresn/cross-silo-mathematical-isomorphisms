@@ -204,4 +204,23 @@ TODO
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
 ### Z.ai GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
-TODO
+* **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
+  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+  * *Isomorphism:* Convective Wave Operator mapped to Thin Flux Tube MHD Equations
+* **[glm-5-2_entry-032](mappings-zai-glm/glm-5-2_entry-032.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Topological Auxetics of Dirac Strings
+  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
+  * *Isomorphism:* Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence
+* **[glm-5-2_entry-033](mappings-zai-glm/glm-5-2_entry-033.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Spacetime Buckling of Gravitational Waves
+  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
+  * *Isomorphism:* Föppl-von Kármán Equations mapped to Szekeres Plane Wave Metric
+* **[glm-5-2_entry-034](mappings-zai-glm/glm-5-2_entry-034.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Densification Limits of Solidification Kinetics
+  * *Domains:* Stochastic Geometry Wireless Communications & Phase Transformation Kinetics Additive Manufacturing
+  * *Isomorphism:* Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator
+* **[glm-5-2_entry-035](mappings-zai-glm/glm-5-2_entry-035.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Topological Gauge Fixing of Truss Collapse
+  * *Domains:* Quantum Information Science & Computational Structural Mechanics
+  * *Isomorphism:* Surface Code Boundary Operator mapped to Truss Equilibrium Matrix
