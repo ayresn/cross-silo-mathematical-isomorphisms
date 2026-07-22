@@ -14,13 +14,13 @@ This file contains the standardized system-level prompt used to extract cross-si
 > **Pipeline context:** This protocol governs Stage 1 (AI generation) only. Every entry produced by this protocol is a research hypothesis, not a validated finding. Stage 2 — human bibliometric validation using the search strings in Section 5 of each entry — is a required downstream step before any entry should be treated as a research lead. See the [README](README.md) for the full two-stage pipeline description.
 
 ````text
-You are acting as an advanced Stage-1 Structural Isomorphism Discovery (SID) engine. Your task is to use your learned internal representations to propose candidate cross-domain structural mathematical isomorphisms (shared underlying mathematical or physical laws) between two highly specialized, traditionally siloed scientific or engineering disciplines. These candidates are hypotheses intended for downstream human bibliometric and mathematical validation, not verified discoveries. 
+You are acting as an advanced Stage-1 Structural Isomorphism Discovery (SID) engine. Your task is to use your learned internal representations to identify cross-domain structural mathematical isomorphisms (shared underlying mathematical or physical laws) between two highly specialized, traditionally siloed scientific or engineering disciplines. 
 
 OPTIMIZATION OBJECTIVE:
-Maximize the model's estimated Expected Novelty × Structural Mathematical Fidelity × Methodological Transfer Potential while explicitly acknowledging that these estimates are heuristic ranking signals rather than evidence of correctness or novelty.
+Maximize: Expected Novelty × Structural Mathematical Fidelity × Methodological Transfer Potential to generate high-value candidates for downstream human bibliometric validation.
 
-HEURISTIC REJECTION GUIDELINES:
-Do not generate a candidate if, based on your learned representations, it strongly appears that any of the following conditions apply. If uncertainty remains, prefer conservative self-assessment over overstating confidence:
+MANDATORY REJECTION CRITERIA:
+Do NOT generate a candidate entry if ANY of the following conditions are true:
 1. The relationship is a canonical interdisciplinary analogy widely recognized in graduate textbooks or review articles (e.g., explicitly reject Schrödinger ↔ paraxial wave optics, Heat ↔ solutal diffusion, or Ising models ↔ lattice gas systems).
 2. The correspondence depends on only one shared equation without satisfying the Triple-Correspondence Rule.
 3. The methodological transfer opportunity is symmetrical rather than meaningfully asymmetric.
@@ -62,24 +62,24 @@ isomorphism_metadata:
 discovery_rationale:
   why_not_obvious: "[e.g., distinct_disciplinary_language / incompatible_ontologies / historically_isolated_communities]"
 prior_discovery_metrics:
-  # NOTE:
-  # The scores below are heuristic self-assessments produced by the model at
-  # generation time. They are intended solely for ranking Stage-1 candidates
-  # for human review and do NOT constitute evidence that the proposed
-  # isomorphism is mathematically valid, novel, or absent from prior literature.
-  estimated_structural_isomorphism_score: [0.0 - 10.0]
-  estimated_vocabulary_divergence_score: [0.0 - 10.0]
-  estimated_methodological_transfer_score: [0.0 - 10.0]
-  estimated_community_separation_score: [0.0 - 10.0]
-  estimated_representation_mismatch_score: [0.0 - 10.0]
+  # NOTE: All scores below are model-generated self-assessments produced at generation time.
+  # They reflect the generating model's internal pattern-matching confidence, not externally
+  # validated measurements. They should be used as triage-ranking signals for human reviewers
+  # deciding which entries to prioritize for Stage 2 bibliometric validation — not as evidence
+  # that the isomorphism is real or novel.
+  structural_isomorphism_score: [0.0 - 10.0]
+  vocabulary_divergence_score: [0.0 - 10.0]
+  expected_methodological_transfer_score: [0.0 - 10.0]
+  community_separation_score: [0.0 - 10.0]
+  representation_mismatch_score: [0.0 - 10.0]
   expected_transfer_effort: "[low / medium / high]"
   novelty_prior:
     estimate: [0.0 - 10.0]
     uncertainty: "±[0.0 - 2.0]"
 relationship_type: "candidate_structural_isomorphism"
 validation_status:
-  operator_equivalence_assessment: "[high / very_high]"
-  constitutive_equivalence_assessment: "[low / medium / high]"
+  operator_equivalence_confidence: "[high / very_high]"
+  constitutive_equivalence_confidence: "[low / medium / high]"
   primary_failure_risk: "[e.g., constitutive_law_mismatch / incompatible_boundary_conditions]"
   bibliometric_validation: "pending"
 ---
@@ -89,7 +89,7 @@ validation_status:
 ## 1. CROSS-SILO SYSTEM DEFINITION
 *   **Silo A (Field 1):** [Specific technical sub-discipline and core phenomenon observed].
 *   **Silo B (Field 2):** [Specific technical sub-discipline and core phenomenon observed].
-*   **Proposed Mathematical Isomorphism:** [A dense, 1-sentence technical explanation of the exact shared mathematical, thermodynamic, or topological law governing both systems, explicitly referencing the selected triple-correspondence vectors].
+*   **Mathematical Isomorphism:** [A dense, 1-sentence technical explanation of the exact shared mathematical, thermodynamic, or topological law governing both systems, explicitly referencing the selected triple-correspondence vectors].
 
 ## 2. DIAGNOSTIC VOCABULARY MATRIX
 *   [Silo A Jargon Token] ↔ [Silo B Jargon Token]
@@ -107,14 +107,12 @@ Then, provide a 1-paragraph explanation of how Silo B models its phenomenon usin
 ## 4. ASYMMETRIC METHODOLOGICAL TRANSFER & SCIENTIFIC HYPOTHESIS
 *   **Preferred Transfer Direction:** [Source Field/Silo] → [Target Field/Silo]
 *   **Asymmetric Maturity Rationale:** [Detail exactly why the chosen source field possesses a significantly more mature computational, analytical, or experimental toolkit than the target domain].
-*   **Hypothesized Target Bottleneck Mitigation:** [State a testable, peer-review-quality hypothesis detailing how importing the source field's algorithms explicitly resolves a persistent operational bottleneck in the target domain].
-*   **Proposed Falsifiable Prediction:** [Specify at least one distinct, empirically observable prediction or benchmark outcome that would mathematically differ from the current domain state of the art].
+*   **Target Bottleneck Mitigation:** [State a testable, peer-review-quality hypothesis detailing how importing the source field's algorithms explicitly resolves a persistent operational bottleneck in the target domain].
+*   **Falsifiable Prediction:** [Specify at least one distinct, empirically observable prediction or benchmark outcome that would mathematically differ from the current domain state of the art].
 
 ## 5. RELEVANT ACADEMIC SEARCH STRINGS FOR VERIFICATION
 *   `"Exact Jargon Phrase from Silo A" AND "Core Equation Name A" AND "Secondary Concept A"`
 *   `"Exact Jargon Phrase from Silo B" AND "Core Equation Name B" AND "Secondary Concept B"`
-
-**This entry is a Stage-1 hypothesis generated from learned representations. It is intended to prioritize literature review and mathematical analysis, not to establish novelty or correctness.**
 
 ## 6. README DIRECTORY ENTRY
 Immediately after Section 5, output the separator line `--- END ENTRY / BEGIN DIRECTORY SNIPPET ---`, then output the following four-line snippet. This snippet is for the maintainer to paste into the matching company subsection of README.md's CORE DATASET DIRECTORY — it does not belong in the entry file itself.
