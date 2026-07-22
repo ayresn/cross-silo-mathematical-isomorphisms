@@ -69,7 +69,26 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
 TODO
 
 ### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
-TODO
+* **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Helical Buckling of Elastic Defect Lines
+  * *Domains:* Elastohydrodynamics of Active Filaments & Dislocation Dynamics in Crystalline Solids
+  * *Isomorphism:* Resistive‑force theory with bending mapped to dislocation mobility law with line tension
+* **[deepseek_entry-027](mappings-deepseek-deepseek/deepseek_entry-027.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Elastic Spinodal Patterning of Living Gels
+  * *Domains:* Phase-Field Dendrite Growth & Biofilm Pattern Formation
+  * *Isomorphism:* Cahn-Hilliard with chemo-elastic coupling mapped to biofilm phase separation with EPS elasticity
+* **[deepseek_entry-028](mappings-deepseek-deepseek/deepseek_entry-028.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Nonlocal Laplacian Solver for Mega-Graph Labeling
+  * *Domains:* Peridynamic Fracture Mechanics & Graph-Based Semi-Supervised Learning
+  * *Isomorphism:* Peridynamic equilibrium integral operator mapped to graph Laplacian regularization system
+* **[deepseek_entry-029](mappings-deepseek-deepseek/deepseek_entry-029.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Tensor-Train Solver for Neural Ensemble Fokker-Planck
+  * *Domains:* Microstructural Polymer Dynamics & Population-Density Neural Dynamics
+  * *Isomorphism:* Dumbbell Fokker-Planck equation mapped to adaptive integrate-and-fire population density equation
+* **[deepseek_entry-030](mappings-deepseek-deepseek/deepseek_entry-030.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Gaussian-Process-Adaptive Smoothed Particle Hydrodynamics
+  * *Domains:* Smoothed-Particle Hydrodynamics & Gaussian-Process Regression
+  * *Isomorphism:* SPH kernel summation operator mapped to GP posterior mean kernel interpolation
 
 ### Google Gemini Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
 * **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 1 / pending`
