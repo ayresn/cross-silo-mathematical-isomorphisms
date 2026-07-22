@@ -66,7 +66,18 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric validation. None should be treated as verified findings.
 
 ### Anthropic Claude Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
-TODO
+* **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
+  * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
+  * *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
+* **[claude-sonnet-5_entry-037.md](mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Resolution Leakage in Paleoclimate Reconstruction
+  * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
+  * *Isomorphism:* Seismic Resolution-Matrix / Checkerboard Testing mapped to Paleoclimate Pseudoproxy Validation
+* **[claude-sonnet-5_entry-038.md](mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Lundberg Asymptotics for Extinction Risk
+  * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
+  * *Isomorphism:* Cramér–Lundberg Ruin Asymptotics mapped to Diffusion-Approximation Extinction Probability
 
 ### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
 * **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 1 / pending`
