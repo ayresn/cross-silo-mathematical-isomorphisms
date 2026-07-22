@@ -168,7 +168,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Isomorphism:* Filtered Navier–Stokes (LES Smagorinsky/Germano) mapped to Wilson–Cowan/integro-differential neural-field closures
 
 ### Moonshot AI Kimi Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
-TODO
+Mappings to be added later, when Kimi is no longer at capacity due to Moonshot AI's release of its version K3 model.
 
 ### OpenAI ChatGPT Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
 * **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 1 / pending`
