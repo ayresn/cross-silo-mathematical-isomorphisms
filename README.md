@@ -84,7 +84,14 @@ TODO
 TODO
 
 ### OpenAI ChatGPT Mapping Matrix (`/mappings-openai-chatgpt/`)
-TODO
+* **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Energy-Stable Belief Morphogenesis
+  * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
+  * *Isomorphism:* Allen-Cahn Gradient Flow mapped to Variational Free-Energy Gradient Flow
+* **[gpt-5.5_entry-002](mappings-openai-gpt/gpt-5.5_entry-002.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Conservative Probability Transport Across Trees
+  * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
+  * *Isomorphism:* Chemical Master Equation mapped to Sequential Monte Carlo Measure Evolution
 
 ### xAI Grok Mapping Matrix (`/mappings-xai-grok/`)
 TODO
