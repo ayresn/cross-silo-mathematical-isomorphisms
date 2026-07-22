@@ -1,6 +1,6 @@
 ---
 sid_metadata:
-  entry_id: "SID-001"
+  entry_id: "SID-006"
   schema_version: "1.0-production"
   maturity_stage: "candidate"
 providence:
@@ -37,7 +37,7 @@ validation_status:
   bibliometric_validation: "pending"
 ---
 
-# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 001
+# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 006
 
 ## 1. CROSS-SILO SYSTEM DEFINITION
 *   **Silo A (Field 1):** Nonlinear Fiber Optics (Specifically: the study of extreme optical extreme events / "rogue waves" in dispersive waveguides).
