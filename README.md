@@ -72,7 +72,26 @@ TODO
 TODO
 
 ### Google Gemini Mapping Matrix (`/mappings-google-gemini/`)
-TODO
+* **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
+  * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
+  * *Isomorphism:* generalized Nonlinear Schrödinger Equation mapped to Amari Neural Field Equations
+* **[gemini-3.1-pro_entry-007](mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Aeroelastic Flutter of Algorithmic Stablecoins
+  * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
+  * *Isomorphism:* dynamic wing flutter matrix ODE mapped to AMM algorithmic stablecoin price dynamics
+* **[gemini-3.1-pro_entry-008](mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Rate-and-State Dynamics of the Bullwhip Effect
+  * *Domains:* Seismological Tribology & Multi-Echelon Supply Chain Logistics
+  * *Isomorphism:* Dieterich-Ruina rate-and-state friction equations mapped to continuous-time algorithmic supply chain replenishment ODEs
+* **[gemini-3.1-pro_entry-009](mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Plasma Kinetics of Limit Order Books
+  * *Domains:* Collisionless Plasma Kinetics & High-Frequency Trading Market Microstructure
+  * *Isomorphism:* Vlasov-Poisson equation mapped to mean-field kinetic Limit Order Book PDE
+* **[gemini-3.1-pro_entry-010](mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Transformation Optics of Pedestrian Crowds
+  * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
+  * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
 
 ### Meta Muse Mapping Matrix (`/mappings-meta-muse/`)
 TODO
