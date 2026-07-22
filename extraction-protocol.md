@@ -4,11 +4,14 @@ utility: "large-language-model-structural-isomorphism-discovery"
 target_architecture: "model-agnostic-deep-learning-systems"
 reproducibility: "protocol-guided-candidate-generation"
 schema_version: "1.0-production"
+pipeline_stage: "stage-1-generation"
 ---
 
 # SYSTEM EXTRACTION PROTOCOL: STRUCTURAL ISOMORPHISM DISCOVERY (SID)
 
 This file contains the standardized system-level prompt used to extract cross-silo mathematical isomorphisms. To maintain dataset integrity, uniformity of LaTeX math notation, and strict YAML metadata provenance across different AI models, all future entries must be generated using this exact instructional framework.
+
+> **Pipeline context:** This protocol governs Stage 1 (AI generation) only. Every entry produced by this protocol is a research hypothesis, not a validated finding. Stage 2 — human bibliometric validation using the search strings in Section 5 of each entry — is a required downstream step before any entry should be treated as a research lead. See the [README](README.md) for the full two-stage pipeline description.
 
 ````text
 You are acting as an advanced Stage-1 Structural Isomorphism Discovery (SID) engine. Your task is to use your learned internal representations to identify cross-domain structural mathematical isomorphisms (shared underlying mathematical or physical laws) between two highly specialized, traditionally siloed scientific or engineering disciplines. 
@@ -56,6 +59,11 @@ isomorphism_metadata:
 discovery_rationale:
   why_not_obvious: "[e.g., distinct_disciplinary_language / incompatible_ontologies / historically_isolated_communities]"
 prior_discovery_metrics:
+  # NOTE: All scores below are model-generated self-assessments produced at generation time.
+  # They reflect the generating model's internal pattern-matching confidence, not externally
+  # validated measurements. They should be used as triage-ranking signals for human reviewers
+  # deciding which entries to prioritize for Stage 2 bibliometric validation — not as evidence
+  # that the isomorphism is real or novel.
   structural_isomorphism_score: [0.0 - 10.0]
   vocabulary_divergence_score: [0.0 - 10.0]
   expected_methodological_transfer_score: [0.0 - 10.0]
@@ -102,4 +110,22 @@ Then, provide a 1-paragraph explanation of how Silo B models its phenomenon usin
 ## 5. RELEVANT ACADEMIC SEARCH STRINGS FOR VERIFICATION
 *   `"Exact Jargon Phrase from Silo A" AND "Core Equation Name A" AND "Secondary Concept A"`
 *   `"Exact Jargon Phrase from Silo B" AND "Core Equation Name B" AND "Secondary Concept B"`
-```
+````
+
+---
+
+## STAGE 2 VALIDATION HANDOFF
+
+After generating an entry using the protocol above, the following Stage 2 steps are required before the entry can be promoted from `maturity_stage: candidate` to `maturity_stage: validated-candidate`:
+
+1. **Literature search:** Run each search string from Section 5 of the entry against Semantic Scholar, Google Scholar, Web of Science, or equivalent tools. Record whether the cross-domain connection appears in any existing publication under either domain's vocabulary.
+   - If found: flag the entry as `bibliometric_validation: existing-literature` and note the citation. The entry fails the novelty criterion but may still have value as a confirmed-but-underexploited connection.
+   - If not found: proceed to step 2.
+
+2. **Triple-correspondence verification:** For each of the three correspondence vectors listed in the YAML, assess whether the correspondence holds when the constitutive-law details of both domains are examined closely, not just the surface-level operator form. This is the most common failure mode for AI-generated candidates — the governing differential operator matches but the boundary conditions or constitutive laws differ in ways that destroy the practical equivalence.
+
+3. **Falsifiable prediction assessment:** Evaluate whether the prediction in Section 4 is genuinely testable with existing experimental or computational infrastructure, and whether it is meaningfully distinct from what current domain practice already predicts.
+
+4. **Promote or flag:** Update the entry's YAML `validation_status` block with findings and set `maturity_stage` to `validated-candidate` (passes all three steps) or `failed-validation` (fails any step, with failure reason noted).
+
+If you have domain expertise relevant to any entry and are in a position to run Stage 2 validation, contributions via pull request are welcome.
