@@ -92,6 +92,18 @@ TODO
   * *System Synthesis:* Conservative Probability Transport Across Trees
   * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
   * *Isomorphism:* Chemical Master Equation mapped to Sequential Monte Carlo Measure Evolution
+* **[gpt-5.5_entry-003](mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Geometric Stewardship Through Split Dynamics
+  * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
+  * *Isomorphism:* Lie-Algebraic Symplectic Map mapped to Discrete Intervention Operator Splitting
+* **[gpt-5.5_entry-004](mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Defect Transport Mirrors Belief Flow
+  * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
+  * *Isomorphism:* Continuum Dislocation Density Transport Equation mapped to Streaming Variational Probability Transport Equation
+* **[gpt-5.5_entry-005](mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Irreversible Graph Fracture Dynamics
+  * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
+  * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
 ### xAI Grok Mapping Matrix (`/mappings-xai-grok/`)
 TODO
