@@ -1,6 +1,6 @@
 ---
 sid_metadata:
-  entry_id: "SID-001"
+  entry_id: "SID-011"
   schema_version: "1.0-production"
   maturity_stage: "candidate"
 providence:
@@ -36,7 +36,7 @@ validation_status:
   primary_failure_risk: "constitutive_law_mismatch"
   bibliometric_validation: "pending"
 ---
-# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 001
+# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 011
 ## 1. CROSS-SILO SYSTEM DEFINITION
 * **Silo A (Field 1):** General relativity black hole perturbation theory and the ringdown phase of gravitational waves from binary mergers.
 * **Silo B (Field 2):** Civil and mechanical engineering modal analysis of large-scale structures (e.g., high-rise buildings, bridges) under dynamic loading.
