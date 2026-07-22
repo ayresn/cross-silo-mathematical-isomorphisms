@@ -65,13 +65,13 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 
 All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric validation. None should be treated as verified findings.
 
-### Anthropic Claude Mapping Matrix (`/mappings-anthropic-claude/`)
+### Anthropic Claude Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
 TODO
 
-### DeepSeek DeepSeek Mapping Matrix (`/mappings-deepseek-deepseek/`)
+### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
 TODO
 
-### Google Gemini Mapping Matrix (`/mappings-google-gemini/`)
+### Google Gemini Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
 * **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 1 / pending`
   * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
@@ -93,16 +93,16 @@ TODO
   * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
 
-### Meta Muse Mapping Matrix (`/mappings-meta-muse/`)
+### Meta Muse Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
 TODO
 
-### Microsoft Copilot Mapping Matrix (`/mappings-microsoft-copilot/`)
+### Microsoft Copilot Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
 TODO
 
-### Moonshot AI Kimi Mapping Matrix (`/mappings-moonshotai-kimi/`)
+### Moonshot AI Kimi Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
 TODO
 
-### OpenAI ChatGPT Mapping Matrix (`/mappings-openai-chatgpt/`)
+### OpenAI ChatGPT Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
 * **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 1 / pending`
   * *System Synthesis:* Energy-Stable Belief Morphogenesis
   * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
@@ -124,7 +124,7 @@ TODO
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
-### xAI Grok Mapping Matrix (`/mappings-xai-grok/`)
+### xAI Grok Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
 * **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 1 / pending`
   * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
   * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
@@ -146,5 +146,5 @@ TODO
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
-### Z.ai GLM Mapping Matrix (`/mappings-zai-glm/`)
+### Z.ai GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
 TODO
