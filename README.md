@@ -66,115 +66,28 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric validation. None should be treated as verified findings.
 
 ### Anthropic Claude Mapping Matrix (`/mappings-anthropic-claude/`)
-*   **[claude-sonnet-5_entry-001.md](mappings-anthropic-claude/claude-sonnet-5_entry-001.md)** — `Stage 1 / pending`
-    *   *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
-    *   *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-    *   *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
+TODO
+
+### DeepSeek DeepSeek Mapping Matrix (`/mappings-deepseek-deepseek/`)
+TODO
 
 ### Google Gemini Mapping Matrix (`/mappings-google-gemini/`)
-*   **[gemini-3.5-flash_entry-001.md](mappings-google-gemini/gemini-3.5-flash_entry-001.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Resonant Destabilization of Crystalline Plaque
-    *   *Domains:* Molecular Neuro-Biology & Aeronautical Metallurgy
-    *   *Isomorphism:* Oosawa Polymerization Kinetics mapped to Paris-Erdogan Fatigue Laws
-*   **[gemini-3.5-flash_entry-002.md](mappings-google-gemini/gemini-3.5-flash_entry-002.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Geomechanical Criticality in Neural Attention Layers
-    *   *Domains:* Seismology & Transformer Architecture Engineering
-    *   *Isomorphism:* Rate-and-State Friction Dynamics mapped to Multi-Head Attention Softmax Gradient Variance
-*   **[gemini-3.5-flash_entry-003.md](mappings-google-gemini/gemini-3.5-flash_entry-003.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Fluid-Dynamic Commodity Routing
-    *   *Domains:* Mycorrhizal Forestry Ecology & Distributed Systems Telecommunications
-    *   *Isomorphism:* Non-linear Mycelial Source-Sink Nutrient Auctions mapped to Distributed Optimization Matrices (ADMM)
-*   **[gemini-3.5-flash_entry-004.md](mappings-google-gemini/gemini-3.5-flash_entry-004.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* High-Dimensional State Vectors in Global Epidemiology
-    *   *Domains:* Quantum Physics & Public Health Epidemiology
-    *   *Isomorphism:* Von Neumann Density Matrix Time Evolution mapped to Next-Generation Transmission Matrix Frameworks
-*   **[gemini-3.5-flash_entry-005.md](mappings-google-gemini/gemini-3.5-flash_entry-005.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Boundary Layer Disruption in Targeted Nanomedicine
-    *   *Domains:* Maritime Fluid Dynamics & Nanomedicine Pharmacology
-    *   *Isomorphism:* Prandtl Boundary Layer Displacement mapped to Steric Hindrance Hydrodynamics
-*   **[gemini-3.5-flash_entry-006.md](mappings-google-gemini/gemini-3.5-flash_entry-006.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Volumetric Fluid Congestion in Network Security
-    *   *Domains:* Propulsion Thermodynamics & Cybersecurity Engineering
-    *   *Isomorphism:* Non-Equilibrium Entropic Dissipation mapped to Erlang Congestion Matrices
-*   **[gemini-3.5-flash_entry-007.md](mappings-google-gemini/gemini-3.5-flash_entry-007.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Tectonic Inversion Modeling in Transcranial Ultrasound
-    *   *Domains:* Geophysics Seismology & Biomedical Ultrasound Oncology
-    *   *Isomorphism:* Frequency-Domain Acoustic Wave Fields mapped to Westervelt Nonlinear Equations
-*   **[gemini-3.5-flash_entry-008.md](mappings-google-gemini/gemini-3.5-flash_entry-008.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Gravitational Accretion in Financial Networks
-    *   *Domains:* Astrophysics Cosmology & Macroeconomics Finance
-    *   *Isomorphism:* Poisson Gravitational Potential mapped to Interbank Network Gravity Models
-*   **[gemini-3.5-flash_entry-009.md](mappings-google-gemini/gemini-3.5-flash_entry-009.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Tectonophysical Annealing in Quantum Surface Codes
-    *   *Domains:* Structural Geology & Quantum Computing Error Correction
-    *   *Isomorphism:* Slip-Rate Stress Equilibrium Tensors mapped to Topological Homological Stabilizers
-*   **[gemini-3.5-flash_entry-010.md](mappings-google-gemini/gemini-3.5-flash_entry-010.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Hydrodynamic Heat Flux in Neural Network Gradient Stability
-    *   *Domains:* Fluid Thermodynamics & Machine Learning Computer Science
-    *   *Isomorphism:* Critical Heat Flux Phase Boundaries mapped to Lipschitz Loss Surface Continuity
-*   **[gemini-3.5-flash_entry-011.md](mappings-google-gemini/gemini-3.5-flash_entry-011.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Structural Load Redistribution in Neural Network Pruning
-    *   *Domains:* Civil Structural Engineering & Machine Learning Computer Science
-    *   *Isomorphism:* Linear Structural Stiffness Formulations mapped to Low-Rank Subspace Reconstruction
-*   **[gemini-3.5-flash_entry-012.md](mappings-google-gemini/gemini-3.5-flash_entry-012.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Aeroelastic Flutter Modeling in Macromolecular Dynamics
-    *   *Domains:* Aerospace Aerodynamics & Structural Genomics Biochemistry
-    *   *Isomorphism:* Unsteady Vortex Lattice Fluid Forcing mapped to Langevin Conformational Trajectories
-*   **[gemini-3.5-flash_entry-013.md](mappings-google-gemini/gemini-3.5-flash_entry-013.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Crystallographic Lattice Strain in Global Supply Chain Routing
-    *   *Domains:* Materials Science Metallurgy & Logistics Supply Chain Management
-    *   *Isomorphism:* Phenomenological Transformation Strain Tensors mapped to Multi-Echelon Network Flow Equations
-*   **[gemini-3.5-flash_entry-014.md](mappings-google-gemini/gemini-3.5-flash_entry-014.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Quantum Scrambling in Distributed Erasure Coding
-    *   *Domains:* General Relativity Astrophysics & Distributed Systems Storage
-    *   *Isomorphism:* Von Neumann Entanglement Evaporation mapped to Reed-Solomon MDS Boundary Formulations
-*   **[gemini-3.5-flash_entry-015.md](mappings-google-gemini/gemini-3.5-flash_entry-015.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Thermodynamic Defect Formation in Asynchronous Distributed Training
-    *   *Domains:* Condensed Matter Physics & Distributed Machine Learning Computer Science
-    *   *Isomorphism:* Kibble-Zurek Relaxation Kinetics mapped to Asynchronous SGD Convergence Formulations
-*   **[gemini-3.5-flash_entry-016.md](mappings-google-gemini/gemini-3.5-flash_entry-016.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Fluid Compressor Surge Mechanics in Cellular Apoptosis
-    *   *Domains:* Aerospace Propulsion & Cellular Biology Oncology
-    *   *Isomorphism:* Greitzer Mass-Flow Pressure Fields mapped to Hodgkin-Huxley Voltage Equations
-*   **[gemini-3.5-flash_entry-017.md](mappings-google-gemini/gemini-3.5-flash_entry-017.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Hardware-Accelerated Bounding Volumes in Viral Occlusion
-    *   *Domains:* Computer Graphics Rendering & Virology Molecular Immunology
-    *   *Isomorphism:* Surface Area Heuristics (SAH) mapped to Steric Occlusion Mass-Action Matrix Probability
-*   **[gemini-3.5-flash_entry-018.md](mappings-google-gemini/gemini-3.5-flash_entry-018.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Elastic Strain Intensity Modeling in Cloud Cascade Outages
-    *   *Domains:* Materials Science Fracture Mechanics & Systems Engineering Cloud Infrastructure
-    *   *Isomorphism:* Griffith Fracture Critical Lengths mapped to Complex Network Cascade Propagation
-*   **[gemini-3.5-flash_entry-019.md](mappings-google-gemini/gemini-3.5-flash_entry-019.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Plastic Shear Localization in Generative Mode Collapse
-    *   *Domains:* Structural Geology Geoscience & Generative Machine Learning Computer Science
-    *   *Isomorphism:* Acoustic Tensor Bifurcation Matrices mapped to Wasserstein Game-Theoretic Optimizers
-*   **[gemini-3.5-flash_entry-020.md](mappings-google-gemini/gemini-3.5-flash_entry-020.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Cryogenic Stratification Modeling in Neuromorphic Synaptic Drift
-    *   *Domains:* Aerospace Cryogenics & Neuromorphic Hardware Computer Science
-    *   *Isomorphism:* Coupled Convective Thermal Tensors mapped to Arrhenius State Diffusion Variables
-*   **[gemini-3.5-flash_entry-021.md](mappings-google-gemini/gemini-3.5-flash_entry-021.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Relativistic Spacetime Curvature in Autonomous Fleet Routing
-    *   *Domains:* General Relativity Astrophysics & Autonomous Logistics Systems Engineering
-    *   *Isomorphism:* Geodesic Differential Equations mapped to Continuous Hamilton-Jacobi-Bellman Manifolds
-*   **[gemini-3.5-flash_entry-022.md](mappings-google-gemini/gemini-3.5-flash_entry-022.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Magnetohydrodynamic Reconnection in Battery Dendrite Suppression
-    *   *Domains:* Plasma Physics Magnetohydrodynamics & Materials Science Energy Storage
-    *   *Isomorphism:* Vector Field Induction Currents mapped to Space-Charge Nernst-Planck Formulations
-*   **[gemini-3.5-flash_entry-023.md](mappings-google-gemini/gemini-3.5-flash_entry-023.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Viscoplastic Flow Mechanics in Reinforcement Learning Exploration
-    *   *Domains:* Glaciology Geoscience & Reinforcement Learning Computer Science
-    *   *Isomorphism:* Glen's Flow Elastic Deformation mapped to Proximal Policy Optimization Clip Functions
-*   **[gemini-3.5-flash_entry-024.md](mappings-google-gemini/gemini-3.5-flash_entry-024.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Cohesive Zone Fracture Mechanics in LLM Token Repetition Loops
-    *   *Domains:* Aerospace Materials Structures & NLP Machine Learning Computer Science
-    *   *Isomorphism:* Virtual Crack Closure Matrix Integration mapped to Autoregressive Isotropic Entropy Decays
-*   **[gemini-3.5-flash_entry-025.md](mappings-google-gemini/gemini-3.5-flash_entry-025.md)** — `Stage 1 / pending` ⚠️ *proof-of-concept model; lower confidence*
-    *   *System Synthesis:* Quantum Vortex Turbulence in Axonal Transport Collapse
-    *   *Domains:* Quantum Hydrodynamics Superfluids & Neuroanatomy Neurology
-    *   *Isomorphism:* Biot-Savart Line-Integral Filaments mapped to Active Polymer Fokker-Planck Formulations
+TODO
+
+### Meta Muse Mapping Matrix (`/mappings-meta-muse/`)
+TODO
+
+### Microsoft Copilot Mapping Matrix (`/mappings-microsoft-copilot/`)
+TODO
+
+### Moonshot AI Kimi Mapping Matrix (`/mappings-moonshotai-kimi/`)
+TODO
 
 ### OpenAI ChatGPT Mapping Matrix (`/mappings-openai-chatgpt/`)
-*   **[gpt-5.5_entry-001.md](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 1 / pending`
-    *   *System Synthesis:* Morphological Instability in Electrochemical Solidification
-    *   *Domains:* Electrochemical Phase-Field Dendrite Growth & Directional Solidification Theory
-    *   *Isomorphism:* Cahn–Hilliard Ionic Flux dynamics mapped to Mullins–Sekerka Interface Selection Tensors
+TODO
+
+### xAI Grok Mapping Matrix (`/mappings-xai-grok/`)
+TODO
+
+### Z.ai GLM Mapping Matrix (`/mappings-zai-glm/`)
+TODO
