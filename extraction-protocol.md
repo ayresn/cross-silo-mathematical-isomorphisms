@@ -35,11 +35,14 @@ CRITICAL STRUCTURAL DISCOVERY CONSTRAINTS:
 STRUCTURE & FORMATTING:
 Output your entire response as raw Markdown in exactly two parts, in this order: (1) the candidate entry matching the format in Sections 1-5 below, and (2) the README directory-entry snippet matching Section 6 below, preceded by the separator line specified in Section 6. Do not include conversational preambles or postscripts beyond that separator. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
 
+ENTRY NUMBERING RULE:
+Every entry has exactly one 3-digit number, scoped to the generating model's own directory (Claude's entries are numbered independently of Gemini's, GPT's, etc., each starting at 001). This single number is reused verbatim everywhere it appears below: `sid_metadata.entry_id` (as "SID-NNN"), the "ENTRY NNN" heading, and both places it appears in the Section 6 filename/link. These are not separate counters. You have no visibility into the actual current count for this model's directory from within this session — insert your best guess as a placeholder (e.g., 001 if unknown), and note for the maintainer that it must be verified or renumbered against the real current state of that directory before committing.
+
 ### METADATA AND STRUCTURAL BLUEPRINT:
 
 ---
 sid_metadata:
-  entry_id: "SID-[Insert Next 3-Digit Entry Number, e.g., 001]"
+  entry_id: "SID-[Entry Number per the Entry Numbering Rule above, e.g., 001]"
   schema_version: "1.0-production"
   maturity_stage: "candidate"
 providence:
@@ -81,7 +84,7 @@ validation_status:
   bibliometric_validation: "pending"
 ---
 
-# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY [Insert Entry Number, e.g., 001]
+# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY [Same Entry Number as sid_metadata.entry_id above, e.g., 001]
 
 ## 1. CROSS-SILO SYSTEM DEFINITION
 *   **Silo A (Field 1):** [Specific technical sub-discipline and core phenomenon observed].
@@ -114,12 +117,13 @@ Then, provide a 1-paragraph explanation of how Silo B models its phenomenon usin
 ## 6. README DIRECTORY ENTRY
 Immediately after Section 5, output the separator line `--- END ENTRY / BEGIN DIRECTORY SNIPPET ---`, then output the following four-line snippet. This snippet is for the maintainer to paste into the matching company subsection of README.md's CORE DATASET DIRECTORY — it does not belong in the entry file itself.
 
-*   **[<model_version-slug>_entry-[Insert Next 3-Digit Entry Number, e.g., 001]](mappings-<company-slug>-<model_family-slug>/<model_version-slug>_entry-[same 3-digit number].md)** — `Stage 1 / pending`
+*   **[<model_version-slug>_entry-[Same Entry Number as sid_metadata.entry_id above, e.g., 001]](mappings-<company-slug>-<model_family-slug>/<model_version-slug>_entry-[same number].md)** — `Stage 1 / pending`
     *   *System Synthesis:* [A short, evocative 3-6 word Title Case phrase capturing the discovery, in the style of existing entries such as "Resonant Destabilization of Crystalline Plaque" — do not simply restate the Mathematical Isomorphism sentence from Section 1]
     *   *Domains:* [Domain A, Title Case] & [Domain B, Title Case]
     *   *Isomorphism:* [Named equation/method from Silo A] mapped to [Named equation/method from Silo B]
 
 Constraints on this snippet:
+*   The entry number here must be numerically identical to this entry's own `sid_metadata.entry_id` and to the "ENTRY NNN" heading above — see the Entry Numbering Rule.
 *   The filename slug must exactly match this entry's own `providence.model_version` field so the directory link resolves correctly.
 *   The directory path must exactly match `mappings-[providence.company]-[providence.model_family]/`, lowercased and hyphenated.
 *   The status tag is always `Stage 1 / pending` for a newly generated entry — never mark it as validated here.
