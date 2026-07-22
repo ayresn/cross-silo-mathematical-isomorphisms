@@ -1,6 +1,6 @@
 ---
 sid_metadata:
-  entry_id: "SID-0001"
+  entry_id: "SID-001"
   schema_version: "1.0-production"
   maturity_stage: "candidate"
 providence:
