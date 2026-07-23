@@ -87,6 +87,28 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Non-Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
   * *Isomorphism:* Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator
 
+### [Amazon Nova](https://nova.amazon.com) Mapping Matrix ([`/mappings-amazon-nova/`](mappings-amazon-nova/))
+* **[1.0_entry-046](mappings-amazon-nova/1.0_entry-046.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Optical Instability Mirrors Fluid Turbulence
+  * *Domains:* Nonlinear Optics & Fluid Turbulence
+  * *Isomorphism:* Nonlinear Schrödinger Equation mapped to Vorticity Equation
+* **[1.0_entry-047](mappings-amazon-nova/1.0_entry-047.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Plasma Waves Inform Traffic Flow
+  * *Domains:* Plasma Physics & Traffic Flow Theory
+  * *Isomorphism:* Korteweg-de Vries Equation mapped to Lighthill-Whitham-Richards Equation
+* **[1.0_entry-048](mappings-amazon-nova/1.0_entry-048.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Quantum Chaos Informs Turbulent Flow
+  * *Domains:* Quantum Chaos & Turbulent Flow
+  * *Isomorphism:* Schrödinger Equation mapped to Navier-Stokes Equations
+* **[1.0_entry-049](mappings-amazon-nova/1.0_entry-049.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Fluid Dynamics Informs Network Optimization
+  * *Domains:* Fluid Dynamics & Network Flow Optimization
+  * *Isomorphism:* Navier-Stokes Equations mapped to Linear Programming Formulations
+* **[1.0_entry-050](mappings-amazon-nova/1.0_entry-050.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Electromagnetic Waves Inform Option Pricing
+  * *Domains:* Electromagnetic Theory & Financial Option Pricing
+  * *Isomorphism:* Helmholtz Equation mapped to Black-Scholes Equation
+
 ### [Anthropic Claude](https://claude.ai) Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
 * **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 1 / pending`
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
