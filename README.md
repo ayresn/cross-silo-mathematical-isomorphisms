@@ -65,6 +65,28 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 
 All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric validation. None should be treated as verified findings.
 
+### Alibaba Qwen Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
+* **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Plastic Projection of Traffic Congestion
+  * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
+  * *Isomorphism:* Return-mapping elastoplasticity mapped to Beckmann traffic equilibrium
+* **[qwen3.8_entry-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Adjoint Control of Debris Cascades
+  * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
+  * *Isomorphism:* linearized debris Boltzmann cascade equation mapped to neutron transport k-eigenvalue equation
+* **[qwen3.8_entry-043](mappings-alibaba-qwen/qwen3.8_entry-043.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Etch-Shadowed Karst Conduit Pitting
+  * *Domains:* High-Aspect-Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
+  * *Isomorphism:* Coburn–Winters ion-enhanced etch model mapped to Dreybrodt dissolution law
+* **[qwen3.8_entry-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Criticality Transport for Landscape Persistence
+  * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
+  * *Isomorphism:* Boltzmann transport k-eigenvalue mapped to linearized stage-structured transport-growth eigenvalue
+* **[qwen3.8_entry-045](mappings-alibaba-qwen/qwen3.8_entry-045.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Skin-Localized Outbreak Threshold
+  * *Domains:* Non-Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
+  * *Isomorphism:* Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator
+
 ### Anthropic Claude Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
 * **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 1 / pending`
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
