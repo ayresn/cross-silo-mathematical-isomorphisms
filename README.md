@@ -78,6 +78,14 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *System Synthesis:* Lundberg Asymptotics for Extinction Risk
   * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
   * *Isomorphism:* Cramér–Lundberg Ruin Asymptotics mapped to Diffusion-Approximation Extinction Probability
+* **[claude-sonnet-5_entry-039.md](mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Stochastic Barrier-Crossing in Ship Capsize
+  * *Domains:* Chemical Physics Barrier-Crossing Kinetics & Naval Architecture Capsize Risk Assessment
+  * *Isomorphism:* Kramers Escape-Rate Theory mapped to GZ-Curve Potential-Barrier Capsize Dynamics
+* **[claude-sonnet-5_entry-040.md](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — `Stage 1 / pending`
+  * *System Synthesis:* Saddle-Node Collapse in Grids and Fisheries
+  * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
+  * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
 
 ### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
 * **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 1 / pending`
