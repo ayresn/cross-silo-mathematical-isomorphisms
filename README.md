@@ -222,7 +222,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
-### Z.ai GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
+### Z.AI GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
 * **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 1 / pending`
   * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
