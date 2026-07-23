@@ -65,7 +65,7 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 
 All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric validation. None should be treated as verified findings.
 
-### Alibaba Qwen Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
+### [Alibaba Qwen](https://chat.qwen.ai) Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
 * **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 1 / pending`
   * *System Synthesis:* Plastic Projection of Traffic Congestion
   * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
@@ -87,7 +87,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Non-Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
   * *Isomorphism:* Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator
 
-### Anthropic Claude Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
+### [Anthropic Claude](https://claude.ai) Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
 * **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 1 / pending`
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
   * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
@@ -109,7 +109,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
   * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
 
-### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
+### [DeepSeek DeepSeek](https://chat.deepseek.com) Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
 * **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 1 / pending`
   * *System Synthesis:* Helical Buckling of Elastic Defect Lines
   * *Domains:* Elastohydrodynamics of Active Filaments & Dislocation Dynamics in Crystalline Solids
@@ -131,7 +131,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Smoothed-Particle Hydrodynamics & Gaussian-Process Regression
   * *Isomorphism:* SPH kernel summation operator mapped to GP posterior mean kernel interpolation
 
-### Google Gemini Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
+### [Google Gemini](https://aistudio.google.com) Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
 * **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 1 / pending`
   * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
@@ -153,7 +153,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
 
-### Meta Muse Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
+### [Meta Muse](https://www.meta.ai) Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
 * **[muse-spark-1-1_entry-021](mappings-meta-muse/muse-spark-1-1_entry-021.md)** — `Stage 1 / pending`
   * *System Synthesis:* Void Coalescence As Cosmic Percolation
   * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
@@ -175,7 +175,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
   * *Isomorphism:* Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model
 
-### Microsoft Copilot Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
+### [Microsoft Copilot](https://copilot.microsoft.com) Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
 * **[copilot_entry-016](mappings-microsoft-copilot/copilot_entry-016.md)** — `Stage 1 / pending`
   * *System Synthesis:* Energy‑Driven Polarization Mapping
   * *Domains:* Variational Phase‑Field Fracture & Kinetic Opinion Dynamics
@@ -197,10 +197,10 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 bibliometric valid
   * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
   * *Isomorphism:* Filtered Navier–Stokes (LES Smagorinsky/Germano) mapped to Wilson–Cowan/integro-differential neural-field closures
 
-### Moonshot AI Kimi Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
+### [Moonshot AI Kimi](https://www.kimi.com) Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
 Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI's release of its version K3 model.
 
-### OpenAI ChatGPT Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
+### [OpenAI ChatGPT](https://chatgpt.com) Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
 * **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 1 / pending`
   * *System Synthesis:* Energy-Stable Belief Morphogenesis
   * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
@@ -222,7 +222,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
-### xAI Grok Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
+### [xAI Grok](https://grok.com) Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
 * **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 1 / pending`
   * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
   * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
@@ -244,7 +244,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
-### Z.AI GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
+### [Z.AI GLM](https://chat.z.ai) Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
 * **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 1 / pending`
   * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
