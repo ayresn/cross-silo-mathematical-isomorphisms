@@ -278,6 +278,6 @@ where $K$ is the global stiffness matrix, $F$ the applied nodal force vector, an
 - **CHECK 4 (Triple-Correspondence Body Verification):** PASS — All three vectors (governing_differential_operator, instability_mechanism, numerical_solution_family) are explicitly demonstrated in Section 3 via the linear operators, cascading redistribution, and Woodbury reanalysis.
 - **CHECK 5 (Rejection Criteria Face-Check):** PASS — Not a canonical textbook analogy; asymmetry and falsifiable prediction (90% precision/recall on top-quartile scenarios) are adequately specified.
 - **CHECK 6 (Score-Content Plausibility):** PASS — Scores align with demonstrated equations and mappings (no contradictions).
-- 
+
 #### Stage 3 Watch Items
 None identified.
