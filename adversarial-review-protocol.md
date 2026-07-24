@@ -118,12 +118,9 @@ Output a Section 6 block formatted exactly as shown, to be appended to the entry
 
 --- BEGIN README DIRECTORY SNIPPET UPDATE ---
 
-Output the updated four-line README directory entry with the status tag updated to reflect the adversarial verdict. Copy the System Synthesis, Domains, and Isomorphism lines unchanged from the original entry; only the status tag changes:
+Output the updated README directory entry with the status tag updated to reflect the adversarial verdict. Only the status tag changes:
 
 *   **[filename.md](path/filename.md)** — `[Stage 2 / cleared | Stage 2 / flagged | Stage 2 / rejected]`
-    *   *System Synthesis:* [unchanged from original entry]
-    *   *Domains:* [unchanged from original entry]
-    *   *Isomorphism:* [unchanged from original entry]
 
 ---
 
