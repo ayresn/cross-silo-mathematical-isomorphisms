@@ -101,11 +101,13 @@ validation_status:
 Output a Section 6 block formatted exactly as shown, to be appended to the entry's .md file:
 
 ## 6. ADVERSARIAL REVIEW (Stage 2)
+
+### First Adversarial Review
 **Reviewer:** [model name and version]
 **Verdict:** [PASS / FLAG / REJECT]
 **Review Date:** [YYYY-MM-DD]
 
-### Results by Check
+#### Results by Check
 - **CHECK 1 (YAML Metadata Integrity):** [PASS / FLAG / FAIL] — [One sentence. If FAIL or FLAG, quote the specific failing text.]
 - **CHECK 2 (Equation Validity):** [PASS / FLAG / FAIL] — [One sentence. If FAIL, quote the equation and state the error.]
 - **CHECK 3 (Vocabulary Matrix Coherence):** [PASS / FLAG / FAIL] — [One sentence. If FAIL, quote the specific mapping pair.]
@@ -113,7 +115,7 @@ Output a Section 6 block formatted exactly as shown, to be appended to the entry
 - **CHECK 5 (Rejection Criteria Face-Check):** [PASS / FLAG / FAIL] — [If FAIL, name the textbook/review source where this analogy appears.]
 - **CHECK 6 (Score-Content Plausibility):** [PASS / FLAG / FAIL] — [If FAIL or FLAG, name the specific score and the content it contradicts.]
 
-### Stage 3 Watch Items
+#### Stage 3 Watch Items
 [Bullet list of specific things the human reviewer should probe at Stage 3 even if this entry passed adversarial review. If none, write "None identified."]
 
 --- BEGIN README DIRECTORY SNIPPET UPDATE ---
