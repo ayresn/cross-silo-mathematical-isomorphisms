@@ -141,7 +141,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Stochastic Barrier-Crossing in Ship Capsize
   * *Domains:* Chemical Physics Barrier-Crossing Kinetics & Naval Architecture Capsize Risk Assessment
   * *Isomorphism:* Kramers Escape-Rate Theory mapped to GZ-Curve Potential-Barrier Capsize Dynamics
-* **[claude-sonnet-5_entry-040.md](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — `Stage 1 / pending`
+* **[claude-sonnet-5_entry-040.md](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — `Stage 2 / flagged`
   * *System Synthesis:* Saddle-Node Collapse in Grids and Fisheries
   * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
   * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
