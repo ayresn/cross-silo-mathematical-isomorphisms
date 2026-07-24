@@ -138,7 +138,7 @@ where $K$ is the global stiffness matrix, $F$ the applied nodal force vector, an
 - Verify whether the proposed benchmark (>90% precision/recall for top-quartile scenario identification) has already been demonstrated.
 
 ### Second Adversarial Review
-**Reviewer:** Gemini 3.1 Pro
+**Reviewer:** Google Gemini 3.1 Pro
 **Verdict:** FLAG
 **Review Date:** 2026-07-24
 
