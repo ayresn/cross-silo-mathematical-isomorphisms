@@ -137,7 +137,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Lundberg Asymptotics for Extinction Risk
   * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
   * *Isomorphism:* Cramér–Lundberg Ruin Asymptotics mapped to Diffusion-Approximation Extinction Probability
-* **[claude-sonnet-5_entry-039.md](mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — `Stage 1 / pending`
+* **[claude-sonnet-5_entry-039.md](mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — `Stage 2 / rejected`
   * *System Synthesis:* Stochastic Barrier-Crossing in Ship Capsize
   * *Domains:* Chemical Physics Barrier-Crossing Kinetics & Naval Architecture Capsize Risk Assessment
   * *Isomorphism:* Kramers Escape-Rate Theory mapped to GZ-Curve Potential-Barrier Capsize Dynamics

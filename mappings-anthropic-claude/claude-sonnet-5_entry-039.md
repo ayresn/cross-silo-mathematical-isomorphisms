@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-039"
   schema_version: "1.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-rejected"
 providence:
   company: "Anthropic"
   model_family: "Claude"
@@ -40,6 +40,42 @@ validation_status:
   constitutive_equivalence_confidence: "low"
   primary_failure_risk: "colored_nonstationary_wave_forcing_violates_white_noise_assumption"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.5"
+    review_timestamp: "2026-07-24"
+    verdict: "FLAG"
+    verdict_rationale: "The entry is internally coherent overall, but the claimed triple correspondence is only partially demonstrated in the mathematical body and the methodological asymmetry and falsifiable prediction require human verification."
+    failed_checks: []
+    flagged_checks:
+      - "Check 4: governing_stochastic_differential_operator and potential_barrier_escape_instability are explicitly demonstrated, but asymptotic_rate_theory_numerical_solution_family is asserted rather than mathematically developed in Section 3."
+      - "Check 5: Asymmetric transfer depends on the extent to which analogous escape-rate methods have already propagated into naval capsize literature."
+    stage_3_watch_items:
+      - "Determine whether closed-form Kramers-rate formulations have previously been applied directly to stochastic capsize prediction."
+      - "Assess whether colored, nonstationary wave forcing invalidates the proposed reduction sufficiently to prevent practical operator equivalence."
+      - "Verify whether the claimed computational advantage persists under regulatory sea-state models."
+  second_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    review_timestamp: "2026-07-24"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a dimensionally invalid rate equation and a category error in the vocabulary matrix mapping a probability to a rate."
+    failed_checks:
+      - "Check 2: Equation Validity"
+      - "Check 3: Vocabulary Matrix Coherence"
+    flagged_checks:
+      - "Check 4: Triple-Correspondence Body Verification"
+      - "Check 6: Score-Content Plausibility"
+    stage_3_watch_items: []
+  third_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    review_timestamp: "2026-07-24"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a fatal mathematical sign error in the potential energy definition and relies on a canonical textbook analogy."
+    failed_checks:
+      - "CHECK 2: The equation for the stability potential contains a sign error, contradicting its own derivative and making the stable equilibrium a maximum."
+      - "CHECK 5: The analogy between ship capsize and escape from a potential well is a canonical interdisciplinary paradigm found in graduate textbooks."
+    flagged_checks:
+      - "CHECK 6: The structural_isomorphism_score of 8.0 is inconsistent with the mathematical error in Section 3."
+    stage_3_watch_items: []
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 039
@@ -92,3 +128,55 @@ Since $\Delta\cdot GZ(\phi) \equiv dU/d\phi$ for the "stability potential" $U(\p
 
 ## 6. ADDITIONAL NOTE FROM CLAUDE
 Two things worth flagging for Stage 3 specifically: the `constitutive_equivalence_confidence: low` isn't boilerplate hedging — the classical Kramers formula assumes stationary white thermal noise, and real ocean wave excitation is neither white nor stationary across a voyage or storm, which is a real gap, not just a formality, and is exactly why `expected_transfer_effort` sits at medium rather than low. And the adjacent "safe basin erosion" literature I cited as partial prior art is a genuine risk to the novelty claim — Stage 3 should check specifically whether anyone in that niche has already invoked the closed-form Kramers rate itself, not just the qualitative escape-geometry picture, before this entry's novelty score is trusted.
+
+## 7. ADVERSARIAL REVIEW (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** OpenAI GPT-5.5
+**Verdict:** FLAG
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — Metadata is internally consistent; model identifier, timestamp, maturity stage, relationship type, and the three correspondence vectors satisfy the stated requirements.
+- **CHECK 2 (Equation Validity):** PASS — The equations consistently represent a stochastic barrier-crossing system and the body explicitly identifies the constitutive limitation arising from the forcing term rather than hiding it.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — The paired mappings are between compatible mathematical objects and the operator-role explanations specify the shared mathematical structure rather than relying solely on qualitative analogy.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — The body explicitly develops the governing stochastic differential operator and the potential-barrier escape mechanism, but the YAML vector "asymptotic_rate_theory_numerical_solution_family" is only asserted through discussion of Kramers' rate rather than mathematically demonstrated in Section 3.
+- **CHECK 5 (Rejection Criteria Face-Check):** FLAG — The proposed transfer is plausibly asymmetric, but the entry itself acknowledges nearby prior art and the claimed asymmetry depends on whether closed-form Kramers-rate methods have already entered stochastic capsize analysis; the prediction is sufficiently measurable but requires Stage 3 verification.
+- **CHECK 6 (Score-Content Plausibility):** PASS — The confidence scores are consistent with the body, particularly given the explicit acknowledgement of constitutive limitations and the moderate novelty estimate.
+
+#### Stage 3 Watch Items
+- Verify whether closed-form Kramers escape-rate formulations have already been applied to stochastic ship capsize prediction.
+- Determine whether the reduction from realistic wave forcing to the assumed stochastic forcing preserves the operator correspondence sufficiently for asymptotic theory.
+- Evaluate whether the claimed computational savings remain valid under IMO-relevant simulation protocols.
+
+### Second Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Verdict:** REJECT
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — All metadata fields meet the structural requirements and contain plausible values for the model, timestamps, and vectors.
+- **CHECK 2 (Equation Validity):** FAIL — The equation `k_{\text{Kramers}} = \frac{\omega_0\,\omega_b}{2\pi\gamma}\exp\left(-\frac{\Delta U}{k_B T}\right)` is dimensionally incorrect for a rate (missing a mass $m$ in the numerator, given that the provided Langevin equation uses $\gamma$ as a damping coefficient with units of mass/time) and falsely conflates potential "curvatures" with "angular frequencies", which are only equivalent if $m=1$.
+- **CHECK 3 (Vocabulary Matrix Coherence):** FAIL — The mapping `probability of capsize (given sea state, exposure time) ↔ Kramers escape rate / mean first-passage time` contains a mathematical category error, inappropriately equating a dimensionless probability to a rate (inverse time) and a time duration.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — The vectors `governing_stochastic_differential_operator` and `potential_barrier_escape_instability` are supported mathematically, but `asymptotic_rate_theory_numerical_solution_family` is only partially covered; the text discusses closed-form asymptotic rate theory explicitly as a replacement for, rather than a type of, a "numerical solution family". 
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The analogy is not a recognized canonical textbook example, the knowledge transfer from statistical physics to naval architecture is asymmetric, and the prediction of benchmarking against IMO SGISS Level 3 datasets is falsifiable.
+- **CHECK 6 (Score-Content Plausibility):** FLAG — The `operator_equivalence_confidence` is marked as "high" despite a direct category error in the vocabulary matrix. Additionally, the `representation_mismatch_score` of 6.5 is significantly inflated given that Section 3 proves both domains utilize the identical 1D stochastic differential equation under variable substitution.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Third Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Verdict:** REJECT
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — All metadata fields, including model identifiers and timestamp, are plausible and correctly formatted.
+- **CHECK 2 (Equation Validity):** FAIL — The text states "Since $\Delta\cdot GZ(\phi) \equiv dU/d\phi$ for the "stability potential" $U(\phi) = -\Delta\int_0^{\phi} GZ(\phi')\,d\phi'$", but differentiating this $U(\phi)$ yields $-\Delta GZ(\phi)$, contradicting the identity and making $\phi=0$ a maximum rather than a minimum.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — The paired terms are of compatible mathematical types and their operator roles explain the equivalence.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — All three YAML vectors are discussed with mathematical specificity in Section 3.
+- **CHECK 5 (Rejection Criteria Face-Check):** FAIL — The pairing of ship capsize with escape from a potential well is a canonical analogy found in textbooks such as Thompson & Stewart's "Nonlinear Dynamics and Chaos".
+- **CHECK 6 (Score-Content Plausibility):** FLAG — The `structural_isomorphism_score` of 8.0 is inconsistent with the mathematical derivation error identified in Check 2.
+
+#### Stage 3 Watch Items
+None identified.
