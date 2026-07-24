@@ -76,6 +76,40 @@ validation_status:
     flagged_checks:
       - "CHECK 6: The structural_isomorphism_score of 8.0 is inconsistent with the mathematical error in Section 3."
     stage_3_watch_items: []
+  fourth_adversarial_review:
+    reviewer_model: "Alibaba Qwen3.8"
+    review_timestamp: "2026-07-24"
+    verdict: "REJECT"
+    verdict_rationale: "Section 3 defines the stability potential as U(φ) = −Δ∫GZ dφ′ but then claims Δ·GZ(φ) ≡ dU/dφ; differentiating the given U yields dU/dφ = −Δ·GZ(φ), a sign error that also contradicts the entry's own statement that U has 'a stable minimum at φ=0' (the negative-sign definition makes φ=0 a maximum)."
+    failed_checks: ["Check 2: Sign error in stability-potential definition contradicts the claimed derivative equivalence and the stated well/barrier topology"]
+    flagged_checks: ["Check 5: Falsifiable prediction uses 'within a specified tolerance' without specifying the tolerance, weakening falsifiability"]
+    stage_3_watch_items: ["Stage 3 should verify whether the safe-basin-erosion literature (Thompson, Rainey, Belenky, Spyrou) has already invoked the closed-form Kramers rate, not just qualitative escape geometry", "Verify whether any naval-architecture group has published a Kramers-rate-based capsize screening tool post-2020 SGISS adoption"]
+  fifth_adversarial_review:
+    reviewer_model: "Meta Muse Spark 1.1"
+    review_timestamp: "2026-07-24"
+    verdict: "PASS"
+    verdict_rationale: "Equations correctly model claimed domains and demonstrate identical SDE/potential structure, vocabulary mappings are type-compatible with mechanistic explanations, all three triple vectors are mathematically supported, and pairing is not a canonical textbook analogy."
+    failed_checks: []
+    flagged_checks: []
+    stage_3_watch_items: ["Verify whether colored nonstationary wave forcing violates white-noise Kramers assumption in IMO SGISS Level 3 datasets", "Check safe-basin erosion literature (Thompson, Rainey, Belenky) for prior use of closed-form Kramers rate versus qualitative geometry", "Probe probability-vs-rate mapping for dimensional consistency between rate, MFPT, and probability given exposure time"]
+  sixth_adversarial_review:
+    reviewer_model: "DeepSeek DeepSeek"
+    review_timestamp: "2026-07-24"
+    verdict: "REJECT"
+    verdict_rationale: "Vocabulary matrix contains a category-error mapping pairing a probability (dimensionless) with a rate (inverse time) and claiming they are the same object."
+    failed_checks:
+      - "Check 3: Vocabulary Matrix Coherence — 'probability of capsize (given sea state, exposure time) ↔ Kramers escape rate / mean first-passage time' maps a probability to a rate; the Operator Role text asserts 'Both are the same object — the rate', which is mathematically inconsistent."
+    flagged_checks: []
+    stage_3_watch_items:
+      - "Safe basin erosion literature may contain prior art for closed-form Kramers rate application; verify novelty at Stage 3 even though entry is rejected for tracking purposes."
+  seventh_adversarial_review:
+    reviewer_model: "xAI Grok"
+    review_timestamp: "2026-07-24"
+    verdict: "PASS"
+    verdict_rationale: "All checks pass with no fatal inconsistencies or category errors in the provided entry text."
+    failed_checks: []
+    flagged_checks: []
+    stage_3_watch_items: ["noise color/stationarity mismatch impact on Kramers applicability", "extent of absorption of closed-form rate formulas in safe-basin/erosion literature"]
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 039
@@ -180,3 +214,73 @@ None identified.
 
 #### Stage 3 Watch Items
 None identified.
+
+### Fourth Adversarial Review
+**Reviewer:** Alibaba Qwen3.8
+**Verdict:** REJECT
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `model_family: "Claude"`, `model_version: "Claude Sonnet 5"`, and `generation_timestamp: "2026-07-22"` are all plausible; exactly three `triple_correspondence_vectors` are listed; `maturity_stage` is `"candidate"` and `relationship_type` is `"candidate_structural_isomorphism"`.
+- **CHECK 2 (Equation Validity):** FAIL — The entry defines the stability potential as "$U(\phi) = -\Delta\int_0^{\phi} GZ(\phi')\,d\phi'$" and then asserts "$\Delta\cdot GZ(\phi) \equiv dU/d\phi$," but differentiating the given $U$ yields $dU/d\phi = -\Delta\cdot GZ(\phi)$, not $+\Delta\cdot GZ(\phi)$. This sign error also directly contradicts the entry's own description of $U$ as "a well with a stable minimum at $\phi=0$ and a barrier top exactly at the angle of vanishing stability": with the negative-sign definition, $U(0)=0$ is a local *maximum* (since $GZ>0$ for small $\phi$ makes the integral positive and $U$ negative), and the angle of vanishing stability becomes a local *minimum*, inverting the entire barrier-crossing topology the entry relies on. The correct definition should be $U(\phi) = +\Delta\int_0^{\phi} GZ(\phi')\,d\phi'$. The Langevin equation, the Kramers rate formula, and the roll equation taken individually are all correctly stated; the error is confined to the sign in the potential definition and the derivative claim that bridges the two silos.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All three paired mappings connect objects of compatible mathematical type (critical point ↔ critical point; restoring-force function ↔ restoring-force function; escape probability/rate ↔ escape rate/MFPT), and each Operator Role explanation specifies the shared mathematical structure (unstable equilibrium with sign-reversing restoring force; deterministic restoring term whose integral recovers the potential; rate/MFPT of barrier crossing) rather than relying on hedged analogy language.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — Vector 1 (`governing_stochastic_differential_operator`) is demonstrated in Section 3 by writing both the Langevin and roll equations and exhibiting the variable mapping $\phi\leftrightarrow x$, $I\leftrightarrow m$, $\Delta\cdot GZ\leftrightarrow dU/dx$. Vector 2 (`potential_barrier_escape_instability`) is addressed in Section 3's discussion of the well/barrier topology and in Vocabulary Matrix rows 1–2. Vector 3 (`asymptotic_rate_theory_numerical_solution_family`) is supported by the explicit Kramers rate formula in Section 3 and the Monte Carlo replacement argument in Section 4. All three vectors have equation-level or derivation-level body support.
+- **CHECK 5 (Rejection Criteria Face-Check):** FLAG — The domain pairing is not a canonical textbook analogy (Kramers ↔ ship capsize does not appear in standard graduate texts in either field, unlike the protocol's listed examples), and the asymmetry argument (80-year-old Kramers theory → comparatively young stochastic naval architecture) is credible. However, the falsifiable prediction states convergence "within a specified tolerance" without specifying the tolerance, and "orders of magnitude fewer simulated wave realizations" without quantifying the factor, making the prediction structurally falsifiable but operationally underspecified.
+- **CHECK 6 (Score-Content Plausibility):** PASS — `structural_isomorphism_score: 8.0` is consistent with the genuinely identical Langevin/Fokker-Planck operator structure demonstrated in Section 3 (the sign error is in an intermediate definition, not in the operator correspondence itself). `operator_equivalence_confidence: "high"` is consistent with the vocabulary matrix, which contains no category errors. `representation_mismatch_score: 6.5` is plausible given the substantial physical differences between thermal molecular noise and ocean-wave forcing. No score is obviously contradicted by the body content.
+
+#### Stage 3 Watch Items
+- The entry explicitly flags the "safe basin erosion" literature (Thompson, Rainey, Belenky, Spyrou) as partial prior art; Stage 3 should determine whether any publication in that niche has already applied the *closed-form Kramers rate formula* (as distinct from qualitative Melnikov/safe-basin geometry) to ship capsize probability.
+- The `constitutive_equivalence_confidence: low` and `primary_failure_risk` field correctly identify that ocean wave excitation is colored and non-stationary, violating the white-noise assumption underlying the classical Kramers formula; Stage 3 should assess whether existing colored-noise Kramers extensions (e.g., Hänggi–Talkner–Borkovec 1990 §IV) have already been applied to ship roll.
+- The entry's Section 6 "Additional Note from Claude" is a non-standard meta-commentary block; Stage 3 should confirm whether the repository schema permits generating-model editorial notes in the entry body.
+
+### Fifth Adversarial Review
+**Reviewer:** Meta Muse Spark 1.1
+**Verdict:** PASS
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — model_family Claude and model_version Claude Sonnet 5 are plausible identifiers, timestamp 2026-07-22 is recent, triple_correspondence_vectors lists exactly 3 distinct items, maturity_stage candidate and relationship_type candidate_structural_isomorphism are correct.
+- **CHECK 2 (Equation Validity):** PASS — Silo A Langevin equation with thermal white noise and Kramers rate k_Kramers = omega0 omega_b/(2πγ) exp(-ΔU/k_B T) correctly models barrier crossing, Silo B equation I φ̈ + b(φ̇) + Δ·GZ(φ) = M(t) correctly models nonlinear roll with U(φ)= -Δ∫GZ, and isomorphism φ↔x, I↔m, Δ·GZ↔dU/dx is explicitly demonstrated.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — angle of vanishing stability ↔ barrier top maps unstable equilibrium point to point, GZ curve ↔ -dU/dx maps restoring force operator to operator, probability of capsize (given exposure time) ↔ Kramers rate/MFPT maps first-passage functionals, each Operator Role gives mechanistic equivalence rather than hedged similarity.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — governing_stochastic_differential_operator supported by both SDEs in Section 3, potential_barrier_escape_instability supported by definition of stability potential with well minimum at φ=0 and barrier top at vanishing stability angle, asymptotic_rate_theory_numerical_solution_family supported by Kramers closed-form formula and explicit contrast to Monte Carlo rare-event simulation.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — chemical-physics barrier crossing ↔ naval capsize is not a canonical textbook analogy like Schrödinger↔paraxial optics or heat↔diffusion; transfer is asymmetric Kramers theory (80-year mature, Hänggi et al 1990) → naval architecture (IMO SGISS 2020 simulation-heavy); falsifiable prediction names measurable tolerance convergence vs long-run Monte Carlo on IMO SGISS Level 3 datasets.
+- **CHECK 6 (Score-Content Plausibility):** PASS — structural_isomorphism_score 8.0 consistent with identical Langevin operator demonstrated, operator_equivalence_confidence high consistent with type-compatible matrix, representation_mismatch_score 6.5 plausible for distant domains sharing SDE structure, no obvious score-content contradiction.
+
+#### Stage 3 Watch Items
+- Verify white-noise assumption: classical Kramers assumes stationary white noise, ocean excitation is colored and nonstationary — check whether entry's primary_failure_risk adequately bounds applicability in IMO datasets
+- Check safe-basin erosion prior art (Thompson, Rainey, Belenky) to confirm closed-form Kramers asymptotic rate itself, not just qualitative Melnikov/safe-basin geometry, has not been previously applied to capsize
+- Confirm dimensional handling in vocabulary matrix: probability given exposure time vs rate vs MFPT are related via 1-exp(-kT) ≈ kT, not identical objects — ensure Stage 3 does not overcount this as exact equivalence
+
+### Sixth Adversarial Review
+**Reviewer:** DeepSeek DeepSeek
+**Verdict:** REJECT
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — Model identifiers are plausible, timestamp is recent, triple vectors are three distinct items, maturity and relationship type correct.
+- **CHECK 2 (Equation Validity):** PASS — The Langevin and ship roll equations correctly model the stated physical domains; the structural isomorphism is supported by the equations as presented.
+- **CHECK 3 (Vocabulary Matrix Coherence):** FAIL — The mapping “probability of capsize (given sea state, exposure time) ↔ Kramers escape rate / mean first-passage time” pairs a dimensionless probability with an inverse-time rate, and the Operator Role explanation claims “Both are the same object — the rate”. Probability is not a rate; this is a category error.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — Section 3 provides the SDE operator, defines the potential barrier and escape instability, and gives the asymptotic Kramers rate formula, covering all three vectors.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — No evidence this pairing is a canonical textbook analogy; transfer direction is asymmetric; falsifiable prediction is concrete and testable.
+- **CHECK 6 (Score-Content Plausibility):** PASS — The scores are consistent with the demonstrated structural mapping; no contradictions between scores and content.
+
+#### Stage 3 Watch Items
+- Safe basin erosion literature may contain prior art for closed-form Kramers rate application; verify novelty even though entry is rejected for false‑positive‑rate tracking.
+
+### Seventh Adversarial Review
+**Reviewer:** xAI Grok
+**Verdict:** PASS
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — All fields match required formats and plausibility criteria.
+- **CHECK 2 (Equation Validity):** PASS — Both Langevin and roll equations are presented consistently with claimed potential-well structure and mappings; no misattributed forms or type inconsistencies.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All pairs (e.g., "GZ curve ↔ potential gradient −dU/dx", "angle of vanishing stability ↔ barrier top") are mathematically compatible types with operator-role explanations specifying shared structure.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — All three vectors are addressed with equations and derivations in Section 3 (Langevin/Fokker-Planck operator, barrier escape, Kramers asymptotics vs. Monte Carlo).
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — Not a canonical textbook analogy; asymmetry and falsifiability claims hold on internal text.
+- **CHECK 6 (Score-Content Plausibility):** PASS — Scores (e.g., structural_isomorphism_score 8.0, operator_equivalence_confidence "high") align with demonstrated equations and mappings; noise caveats are explicitly noted.
+
+#### Stage 3 Watch Items
+- Noise color/stationarity mismatch impact on Kramers applicability (noted in entry).
+- Extent of absorption of closed-form rate formulas (vs. qualitative geometry) in safe-basin/erosion literature.
+- Quantitative validation of predicted convergence tolerance in IMO SGISS datasets.
