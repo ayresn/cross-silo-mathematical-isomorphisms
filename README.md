@@ -238,7 +238,7 @@ The status tags for the entries below identify each entry's current pipeline sta
 Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI's release of its version K3 model.
 
 ### [OpenAI ChatGPT](https://chatgpt.com) Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
-* **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 1 / pending`
+* **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 2 / rejected`
   * *System Synthesis:* Energy-Stable Belief Morphogenesis
   * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
   * *Isomorphism:* Allen-Cahn Gradient Flow mapped to Variational Free-Energy Gradient Flow
