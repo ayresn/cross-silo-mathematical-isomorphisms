@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-037"
   schema_version: "1.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-rejected"
 providence:
   company: "Anthropic"
   model_family: "Claude"
@@ -35,6 +35,38 @@ validation_status:
   constitutive_equivalence_confidence: "medium"
   primary_failure_risk: "nonlinear_nonstationary_proxy_transfer_functions"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.5"
+    review_timestamp: "2026-07-24"
+    verdict: "FLAG"
+    verdict_rationale: "The entry is internally consistent overall, but one claimed correspondence is only partially demonstrated in the body and the methodological asymmetry and falsifiable prediction require Stage 3 scrutiny."
+    failed_checks: []
+    flagged_checks:
+      - "Check 4: Third triple-correspondence vector ('resolution_matrix_numerical_solution_family') is only partially supported because numerical solution family correspondence is asserted rather than mathematically demonstrated."
+      - "Check 5: Claimed asymmetry should be verified; transfer may be less one-directional than asserted."
+      - "Check 5: Falsifiable prediction requires operational thresholds before it is experimentally discriminative."
+    stage_3_watch_items:
+      - "Verify whether explicit resolution-matrix analysis is genuinely uncommon in climate field reconstruction."
+      - "Assess whether the claimed asymmetry reflects practice rather than presentation."
+      - "Determine whether the proposed prediction specifies measurable acceptance criteria beyond qualitative leakage patterns."
+  second_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    review_timestamp: "2026-07-24"
+    verdict: "REJECT"
+    verdict_rationale: "The vocabulary matrix contains a fundamental mathematical category error by mapping a matrix operator to a scalar summary statistic, which also contradicts the high operator equivalence score."
+    failed_checks: 
+      - "Check 3: Category error in vocabulary matrix (matrix mapped to a scalar)."
+      - "Check 6: 'high' operator_equivalence_confidence contradicts the category error in the vocabulary matrix."
+    flagged_checks: []
+    stage_3_watch_items: []
+  third_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    review_timestamp: "2024-05-22"
+    verdict: "REJECT"
+    verdict_rationale: "The vocabulary matrix contains a category error mapping a matrix operator to a scalar metric, and the operator equivalence confidence score is contradicted by the body text."
+    failed_checks: ["Check 3: Category error mapping matrix operator R to scalar skill score RE/CE", "Check 6: operator_equivalence_confidence 'high' contradicted by body text stating they lack mathematical equivalence"]
+    flagged_checks: []
+    stage_3_watch_items: []
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 037
@@ -72,3 +104,55 @@ with x the unknown spatiotemporal climate field on a grid and H a sparse (or pro
 ## 5. RELEVANT ACADEMIC SEARCH STRINGS FOR VERIFICATION
 *   `"resolution matrix" AND "checkerboard test" AND "seismic tomography"`
 *   `"pseudoproxy experiment" AND "climate field reconstruction" AND "spatial resolution"`
+
+## 6. ADVERSARIAL REVIEW (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** OpenAI GPT-5.5
+**Verdict:** FLAG
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — Metadata is internally consistent: plausible model identifier, valid timestamp, exactly three correspondence vectors, and required relationship and maturity values are present.
+- **CHECK 2 (Equation Validity):** PASS — Both equations are appropriate linear observation models for the stated inverse problems, and the regularized inverse and resolution-matrix discussion consistently supports the claimed structural correspondence.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — The mapped concepts are mathematically compatible; although "resolution matrix R ↔ reconstruction skill score (RE / CE)" compares an operator with a diagnostic metric, the accompanying explanation explicitly frames the latter as an informational surrogate rather than asserting type identity.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — The first two YAML vectors ("governing_linear_forward_operator" and "ill_posedness_conditioning_instability") are explicitly demonstrated in Section 3, while "resolution_matrix_numerical_solution_family" is only partially supported because the body discusses the resolution matrix extensively but does not explicitly develop the claimed numerical-solution-family correspondence.
+- **CHECK 5 (Rejection Criteria Face-Check):** FLAG — This is not an obvious canonical textbook analogy, but the claimed methodological asymmetry should be verified and the prediction would be more clearly falsifiable if it specified quantitative decision thresholds rather than qualitative leakage dominance.
+- **CHECK 6 (Score-Content Plausibility):** PASS — The reported scores are broadly consistent with the level of structural correspondence demonstrated and do not contradict the body.
+
+#### Stage 3 Watch Items
+- Verify whether explicit resolution-matrix computation is in fact uncommon within climate field reconstruction practice.
+- Examine whether the claimed one-way methodological transfer remains asymmetric after surveying both literatures.
+- Determine whether the prediction can be evaluated using predefined quantitative criteria (e.g., leakage thresholds or measurable changes in inferred spatial resolution).
+
+### Second Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Verdict:** REJECT
+**Review Date:** 2026-07-24
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — All metadata fields contain plausible identifiers, dates, and expected formatting.
+- **CHECK 2 (Equation Validity):** PASS — Both equations are standard, valid linear inverse problem formulations correctly attributed to their respective domains.
+- **CHECK 3 (Vocabulary Matrix Coherence):** FAIL — The mapping "resolution matrix R ↔ reconstruction skill score (RE / CE)" commits a mathematical category error by attempting to map a 2D matrix (an operator) to a 1D scalar metric (a summary statistic).
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — All three vectors (`governing_linear_forward_operator`, `ill_posedness_conditioning_instability`, `resolution_matrix_numerical_solution_family`) are supported by explicit mathematical discussion in Section 3.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The analogy is not a canonical textbook pairing, the transfer is asymmetric, and the specified falsifiable prediction is functionally measurable.
+- **CHECK 6 (Score-Content Plausibility):** FAIL — The `operator_equivalence_confidence` score of `"high"` directly contradicts the vocabulary matrix's failure to map equivalent mathematical objects (matrix to scalar).
+
+#### Stage 3 Watch Items
+None identified.
+
+### Third Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Verdict:** REJECT
+**Review Date:** 2024-05-22
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** PASS — All metadata fields are present, plausible, and correctly formatted.
+- **CHECK 2 (Equation Validity):** PASS — The equations correctly model standard linear inverse problems for both domains.
+- **CHECK 3 (Vocabulary Matrix Coherence):** FAIL — The mapping "resolution matrix R ↔ reconstruction skill score (RE / CE)" pairs a matrix operator with a scalar metric, which is a category error.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — All three YAML vectors (forward operator, ill-posedness, resolution matrix) are explicitly supported by equations and derivations in Section 3.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The domain pairing is not a recognizable canonical textbook analogy and the falsifiable prediction is specific and measurable.
+- **CHECK 6 (Score-Content Plausibility):** FAIL — The YAML's `operator_equivalence_confidence: high` is directly contradicted by the body text, which states that RE/CE scores do not decompose spatial smearing, meaning they are not mathematically equivalent to the resolution matrix R.
+
+#### Stage 3 Watch Items
+None identified.

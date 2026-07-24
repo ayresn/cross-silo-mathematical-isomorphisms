@@ -129,7 +129,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
   * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
   * *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
-* **[claude-sonnet-5_entry-037.md](mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — `Stage 1 / pending`
+* **[claude-sonnet-5_entry-037.md](mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — `Stage 2 / rejected`
   * *System Synthesis:* Resolution Leakage in Paleoclimate Reconstruction
   * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
   * *Isomorphism:* Seismic Resolution-Matrix / Checkerboard Testing mapped to Paleoclimate Pseudoproxy Validation
