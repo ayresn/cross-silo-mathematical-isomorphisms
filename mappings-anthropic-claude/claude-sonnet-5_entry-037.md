@@ -105,7 +105,7 @@ with x the unknown spatiotemporal climate field on a grid and H a sparse (or pro
 *   `"resolution matrix" AND "checkerboard test" AND "seismic tomography"`
 *   `"pseudoproxy experiment" AND "climate field reconstruction" AND "spatial resolution"`
 
-## 6. ADVERSARIAL REVIEW (Stage 2)
+## 6. ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** OpenAI GPT-5.5

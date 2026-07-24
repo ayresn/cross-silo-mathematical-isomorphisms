@@ -121,7 +121,7 @@ which is the precise sense in which these are the same operator, not merely anal
 ## 6. ADDITIONAL NOTE FROM CLAUDE
 One prior-art risk worth flagging plainly for Stage 3: the "critical transitions" / early-warning-signals research program (Scheffer et al.'s work on generic indicators like critical slowing down, applied across ecology, climate, and other complex systems) already gestures at saddle-node collapse as a cross-domain phenomenon in a qualitative sense. What I've argued here is more specific — an exact normal-form equivalence plus a concrete numerical-methods transfer, not just shared early-warning statistics — but Stage 3 should confirm nobody has already made the tighter version of this connection before the novelty score is trusted. That's exactly what `primary_failure_risk` is flagging rather than burying.
 
-## 7. ADVERSARIAL REVIEW (Stage 2)
+## 7. ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** OpenAI GPT-5.5

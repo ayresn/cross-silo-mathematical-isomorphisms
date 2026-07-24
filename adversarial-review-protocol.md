@@ -87,7 +87,7 @@ Output only the YAML fields that need to change. Always include `maturity_stage`
 sid_metadata:
   maturity_stage: "[adversarial-cleared / adversarial-flagged / adversarial-rejected]"
 validation_status:
-  adversarial_review:
+  first_adversarial_review:
     reviewer_model: "[your exact model name and version]"
     review_timestamp: "[YYYY-MM-DD]"
     verdict: "[PASS / FLAG / REJECT]"
@@ -100,7 +100,7 @@ validation_status:
 
 Output a Section 6 block formatted exactly as shown, to be appended to the entry's .md file:
 
-## 6. ADVERSARIAL REVIEW (Stage 2)
+## 6. ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** [model name and version]

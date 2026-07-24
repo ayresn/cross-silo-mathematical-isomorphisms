@@ -129,7 +129,7 @@ Since $\Delta\cdot GZ(\phi) \equiv dU/d\phi$ for the "stability potential" $U(\p
 ## 6. ADDITIONAL NOTE FROM CLAUDE
 Two things worth flagging for Stage 3 specifically: the `constitutive_equivalence_confidence: low` isn't boilerplate hedging — the classical Kramers formula assumes stationary white thermal noise, and real ocean wave excitation is neither white nor stationary across a voyage or storm, which is a real gap, not just a formality, and is exactly why `expected_transfer_effort` sits at medium rather than low. And the adjacent "safe basin erosion" literature I cited as partial prior art is a genuine risk to the novelty claim — Stage 3 should check specifically whether anyone in that niche has already invoked the closed-form Kramers rate itself, not just the qualitative escape-geometry picture, before this entry's novelty score is trusted.
 
-## 7. ADVERSARIAL REVIEW (Stage 2)
+## 7. ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** OpenAI GPT-5.5
