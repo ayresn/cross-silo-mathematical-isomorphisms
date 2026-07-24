@@ -78,7 +78,7 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 
 ## CORE DATASET DIRECTORY
 
-All entries below are **Stage 1 candidates** awaiting Stage 2 adversarial review and Stage 3 bibliometric validation. None should be treated as verified findings. Status tags reflect the entry's current pipeline stage.
+The status tags for the entries below identify each entry's current pipeline stage. **No entry in this directory should be treated as a verified finding unless it specifically bears the `Stage 3 / validated` status tag indicating that it passed both adversarial review and bibliometric validation.** Entries that failed Stage 2 adversarial review or Stage 3 bibliometric validation are retained in the dataset with `rejected` status tags indicating what Stage they failed to clear for false-positive-rate tracking, and should not be treated as research leads.
 
 ### [Alibaba Qwen](https://chat.qwen.ai) Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
 * **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 1 / pending`
@@ -125,7 +125,7 @@ All entries below are **Stage 1 candidates** awaiting Stage 2 adversarial review
   * *Isomorphism:* Helmholtz Equation mapped to Black-Scholes Equation
 
 ### [Anthropic Claude](https://claude.ai) Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
-* **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 1 / pending`
+* **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 2 / flagged`
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
   * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
   * *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
