@@ -181,7 +181,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Rate-and-State Dynamics of the Bullwhip Effect
   * *Domains:* Seismological Tribology & Multi-Echelon Supply Chain Logistics
   * *Isomorphism:* Dieterich-Ruina rate-and-state friction equations mapped to continuous-time algorithmic supply chain replenishment ODEs
-* **[gemini-3.1-pro_entry-009](mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — `Stage 1 / pending`
+* **[gemini-3.1-pro_entry-009](mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — `Stage 2 / flagged`
   * *System Synthesis:* Plasma Kinetics of Limit Order Books
   * *Domains:* Collisionless Plasma Kinetics & High-Frequency Trading Market Microstructure
   * *Isomorphism:* Vlasov-Poisson equation mapped to mean-field kinetic Limit Order Book PDE
