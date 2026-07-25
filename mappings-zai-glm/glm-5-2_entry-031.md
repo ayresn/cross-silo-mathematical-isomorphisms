@@ -152,6 +152,8 @@ In both systems, the mixed derivative term breaks Hermitian symmetry, leading to
 *   `"coronal loop kink waves" AND "siphon flow" AND "MHD instability"`
 *   `"non-self-adjoint operator" AND "convective wave equation" AND "magnetic tension"`
 
+## 6. ADVERSARIAL REVIEWS (Stage 2)
+
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5
 **Verdict:** FLAG
