@@ -294,7 +294,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Spacetime Buckling of Gravitational Waves
   * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
   * *Isomorphism:* Föppl-von Kármán Equations mapped to Szekeres Plane Wave Metric
-* **[glm-5-2_entry-034](mappings-zai-glm/glm-5-2_entry-034.md)** — `Stage 1 / pending`
+* **[glm-5-2_entry-034](mappings-zai-glm/glm-5-2_entry-034.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
   * *System Synthesis:* Densification Limits of Solidification Kinetics
   * *Domains:* Stochastic Geometry Wireless Communications & Phase Transformation Kinetics Additive Manufacturing
   * *Isomorphism:* Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator
