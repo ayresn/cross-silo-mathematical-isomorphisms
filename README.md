@@ -177,7 +177,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Aeroelastic Flutter of Algorithmic Stablecoins
   * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
   * *Isomorphism:* dynamic wing flutter matrix ODE mapped to AMM algorithmic stablecoin price dynamics
-* **[gemini-3.1-pro_entry-008](mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — `Stage 1 / pending`
+* **[gemini-3.1-pro_entry-008](mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — `Stage 2 / rejected`
   * *System Synthesis:* Rate-and-State Dynamics of the Bullwhip Effect
   * *Domains:* Seismological Tribology & Multi-Echelon Supply Chain Logistics
   * *Isomorphism:* Dieterich-Ruina rate-and-state friction equations mapped to continuous-time algorithmic supply chain replenishment ODEs
