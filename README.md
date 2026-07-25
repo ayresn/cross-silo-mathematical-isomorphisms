@@ -282,7 +282,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
 ### [Z.AI GLM](https://chat.z.ai) Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
-* **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 1 / pending`
+* **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
   * *Isomorphism:* Convective Wave Operator mapped to Thin Flux Tube MHD Equations
