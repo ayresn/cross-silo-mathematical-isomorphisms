@@ -286,7 +286,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
   * *Isomorphism:* Convective Wave Operator mapped to Thin Flux Tube MHD Equations
-* **[glm-5-2_entry-032](mappings-zai-glm/glm-5-2_entry-032.md)** — `Stage 1 / pending`
+* **[glm-5-2_entry-032](mappings-zai-glm/glm-5-2_entry-032.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Topological Auxetics of Dirac Strings
   * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
   * *Isomorphism:* Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence
