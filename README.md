@@ -169,7 +169,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* SPH kernel summation operator mapped to GP posterior mean kernel interpolation
 
 ### [Google Gemini](https://aistudio.google.com) Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
-* **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 1 / pending`
+* **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 2 / flagged`
   * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
   * *Isomorphism:* generalized Nonlinear Schrödinger Equation mapped to Amari Neural Field Equations
