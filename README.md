@@ -185,7 +185,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Plasma Kinetics of Limit Order Books
   * *Domains:* Collisionless Plasma Kinetics & High-Frequency Trading Market Microstructure
   * *Isomorphism:* Vlasov-Poisson equation mapped to mean-field kinetic Limit Order Book PDE
-* **[gemini-3.1-pro_entry-010](mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — `Stage 1 / pending`
+* **[gemini-3.1-pro_entry-010](mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — `Stage 2 / flagged` (3/7 adversarial review votes for rejection)
   * *System Synthesis:* Transformation Optics of Pedestrian Crowds
   * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
