@@ -125,23 +125,23 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* Helmholtz Equation mapped to Black-Scholes Equation
 
 ### [Anthropic Claude](https://claude.ai) Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
-* **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 2 / flagged` (0/7 adversarial review votes for rejection)
+* **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 2 / flagged` (0% of reviewers voted to reject)
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
   * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
   * *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
-* **[claude-sonnet-5_entry-037.md](mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — `Stage 2 / rejected` (5/7 adversarial review votes for rejection)
+* **[claude-sonnet-5_entry-037.md](mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
   * *System Synthesis:* Resolution Leakage in Paleoclimate Reconstruction
   * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
   * *Isomorphism:* Seismic Resolution-Matrix / Checkerboard Testing mapped to Paleoclimate Pseudoproxy Validation
-* **[claude-sonnet-5_entry-038.md](mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — `Stage 2 / rejected` (5/7 adversarial review votes for rejection)
+* **[claude-sonnet-5_entry-038.md](mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
   * *System Synthesis:* Lundberg Asymptotics for Extinction Risk
   * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
   * *Isomorphism:* Cramér–Lundberg Ruin Asymptotics mapped to Diffusion-Approximation Extinction Probability
-* **[claude-sonnet-5_entry-039.md](mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — `Stage 2 / rejected` (4/7 adversarial review votes for rejection)
+* **[claude-sonnet-5_entry-039.md](mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Stochastic Barrier-Crossing in Ship Capsize
   * *Domains:* Chemical Physics Barrier-Crossing Kinetics & Naval Architecture Capsize Risk Assessment
   * *Isomorphism:* Kramers Escape-Rate Theory mapped to GZ-Curve Potential-Barrier Capsize Dynamics
-* **[claude-sonnet-5_entry-040.md](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — `Stage 2 / flagged` (1/7 adversarial review votes for rejection)
+* **[claude-sonnet-5_entry-040.md](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — `Stage 2 / flagged` (14% of reviewers voted to reject)
   * *System Synthesis:* Saddle-Node Collapse in Grids and Fisheries
   * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
   * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
@@ -169,23 +169,23 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* SPH kernel summation operator mapped to GP posterior mean kernel interpolation
 
 ### [Google Gemini](https://aistudio.google.com) Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
-* **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 2 / flagged` (3/7 adversarial review votes for rejection)
+* **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
   * *Isomorphism:* generalized Nonlinear Schrödinger Equation mapped to Amari Neural Field Equations
-* **[gemini-3.1-pro_entry-007](mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — `Stage 2 / rejected` (4/7 adversarial review votes for rejection)
+* **[gemini-3.1-pro_entry-007](mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Aeroelastic Flutter of Algorithmic Stablecoins
   * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
   * *Isomorphism:* dynamic wing flutter matrix ODE mapped to AMM algorithmic stablecoin price dynamics
-* **[gemini-3.1-pro_entry-008](mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — `Stage 2 / rejected` (5/7 adversarial review votes for rejection)
+* **[gemini-3.1-pro_entry-008](mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
   * *System Synthesis:* Rate-and-State Dynamics of the Bullwhip Effect
   * *Domains:* Seismological Tribology & Multi-Echelon Supply Chain Logistics
   * *Isomorphism:* Dieterich-Ruina rate-and-state friction equations mapped to continuous-time algorithmic supply chain replenishment ODEs
-* **[gemini-3.1-pro_entry-009](mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — `Stage 2 / flagged` (3/7 adversarial review votes for rejection)
+* **[gemini-3.1-pro_entry-009](mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Plasma Kinetics of Limit Order Books
   * *Domains:* Collisionless Plasma Kinetics & High-Frequency Trading Market Microstructure
   * *Isomorphism:* Vlasov-Poisson equation mapped to mean-field kinetic Limit Order Book PDE
-* **[gemini-3.1-pro_entry-010](mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — `Stage 2 / flagged` (3/7 adversarial review votes for rejection)
+* **[gemini-3.1-pro_entry-010](mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Transformation Optics of Pedestrian Crowds
   * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
@@ -238,23 +238,23 @@ The status tags for the entries below identify each entry's current pipeline sta
 Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI's release of its version K3 model.
 
 ### [OpenAI ChatGPT](https://chatgpt.com) Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
-* **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 2 / rejected` (4/7 adversarial review votes for rejection)
+* **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Energy-Stable Belief Morphogenesis
   * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
   * *Isomorphism:* Allen-Cahn Gradient Flow mapped to Variational Free-Energy Gradient Flow
-* **[gpt-5.5_entry-002](mappings-openai-chatgpt/gpt-5.5_entry-002.md)** — `Stage 2 / rejected` (6/7 adversarial review votes for rejection)
+* **[gpt-5.5_entry-002](mappings-openai-chatgpt/gpt-5.5_entry-002.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
   * *System Synthesis:* Conservative Probability Transport Across Trees
   * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
   * *Isomorphism:* Chemical Master Equation mapped to Sequential Monte Carlo Measure Evolution
-* **[gpt-5.5_entry-003](mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — `Stage 2 / rejected` (4/7 adversarial review votes for rejection)
+* **[gpt-5.5_entry-003](mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Geometric Stewardship Through Split Dynamics
   * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
   * *Isomorphism:* Lie-Algebraic Symplectic Map mapped to Discrete Intervention Operator Splitting
-* **[gpt-5.5_entry-004](mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — `Stage 2 / flagged` (2/7 adversarial review votes for rejection)
+* **[gpt-5.5_entry-004](mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — `Stage 2 / flagged` (29% of reviewers voted to reject)
   * *System Synthesis:* Defect Transport Mirrors Belief Flow
   * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
   * *Isomorphism:* Continuum Dislocation Density Transport Equation mapped to Streaming Variational Probability Transport Equation
-* **[gpt-5.5_entry-005](mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — `Stage 2 / rejected` (5/7 adversarial review votes for rejection)
+* **[gpt-5.5_entry-005](mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
   * *System Synthesis:* Irreversible Graph Fracture Dynamics
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
