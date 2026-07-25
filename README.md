@@ -250,7 +250,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Geometric Stewardship Through Split Dynamics
   * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
   * *Isomorphism:* Lie-Algebraic Symplectic Map mapped to Discrete Intervention Operator Splitting
-* **[gpt-5.5_entry-004](mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — `Stage 1 / pending`
+* **[gpt-5.5_entry-004](mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — `Stage 2 / flagged`
   * *System Synthesis:* Defect Transport Mirrors Belief Flow
   * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
   * *Isomorphism:* Continuum Dislocation Density Transport Equation mapped to Streaming Variational Probability Transport Equation
