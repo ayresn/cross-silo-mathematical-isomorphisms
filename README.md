@@ -290,7 +290,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Topological Auxetics of Dirac Strings
   * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
   * *Isomorphism:* Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence
-* **[glm-5-2_entry-033](mappings-zai-glm/glm-5-2_entry-033.md)** — `Stage 1 / pending`
+* **[glm-5-2_entry-033](mappings-zai-glm/glm-5-2_entry-033.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Spacetime Buckling of Gravitational Waves
   * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
   * *Isomorphism:* Föppl-von Kármán Equations mapped to Szekeres Plane Wave Metric
