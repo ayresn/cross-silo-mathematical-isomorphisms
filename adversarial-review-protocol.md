@@ -39,8 +39,6 @@ You are looking for specific, quotable failures — not stylistic preferences, n
 
 CHECK 1 — YAML METADATA INTEGRITY
 Verify:
-- `providence.model_family` and `providence.model_version` are plausible AI model identifiers (not framework names, dataset names, or the string "SID")
-- `generation_timestamp` is a plausible recent date (not years in the past or future)
 - `triple_correspondence_vectors` lists exactly 3 distinct items
 - `maturity_stage` is set to `"candidate"`
 - `relationship_type` is `"candidate_structural_isomorphism"`
@@ -129,7 +127,7 @@ Output the updated README directory entry with the status tag updated to reflect
 VERDICT LOGIC:
 - PASS → adversarial-cleared: All 6 checks pass with no flags. Entry proceeds to Stage 3 queue.
 - FLAG → adversarial-flagged: One or more FLAG-level issues (implausible score, partial body support, weak falsifiability, asymmetry concern) but no fatal flaws. Entry proceeds to Stage 3 with watch items noted for the human reviewer.
-- REJECT → adversarial-rejected: Any FAIL-level issue: wrong or misattributed equation, category-error vocabulary mapping, all three YAML vectors unaddressed in body, recognizable textbook analogy, or YAML metadata containing non-model identifiers. Entry does NOT proceed to Stage 3. It is committed to the repository as adversarial-rejected for false-positive-rate tracking, but is clearly marked as not requiring Stage 3 human effort.
+- REJECT → adversarial-rejected: Any FAIL-level issue: wrong or misattributed equation, category-error vocabulary mapping, all three YAML vectors unaddressed in body, recognizable textbook analogy, or invalid YAML metadata. Entry does NOT proceed to Stage 3. It is committed to the repository as adversarial-rejected for false-positive-rate tracking, but is clearly marked as not requiring Stage 3 human effort.
 
 [PASTE CANDIDATE ENTRY HERE]
 ````
