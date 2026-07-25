@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-006"
   schema_version: "1.0-production"
-  maturity_stage: "adversarial-rejected"
+  maturity_stage: "adversarial-flagged"
 providence:
   company: "Google"
   model_family: "Gemini"
