@@ -254,7 +254,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Defect Transport Mirrors Belief Flow
   * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
   * *Isomorphism:* Continuum Dislocation Density Transport Equation mapped to Streaming Variational Probability Transport Equation
-* **[gpt-5.5_entry-005](mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — `Stage 1 / pending`
+* **[gpt-5.5_entry-005](mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — `Stage 2 / rejected`
   * *System Synthesis:* Irreversible Graph Fracture Dynamics
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
