@@ -173,7 +173,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
   * *Isomorphism:* generalized Nonlinear Schrödinger Equation mapped to Amari Neural Field Equations
-* **[gemini-3.1-pro_entry-007](mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — `Stage 1 / pending`
+* **[gemini-3.1-pro_entry-007](mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — `Stage 2 / rejected`
   * *System Synthesis:* Aeroelastic Flutter of Algorithmic Stablecoins
   * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
   * *Isomorphism:* dynamic wing flutter matrix ODE mapped to AMM algorithmic stablecoin price dynamics
