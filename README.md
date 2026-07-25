@@ -83,7 +83,7 @@ The **Maturity** tags for the entries below identify each entry's current pipeli
 The **Rejection Votes** column reflects the percentage of reviewers that voted to reject the entry in Stage 2 adversarial review as a rough early indicator of the entry's potential quality level. I.e., a lower percentage is better, and a percentage above 50% results in the entry failing Stage 2 and being labeled `adversarial-rejected`.
 
 | SID | Model | Stage | Maturity | Rejection Votes | Summary |
-|:---:|:---|:---|:---:|:---|
+| :---: | :--- | :---: | :---: | :---: | :--- |
 | **[001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** | [OpenAI ChatGPT](https://chatgpt.com) | 2 | `adversarial-rejected` | 57% | *System Synthesis:* Energy-Stable Belief Morphogenesis.<br>*Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs.<br>*Isomorphism:* Allen-Cahn Gradient Flow mapped to Variational Free-Energy Gradient Flow. |
 | **[002](mappings-openai-chatgpt/gpt-5.5_entry-002.md)** | [OpenAI ChatGPT](https://chatgpt.com) | 2 | `adversarial-rejected` | 86% | *System Synthesis:* Conservative Probability Transport Across Trees.<br>*Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo.<br>*Isomorphism:* Chemical Master Equation mapped to Sequential Monte Carlo Measure Evolution. |
 | **[003](mappings-openai-chatgpt/gpt-5.5_entry-003.md)** | [OpenAI ChatGPT](https://chatgpt.com) | 2 | `adversarial-rejected` | 57% | *System Synthesis:* Geometric Stewardship Through Split Dynamics.<br>*Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management.<br>*Isomorphism:* Lie-Algebraic Symplectic Map mapped to Discrete Intervention Operator Splitting. |
