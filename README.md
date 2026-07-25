@@ -298,7 +298,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Densification Limits of Solidification Kinetics
   * *Domains:* Stochastic Geometry Wireless Communications & Phase Transformation Kinetics Additive Manufacturing
   * *Isomorphism:* Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator
-* **[glm-5-2_entry-035](mappings-zai-glm/glm-5-2_entry-035.md)** — `Stage 1 / pending`
+* **[glm-5-2_entry-035](mappings-zai-glm/glm-5-2_entry-035.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
   * *System Synthesis:* Topological Gauge Fixing of Truss Collapse
   * *Domains:* Quantum Information Science & Computational Structural Mechanics
   * *Isomorphism:* Surface Code Boundary Operator mapped to Truss Equilibrium Matrix
