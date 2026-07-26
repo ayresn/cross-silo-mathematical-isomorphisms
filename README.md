@@ -195,7 +195,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Void Coalescence As Cosmic Percolation
   * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
   * *Isomorphism:* GTN Porous Plasticity JMAK Kinetics mapped to False Vacuum Bubble Nucleation Avrami Kinetics
-* **[muse-spark-1-1_entry-022](mappings-meta-muse/muse-spark-1-1_entry-022.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-022](mappings-meta-muse/muse-spark-1-1_entry-022.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Elastic Turbulence Of Echo Chambers
   * *Domains:* Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
   * *Isomorphism:* Oldroyd-B Conformation Transport mapped to Covariance Lyapunov Transport
