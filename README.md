@@ -147,7 +147,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
 
 ### [DeepSeek DeepSeek](https://chat.deepseek.com) Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
-* **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 1 / pending`
+* **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Helical Buckling of Elastic Defect Lines
   * *Domains:* Elastohydrodynamics of Active Filaments & Dislocation Dynamics in Crystalline Solids
   * *Isomorphism:* Resistive‑force theory with bending mapped to dislocation mobility law with line tension
