@@ -81,7 +81,7 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 The status tags for the entries below identify each entry's current pipeline stage. **No entry in this directory should be treated as a verified finding unless it specifically bears the `Stage 3 / validated` status tag indicating that it passed both adversarial review and bibliometric validation.** Entries that failed Stage 2 adversarial review or Stage 3 bibliometric validation are retained in the dataset with `rejected` status tags indicating what Stage they failed to clear for false-positive-rate tracking, and should not be treated as research leads.
 
 ### [Alibaba Qwen](https://chat.qwen.ai) Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
-* **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 1 / pending`
+* **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Plastic Projection of Traffic Congestion
   * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
   * *Isomorphism:* Return-mapping elastoplasticity mapped to Beckmann traffic equilibrium
