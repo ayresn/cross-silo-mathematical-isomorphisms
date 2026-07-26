@@ -264,7 +264,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
   * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
   * *Isomorphism:* Linearised wave operator spectrum mapped to generalised eigenvalue problem
-* **[grok-beta_entry-012](mappings-xai-grok/grok-beta_entry-012.md)** — `Stage 1 / pending`
+* **[grok-beta_entry-012](mappings-xai-grok/grok-beta_entry-012.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Coupled Pressure-Driven Deformation Waves
   * *Domains:* Poroelasticity & Agent-based Epidemic Modeling
   * *Isomorphism:* Biot consolidation operator mapped to mean-field mobility-infection system
