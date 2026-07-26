@@ -93,7 +93,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Etch-Shadowed Karst Conduit Pitting
   * *Domains:* High-Aspect-Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
   * *Isomorphism:* Coburn–Winters ion-enhanced etch model mapped to Dreybrodt dissolution law
-* **[qwen3.8_entry-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — `Stage 1 / pending`
+* **[qwen3.8_entry-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — `Stage 2 / flagged` (14% of reviewers voted to reject)
   * *System Synthesis:* Criticality Transport for Landscape Persistence
   * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
   * *Isomorphism:* Boltzmann transport k-eigenvalue mapped to linearized stage-structured transport-growth eigenvalue
