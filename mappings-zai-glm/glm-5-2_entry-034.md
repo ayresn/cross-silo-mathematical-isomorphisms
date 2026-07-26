@@ -148,7 +148,9 @@ By mapping the spatial variable in the wireless integral to the time-history var
 *   `"stochastic geometry" AND "coverage probability" AND "multi-tier Poisson point process"`
 *   `"Johnson-Mehl-Avrami-Kolmogorov" AND "additive manufacturing" AND "soft impingement"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

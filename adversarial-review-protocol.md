@@ -98,7 +98,7 @@ validation_status:
 
 Output a Section 6 block formatted exactly as shown, to be appended to the entry's .md file:
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** [model name and version]

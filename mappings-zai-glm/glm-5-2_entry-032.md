@@ -146,7 +146,9 @@ Because the graph divergence operator $D$ is definitionally equivalent to the st
 *   `"Matrix Force Method" AND "equilibrium matrix" AND "states of self-stress"`
 *   `"artificial spin ice" AND "topological charge" AND "Dirac string"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

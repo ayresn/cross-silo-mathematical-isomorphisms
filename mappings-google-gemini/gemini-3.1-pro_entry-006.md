@@ -153,7 +153,9 @@ When multiple-scales reductive perturbation is applied to the Amari equation nea
 *   `"Benjamin-Feir instability" AND "Nonlinear Schrödinger Equation" AND "optical rogue waves"`
 *   `"Amari neural field equation" AND "Turing-Hopf bifurcation" AND "amplitude equation" AND "multiple scales"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

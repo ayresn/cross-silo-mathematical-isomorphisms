@@ -162,7 +162,9 @@ In latent phase space, the sudden catastrophic upstream surge of the Bullwhip Ef
 *   `"rate-and-state friction" AND "Dieterich-Ruina" AND "characteristic slip distance" AND "Hopf bifurcation"`
 *   `"bullwhip effect" AND "continuous time inventory model" AND "delay differential equation" AND "limit cycle"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

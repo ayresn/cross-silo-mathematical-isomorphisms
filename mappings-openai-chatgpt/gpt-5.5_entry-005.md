@@ -187,7 +187,9 @@ where \(\mathcal{A}\) denotes the admissible set of directed acyclic graphs. Man
 * `"variational phase-field fracture" AND "alternating minimization" AND "irreversibility constraint"`
 * `"Bayesian network structure learning" AND "score-based optimization" AND "acyclicity constraint"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

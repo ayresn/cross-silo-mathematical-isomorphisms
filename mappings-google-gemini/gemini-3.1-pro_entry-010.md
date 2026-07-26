@@ -144,7 +144,9 @@ In latent space topology, a crowd fluid flowing around a physical pillar is math
 *   `"transformation optics" AND "diffeomorphism invariance" AND "Eikonal equation" AND "metric tensor"`
 *   `"Hughes model" AND "pedestrian crowd dynamics" AND "anisotropic Eikonal" AND "macroscopic model"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

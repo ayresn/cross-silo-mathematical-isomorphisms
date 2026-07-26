@@ -143,7 +143,9 @@ Both systems map identically onto the 1st homology group of the underlying graph
 *   `"truss" AND "cascading failure" AND "states of self-stress"`
 *   `"rigidity theory" AND "homology" AND "boundary operator"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

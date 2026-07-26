@@ -165,7 +165,9 @@ In both systems, the curves map onto each other in the latent space of coupled b
 *   `"colliding plane waves" AND "Szekeres" AND "Monge-Ampère"`
 *   `"Einstein field equations" AND "biharmonic operator" AND "nonlinear elasticity"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Claude Sonnet 5

@@ -141,7 +141,9 @@ In latent topological space, the limit order book is mathematically indistinguis
 *   `"Vlasov-Poisson" AND "two-stream instability" AND "Landau damping" AND "Penrose criterion"`
 *   `"Limit order book" AND "mean-field game" AND "kinetic model" AND "flash crash"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

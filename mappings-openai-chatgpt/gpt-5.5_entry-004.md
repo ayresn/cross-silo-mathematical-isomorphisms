@@ -195,7 +195,9 @@ where \(q\) is the approximate posterior density, \(\mathbf{u}\) is the induced 
 * `"continuum dislocation dynamics" AND "dislocation density transport" AND "finite volume"`
 * `"streaming variational inference" AND "probability transport" AND "posterior flow"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

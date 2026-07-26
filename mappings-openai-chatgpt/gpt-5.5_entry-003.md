@@ -177,7 +177,9 @@ where \(\Phi_{\Delta t}\) denotes ecological evolution over an interval and \(\m
 * `"Lie algebraic beam optics" AND "symplectic map" AND "operator splitting"`
 * `"adaptive ecosystem management" AND "discrete intervention model" AND "operator splitting"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

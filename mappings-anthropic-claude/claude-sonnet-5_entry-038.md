@@ -147,7 +147,9 @@ This is the same curve as ψ(u) under the substitution u ↔ d, μ ↔ (r − σ
 ## 6. ADDITIONAL NOTE FROM CLAUDE
 One honest flag from inside the entry itself, worth surfacing rather than burying in the YAML: I scored `representation_mismatch_score` at 4.5 because both silos here are already stochastic-process formulations at the core; the mismatch is disciplinary and notational, not ontological (unlike, say, mapping a continuum-mechanics tensor onto a discrete probability graph). And `primary_failure_risk` flags the real threat to this one at Stage 3: the light-tailed diffusion equivalence is common-enough applied-probability machinery that it may already have informal precedent somewhere in the quantitative-ecology literature, even if the specific heavy-tail transfer doesn't. That's exactly the kind of thing Stage 3 search should surface — this entry's search strings are aimed squarely at checking it.
 
-## 7. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** OpenAI GPT-5.5

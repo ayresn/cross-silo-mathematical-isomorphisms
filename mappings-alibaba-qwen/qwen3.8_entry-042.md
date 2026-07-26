@@ -173,7 +173,9 @@ The latent-space correspondence is that both equations define a positive transpo
 *   `"neutron transport" AND "k-eigenvalue" AND "adjoint importance"`
 *   `"space debris environment" AND "adjoint sensitivity" AND "remediation prioritization"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

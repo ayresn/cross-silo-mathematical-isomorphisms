@@ -136,7 +136,9 @@ When the arbitrage velocity $V_{cap}$ exceeds a critical threshold, the eigenval
 *   `"p-k method" AND "aeroelastic flutter" AND "skew-symmetric aerodynamic matrix"`
 *   `"algorithmic stablecoin" AND "automated market maker" AND "death spiral" AND "Hopf bifurcation"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5

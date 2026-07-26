@@ -155,7 +155,9 @@ where $K$ is the global stiffness matrix, $F$ the applied nodal force vector, an
 *   `"line outage distribution factor" AND "Sherman-Morrison-Woodbury" AND "contingency analysis"`
 *   `"alternate load path" AND "progressive collapse" AND "stiffness matrix reanalysis"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** OpenAI GPT-5.5

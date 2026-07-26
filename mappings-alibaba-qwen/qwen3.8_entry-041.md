@@ -173,7 +173,9 @@ In latent-space topology, the elastic domain in stress space and the feasible fl
 *   `"Beckmann user equilibrium" AND "queue spillback" AND "Braess paradox"`
 *   `"variational inequality" AND "dynamic traffic assignment" AND "complementarity"`
 
-## 6. ADVERSARIAL REVIEWS (Stage 2)
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
 **Reviewer:** Anthropic Claude Sonnet 5
