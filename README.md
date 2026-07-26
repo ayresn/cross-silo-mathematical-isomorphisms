@@ -223,7 +223,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model
 
 ### [Microsoft Copilot](https://copilot.microsoft.com) Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
-* **[copilot_entry-016](mappings-microsoft-copilot/copilot_entry-016.md)** — `Stage 1 / pending`
+* **[copilot_entry-016](mappings-microsoft-copilot/copilot_entry-016.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Energy‑Driven Polarization Mapping
   * *Domains:* Variational Phase‑Field Fracture & Kinetic Opinion Dynamics
   * *Isomorphism:* Variational phase‑field gradient flow mapped to nonlocal Fokker‑Planck aggregation–diffusion
