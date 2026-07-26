@@ -155,7 +155,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Elastic Spinodal Patterning of Living Gels
   * *Domains:* Phase-Field Dendrite Growth & Biofilm Pattern Formation
   * *Isomorphism:* Cahn-Hilliard with chemo-elastic coupling mapped to biofilm phase separation with EPS elasticity
-* **[deepseek_entry-028](mappings-deepseek-deepseek/deepseek_entry-028.md)** — `Stage 1 / pending`
+* **[deepseek_entry-028](mappings-deepseek-deepseek/deepseek_entry-028.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Nonlocal Laplacian Solver for Mega-Graph Labeling
   * *Domains:* Peridynamic Fracture Mechanics & Graph-Based Semi-Supervised Learning
   * *Isomorphism:* Peridynamic equilibrium integral operator mapped to graph Laplacian regularization system
