@@ -203,7 +203,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Coherence Collapse Of Epidemic Waves
   * *Domains:* Semiconductor Laser Dynamics & Mathematical Epidemiology
   * *Isomorphism:* Lang-Kobayashi Delay Model mapped to SIRS Delay Model
-* **[muse-spark-1-1_entry-024](mappings-meta-muse/muse-spark-1-1_entry-024.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-024](mappings-meta-muse/muse-spark-1-1_entry-024.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Parton Showers Of Genomes
   * *Domains:* Parton Shower Dynamics & Gene Family Evolution
   * *Isomorphism:* DGLAP Evolution Equation mapped to Duplication Loss Master Equation
