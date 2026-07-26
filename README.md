@@ -282,7 +282,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Discrete Slip in Crystals and Strategies
   * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
   * *Isomorphism:* Schmid law flow rule mapped to replicator payoff dynamics
-* **[grok-beta_entry-014](mappings-xai-grok/grok-beta_entry-014.md)** — `Stage 1 / pending`
+* **[grok-beta_entry-014](mappings-xai-grok/grok-beta_entry-014.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
   * *System Synthesis:* Nonlocal Regularization of Softening Fronts
   * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
   * *Isomorphism:* Nonlocal integral operator mapped to mobility convolution kernel
