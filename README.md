@@ -260,7 +260,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
 ### [xAI Grok](https://grok.com) Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
-* **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 1 / pending`
+* **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
   * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
   * *Isomorphism:* Linearised wave operator spectrum mapped to generalised eigenvalue problem
