@@ -159,7 +159,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Nonlocal Laplacian Solver for Mega-Graph Labeling
   * *Domains:* Peridynamic Fracture Mechanics & Graph-Based Semi-Supervised Learning
   * *Isomorphism:* Peridynamic equilibrium integral operator mapped to graph Laplacian regularization system
-* **[deepseek_entry-029](mappings-deepseek-deepseek/deepseek_entry-029.md)** — `Stage 1 / pending`
+* **[deepseek_entry-029](mappings-deepseek-deepseek/deepseek_entry-029.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Tensor-Train Solver for Neural Ensemble Fokker-Planck
   * *Domains:* Microstructural Polymer Dynamics & Population-Density Neural Dynamics
   * *Isomorphism:* Dumbbell Fokker-Planck equation mapped to adaptive integrate-and-fire population density equation
