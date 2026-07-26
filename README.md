@@ -191,7 +191,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
 
 ### [Meta Muse](https://www.meta.ai) Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
-* **[muse-spark-1-1_entry-021](mappings-meta-muse/muse-spark-1-1_entry-021.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-021](mappings-meta-muse/muse-spark-1-1_entry-021.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Void Coalescence As Cosmic Percolation
   * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
   * *Isomorphism:* GTN Porous Plasticity JMAK Kinetics mapped to False Vacuum Bubble Nucleation Avrami Kinetics
