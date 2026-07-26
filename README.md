@@ -1,6 +1,16 @@
 # CROSS-SILO MATHEMATICAL ISOMORPHISMS
 An open-access dataset and structural representation corpus compiling high-density Structural Isomorphism Discovery (SID) candidates across disconnected scientific disciplines.
 
+In simple terms, the intent of this repository is to leverage the fact that large volumes of scientific research papers were ingested into frontier LLM training datasets in order to:
+
+1. Identify two scientific disciplines using the same mathematical formulas ("structural isomorphisms") according to the maps that the models build from patterns in their training text, where related-seeming ideas end up near each other
+1. Narrow that list to pairs where the model believes one of the two disciplines has already solved a mathematical problem the other is currently facing
+1. Narrow it further to pairs where the model believes, based on patterns in its training data, that little or no collaboration has occurred between the two disciplines (i.e., that they're "siloed" from each other) and that they've developed distinct technical vocabularies to describe the same underlying mathematics
+
+With the goal of identifying potential candidates for an "asymmetric transfer" of existing mathematical solutions in order to potentially accelerate scientific progress in disciplines struggling with problems already solved elsewhere.
+
+All three of these are judgments made by a single AI model in one pass — claims, not confirmed filters. That's exactly what the repository's separate Stage 2 (multiple other frontier AI models adversarially checking the first model's claims) and Stage 3 (a human checking the actual published literature) exist to test. No entry should be treated as accurate until it has cleared Stage 3.
+
 ## 1. CORE ARCHITECTURAL OBJECTIVES
 This repository is engineered to operate simultaneously across two separate informational paradigms:
 
