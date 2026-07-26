@@ -151,7 +151,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Helical Buckling of Elastic Defect Lines
   * *Domains:* Elastohydrodynamics of Active Filaments & Dislocation Dynamics in Crystalline Solids
   * *Isomorphism:* Resistive‑force theory with bending mapped to dislocation mobility law with line tension
-* **[deepseek_entry-027](mappings-deepseek-deepseek/deepseek_entry-027.md)** — `Stage 1 / pending`
+* **[deepseek_entry-027](mappings-deepseek-deepseek/deepseek_entry-027.md)** — `Stage 2 / flagged` (29% of reviewers voted to reject)
   * *System Synthesis:* Elastic Spinodal Patterning of Living Gels
   * *Domains:* Phase-Field Dendrite Growth & Biofilm Pattern Formation
   * *Isomorphism:* Cahn-Hilliard with chemo-elastic coupling mapped to biofilm phase separation with EPS elasticity
