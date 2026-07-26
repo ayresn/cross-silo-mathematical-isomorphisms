@@ -207,7 +207,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Parton Showers Of Genomes
   * *Domains:* Parton Shower Dynamics & Gene Family Evolution
   * *Isomorphism:* DGLAP Evolution Equation mapped to Duplication Loss Master Equation
-* **[muse-spark-1-1_entry-025](mappings-meta-muse/muse-spark-1-1_entry-025.md)** — `Stage 1 / pending`
+* **[muse-spark-1-1_entry-025](mappings-meta-muse/muse-spark-1-1_entry-025.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Seismic Faults As Forgetting Synapses
   * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
   * *Isomorphism:* Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model
