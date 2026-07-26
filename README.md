@@ -268,7 +268,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Coupled Pressure-Driven Deformation Waves
   * *Domains:* Poroelasticity & Agent-based Epidemic Modeling
   * *Isomorphism:* Biot consolidation operator mapped to mean-field mobility-infection system
-* **[grok-beta_entry-013](mappings-xai-grok/grok-beta_entry-013.md)** — `Stage 1 / pending`
+* **[grok-beta_entry-013](mappings-xai-grok/grok-beta_entry-013.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
   * *System Synthesis:* Discrete Slip in Crystals and Strategies
   * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
   * *Isomorphism:* Schmid law flow rule mapped to replicator payoff dynamics
