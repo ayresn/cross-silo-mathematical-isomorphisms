@@ -85,7 +85,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Plastic Projection of Traffic Congestion
   * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
   * *Isomorphism:* Return-mapping elastoplasticity mapped to Beckmann traffic equilibrium
-* **[qwen3.8_entry-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — `Stage 1 / pending`
+* **[qwen3.8_entry-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — `Stage 2 / flagged` (0% of reviewers voted to reject)
   * *System Synthesis:* Adjoint Control of Debris Cascades
   * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
   * *Isomorphism:* linearized debris Boltzmann cascade equation mapped to neutron transport k-eigenvalue equation
