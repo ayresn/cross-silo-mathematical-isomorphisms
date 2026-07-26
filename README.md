@@ -286,7 +286,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *System Synthesis:* Nonlocal Regularization of Softening Fronts
   * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
   * *Isomorphism:* Nonlocal integral operator mapped to mobility convolution kernel
-* **[grok-beta_entry-015](mappings-xai-grok/grok-beta_entry-015.md)** — `Stage 1 / pending`
+* **[grok-beta_entry-015](mappings-xai-grok/grok-beta_entry-015.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Backward Duals for Forward Calibration
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
