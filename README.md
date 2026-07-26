@@ -89,7 +89,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Adjoint Control of Debris Cascades
   * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
   * *Isomorphism:* linearized debris Boltzmann cascade equation mapped to neutron transport k-eigenvalue equation
-* **[qwen3.8_entry-043](mappings-alibaba-qwen/qwen3.8_entry-043.md)** — `Stage 1 / pending`
+* **[qwen3.8_entry-043](mappings-alibaba-qwen/qwen3.8_entry-043.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Etch-Shadowed Karst Conduit Pitting
   * *Domains:* High-Aspect-Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
   * *Isomorphism:* Coburn–Winters ion-enhanced etch model mapped to Dreybrodt dissolution law
