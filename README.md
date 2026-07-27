@@ -227,7 +227,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Energy‑Driven Polarization Mapping
   * *Domains:* Variational Phase‑Field Fracture & Kinetic Opinion Dynamics
   * *Isomorphism:* Variational phase‑field gradient flow mapped to nonlocal Fokker‑Planck aggregation–diffusion
-* **[copilot_entry-017](mappings-microsoft-copilot/copilot_entry-017.md)** — `Stage 1 / pending`
+* **[copilot_entry-017](mappings-microsoft-copilot/copilot_entry-017.md)** — `Stage 2 / flagged` (29% of reviewers voted to reject)
   * *System Synthesis:* Kinked Slip‑Reconnection Analogy
   * *Domains:* Resistive Magnetohydrodynamics & Interfacial Delamination
   * *Isomorphism:* Reduced MHD reconnection operator mapped to Interfacial integro‑differential slip evolution
