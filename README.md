@@ -20,11 +20,11 @@ As of the current commit:
 | Metric | Value |
 | --- | --- |
 | Total entries in dataset | 50 |
+| Entries awaiting Stage 2 adversarial review | 5 |
 | Entries that have completed Stage 2 adversarial review | 45 |
 | — rejected at Stage 2 (`adversarial-rejected`) | **28 (62.2%)** |
 | — advanced to Stage 3 queue (`adversarial-flagged`) | **17 (37.8%)** |
 | — cleared with no reviewer objections (`adversarial-cleared`) | **0** |
-| Entries awaiting Stage 2 | 5 |
 | Entries that have completed Stage 3 human bibliometric validation | **0** |
 | — failed bibliometric validation at Stage 3 (`failed-validation`) | **0** |
 | — confirmed as novel, valid research leads (`validated-candidate`) | **0** |
