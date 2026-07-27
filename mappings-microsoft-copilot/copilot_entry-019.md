@@ -58,7 +58,7 @@ validation_status:
     verdict: "REJECT"
     verdict_rationale: "Section 2 maps a vector-valued continuum displacement field to a scalar node potential, which is a mathematical type mismatch that breaks the claimed correspondence."
     failed_checks:
-      - "Check 3: 'elastic displacement \(\mathbf{u}(\mathbf{x},t)\)' ↔ 'influence potential \(\psi_i(t)\)' is a vector-to-scalar category error."
+      - "Check 3: 'elastic displacement \\(\\mathbf{u}(\\mathbf{x},t)\\)' ↔ 'influence potential \\(\\psi_i(t)\\)' is a vector-to-scalar category error."
     flagged_checks: []
     stage_3_watch_items: []
   third_adversarial_review:
