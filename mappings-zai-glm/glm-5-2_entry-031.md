@@ -4,10 +4,10 @@ sid_metadata:
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
 providence:
-  company: "Anthropic"
-  model_family: "Claude"
-  model_version: "claude-3-5-sonnet-20240620"
-  generation_timestamp: "2024-10-24"
+  company: "Z.AI"
+  model_family: "GLM"
+  model_version: "5.2"
+  generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:
   domain_a: "axially-moving-continua-mechanics"

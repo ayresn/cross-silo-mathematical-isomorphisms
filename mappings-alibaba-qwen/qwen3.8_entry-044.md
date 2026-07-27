@@ -4,9 +4,9 @@ sid_metadata:
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
 providence:
-  company: "Alibaba Group"
+  company: "Alibaba"
   model_family: "Qwen"
-  model_version: "qwen3-8"
+  model_version: "3.8-Max"
   generation_timestamp: "2026-07-23"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

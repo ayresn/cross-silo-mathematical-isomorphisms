@@ -4,9 +4,9 @@ sid_metadata:
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
 providence:
-  company: "OpenAI"
-  model_family: "GPT"
-  model_version: "gpt-4o-2024-08-06"
+  company: "Google"
+  model_family: "Gemini"
+  model_version: "3.1 Pro"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

@@ -6,7 +6,7 @@ sid_metadata:
 providence:
   company: "Alibaba"
   model_family: "Qwen"
-  model_version: "qwen3-8"
+  model_version: "3.8-Max"
   generation_timestamp: "2026-07-23"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

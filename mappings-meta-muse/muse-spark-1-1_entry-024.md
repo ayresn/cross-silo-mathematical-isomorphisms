@@ -5,8 +5,8 @@ sid_metadata:
   maturity_stage: "adversarial-rejected"
 providence:
   company: "Meta"
-  model_family: "Muse Spark"
-  model_version: "Muse Spark 1.1"
+  model_family: "Muse"
+  model_version: "Spark 1.1"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

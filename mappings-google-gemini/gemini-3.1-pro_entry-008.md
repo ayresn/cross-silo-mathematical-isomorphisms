@@ -4,9 +4,9 @@ sid_metadata:
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
 providence:
-  company: "Anthropic"
-  model_family: "Claude"
-  model_version: "claude-3-5-sonnet-20240620"
+  company: "Google"
+  model_family: "Gemini"
+  model_version: "3.1 Pro"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

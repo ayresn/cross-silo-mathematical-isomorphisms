@@ -6,7 +6,7 @@ sid_metadata:
 providence:
   company: "OpenAI"
   model_family: "GPT"
-  model_version: "GPT-5.5"
+  model_version: "5.5"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

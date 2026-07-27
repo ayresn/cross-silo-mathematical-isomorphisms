@@ -6,7 +6,7 @@ sid_metadata:
 providence:
   company: "Google"
   model_family: "Gemini"
-  model_version: "gemini-1.5-pro"
+  model_version: "3.1 Pro"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

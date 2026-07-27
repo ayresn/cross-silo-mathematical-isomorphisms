@@ -6,7 +6,7 @@ sid_metadata:
 providence:
   company: "Anthropic"
   model_family: "Claude"
-  model_version: "Claude Sonnet 5"
+  model_version: "Sonnet 5"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

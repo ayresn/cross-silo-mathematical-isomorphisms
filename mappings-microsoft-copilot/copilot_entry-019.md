@@ -4,9 +4,9 @@ sid_metadata:
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
 providence:
-  company: "AcmeAI"
-  model_family: "gptx"
-  model_version: "gptx-1.0"
+  company: "Microsoft"
+  model_family: "Copilot"
+  model_version: "1.2"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:

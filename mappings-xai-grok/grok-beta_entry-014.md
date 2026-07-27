@@ -6,7 +6,7 @@ sid_metadata:
 providence:
   company: "xAI"
   model_family: "Grok"
-  model_version: "grok-beta"
+  model_version: "4"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:
