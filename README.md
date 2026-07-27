@@ -161,7 +161,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Isomorphism:* Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator
 
 ### Amazon Nova Mapping Matrix ([`/mappings-amazon-nova/`](mappings-amazon-nova/))
-* **[1.0_entry-046](mappings-amazon-nova/1.0_entry-046.md)** — `Stage 1 / pending`
+* **[1.0_entry-046](mappings-amazon-nova/1.0_entry-046.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Optical Instability Mirrors Fluid Turbulence
   * *Domains:* Nonlinear Optics & Fluid Turbulence
   * *Isomorphism:* Nonlinear Schrödinger Equation mapped to Vorticity Equation
