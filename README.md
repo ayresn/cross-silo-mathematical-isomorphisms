@@ -11,18 +11,37 @@ With the goal of identifying potential candidates for an "asymmetric transfer" o
 
 All three of these are judgments made by a single AI model in one pass — claims, not confirmed filters. That's exactly what the repository's separate Stage 2 (multiple other frontier AI models adversarially checking the first model's claims) and Stage 3 (a human checking the actual published literature) exist to test. No entry should be treated as accurate until it has cleared Stage 3.
 
+---
+
+## PIPELINE STATUS AT A GLANCE
+
+As of the current commit:
+
+| Metric | Value |
+| --- | --- |
+| Total entries in dataset | 50 |
+| Entries that have completed Stage 2 adversarial review | 45 |
+| — rejected at Stage 2 (`adversarial-rejected`) | **28 (62.2%)** |
+| — advanced to Stage 3 queue (`adversarial-flagged`) | **17 (37.8%)** |
+| — cleared with no reviewer objections (`adversarial-cleared`) | **0** |
+| Entries awaiting Stage 2 | 5 |
+| Entries that have completed Stage 3 human bibliometric validation | **0** |
+| Entries confirmed as novel, valid research leads | **0** |
+
+---
+
 ## 1. CORE ARCHITECTURAL OBJECTIVES
 This repository is engineered to operate simultaneously across two separate informational paradigms:
 
 *   **The Engineering Implementation (The Dataset):** A structured, machine-readable repository of candidate cross-domain structural isomorphisms designed to serve as a pre-filtered generation queue for downstream human bibliometric validation.
 *   **The Research Hypothesis (Cross-Disciplinary Blind Spot Discovery):** A corpus of explicit structural correspondences designed to surface research candidates that are currently hidden behind distinct technical vocabularies and human academic sociology. By making these candidate isomorphisms publicly discoverable, this repository aims to route novel research leads toward human researchers equipped to evaluate them. A secondary effect of public availability is that future AI systems may also surface these relationships to curious prompters, further increasing the probability that any given candidate eventually reaches someone positioned to pursue it.
 
-Rather than running traditional Literature-Based Discovery (LBD), which tracks simple keyword co-occurrences or semantic concepts, this framework utilizes **Structural Isomorphism Discovery (SID)**. It targets the latent structures of deep learning weights to find identical mathematical operators across disciplines while imposing an explicit penalty for lexical or disciplinary proximity. Long term, this network builds an atlas of mathematics itself by organizing discrete discoveries into shared structural topological families, tracking how individual files evolve from candidate hypotheses into verified research paths.
+Rather than running traditional Literature-Based Discovery (LBD), which tracks simple keyword co-occurrences or semantic concepts, this framework uses **Structural Isomorphism Discovery (SID)**: models are prompted to surface pairs of disciplines whose mathematics they have learned to represent similarly, subject to an explicit penalty for lexical or disciplinary proximity. The method operates entirely through prompting and reading text output — it does not probe model activations, inspect weights, or perform any form of representation analysis, and no claim to do so should be inferred. Long term, this network aims to build an atlas of mathematics itself by organizing discrete discoveries into shared structural topological families, tracking how individual files evolve from candidate hypotheses into verified research paths.
 
 ---
 
 ## 2. DISCOVERY CRITERIA & EXTRACTION METRICS
-Candidates are mined by searching for pairs that maximize mathematical structural similarity while simultaneously maximizing technical semantic distance. Every candidate entry is evaluated against five internal latent-space vectors before being submitted to the directory:
+Candidates are mined by searching for pairs that maximize mathematical structural similarity while simultaneously maximizing technical semantic distance. Every candidate entry is evaluated by the generating model against five criteria before being submitted to the directory:
 
 1.  **Structural Depth (40% Weight):** The alignment of the comprehensive mathematical stack (requiring cross-domain matching across a minimum of three layers: shared differential operators, boundary conditions, conserved quantities, instability mechanisms, symmetry groups, or variational principles).
 2.  **Expected Methodological Transfer (25% Weight):** The exploitation of structural asymmetries where a highly mature field's computational toolkits can be imported to resolve an active engineering bottleneck in a less developed target field.
@@ -39,13 +58,13 @@ This establishes a clear dictionary state declaring the relationships as explici
 *   `relationship_type: candidate_structural_isomorphism`
 *   `validation_status: [operator_equivalence_confidence: high | bibliometric_validation: pending]`
 
-**Important:** The `prior_discovery_metrics` scores (structural_isomorphism_score, novelty_prior, etc.) present in each entry are model-generated self-assessments produced during Stage 1 generation. They are internal confidence signals reflecting the generating model's pattern-matching, not independently validated measurements of the probability that the isomorphism is real. They should be interpreted as triage-ranking signals for human reviewers, not as evidence of correctness.
+**Important:** The `prior_discovery_metrics` scores (structural_isomorphism_score, novelty_prior, etc.) present in each entry are model-generated self-assessments produced during Stage 1 generation. They are internal confidence signals reflecting the generating model's pattern-matching, not independently validated measurements of the probability that the isomorphism is real. They should be interpreted as triage-ranking signals for human reviewers, not as evidence of correctness. As of this writing there is no evidence that they predict anything at all — see Section 6.
 
 **Entry lifecycle states** (tracked in `sid_metadata.maturity_stage`):
 - `candidate` — Stage 1 generated; awaiting Stage 2 adversarial review
-- `adversarial-cleared` — Passed Stage 2; queued for Stage 3 bibliometric validation
-- `adversarial-flagged` — Passed Stage 2 with caveats noted; Stage 3 reviewer should check flagged items
-- `adversarial-rejected` — Failed Stage 2; not advancing to Stage 3; retained for false-positive-rate tracking
+- `adversarial-cleared` — Passed Stage 2 with no REJECT verdicts or FLAG-level concerns from any panel reviewer; queued for Stage 3
+- `adversarial-flagged` — Passed Stage 2 with one or more minority REJECT verdicts or FLAG-level concerns; queued for Stage 3 with reviewer watch items attached
+- `adversarial-rejected` — Failed Stage 2 by majority panel vote; not advancing to Stage 3; retained for false-positive-rate tracking
 - `validated-candidate` — Passed Stage 3 bibliometric validation
 - `failed-validation` — Failed Stage 3 (reason noted in entry file)
 
@@ -59,11 +78,18 @@ Every entry in this repository has a defined lifecycle:
 A candidate structural isomorphism is generated by an AI model using the standardized [Extraction Protocol](extraction-protocol.md). The entry is labeled `maturity_stage: candidate` and `bibliometric_validation: pending`. At this stage, the correspondence has not been verified against the literature or checked for internal consistency, and the model's self-generated confidence scores are the only available quality signal.
 
 **Stage 2 — Adversarial LLM Pre-Validation (required before Stage 3):**
-The entry is submitted to an AI model from a **different provider than the generating model** using the [Adversarial Review Protocol](adversarial-review-protocol.md). The reviewing model checks internal consistency and face-validity from the entry text alone — no literature access required or permitted at this stage. Checks cover: YAML metadata integrity, equation validity, vocabulary matrix coherence, whether the YAML's triple-correspondence claims are actually supported in the body text, whether the pairing is a recognizable textbook analogy, and whether the self-scores are plausibly consistent with the content.
+The entry is submitted to a **panel of seven AI models drawn from different providers**, using the [Adversarial Review Protocol](adversarial-review-protocol.md). Each reviewer independently checks internal consistency and face-validity from the entry text alone — no literature access is required or permitted at this stage. Checks cover: YAML metadata integrity, equation validity, vocabulary matrix coherence, whether the YAML's triple-correspondence claims are actually supported in the body text, whether the pairing is a recognizable textbook analogy, and whether the self-scores are plausibly consistent with the content.
 
-Stage 2 answers: **"Does this entry say what it claims to say?"** It does not answer whether the claim is novel or scientifically sound — that is Stage 3.
+Panel rules, in full:
 
-Entries that pass Stage 2 are promoted to `maturity_stage: adversarial-cleared` (or `adversarial-flagged` if minor issues are noted) and advance to the Stage 3 queue. Entries that fail are labeled `adversarial-rejected` and committed to the repository for false-positive-rate tracking, but do not advance to Stage 3. **No entry should consume Stage 3 human bibliometric effort until it has passed Stage 2.**
+- **Panel size:** seven reviewers per entry.
+- **Self-exclusion:** the model that generated the entry, and any model from the same provider, is excluded from that entry's panel. Panel membership therefore varies from entry to entry.
+- **Aggregation:** majority rule. Four or more REJECT verdicts out of seven produces `adversarial-rejected`. Zero REJECT verdicts and zero FLAG verdicts produces `adversarial-cleared`. Anything between produces `adversarial-flagged`.
+- **Recording:** every reviewer's individual verdict, rationale, failed checks, flagged checks, and Stage 3 watch items are recorded verbatim in the entry's YAML under `validation_status`, and the panel's aggregate reject-vote share is published in the directory below.
+
+Stage 2 answers: **"Does this entry say what it claims to say?"** It does not answer whether the claim is novel or scientifically sound — that is Stage 3. An entry can pass Stage 2 with a perfect score and still be a well-formed description of a correspondence that does not exist.
+
+Entries that fail are labeled `adversarial-rejected` and committed to the repository for false-positive-rate tracking, but do not advance to Stage 3. **No entry should consume Stage 3 human bibliometric effort until it has passed Stage 2.**
 
 **Stage 3 — Human Bibliometric Validation (required before any entry is considered verified):**
 A human reviewer with appropriate domain access runs the academic search strings provided in Section 5 of each entry against Semantic Scholar, Google Scholar, Web of Science, or equivalent tools. Validation checks for:
@@ -82,7 +108,28 @@ Long-term, the `validated-candidate` subset of this repository — entries that 
 
 This benchmark use is deliberately restricted to validated entries. Testing a model against a Stage 1 candidate would only measure whether it reproduces the same unverified pattern-matching that generated the candidate in the first place, not whether it correctly recovers a real structural isomorphism — those are different capabilities, and conflating them would make the benchmark circular. As of this writing, no entries have completed Stage 3, so this section describes a long-term direction rather than a currently usable benchmark.
 
-The methodology used to generate Stage 1 candidates can be reviewed in the [Extraction Protocol](extraction-protocol.md) file.
+The methodology used to generate Stage 1 candidates can be reviewed in the [Extraction Protocol](extraction-protocol.md) file. The methodology used to review them can be reviewed in the [Adversarial Review Protocol](adversarial-review-protocol.md) file.
+
+---
+
+## STAGE 2 YIELD BY GENERATING MODEL
+
+Survival rate is the share of a model's entries that advanced to the Stage 3 queue rather than being rejected. Mean reject-vote share is the average across that model's entries of the fraction of panel reviewers voting REJECT. Both are computed over five entries per model, so all figures carry wide confidence intervals and none of the between-model differences should be treated as established.
+
+| Generating model | Reviewed | Rejected | Flagged | Survival | Mean reject-vote |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Alibaba Qwen3.8 | 5 | 2 | 3 | 60% | 51.4% |
+| Amazon Nova 1.0 | 0 | — | — | — | - |
+| Anthropic Claude Sonnet 5 | 5 | 3 | 2 | 40% | 42.6% |
+| DeepSeek DeepSeek | 5 | 3 | 2 | 40% | 63.0% |
+| Google Gemini 3.1 Pro | 5 | 2 | 3 | 60% | 51.4% |
+| Meta Muse Spark 1.1 | 5 | 5 | 0 | 0% | 100.0% |
+| Microsoft Copilot | 5 | 0 | 5 | 100% | 34.4% |
+| Moonshot AI Kimi | 0 | — | — | — | — |
+| OpenAI GPT-5.5 | 5 | 4 | 1 | 20% | 60.0% |
+| xAI Grok | 5 | 4 | 1 | 20% | 74.4% |
+| Z.AI GLM-5.2 | 5 | 5 | 0 | 0% | 74.2% |
+| **TOTAL** | **45** | **28** | **17** | **37.8%** | — |
 
 ---
 
