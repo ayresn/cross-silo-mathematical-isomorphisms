@@ -231,7 +231,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Kinked Slip‑Reconnection Analogy
   * *Domains:* Resistive Magnetohydrodynamics & Interfacial Delamination
   * *Isomorphism:* Reduced MHD reconnection operator mapped to Interfacial integro‑differential slip evolution
-* **[copilot_entry-018](mappings-microsoft-copilot/copilot_entry-018.md)** — `Stage 1 / pending`
+* **[copilot_entry-018](mappings-microsoft-copilot/copilot_entry-018.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Localized Influence Bifurcation
   * *Domains:* Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
   * *Isomorphism:* Nonlocal elasto-plastic continuum (Eshelby kernel) mapped to adaptive graph-Laplacian master equation
