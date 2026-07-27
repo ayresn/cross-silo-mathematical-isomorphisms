@@ -165,7 +165,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Optical Instability Mirrors Fluid Turbulence
   * *Domains:* Nonlinear Optics & Fluid Turbulence
   * *Isomorphism:* Nonlinear Schrödinger Equation mapped to Vorticity Equation
-* **[1.0_entry-047](mappings-amazon-nova/1.0_entry-047.md)** — `Stage 1 / pending`
+* **[1.0_entry-047](mappings-amazon-nova/1.0_entry-047.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Plasma Waves Inform Traffic Flow
   * *Domains:* Plasma Physics & Traffic Flow Theory
   * *Isomorphism:* Korteweg-de Vries Equation mapped to Lighthill-Whitham-Richards Equation
