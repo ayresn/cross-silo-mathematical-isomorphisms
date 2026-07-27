@@ -239,7 +239,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Graph Phase‑Field Cascades
   * *Domains:* Phase Field Fracture & Information Cascade Fronts
   * *Isomorphism:* Griffith phase-field variational method mapped to graph-cut / Laplacian gradient flow
-* **[copilot_entry-020](mappings-microsoft-copilot/copilot_entry-020.md)** — `Stage 1 / pending`
+* **[copilot_entry-020](mappings-microsoft-copilot/copilot_entry-020.md)** — `Stage 2 / flagged` (14% of reviewers voted to reject)
   * *System Synthesis:* Turbulent Closure for Cortical Waves
   * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
   * *Isomorphism:* Filtered Navier–Stokes (LES Smagorinsky/Germano) mapped to Wilson–Cowan/integro-differential neural-field closures
