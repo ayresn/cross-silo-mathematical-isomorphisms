@@ -173,7 +173,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Quantum Chaos Informs Turbulent Flow
   * *Domains:* Quantum Chaos & Turbulent Flow
   * *Isomorphism:* Schrödinger Equation mapped to Navier-Stokes Equations
-* **[1.0_entry-049](mappings-amazon-nova/1.0_entry-049.md)** — `Stage 1 / pending`
+* **[1.0_entry-049](mappings-amazon-nova/1.0_entry-049.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Fluid Dynamics Informs Network Optimization
   * *Domains:* Fluid Dynamics & Network Flow Optimization
   * *Isomorphism:* Navier-Stokes Equations mapped to Linear Programming Formulations
