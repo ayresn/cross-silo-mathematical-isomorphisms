@@ -26,7 +26,8 @@ As of the current commit:
 | — cleared with no reviewer objections (`adversarial-cleared`) | **0** |
 | Entries awaiting Stage 2 | 5 |
 | Entries that have completed Stage 3 human bibliometric validation | **0** |
-| Entries confirmed as novel, valid research leads | **0** |
+| — failed bibliometric validation at Stage 3 (`failed-validation`) | **0** |
+| — confirmed as novel, valid research leads (`validated-candidate`) | **0** |
 
 ---
 
