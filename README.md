@@ -20,10 +20,10 @@ As of the current commit:
 | Metric | Value |
 | --- | --- |
 | Total entries in dataset | 50 |
-| Entries awaiting Stage 2 adversarial review | 5 |
-| Entries that have completed Stage 2 adversarial review | 45 |
-| — rejected at Stage 2 (`adversarial-rejected`) | **28 (62.2%)** |
-| — advanced to Stage 3 queue (`adversarial-flagged`) | **17 (37.8%)** |
+| Entries awaiting Stage 2 adversarial review | 0 |
+| Entries that have completed Stage 2 adversarial review | 50 |
+| — rejected at Stage 2 (`adversarial-rejected`) | **33 (66.0%)** |
+| — advanced to Stage 3 queue (`adversarial-flagged`) | **17 (34.0%)** |
 | — cleared with no reviewer objections (`adversarial-cleared`) | **0** |
 | Entries that have completed Stage 3 human bibliometric validation | **0** |
 | — failed bibliometric validation at Stage 3 (`failed-validation`) | **0** |
@@ -120,7 +120,7 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | Generating model | Reviewed | Rejected | Flagged | Survival | Mean reject-vote |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | [Alibaba Qwen 3.8](https://chat.qwen.ai/) | 5 | 2 | 3 | 60% | 51.4% |
-| [Amazon Nova 1.0](https://nova.amazon.com/) | 0 | — | — | — | — |
+| [Amazon Nova 1.0 Pro](https://nova.amazon.com/) | 5 | 5 | 0 | 0% | 100.0% |
 | [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 3 | 2 | 40% | 42.6% |
 | [DeepSeek DeepSeek](https://chat.deepseek.com/) | 5 | 3 | 2 | 40% | 63.0% |
 | [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 2 | 3 | 60% | 51.4% |
@@ -130,7 +130,7 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | [OpenAI GPT-5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
 | [xAI Grok](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
 | [Z.AI GLM-5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
-| **TOTAL** | **45** | **28** | **17** | **37.8%** | — |
+| **TOTAL** | **50** | **33** | **17** | **34.0%** | 65.1% |
 
 ---
 
