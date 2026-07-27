@@ -119,17 +119,17 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 
 | Generating model | Reviewed | Rejected | Flagged | Survival | Mean reject-vote |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Alibaba Qwen3.8 | 5 | 2 | 3 | 60% | 51.4% |
-| Amazon Nova 1.0 | 0 | — | — | — | — |
-| Anthropic Claude Sonnet 5 | 5 | 3 | 2 | 40% | 42.6% |
-| DeepSeek DeepSeek | 5 | 3 | 2 | 40% | 63.0% |
-| Google Gemini 3.1 Pro | 5 | 2 | 3 | 60% | 51.4% |
-| Meta Muse Spark 1.1 | 5 | 5 | 0 | 0% | 100.0% |
-| Microsoft Copilot | 5 | 0 | 5 | 100% | 34.4% |
-| Moonshot AI Kimi | 0 | — | — | — | — |
-| OpenAI GPT-5.5 | 5 | 4 | 1 | 20% | 60.0% |
-| xAI Grok | 5 | 4 | 1 | 20% | 74.4% |
-| Z.AI GLM-5.2 | 5 | 5 | 0 | 0% | 74.2% |
+| [Alibaba Qwen 3.8](https://chat.qwen.ai/) | 5 | 2 | 3 | 60% | 51.4% |
+| [Amazon Nova 1.0](https://nova.amazon.com/) | 0 | — | — | — | — |
+| [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 3 | 2 | 40% | 42.6% |
+| [DeepSeek DeepSeek](https://chat.deepseek.com/) | 5 | 3 | 2 | 40% | 63.0% |
+| [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 2 | 3 | 60% | 51.4% |
+| [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 0 | 0% | 100.0% |
+| [Microsoft Copilot](https://copilot.microsoft.com/) | 5 | 0 | 5 | 100% | 34.4% |
+| [Moonshot AI Kimi](https://www.kimi.com/) | 0 | — | — | — | — |
+| [OpenAI GPT-5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
+| [xAI Grok](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
+| [Z.AI GLM-5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
 | **TOTAL** | **45** | **28** | **17** | **37.8%** | — |
 
 ---
@@ -138,7 +138,7 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 
 The status tags for the entries below identify each entry's current pipeline stage. **No entry in this directory should be treated as a verified finding unless it specifically bears the `Stage 3 / validated` status tag indicating that it passed both adversarial review and bibliometric validation.** Entries that failed Stage 2 adversarial review or Stage 3 bibliometric validation are retained in the dataset with `rejected` status tags indicating what Stage they failed to clear for false-positive-rate tracking, and should not be treated as research leads.
 
-### [Alibaba Qwen](https://chat.qwen.ai) Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
+### Alibaba Qwen Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
 * **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Plastic Projection of Traffic Congestion
   * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
@@ -160,7 +160,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Non-Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
   * *Isomorphism:* Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator
 
-### [Amazon Nova](https://nova.amazon.com) Mapping Matrix ([`/mappings-amazon-nova/`](mappings-amazon-nova/))
+### Amazon Nova Mapping Matrix ([`/mappings-amazon-nova/`](mappings-amazon-nova/))
 * **[1.0_entry-046](mappings-amazon-nova/1.0_entry-046.md)** — `Stage 1 / pending`
   * *System Synthesis:* Optical Instability Mirrors Fluid Turbulence
   * *Domains:* Nonlinear Optics & Fluid Turbulence
@@ -182,7 +182,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Electromagnetic Theory & Financial Option Pricing
   * *Isomorphism:* Helmholtz Equation mapped to Black-Scholes Equation
 
-### [Anthropic Claude](https://claude.ai) Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
+### Anthropic Claude Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
 * **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 2 / flagged` (0% of reviewers voted to reject)
   * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
   * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
@@ -204,7 +204,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
   * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
 
-### [DeepSeek DeepSeek](https://chat.deepseek.com) Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
+### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
 * **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Helical Buckling of Elastic Defect Lines
   * *Domains:* Elastohydrodynamics of Active Filaments & Dislocation Dynamics in Crystalline Solids
@@ -226,7 +226,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Smoothed-Particle Hydrodynamics & Gaussian-Process Regression
   * *Isomorphism:* SPH kernel summation operator mapped to GP posterior mean kernel interpolation
 
-### [Google Gemini](https://aistudio.google.com) Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
+### Google Gemini Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
 * **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
@@ -248,7 +248,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
   * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
 
-### [Meta Muse](https://www.meta.ai) Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
+### Meta Muse Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
 * **[muse-spark-1-1_entry-021](mappings-meta-muse/muse-spark-1-1_entry-021.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Void Coalescence As Cosmic Percolation
   * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
@@ -270,7 +270,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
   * *Isomorphism:* Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model
 
-### [Microsoft Copilot](https://copilot.microsoft.com) Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
+### Microsoft Copilot Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
 * **[copilot_entry-016](mappings-microsoft-copilot/copilot_entry-016.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Energy‑Driven Polarization Mapping
   * *Domains:* Variational Phase‑Field Fracture & Kinetic Opinion Dynamics
@@ -292,10 +292,10 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
   * *Isomorphism:* Filtered Navier–Stokes (LES Smagorinsky/Germano) mapped to Wilson–Cowan/integro-differential neural-field closures
 
-### [Moonshot AI Kimi](https://www.kimi.com) Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
+### Moonshot AI Kimi Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
 Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI's release of its version K3 model.
 
-### [OpenAI ChatGPT](https://chatgpt.com) Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
+### OpenAI ChatGPT Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
 * **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Energy-Stable Belief Morphogenesis
   * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
@@ -317,7 +317,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
-### [xAI Grok](https://grok.com) Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
+### xAI Grok Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
 * **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
   * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
@@ -339,7 +339,7 @@ Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
 
-### [Z.AI GLM](https://chat.z.ai) Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
+### Z.AI GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
 * **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
   * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
