@@ -59,7 +59,7 @@ This establishes a clear dictionary state declaring the relationships as explici
 *   `relationship_type: candidate_structural_isomorphism`
 *   `validation_status: [operator_equivalence_confidence: high | bibliometric_validation: pending]`
 
-**Important:** The `prior_discovery_metrics` scores (structural_isomorphism_score, novelty_prior, etc.) present in each entry are model-generated self-assessments produced during Stage 1 generation. They are internal confidence signals reflecting the generating model's pattern-matching, not independently validated measurements of the probability that the isomorphism is real. They should be interpreted as triage-ranking signals for human reviewers, not as evidence of correctness. As of this writing there is no evidence that they predict anything at all — see Section 6.
+**Important:** The `prior_discovery_metrics` scores (structural_isomorphism_score, novelty_prior, etc.) present in each entry are model-generated self-assessments produced during Stage 1 generation. They are internal confidence signals reflecting the generating model's pattern-matching, not independently validated measurements of the probability that the isomorphism is real. They should be interpreted as triage-ranking signals for human reviewers, not as evidence of correctness. As of this writing there is no evidence that they predict anything at all.
 
 **Entry lifecycle states** (tracked in `sid_metadata.maturity_stage`):
 - `candidate` — Stage 1 generated; awaiting Stage 2 adversarial review
@@ -120,7 +120,7 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | Generating model | Reviewed | Rejected | Flagged | Survival | Mean reject-vote |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Alibaba Qwen3.8 | 5 | 2 | 3 | 60% | 51.4% |
-| Amazon Nova 1.0 | 0 | — | — | — | - |
+| Amazon Nova 1.0 | 0 | — | — | — | — |
 | Anthropic Claude Sonnet 5 | 5 | 3 | 2 | 40% | 42.6% |
 | DeepSeek DeepSeek | 5 | 3 | 2 | 40% | 63.0% |
 | Google Gemini 3.1 Pro | 5 | 2 | 3 | 60% | 51.4% |
