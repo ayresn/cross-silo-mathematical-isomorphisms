@@ -130,7 +130,7 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | [OpenAI GPT-5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
 | [xAI Grok](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
 | [Z.AI GLM-5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
-| **TOTAL** | **50** | **33** | **17** | **34.0%** | 65.1% |
+| **TOTAL** | **50** | **33** | **17** | **34.0%** | **65.1% |
 
 ---
 
