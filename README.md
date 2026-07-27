@@ -235,7 +235,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Localized Influence Bifurcation
   * *Domains:* Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
   * *Isomorphism:* Nonlocal elasto-plastic continuum (Eshelby kernel) mapped to adaptive graph-Laplacian master equation
-* **[copilot_entry-019](mappings-microsoft-copilot/copilot_entry-019.md)** — `Stage 1 / pending`
+* **[copilot_entry-019](mappings-microsoft-copilot/copilot_entry-019.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
   * *System Synthesis:* Graph Phase‑Field Cascades
   * *Domains:* Phase Field Fracture & Information Cascade Fronts
   * *Isomorphism:* Griffith phase-field variational method mapped to graph-cut / Laplacian gradient flow
