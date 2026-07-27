@@ -94,9 +94,9 @@ validation_status:
     flagged_checks: ["[Check N: brief description]"]  # empty list [] if none flagged
     stage_3_watch_items: ["[item]"]  # specific things for the human reviewer to probe even if passing; empty list [] if none
 
---- BEGIN ENTRY SECTION 6 (ADVERSARIAL REVIEW) ---
+--- BEGIN ADVERSARIAL REVIEW ENTRY TEXT ---
 
-Output a Section 6 block formatted exactly as shown, to be appended to the entry's .md file:
+Output an adversarial review entry text block formatted exactly as shown, to be appended to the entry's .md file:
 
 ## ADVERSARIAL REVIEWS (Stage 2)
 
@@ -140,7 +140,7 @@ After receiving the three output blocks from the reviewing model:
 
 1. **Apply YAML amendments:** Merge the `--- BEGIN YAML AMENDMENTS ---` block into the entry's frontmatter. The `maturity_stage` field moves from `candidate` to `adversarial-cleared`, `adversarial-flagged`, or `adversarial-rejected`. The new `adversarial_review` sub-block is added inside `validation_status`.
 
-2. **Append Section 6:** Copy the `--- BEGIN ENTRY SECTION 6 ---` block to the end of the entry's `.md` file. This is the first content appended to the entry file itself (Sections 1–5 are generated at Stage 1; the original Section 6 output — the README snippet — was never part of the entry file).
+2. **Append Entry Text:** Copy the `--- BEGIN ADVERSARIAL REVIEW ENTRY TEXT ---` block to the end of the entry's `.md` file. This is the first content appended to the entry file itself (below Sections 1–5 generated at Stage 1; the README snippet was never part of the entry file).
 
 3. **Update the README directory:** Replace the entry's existing `Stage 1 / pending` status tag in the CORE DATASET DIRECTORY with the updated tag from the `--- BEGIN README DIRECTORY SNIPPET UPDATE ---` block.
 
