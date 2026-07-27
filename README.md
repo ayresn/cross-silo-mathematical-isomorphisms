@@ -169,7 +169,7 @@ The status tags for the entries below identify each entry's current pipeline sta
   * *System Synthesis:* Plasma Waves Inform Traffic Flow
   * *Domains:* Plasma Physics & Traffic Flow Theory
   * *Isomorphism:* Korteweg-de Vries Equation mapped to Lighthill-Whitham-Richards Equation
-* **[1.0_entry-048](mappings-amazon-nova/1.0_entry-048.md)** — `Stage 1 / pending`
+* **[1.0_entry-048](mappings-amazon-nova/1.0_entry-048.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
   * *System Synthesis:* Quantum Chaos Informs Turbulent Flow
   * *Domains:* Quantum Chaos & Turbulent Flow
   * *Isomorphism:* Schrödinger Equation mapped to Navier-Stokes Equations
