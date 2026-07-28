@@ -194,28 +194,6 @@ Which model produced each candidate. Useful for comparing generator quality; not
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
   * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
 
-## Z.AI GLM 5.2
-
-* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * *Isomorphism:* Convective Wave Operator mapped to Thin Flux Tube MHD Equations
-* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Auxetics of Dirac Strings
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
-  * *Isomorphism:* Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence
-* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Spacetime Buckling of Gravitational Waves
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
-  * *Isomorphism:* Föppl-von Kármán Equations mapped to Szekeres Plane Wave Metric
-* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Densification Limits of Solidification Kinetics
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * *Isomorphism:* Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator
-* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Topological Gauge Fixing of Truss Collapse
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Quantum Information Science & Computational Structural Mechanics
-
 ## xAI Grok 4
 
 * **[SID-011](../mappings-xai-grok/grok-beta_entry-011.md)** — Quasinormal Ringing Across Spacetime and Structures
@@ -238,4 +216,26 @@ Which model produced each candidate. Useful for comparing generator quality; not
   * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
+
+## Z.AI GLM 5.2
+
+* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
+  * `Stage 2 / rejected` (57% voted to reject)
+  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+  * *Isomorphism:* Convective Wave Operator mapped to Thin Flux Tube MHD Equations
+* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Auxetics of Dirac Strings
+  * `Stage 2 / rejected` (57% voted to reject)
+  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
+  * *Isomorphism:* Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence
+* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Spacetime Buckling of Gravitational Waves
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
+  * *Isomorphism:* Föppl-von Kármán Equations mapped to Szekeres Plane Wave Metric
+* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Densification Limits of Solidification Kinetics
+  * `Stage 2 / rejected` (71% voted to reject)
+  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
+  * *Isomorphism:* Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator
+* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Topological Gauge Fixing of Truss Collapse
+  * `Stage 2 / rejected` (86% voted to reject)
+  * *Domains:* Quantum Information Science & Computational Structural Mechanics
 
