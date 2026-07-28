@@ -14,7 +14,6 @@ All three of these are judgments made by a single AI model in one pass — claim
 ---
 
 ## PIPELINE STATUS AT A GLANCE
-
 As of the current commit:
 
 | Metric | Value |
@@ -72,7 +71,6 @@ This establishes a clear dictionary state declaring the relationships as explici
 ---
 
 ## 4. THREE-STAGE VALIDATION PIPELINE
-
 Every entry in this repository has a defined lifecycle:
 
 **Stage 1 — AI Generation:**
@@ -114,7 +112,6 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 ---
 
 ## STAGE 2 YIELD BY GENERATING MODEL
-
 Survival rate is the share of a model's entries that advanced to the Stage 3 queue rather than being rejected. Mean reject-vote share is the average across that model's entries of the fraction of panel reviewers voting REJECT. Both are computed over five entries per model, so all figures carry wide confidence intervals and none of the between-model differences should be treated as established.
 
 | Generating model | Reviewed | Rejected | Flagged | Survival | Mean reject-vote |
@@ -134,229 +131,45 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 
 ---
 
-## CORE DATASET DIRECTORY
+## THE DATASET
+**Nothing here is a verified finding.** 28 of 50 entries were rejected by the review panel on internal-consistency grounds. Of the 17 that advanced, none has completed Stage 3 human bibliometric validation, so none has been checked against the published literature by anyone qualified to do it. Read the reliability section above before treating any status tag as a quality signal.
 
-The status tags for the entries below identify each entry's current pipeline stage. **No entry in this directory should be treated as a verified finding unless it specifically bears the `Stage 3 / validated` status tag indicating that it passed both adversarial review and bibliometric validation.** Entries that failed Stage 2 adversarial review or Stage 3 bibliometric validation are retained in the dataset with `rejected` status tags indicating what Stage they failed to clear for false-positive-rate tracking, and should not be treated as research leads.
+### Browse the dataset
+| Index | Use it for |
+| --- | --- |
+| **[By domain](indexes/index-by-domain.md)** | **Start here if you work in a field.** Every entry is cross-listed under both of its domains. |
+| **[Stage 3 queue](indexes/stage-3-queue.md)** | Entries awaiting validation, ordered by reviewer confidence. This is where help is needed. |
+| **[By structural family](indexes/index-by-family.md)** | The shared mathematics, independent of subject matter. Also the concentration diagnostic. |
+| **[By lifecycle state](indexes/index-by-status.md)** | Everything grouped by pipeline stage, including rejected entries. |
+| **[By generating model](indexes/index-by-model.md)** | Per-model yield table and entries. For comparing generators, not for finding leads. |
 
-### Alibaba Qwen Mapping Matrix ([`/mappings-alibaba-qwen/`](mappings-alibaba-qwen/))
-* **[qwen3.8_entry-041](mappings-alibaba-qwen/qwen3.8_entry-041.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Plastic Projection of Traffic Congestion
-  * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
-  * *Isomorphism:* Return-mapping elastoplasticity mapped to Beckmann traffic equilibrium
-* **[qwen3.8_entry-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — `Stage 2 / flagged` (0% of reviewers voted to reject)
-  * *System Synthesis:* Adjoint Control of Debris Cascades
-  * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-  * *Isomorphism:* linearized debris Boltzmann cascade equation mapped to neutron transport k-eigenvalue equation
-* **[qwen3.8_entry-043](mappings-alibaba-qwen/qwen3.8_entry-043.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Etch-Shadowed Karst Conduit Pitting
-  * *Domains:* High-Aspect-Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-  * *Isomorphism:* Coburn–Winters ion-enhanced etch model mapped to Dreybrodt dissolution law
-* **[qwen3.8_entry-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — `Stage 2 / flagged` (14% of reviewers voted to reject)
-  * *System Synthesis:* Criticality Transport for Landscape Persistence
-  * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
-  * *Isomorphism:* Boltzmann transport k-eigenvalue mapped to linearized stage-structured transport-growth eigenvalue
-* **[qwen3.8_entry-045](mappings-alibaba-qwen/qwen3.8_entry-045.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Skin-Localized Outbreak Threshold
-  * *Domains:* Non-Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-  * *Isomorphism:* Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator
+Machine-readable: [`indexes/entries.json`](indexes/entries.json).
 
-### Amazon Nova Mapping Matrix ([`/mappings-amazon-nova/`](mappings-amazon-nova/))
-* **[1.0_entry-046](mappings-amazon-nova/1.0_entry-046.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Optical Instability Mirrors Fluid Turbulence
-  * *Domains:* Nonlinear Optics & Fluid Turbulence
-  * *Isomorphism:* Nonlinear Schrödinger Equation mapped to Vorticity Equation
-* **[1.0_entry-047](mappings-amazon-nova/1.0_entry-047.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Plasma Waves Inform Traffic Flow
-  * *Domains:* Plasma Physics & Traffic Flow Theory
-  * *Isomorphism:* Korteweg-de Vries Equation mapped to Lighthill-Whitham-Richards Equation
-* **[1.0_entry-048](mappings-amazon-nova/1.0_entry-048.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Quantum Chaos Informs Turbulent Flow
-  * *Domains:* Quantum Chaos & Turbulent Flow
-  * *Isomorphism:* Schrödinger Equation mapped to Navier-Stokes Equations
-* **[1.0_entry-049](mappings-amazon-nova/1.0_entry-049.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Fluid Dynamics Informs Network Optimization
-  * *Domains:* Fluid Dynamics & Network Flow Optimization
-  * *Isomorphism:* Navier-Stokes Equations mapped to Linear Programming Formulations
-* **[1.0_entry-050](mappings-amazon-nova/1.0_entry-050.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Electromagnetic Waves Inform Option Pricing
-  * *Domains:* Electromagnetic Theory & Financial Option Pricing
-  * *Isomorphism:* Helmholtz Equation mapped to Black-Scholes Equation
+### Where help is most needed
+The five candidates that drew the fewest reject votes from adversarial reviewers in Stage 2:
 
-### Anthropic Claude Mapping Matrix ([`/mappings-anthropic-claude/`](mappings-anthropic-claude/))
-* **[claude-sonnet-5_entry-036.md](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — `Stage 2 / flagged` (0% of reviewers voted to reject)
-  * *System Synthesis:* Rank-1 Low-Rank Updates in Network Failure Propagation
-  * *Domains:* Power-Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-  * *Isomorphism:* Sherman–Morrison–Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators
-* **[claude-sonnet-5_entry-037.md](mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
-  * *System Synthesis:* Resolution Leakage in Paleoclimate Reconstruction
-  * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
-  * *Isomorphism:* Seismic Resolution-Matrix / Checkerboard Testing mapped to Paleoclimate Pseudoproxy Validation
-* **[claude-sonnet-5_entry-038.md](mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
-  * *System Synthesis:* Lundberg Asymptotics for Extinction Risk
-  * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
-  * *Isomorphism:* Cramér–Lundberg Ruin Asymptotics mapped to Diffusion-Approximation Extinction Probability
-* **[claude-sonnet-5_entry-039.md](mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Stochastic Barrier-Crossing in Ship Capsize
-  * *Domains:* Chemical Physics Barrier-Crossing Kinetics & Naval Architecture Capsize Risk Assessment
-  * *Isomorphism:* Kramers Escape-Rate Theory mapped to GZ-Curve Potential-Barrier Capsize Dynamics
-* **[claude-sonnet-5_entry-040.md](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — `Stage 2 / flagged` (14% of reviewers voted to reject)
-  * *System Synthesis:* Saddle-Node Collapse in Grids and Fisheries
-  * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-  * *Isomorphism:* Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics
+* **[SID-036](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — 0% reject —
+  * Power Grid Cascading Failure & Structural Progressive Collapse
+  * *Sherman–Morrison–Woodbury admittance updates ↔ nodal stiffness reanalysis*
+* **[SID-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — 0% reject —
+  * Orbital Debris Cascade Kinetics & Neutron Transport Criticality
+  * *Linearized debris Boltzmann cascade ↔ neutron transport k-eigenvalue*
+* **[SID-020](mappings-microsoft-copilot/copilot_entry-020.md)** — 14% reject —
+  * Turbulent Boundary Layer & Cortical Spiking Neural Field
+  * *Filtered Navier–Stokes LES closure ↔ Wilson–Cowan neural-field closure*
+* **[SID-040](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — 14% reject —
+  * Power System Voltage Stability & Fisheries Bioeconomic Collapse
+  * *Continuation power flow ↔ critical-depensation collapse dynamics*
+* **[SID-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — 14% reject —
+  * Nuclear Criticality Transport & Spatial Invasion Ecology
+  * *Boltzmann transport k-eigenvalue ↔ stage-structured growth eigenvalue*
 
-### DeepSeek DeepSeek Mapping Matrix ([`/mappings-deepseek-deepseek/`](mappings-deepseek-deepseek/))
-* **[deepseek_entry-026](mappings-deepseek-deepseek/deepseek_entry-026.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Helical Buckling of Elastic Defect Lines
-  * *Domains:* Elastohydrodynamics of Active Filaments & Dislocation Dynamics in Crystalline Solids
-  * *Isomorphism:* Resistive‑force theory with bending mapped to dislocation mobility law with line tension
-* **[deepseek_entry-027](mappings-deepseek-deepseek/deepseek_entry-027.md)** — `Stage 2 / flagged` (29% of reviewers voted to reject)
-  * *System Synthesis:* Elastic Spinodal Patterning of Living Gels
-  * *Domains:* Phase-Field Dendrite Growth & Biofilm Pattern Formation
-  * *Isomorphism:* Cahn-Hilliard with chemo-elastic coupling mapped to biofilm phase separation with EPS elasticity
-* **[deepseek_entry-028](mappings-deepseek-deepseek/deepseek_entry-028.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Nonlocal Laplacian Solver for Mega-Graph Labeling
-  * *Domains:* Peridynamic Fracture Mechanics & Graph-Based Semi-Supervised Learning
-  * *Isomorphism:* Peridynamic equilibrium integral operator mapped to graph Laplacian regularization system
-* **[deepseek_entry-029](mappings-deepseek-deepseek/deepseek_entry-029.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Tensor-Train Solver for Neural Ensemble Fokker-Planck
-  * *Domains:* Microstructural Polymer Dynamics & Population-Density Neural Dynamics
-  * *Isomorphism:* Dumbbell Fokker-Planck equation mapped to adaptive integrate-and-fire population density equation
-* **[deepseek_entry-030](mappings-deepseek-deepseek/deepseek_entry-030.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
-  * *System Synthesis:* Gaussian-Process-Adaptive Smoothed Particle Hydrodynamics
-  * *Domains:* Smoothed-Particle Hydrodynamics & Gaussian-Process Regression
-  * *Isomorphism:* SPH kernel summation operator mapped to GP posterior mean kernel interpolation
+[See all 17 →](indexes/stage-3-queue.md)
 
-### Google Gemini Mapping Matrix ([`/mappings-google-gemini/`](mappings-google-gemini/))
-* **[gemini-3.1-pro_entry-006](mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Dispersion Management of Seizure Rogue Waves
-  * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
-  * *Isomorphism:* generalized Nonlinear Schrödinger Equation mapped to Amari Neural Field Equations
-* **[gemini-3.1-pro_entry-007](mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Aeroelastic Flutter of Algorithmic Stablecoins
-  * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
-  * *Isomorphism:* dynamic wing flutter matrix ODE mapped to AMM algorithmic stablecoin price dynamics
-* **[gemini-3.1-pro_entry-008](mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
-  * *System Synthesis:* Rate-and-State Dynamics of the Bullwhip Effect
-  * *Domains:* Seismological Tribology & Multi-Echelon Supply Chain Logistics
-  * *Isomorphism:* Dieterich-Ruina rate-and-state friction equations mapped to continuous-time algorithmic supply chain replenishment ODEs
-* **[gemini-3.1-pro_entry-009](mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Plasma Kinetics of Limit Order Books
-  * *Domains:* Collisionless Plasma Kinetics & High-Frequency Trading Market Microstructure
-  * *Isomorphism:* Vlasov-Poisson equation mapped to mean-field kinetic Limit Order Book PDE
-* **[gemini-3.1-pro_entry-010](mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Transformation Optics of Pedestrian Crowds
-  * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
-  * *Isomorphism:* Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice
+### How to help
+**If an entry in the [Stage 3 queue](indexes/stage-3-queue.md) touches your field, the ask is about twenty minutes.** Open an issue, or comment on the entry, answering either question:
 
-### Meta Muse Mapping Matrix ([`/mappings-meta-muse/`](mappings-meta-muse/))
-* **[muse-spark-1-1_entry-021](mappings-meta-muse/muse-spark-1-1_entry-021.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Void Coalescence As Cosmic Percolation
-  * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
-  * *Isomorphism:* GTN Porous Plasticity JMAK Kinetics mapped to False Vacuum Bubble Nucleation Avrami Kinetics
-* **[muse-spark-1-1_entry-022](mappings-meta-muse/muse-spark-1-1_entry-022.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Elastic Turbulence Of Echo Chambers
-  * *Domains:* Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
-  * *Isomorphism:* Oldroyd-B Conformation Transport mapped to Covariance Lyapunov Transport
-* **[muse-spark-1-1_entry-023](mappings-meta-muse/muse-spark-1-1_entry-023.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Coherence Collapse Of Epidemic Waves
-  * *Domains:* Semiconductor Laser Dynamics & Mathematical Epidemiology
-  * *Isomorphism:* Lang-Kobayashi Delay Model mapped to SIRS Delay Model
-* **[muse-spark-1-1_entry-024](mappings-meta-muse/muse-spark-1-1_entry-024.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Parton Showers Of Genomes
-  * *Domains:* Parton Shower Dynamics & Gene Family Evolution
-  * *Isomorphism:* DGLAP Evolution Equation mapped to Duplication Loss Master Equation
-* **[muse-spark-1-1_entry-025](mappings-meta-muse/muse-spark-1-1_entry-025.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Seismic Faults As Forgetting Synapses
-  * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
-  * *Isomorphism:* Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model
+1. **Does the correspondence hold?** Not "is it interesting" — does the mathematics survive contact with the constitutive details of your field, or does it break at the boundary conditions? A specific "no, this fails because X" is worth more than a confirmation.
+1. **Does it already exist?** If this connection is already in your literature under some name, say so and cite it. That's a Stage 3 result and it retires the entry cleanly.
 
-### Microsoft Copilot Mapping Matrix ([`/mappings-microsoft-copilot/`](mappings-microsoft-copilot/))
-* **[copilot_entry-016](mappings-microsoft-copilot/copilot_entry-016.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Energy‑Driven Polarization Mapping
-  * *Domains:* Variational Phase‑Field Fracture & Kinetic Opinion Dynamics
-  * *Isomorphism:* Variational phase‑field gradient flow mapped to nonlocal Fokker‑Planck aggregation–diffusion
-* **[copilot_entry-017](mappings-microsoft-copilot/copilot_entry-017.md)** — `Stage 2 / flagged` (29% of reviewers voted to reject)
-  * *System Synthesis:* Kinked Slip‑Reconnection Analogy
-  * *Domains:* Resistive Magnetohydrodynamics & Interfacial Delamination
-  * *Isomorphism:* Reduced MHD reconnection operator mapped to Interfacial integro‑differential slip evolution
-* **[copilot_entry-018](mappings-microsoft-copilot/copilot_entry-018.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Localized Influence Bifurcation
-  * *Domains:* Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
-  * *Isomorphism:* Nonlocal elasto-plastic continuum (Eshelby kernel) mapped to adaptive graph-Laplacian master equation
-* **[copilot_entry-019](mappings-microsoft-copilot/copilot_entry-019.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Graph Phase‑Field Cascades
-  * *Domains:* Phase Field Fracture & Information Cascade Fronts
-  * *Isomorphism:* Griffith phase-field variational method mapped to graph-cut / Laplacian gradient flow
-* **[copilot_entry-020](mappings-microsoft-copilot/copilot_entry-020.md)** — `Stage 2 / flagged` (14% of reviewers voted to reject)
-  * *System Synthesis:* Turbulent Closure for Cortical Waves
-  * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
-  * *Isomorphism:* Filtered Navier–Stokes (LES Smagorinsky/Germano) mapped to Wilson–Cowan/integro-differential neural-field closures
-
-### Moonshot AI Kimi Mapping Matrix ([`/mappings-moonshotai-kimi/`](mappings-moonshotai-kimi/))
-Entries to be added later, when Kimi is no longer at capacity due to Moonshot AI's release of its version K3 model.
-
-### OpenAI ChatGPT Mapping Matrix ([`/mappings-openai-chatgpt/`](mappings-openai-chatgpt/))
-* **[gpt-5.5_entry-001](mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Energy-Stable Belief Morphogenesis
-  * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
-  * *Isomorphism:* Allen-Cahn Gradient Flow mapped to Variational Free-Energy Gradient Flow
-* **[gpt-5.5_entry-002](mappings-openai-chatgpt/gpt-5.5_entry-002.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
-  * *System Synthesis:* Conservative Probability Transport Across Trees
-  * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
-  * *Isomorphism:* Chemical Master Equation mapped to Sequential Monte Carlo Measure Evolution
-* **[gpt-5.5_entry-003](mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Geometric Stewardship Through Split Dynamics
-  * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
-  * *Isomorphism:* Lie-Algebraic Symplectic Map mapped to Discrete Intervention Operator Splitting
-* **[gpt-5.5_entry-004](mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — `Stage 2 / flagged` (29% of reviewers voted to reject)
-  * *System Synthesis:* Defect Transport Mirrors Belief Flow
-  * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
-  * *Isomorphism:* Continuum Dislocation Density Transport Equation mapped to Streaming Variational Probability Transport Equation
-* **[gpt-5.5_entry-005](mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
-  * *System Synthesis:* Irreversible Graph Fracture Dynamics
-  * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
-  * *Isomorphism:* Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization
-
-### xAI Grok Mapping Matrix ([`/mappings-xai-grok/`](mappings-xai-grok/))
-* **[grok-beta_entry-011](mappings-xai-grok/grok-beta_entry-011.md)** — `Stage 2 / flagged` (43% of reviewers voted to reject)
-  * *System Synthesis:* Quasinormal Ringing Across Spacetime and Structures
-  * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
-  * *Isomorphism:* Linearised wave operator spectrum mapped to generalised eigenvalue problem
-* **[grok-beta_entry-012](mappings-xai-grok/grok-beta_entry-012.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Coupled Pressure-Driven Deformation Waves
-  * *Domains:* Poroelasticity & Agent-based Epidemic Modeling
-  * *Isomorphism:* Biot consolidation operator mapped to mean-field mobility-infection system
-* **[grok-beta_entry-013](mappings-xai-grok/grok-beta_entry-013.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
-  * *System Synthesis:* Discrete Slip in Crystals and Strategies
-  * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
-  * *Isomorphism:* Schmid law flow rule mapped to replicator payoff dynamics
-* **[grok-beta_entry-014](mappings-xai-grok/grok-beta_entry-014.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
-  * *System Synthesis:* Nonlocal Regularization of Softening Fronts
-  * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
-  * *Isomorphism:* Nonlocal integral operator mapped to mobility convolution kernel
-* **[grok-beta_entry-015](mappings-xai-grok/grok-beta_entry-015.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Backward Duals for Forward Calibration
-  * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * *Isomorphism:* Adjoint operator mapped to ecological data-misfit gradients
-
-### Z.AI GLM Mapping Matrix ([`/mappings-zai-glm/`](mappings-zai-glm/))
-* **[glm-5-2_entry-031](mappings-zai-glm/glm-5-2_entry-031.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Gyroscopic Destabilization of Flowing Magnetic Flux Tubes
-  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * *Isomorphism:* Convective Wave Operator mapped to Thin Flux Tube MHD Equations
-* **[glm-5-2_entry-032](mappings-zai-glm/glm-5-2_entry-032.md)** — `Stage 2 / rejected` (57% of reviewers voted to reject)
-  * *System Synthesis:* Topological Auxetics of Dirac Strings
-  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
-  * *Isomorphism:* Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence
-* **[glm-5-2_entry-033](mappings-zai-glm/glm-5-2_entry-033.md)** — `Stage 2 / rejected` (100% of reviewers voted to reject)
-  * *System Synthesis:* Spacetime Buckling of Gravitational Waves
-  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
-  * *Isomorphism:* Föppl-von Kármán Equations mapped to Szekeres Plane Wave Metric
-* **[glm-5-2_entry-034](mappings-zai-glm/glm-5-2_entry-034.md)** — `Stage 2 / rejected` (71% of reviewers voted to reject)
-  * *System Synthesis:* Densification Limits of Solidification Kinetics
-  * *Domains:* Stochastic Geometry Wireless Communications & Phase Transformation Kinetics Additive Manufacturing
-  * *Isomorphism:* Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator
-* **[glm-5-2_entry-035](mappings-zai-glm/glm-5-2_entry-035.md)** — `Stage 2 / rejected` (86% of reviewers voted to reject)
-  * *System Synthesis:* Topological Gauge Fixing of Truss Collapse
-  * *Domains:* Quantum Information Science & Computational Structural Mechanics
-  * *Isomorphism:* Surface Code Boundary Operator mapped to Truss Equilibrium Matrix
+You do not need to review the whole dataset, run the pipeline, or open a pull request. One entry, one answer.
