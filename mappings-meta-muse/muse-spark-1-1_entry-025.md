@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-025"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "Meta"
   model_family: "Muse"
   model_version: "Spark 1.1"

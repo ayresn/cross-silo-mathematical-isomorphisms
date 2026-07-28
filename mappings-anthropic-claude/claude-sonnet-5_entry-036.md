@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-036"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "Anthropic"
   model_family: "Claude"
   model_version: "Sonnet 5"
@@ -240,7 +240,7 @@ where $K$ is the global stiffness matrix, $F$ the applied nodal force vector, an
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — providence.model_family "Claude" and model_version "Claude Sonnet 5" are plausible, generation_timestamp "2026-07-22" is recent, triple_correspondence_vectors has exactly 3 distinct items, maturity_stage "candidate" and relationship_type "candidate_structural_isomorphism" are correct.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — provenance.model_family "Claude" and model_version "Claude Sonnet 5" are plausible, generation_timestamp "2026-07-22" is recent, triple_correspondence_vectors has exactly 3 distinct items, maturity_stage "candidate" and relationship_type "candidate_structural_isomorphism" are correct.
 - **CHECK 2 (Equation Validity):** PASS — P = B θ correctly models linearized DC power flow and F = K u correctly models static structural equilibrium; both support the claimed rank-1 operator-update isomorphism.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All three mappings (N-1 contingency ↔ single-member removal, overload/trip ↔ member failure/collapse, LODF ↔ redistribution factor) map compatible mathematical types and provide explicit shared structure (threshold removal, rank-1 update sensitivity).
 - **CHECK 4 (Triple-Correspondence Body Verification):** PASS — governing_differential_operator supported by P=Bθ / F=Ku operator definitions, instability_mechanism supported by threshold-triggered cascade and rank-1 deletion trajectory description, numerical_solution_family supported by Sherman-Morrison-Woodbury update discussion in Section 3.

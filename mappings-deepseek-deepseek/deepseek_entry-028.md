@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-028"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "DeepSeek"
   model_family: "DeepSeek"
   model_version: "V4 Pro"

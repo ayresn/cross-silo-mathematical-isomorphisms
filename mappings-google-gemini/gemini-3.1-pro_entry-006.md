@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-006"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "Google"
   model_family: "Gemini"
   model_version: "3.1 Pro"
@@ -182,7 +182,7 @@ When multiple-scales reductive perturbation is applied to the Amari equation nea
 **Review Date:** 2026-07-25
 
 #### Results by Check
-* **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family`/`model_version` are plausible, `generation_timestamp` is recent, `triple_correspondence_vectors` has exactly three distinct items, `maturity_stage` is `candidate`, and `relationship_type` is `candidate_structural_isomorphism`.
+* **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family`/`model_version` are plausible, `generation_timestamp` is recent, `triple_correspondence_vectors` has exactly three distinct items, `maturity_stage` is `candidate`, and `relationship_type` is `candidate_structural_isomorphism`.
 * **CHECK 2 (Equation Validity):** PASS — The NLSE and Amari neural field equation are both domain-appropriate for the stated silos, and the section uses equations consistent with the claimed fields.
 * **CHECK 3 (Vocabulary Matrix Coherence):** FAIL — `Kerr Effect / Self-Phase Modulation ($\gamma$) ↔ Sigmoidal Activation Function Saturation Limits` is a category mismatch: a scalar nonlinear coefficient is being paired with output asymptotes, and the operator-role text claims a phase shift that the right-hand term does not encode.
 * **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `governing_differential_operator` is supported in §3 by the two displayed equations, and `instability_mechanism` is supported by the modulational-instability/bursting discussion, but `numerical_solution_family` is only partially supported because §3 names Peregrine solitons on the optics side without an equally specific neural-side solution family.

@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-004"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "OpenAI"
   model_family: "GPT"
   model_version: "5.5"
@@ -259,7 +259,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family: "GPT"` and `providence.model_version: "GPT-5.5"` are plausible model identifiers, the timestamp is recent, the triple vectors are three distinct items, and `maturity_stage` and `relationship_type` are correctly set.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family: "GPT"` and `provenance.model_version: "GPT-5.5"` are plausible model identifiers, the timestamp is recent, the triple vectors are three distinct items, and `maturity_stage` and `relationship_type` are correctly set.
 - **CHECK 2 (Equation Validity):** PASS — both displayed equations are face-valid conservative balance-law continuity equations with advective flux and source terms, matching the stated defect-density and posterior-density evolution claims.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — the mapped pairs are flux-to-flux and source/update-to-source/update correspondences, and the Operator Role text specifies a shared transport-plus-source structure rather than only hedged analogy.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `governing_differential_operator` and `numerical_solution_family` are supported by the equations and finite-volume discussion in Sections 3-4, but `conserved_quantities` is only gestured at by “preserving global measures” and “conservative transport” in Sections 1 and 3 without an integral conservation law.
@@ -296,7 +296,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — All fields are present and plausible; `providence.model_family` and `model_version` are valid model identifiers, timestamp is recent, triple correspondence vectors are three distinct items, and maturity_stage/relationship_type are correct.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — All fields are present and plausible; `provenance.model_family` and `model_version` are valid model identifiers, timestamp is recent, triple correspondence vectors are three distinct items, and maturity_stage/relationship_type are correct.
 - **CHECK 2 (Equation Validity):** PASS — Both equations model the described phenomena (continuity with source terms) and are consistent with the physical domains stated; no misattribution or category error detected.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — Both mapping pairs (Dislocation Flux ↔ Posterior Probability Flux, Dislocation Multiplication/Annihilation ↔ Likelihood Update/Information Gain) pair objects of compatible mathematical type, and the operator role explanations identify shared mathematical structure.
 - **CHECK 4 (Triple-Correspondence Body Verification):** PASS — Governing differential operator (explicit equations), conserved quantities (conservative transport nature), and numerical solution family (finite-volume methods) are all addressed in Section 3 with sufficient specificity.

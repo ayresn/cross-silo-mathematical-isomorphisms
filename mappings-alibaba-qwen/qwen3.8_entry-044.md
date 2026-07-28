@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-044"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "Alibaba"
   model_family: "Qwen"
   model_version: "3.8 Max"

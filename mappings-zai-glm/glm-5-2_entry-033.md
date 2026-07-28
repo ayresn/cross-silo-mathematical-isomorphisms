@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-033"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "Z.AI"
   model_family: "GLM"
   model_version: "5.2"

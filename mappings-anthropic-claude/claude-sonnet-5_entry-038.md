@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-038"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "Anthropic"
   model_family: "Claude"
   model_version: "Sonnet 5"
@@ -212,7 +212,7 @@ One honest flag from inside the entry itself, worth surfacing rather than buryin
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family: "Claude"`, `providence.model_version: "Claude Sonnet 5"`, `generation_timestamp: "2026-07-22"`, the three distinct `triple_correspondence_vectors`, `maturity_stage: "candidate"`, and `relationship_type: "candidate_structural_isomorphism"` are all plausible and internally consistent.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family: "Claude"`, `provenance.model_version: "Claude Sonnet 5"`, `generation_timestamp: "2026-07-22"`, the three distinct `triple_correspondence_vectors`, `maturity_stage: "candidate"`, and `relationship_type: "candidate_structural_isomorphism"` are all plausible and internally consistent.
 - **CHECK 2 (Equation Validity):** PASS — the compound-Poisson surplus process, the diffusion hitting-probability formula `ψ(u) = exp(-2μu/σ²)`, and the analogous log-population diffusion formula are consistent with the stated first-passage domains and support the claimed diffusion-limit isomorphism.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — the mapped pairs are compatible mathematical objects (drift rate ↔ drift rate; shock-tail class ↔ catastrophe-tail class), and the Operator Role explanations specify shared exponential-moment and hitting-probability structure rather than mere analogy.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FAIL — `governing_stochastic_differential_operator` is supported by the Section 3 process and boundary-value equations, and `heavy_tailed_instability_mechanism` is at least gestured toward in the Lundberg/subexponential discussion, but the YAML vector `"laplace_transform_numerical_solution_family"` has no supporting equation, operator, or derivation in Section 3.

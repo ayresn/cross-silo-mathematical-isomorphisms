@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-015"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "xAI"
   model_family: "Grok"
   model_version: "4"

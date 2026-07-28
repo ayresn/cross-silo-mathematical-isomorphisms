@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-008"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "Google"
   model_family: "Gemini"
   model_version: "3.1 Pro"

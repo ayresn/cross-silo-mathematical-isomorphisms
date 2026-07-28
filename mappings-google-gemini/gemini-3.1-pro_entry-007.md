@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-007"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "Google"
   model_family: "Gemini"
   model_version: "3.1 Pro"
@@ -199,7 +199,7 @@ None identified — entry rejected at Stage 2. If revised and resubmitted, the f
 **Review Date:** 2026-07-25
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family: "Gemini"` and `providence.model_version: "gemini-1.5-pro"` are plausible model identifiers, the timestamp is recent, the three vectors are distinct, and `maturity_stage` and `relationship_type` are correct.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family: "Gemini"` and `provenance.model_version: "gemini-3.1-pro"` are plausible model identifiers, the timestamp is recent, the three vectors are distinct, and `maturity_stage` and `relationship_type` are correct.
 - **CHECK 2 (Equation Validity):** PASS — Both displayed equations are second-order matrix oscillator equations with velocity-scaled damping/stiffness terms and are broadly consistent with the stated flutter and stablecoin-dynamics descriptions.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — The paired items are mutually compatible mathematical objects (scalar driving parameters, damping matrices, and state variables), and the operator roles specify a shared coupling/dissipation structure rather than mere analogy.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `governing_differential_operator` and `instability_mechanism` are supported by the Section 3 equations and Hopf-coalescence discussion, but `dimensionless_similarity_parameters` is not mathematically demonstrated in Section 3; the body only gestures at a “critical threshold” without defining dimensionless similarity parameters.

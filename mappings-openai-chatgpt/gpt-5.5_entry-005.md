@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-005"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "OpenAI"
   model_family: "GPT"
   model_version: "5.5"
@@ -247,7 +247,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family: "GPT"` and `providence.model_version: "GPT-5.5"` are plausible model identifiers, `generation_timestamp: "2026-07-22"` is recent, the three `triple_correspondence_vectors` are distinct, and `maturity_stage: "candidate"` and `relationship_type: "candidate_structural_isomorphism"` are correct.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family: "GPT"` and `provenance.model_version: "GPT-5.5"` are plausible model identifiers, `generation_timestamp: "2026-07-22"` is recent, the three `triple_correspondence_vectors` are distinct, and `maturity_stage: "candidate"` and `relationship_type: "candidate_structural_isomorphism"` are correct.
 - **CHECK 2 (Equation Validity):** FLAG — the Silo B equation “\(\min_{G}\;\mathcal{J}(G)\quad\text{subject to}\quad G\in\mathcal{A}\)” is a static feasibility-constrained optimization and does not encode the Section 1 claim of “irreversible admissibility constraints” or “monotone admissible evolution” for Bayesian network structure learning.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — the pairs “Damage Variable ↔ Edge Existence Indicator” and “Irreversibility Constraint ↔ Acyclicity Constraint” are both state/constraint-level objects, and the Operator Role text identifies a shared feasible-set constraint structure rather than an outright category error.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `variational_principle` is supported by the two minimization problems in Section 3, but `boundary_conditions` is only gestured at by “complementary boundary conditions on admissible states” and “feasible-state boundaries,” and `numerical_solution_family` is only gestured at by “alternating minimization with projection” and “local graph updates and projection or repair operations” without an equation, operator, or derivation.

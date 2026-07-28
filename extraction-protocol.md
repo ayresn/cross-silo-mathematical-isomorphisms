@@ -45,7 +45,7 @@ sid_metadata:
   entry_id: "SID-[Entry Number per the Entry Numbering Rule above, e.g., 001]"
   schema_version: "1.0-production"
   maturity_stage: "candidate"
-providence:
+provenance:
   company: "[Insert AI Company Name]"
   model_family: "[Insert Model Family]"
   model_version: "[Insert Exact Model Version]"
@@ -124,8 +124,8 @@ Immediately after Section 5, output the separator line `--- END ENTRY / BEGIN DI
 
 Constraints on this snippet:
 *   The entry number here must be numerically identical to this entry's own `sid_metadata.entry_id` and to the "ENTRY NNN" heading above — see the Entry Numbering Rule.
-*   The filename slug must exactly match this entry's own `providence.model_version` field so the directory link resolves correctly.
-*   The directory path must exactly match `mappings-[providence.company]-[providence.model_family]/`, lowercased and hyphenated.
+*   The filename slug must exactly match this entry's own `provenance.model_version` field so the directory link resolves correctly.
+*   The directory path must exactly match `mappings-[provenance.company]-[provenance.model_family]/`, lowercased and hyphenated.
 *   The status tag is always `Stage 1 / pending` for a newly generated entry — never mark it as validated here.
 *   *Domains* and *Isomorphism* must reuse the same domain names and named methods already established in this entry's own YAML and Section 3 — do not introduce new terminology that doesn't appear elsewhere in the entry.
 ````

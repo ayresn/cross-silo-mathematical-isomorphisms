@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-020"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "Microsoft"
   model_family: "Copilot"
   model_version: "1.2"

@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-040"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-flagged"
-providence:
+provenance:
   company: "Anthropic"
   model_family: "Claude"
   model_version: "Sonnet 5"
@@ -218,7 +218,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family` and `providence.model_version` are plausible model identifiers, the timestamp is recent, the triple-correspondence list has exactly three distinct items, and the required maturity and relationship fields are correct.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family` and `provenance.model_version` are plausible model identifiers, the timestamp is recent, the triple-correspondence list has exactly three distinct items, and the required maturity and relationship fields are correct.
 - **CHECK 2 (Equation Validity):** PASS — `g(x,\lambda)=0` with singular Jacobian and the depensation biomass ODE both model the stated saddle-node collapse domains and support the displayed normal-form reduction.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — the paired terms are framed as bifurcation points, fold curves, and scalar distance-to-collapse margins; the third mapping is policy-adjacent but the entry explicitly defines it as a distance-to-fold quantity.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `governing_algebraic_dynamical_operator` and `saddle_node_bifurcation_instability_mechanism` are supported by the equations in Section 3, but `continuation_method_numerical_solution_family` is only named as “predictor-corrector continuation” in Section 3 and developed in Section 4 without an equation, operator, or derivation demonstrating the correspondence.
@@ -237,7 +237,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — providence.model_family "Claude" and model_version "Claude Sonnet 5" are plausible AI identifiers, generation_timestamp "2026-07-22" is recent, triple_correspondence_vectors lists exactly 3 distinct items, maturity_stage is "candidate" and relationship_type is "candidate_structural_isomorphism".
+- **CHECK 1 (YAML Metadata Integrity):** PASS — provenance.model_family "Claude" and model_version "Claude Sonnet 5" are plausible AI identifiers, generation_timestamp "2026-07-22" is recent, triple_correspondence_vectors lists exactly 3 distinct items, maturity_stage is "candidate" and relationship_type is "candidate_structural_isomorphism".
 - **CHECK 2 (Equation Validity):** PASS — g(x,λ)=0 with det(∂g/∂x)=0 correctly models power-flow saddle-node, dB/dt = rB(B/A-1)(1-B/K)-qEB correctly models critical depensation with Allee effect, and \dot z = μ - z^2 is correct saddle-node normal form supporting the claimed isomorphism.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All pairings are type-compatible (bifurcation parameter value ↔ parameter value, equilibrium fold curve ↔ fold curve, distance-to-fold margin ↔ distance-to-fold margin) and Operator Role specifies shared geometric/bifurcation structure rather than hedged similarity.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — governing_algebraic_dynamical_operator supported in Section 3 via g(x,λ)=0 and dB/dt equation; saddle_node_bifurcation_instability_mechanism supported via det singularity condition and \dot z = μ - z^2 normal form; continuation_method_numerical_solution_family only gestured in Section 3 final sentence "trace the full multi-parameter fold surface numerically via predictor-corrector continuation" without equation, operator, or derivation — substantive continuation discussion appears only in Section 4.

@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-003"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "OpenAI"
   model_family: "GPT"
   model_version: "5.5"
@@ -257,7 +257,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — providence.model_family GPT and model_version GPT-5.5 are plausible identifiers, generation_timestamp 2026-07-22 is recent, triple_correspondence_vectors lists 3 distinct items, maturity_stage is candidate and relationship_type is candidate_structural_isomorphism.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — provenance.model_family GPT and model_version GPT-5.5 are plausible identifiers, generation_timestamp 2026-07-22 is recent, triple_correspondence_vectors lists 3 distinct items, maturity_stage is candidate and relationship_type is candidate_structural_isomorphism.
 - **CHECK 2 (Equation Validity):** PASS — M = e^{L_D Δs} e^{L_K Δs} + O(Δs^2) correctly models symplectic drift-kick composition for Silo A and x_{n+1} = I_n ∘ Φ_{Δt}(x_n) correctly models discrete intervention dynamics for Silo B, together supporting the claimed kick-drift operator-composition isomorphism.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — Thin Lens Kick ↔ Management Intervention pairs two impulsive operators and Drift Section ↔ Natural Ecological Evolution pairs two propagation operators, both with Operator Role explanations specifying shared composition structure, not hedged analogy.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — numerical_solution_family is supported in Section 3 via M = e^{L_D Δs} e^{L_K Δs} + O(Δs^2) and x_{n+1}=I_n∘Φ_{Δt}(x_n) plus discussion of high-order splitting; governing_differential_operator is partially supported via L_D, L_K and Φ_{Δt} operators without explicit differential equations; symmetry_groups is unsupported — Section 3 only mentions "preserves geometric invariants" and "symplectic" with no group structure, equation, or derivation.

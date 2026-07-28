@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-002"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "OpenAI"
   model_family: "GPT"
   model_version: "5.5"

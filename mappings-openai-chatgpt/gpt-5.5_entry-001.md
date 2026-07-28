@@ -3,7 +3,7 @@ sid_metadata:
   entry_id: "SID-001"
   schema_version: "1.0-production"
   maturity_stage: "adversarial-rejected"
-providence:
+provenance:
   company: "OpenAI"
   model_family: "GPT"
   model_version: "5.5"
@@ -225,7 +225,7 @@ None identified.
 **Review Date:** 2026-07-24
 
 #### Results by Check
-- **CHECK 1 (YAML Metadata Integrity):** PASS — `providence.model_family: "GPT"` and `providence.model_version: "GPT-5.5"` are plausible model identifiers, `generation_timestamp: "2026-07-22"` is recent, the three `triple_correspondence_vectors` are distinct, `maturity_stage: "candidate"` and `relationship_type: "candidate_structural_isomorphism"` are correct.
+- **CHECK 1 (YAML Metadata Integrity):** PASS — `provenance.model_family: "GPT"` and `provenance.model_version: "GPT-5.5"` are plausible model identifiers, `generation_timestamp: "2026-07-22"` is recent, the three `triple_correspondence_vectors` are distinct, `maturity_stage: "candidate"` and `relationship_type: "candidate_structural_isomorphism"` are correct.
 - **CHECK 2 (Equation Validity):** PASS — `∂φ/∂t = -M δF[φ]/δφ` is a face-valid phase-field gradient flow and `dq/dt = -Γ ∇_q F(q)` is a face-valid continuous-time variational free-energy descent equation, so both equations support the claimed gradient-flow isomorphism.
 - **CHECK 3 (Vocabulary Matrix Coherence):** PASS — The paired terms are presented as compatible driving/state objects, and the Operator Role statements specify a shared functional-derivative/gradient-descent structure rather than merely hedged analogy.
 - **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `variational_principle` and `conserved_or_monotonic_functional` are supported by the Section 3 equations and monotonic-decay statements, but `numerical_solution_family` is only named in Section 1 ("closely corresponding implicit gradient-flow numerical solvers") and operationalized in Section 4, without a Section 3 numerical operator, scheme, or derivation.
