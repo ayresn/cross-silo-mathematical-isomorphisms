@@ -148,21 +148,21 @@ Machine-readable: [`indexes/entries.json`](indexes/entries.json).
 ### Where help is most needed
 The five candidates that drew the fewest reject votes from adversarial reviewers in Stage 2:
 
-* **[SID-036](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — 0% reject —
-  * Power Grid Cascading Failure & Structural Progressive Collapse
-  * *Sherman–Morrison–Woodbury admittance updates ↔ nodal stiffness reanalysis*
-* **[SID-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — 0% reject —
-  * Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-  * *Linearized debris Boltzmann cascade ↔ neutron transport k-eigenvalue*
-* **[SID-020](mappings-microsoft-copilot/copilot_entry-020.md)** — 14% reject —
-  * Turbulent Boundary Layer & Cortical Spiking Neural Field
-  * *Filtered Navier–Stokes LES closure ↔ Wilson–Cowan neural-field closure*
-* **[SID-040](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — 14% reject —
-  * Power System Voltage Stability & Fisheries Bioeconomic Collapse
-  * *Continuation power flow ↔ critical-depensation collapse dynamics*
-* **[SID-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — 14% reject —
-  * Nuclear Criticality Transport & Spatial Invasion Ecology
-  * *Boltzmann transport k-eigenvalue ↔ stage-structured growth eigenvalue*
+1. **[SID-036](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — 0% reject —
+   * Power Grid Cascading Failure & Structural Progressive Collapse
+   * *Sherman–Morrison–Woodbury admittance updates ↔ nodal stiffness reanalysis*
+1. **[SID-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — 0% reject —
+   * Orbital Debris Cascade Kinetics & Neutron Transport Criticality
+   * *Linearized debris Boltzmann cascade ↔ neutron transport k-eigenvalue*
+1. **[SID-020](mappings-microsoft-copilot/copilot_entry-020.md)** — 14% reject —
+   * Turbulent Boundary Layer & Cortical Spiking Neural Field
+   * *Filtered Navier–Stokes LES closure ↔ Wilson–Cowan neural-field closure*
+1. **[SID-040](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — 14% reject —
+   * Power System Voltage Stability & Fisheries Bioeconomic Collapse
+   * *Continuation power flow ↔ critical-depensation collapse dynamics*
+1. **[SID-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — 14% reject —
+   * Nuclear Criticality Transport & Spatial Invasion Ecology
+   * *Boltzmann transport k-eigenvalue ↔ stage-structured growth eigenvalue*
 
 [See all 17 →](indexes/stage-3-queue.md)
 
