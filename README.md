@@ -132,7 +132,7 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 ---
 
 ## THE DATASET
-**Nothing here is a verified finding.** 28 of 50 entries were rejected by the review panel on internal-consistency grounds. Of the 17 that advanced, none has completed Stage 3 human bibliometric validation, so none has been checked against the published literature by anyone qualified to do it. Read the reliability section above before treating any status tag as a quality signal.
+The status tags for the entries in the dataset identify each entry's current pipeline stage. **No entry in this dataset should be treated as a verified finding unless it specifically bears the `Stage 3 / validated` status tag indicating that it passed both adversarial review and bibliometric validation.** Entries that failed Stage 2 adversarial review or Stage 3 bibliometric validation are retained in the dataset with `rejected` status tags indicating what Stage they failed to clear for false-positive-rate tracking, and should not be treated as research leads.
 
 ### Browse the dataset
 | Index | Use it for |
