@@ -118,11 +118,13 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | --- | ---: | ---: | ---: | ---: | ---: |
 | [Alibaba Qwen 3.8 Max](https://chat.qwen.ai/) | 5 | 2 | 3 | 60% | 51.4% |
 | [Amazon Nova 1.0 Pro](https://nova.amazon.com/) | 5 | 5 | 0 | 0% | 100.0% |
+| [Anthropic Claude Opus 5](https://claude.ai/) | - | - | - | - | - |
 | [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 3 | 2 | 40% | 42.6% |
 | [DeepSeek DeepSeek V4 Pro](https://chat.deepseek.com/) | 5 | 3 | 2 | 40% | 63.0% |
 | [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 2 | 3 | 60% | 51.4% |
 | [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 0 | 0% | 100.0% |
 | [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 0 | 5 | 100% | 34.4% |
+| [OpenAI GPT 5.4 Thinking Mini](https://chatgpt.com/) | - | - | - | - | - |
 | [OpenAI GPT 5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
 | [xAI Grok 4](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
 | [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
