@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-08-03",
   "entries": [
     {
       "entry_id": "SID-001",
@@ -62,12 +62,12 @@
           "rationale": "All checks pass with internal consistency between YAML, equations, vocabulary mappings, and body text supporting the claimed gradient-flow isomorphism."
         }
       ],
-      "synthesis": "Energy-Stable Belief Morphogenesis",
-      "isomorphism": "Allen-Cahn Gradient Flow mapped to Variational Free-Energy Gradient Flow",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Energy-Stable Belief Morphogenesis",
+      "title": "Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs",
       "model_label": "OpenAI GPT 5.5"
     },
     {
@@ -131,12 +131,12 @@
           "rationale": "All checks passed with no fatal inconsistencies or category errors detectable from entry text alone."
         }
       ],
-      "synthesis": "Conservative Probability Transport Across Trees",
-      "isomorphism": "Chemical Master Equation mapped to Sequential Monte Carlo Measure Evolution",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.8571428571428571,
       "n_reject": 6,
       "n_reviews": 7,
-      "title": "Conservative Probability Transport Across Trees",
+      "title": "Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo",
       "model_label": "OpenAI GPT 5.5"
     },
     {
@@ -200,12 +200,12 @@
           "rationale": "Partial body-text support for one of the three YAML triple-correspondence vectors (symmetry_groups) without full mathematical demonstration of the claimed correspondence."
         }
       ],
-      "synthesis": "Geometric Stewardship Through Split Dynamics",
-      "isomorphism": "Lie-Algebraic Symplectic Map mapped to Discrete Intervention Operator Splitting",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Geometric Stewardship Through Split Dynamics",
+      "title": "Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management",
       "model_label": "OpenAI GPT 5.5"
     },
     {
@@ -269,12 +269,12 @@
           "rationale": "All six checks pass with no category errors, equation mismatches, unsupported vectors, textbook analogies, or score-content contradictions detectable from the entry text alone."
         }
       ],
-      "synthesis": "Defect Transport Mirrors Belief Flow",
-      "isomorphism": "Continuum Dislocation Density Transport Equation mapped to Streaming Variational Probability Transport Equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.2857142857142857,
       "n_reject": 2,
       "n_reviews": 7,
-      "title": "Defect Transport Mirrors Belief Flow",
+      "title": "Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning",
       "model_label": "OpenAI GPT 5.5"
     },
     {
@@ -338,12 +338,12 @@
           "rationale": "All six checks pass with no internal contradictions, category errors, misattributed equations, or textbook-canonical pairings detectable from the entry text alone."
         }
       ],
-      "synthesis": "Irreversible Graph Fracture Dynamics",
-      "isomorphism": "Variational Phase-Field Fracture Minimization mapped to Score-Based Bayesian Network Structure Optimization",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.7142857142857143,
       "n_reject": 5,
       "n_reviews": 7,
-      "title": "Irreversible Graph Fracture Dynamics",
+      "title": "Continuum Damage Mechanics & Bayesian Network Structure Learning",
       "model_label": "OpenAI GPT 5.5"
     },
     {
@@ -407,12 +407,12 @@
           "rationale": "Partial body support in Section 3 for one of the three YAML triple-correspondence vectors, with all other checks passing."
         }
       ],
-      "synthesis": "Dispersion Management of Seizure Rogue Waves",
-      "isomorphism": "generalized Nonlinear Schr\u00f6dinger Equation mapped to Amari Neural Field Equations",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Dispersion Management of Seizure Rogue Waves",
+      "title": "Nonlinear Fiber Optics & Computational Neuroscience",
       "model_label": "Google Gemini 3.1 Pro"
     },
     {
@@ -476,12 +476,12 @@
           "rationale": "Triple-correspondence vector 'dimensionless_similarity_parameters' receives only implicit gesturing via scaling coefficients rather than explicit mathematical demonstration of dimensionless groups."
         }
       ],
-      "synthesis": "Aeroelastic Flutter of Algorithmic Stablecoins",
-      "isomorphism": "dynamic wing flutter matrix ODE mapped to AMM algorithmic stablecoin price dynamics",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Aeroelastic Flutter of Algorithmic Stablecoins",
+      "title": "Computational Aeroelasticity & Decentralized Finance Tokenomics",
       "model_label": "Google Gemini 3.1 Pro"
     },
     {
@@ -545,12 +545,12 @@
           "rationale": "Category-error vocabulary mapping of length-scale D_c to time-scale \u03c4_L together with Silo-B equations that are a direct relabeling of the Dieterich-Ruina system rather than genuine continuous-time supply-chain dynamics."
         }
       ],
-      "synthesis": "Rate-and-State Dynamics of the Bullwhip Effect",
-      "isomorphism": "Dieterich-Ruina rate-and-state friction equations mapped to continuous-time algorithmic supply chain replenishment ODEs",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.7142857142857143,
       "n_reject": 5,
       "n_reviews": 7,
-      "title": "Rate-and-State Dynamics of the Bullwhip Effect",
+      "title": "Seismological Tribology & Multi Echelon Supply Chain Logistics",
       "model_label": "Google Gemini 3.1 Pro"
     },
     {
@@ -614,12 +614,12 @@
           "rationale": "Partial body support for one triple-correspondence vector and a minor category inconsistency in labeling length scales as dimensionless."
         }
       ],
-      "synthesis": "Plasma Kinetics of Limit Order Books",
-      "isomorphism": "Vlasov-Poisson equation mapped to mean-field kinetic Limit Order Book PDE",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Plasma Kinetics of Limit Order Books",
+      "title": "Collisionless Plasma Kinetics & HFT Market Microstructure",
       "model_label": "Google Gemini 3.1 Pro"
     },
     {
@@ -683,12 +683,12 @@
           "rationale": "Partial body support for two of the three claimed triple-correspondence vectors; equations and matrix are internally consistent but do not fully demonstrate symmetry-group or conserved-quantity correspondences with explicit operators or derivations."
         }
       ],
-      "synthesis": "Transformation Optics of Pedestrian Crowds",
-      "isomorphism": "Diffeomorphism-invariant geometric optics Eikonal equation mapped to the macroscopic Hughes continuum model for route choice",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Transformation Optics of Pedestrian Crowds",
+      "title": "Transformation Optics & Macroscopic Pedestrian Dynamics",
       "model_label": "Google Gemini 3.1 Pro"
     },
     {
@@ -752,12 +752,12 @@
           "rationale": "No fatal equation or vocabulary errors; numerical_solution_family lacks specific demonstration in Section 3 and bell-ringing analogy is pedagogically known, warranting Stage 3 scrutiny."
         }
       ],
-      "synthesis": "Quasinormal Ringing Across Spacetime and Structures",
-      "isomorphism": "Linearised wave operator spectrum mapped to generalised eigenvalue problem",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Quasinormal Ringing Across Spacetime and Structures",
+      "title": "Black Hole Perturbation Theory & Structural Vibration Analysis",
       "model_label": "xAI Grok 4"
     },
     {
@@ -821,12 +821,12 @@
           "rationale": "Silo B governing equation is single advection-reaction and fails to exhibit claimed mixed parabolic-elliptic coupling, vocabulary maps equation to field, and two triple vectors have zero support in Section 3."
         }
       ],
-      "synthesis": "Coupled Pressure-Driven Deformation Waves",
-      "isomorphism": "Biot consolidation operator mapped to mean-field mobility-infection system",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Coupled Pressure-Driven Deformation Waves",
+      "title": "Poroelasticity & Agent Based Epidemic Modeling",
       "model_label": "xAI Grok 4"
     },
     {
@@ -890,12 +890,12 @@
           "rationale": "YAML lists numerical_solution_family but Section 3 body contains zero discussion of numerical methods, failing triple-correspondence verification"
         }
       ],
-      "synthesis": "Discrete Slip in Crystals and Strategies",
-      "isomorphism": "Schmid law flow rule mapped to replicator payoff dynamics",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.8571428571428571,
       "n_reject": 6,
       "n_reviews": 7,
-      "title": "Discrete Slip in Crystals and Strategies",
+      "title": "Crystal Plasticity & Evolutionary Game Dynamics",
       "model_label": "xAI Grok 4"
     },
     {
@@ -959,12 +959,12 @@
           "rationale": "Two triple-correspondence vectors lack mathematical demonstration in Section 3 body"
         }
       ],
-      "synthesis": "Nonlocal Regularization of Softening Fronts",
-      "isomorphism": "Nonlocal integral operator mapped to mobility convolution kernel",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.8571428571428571,
       "n_reject": 6,
       "n_reviews": 7,
-      "title": "Nonlocal Regularization of Softening Fronts",
+      "title": "Nonlocal Damage Mechanics & Spatial Epidemiology",
       "model_label": "xAI Grok 4"
     },
     {
@@ -1028,12 +1028,12 @@
           "rationale": "Triple correspondence vector numerical_solution_family claimed in YAML has no supporting mathematical discussion in Section 3 body."
         }
       ],
-      "synthesis": "Backward Duals for Forward Calibration",
-      "isomorphism": "Adjoint operator mapped to ecological data-misfit gradients",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Backward Duals for Forward Calibration",
+      "title": "Adjoint Sensitivity Analysis & Inverse Problem Ecology",
       "model_label": "xAI Grok 4"
     },
     {
@@ -1097,12 +1097,12 @@
           "rationale": "Partial body support in Section 3 for the numerical_solution_family vector and mild asymmetry concern, with no fatal equation or category errors."
         }
       ],
-      "synthesis": "Energy\u2011Driven Polarization Mapping",
-      "isomorphism": "Variational phase\u2011field gradient flow mapped to nonlocal Fokker\u2011Planck aggregation\u2013diffusion",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Energy\u2011Driven Polarization Mapping",
+      "title": "Variational Phase Field Fracture & Kinetic Opinion Dynamics",
       "model_label": "Microsoft Copilot 1.2"
     },
     {
@@ -1166,12 +1166,12 @@
           "rationale": "All six checks pass with no internal contradictions, category errors, or textbook-level canonical pairings identifiable from the entry text alone."
         }
       ],
-      "synthesis": "Kinked Slip\u2011Reconnection Analogy",
-      "isomorphism": "Reduced MHD reconnection operator mapped to Interfacial integro\u2011differential slip evolution",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.2857142857142857,
       "n_reject": 2,
       "n_reviews": 7,
-      "title": "Kinked Slip\u2011Reconnection Analogy",
+      "title": "Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives",
       "model_label": "Microsoft Copilot 1.2"
     },
     {
@@ -1235,12 +1235,12 @@
           "rationale": "All six checks pass with internal consistency between YAML claims, equations, vocabulary mappings, body demonstrations, asymmetry rationale, and falsifiable predictions."
         }
       ],
-      "synthesis": "Localized Influence Bifurcation",
-      "isomorphism": "Nonlocal elasto-plastic continuum (Eshelby kernel) mapped to adaptive graph-Laplacian master equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Localized Influence Bifurcation",
+      "title": "Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks",
       "model_label": "Microsoft Copilot 1.2"
     },
     {
@@ -1304,12 +1304,12 @@
           "rationale": "All six checks pass with no category errors, equation mismatches, unsupported vectors, textbook-level familiarity, or score-content contradictions."
         }
       ],
-      "synthesis": "Graph Phase\u2011Field Cascades",
-      "isomorphism": "Griffith phase-field variational method mapped to graph-cut / Laplacian gradient flow",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Graph Phase\u2011Field Cascades",
+      "title": "Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks",
       "model_label": "Microsoft Copilot 1.2"
     },
     {
@@ -1373,12 +1373,12 @@
           "rationale": "Equations and vocabulary are domain-correct and internally coherent at face level, but the claimed operator-level mapping of local advection to nonlocal gain+convolution is only gestural, numerical_solution_family receives only partial body support, and the structural_isomorphism_score sits high relative to the demonstrated correspondence strength."
         }
       ],
-      "synthesis": "Turbulent Closure for Cortical Waves",
-      "isomorphism": "Filtered Navier\u2013Stokes (LES Smagorinsky/Germano) mapped to Wilson\u2013Cowan/integro-differential neural-field closures",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.14285714285714285,
       "n_reject": 1,
       "n_reviews": 7,
-      "title": "Turbulent Closure for Cortical Waves",
+      "title": "Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field",
       "model_label": "Microsoft Copilot 1.2"
     },
     {
@@ -1443,12 +1443,12 @@
           "rationale": "YAML triple_correspondence_vectors contains four items instead of exactly three, violating metadata integrity requirements."
         }
       ],
-      "synthesis": "Void Coalescence As Cosmic Percolation",
-      "isomorphism": "GTN Porous Plasticity JMAK Kinetics mapped to False Vacuum Bubble Nucleation Avrami Kinetics",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Void Coalescence As Cosmic Percolation",
+      "title": "Ductile Fracture Mechanics & Early Universe Cosmology",
       "model_label": "Meta Muse Spark 1.1"
     },
     {
@@ -1513,12 +1513,12 @@
           "rationale": "YAML triple_correspondence_vectors contains four items rather than the required exactly three distinct items."
         }
       ],
-      "synthesis": "Elastic Turbulence Of Echo Chambers",
-      "isomorphism": "Oldroyd-B Conformation Transport mapped to Covariance Lyapunov Transport",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Elastic Turbulence Of Echo Chambers",
+      "title": "Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics",
       "model_label": "Meta Muse Spark 1.1"
     },
     {
@@ -1583,12 +1583,12 @@
           "rationale": "YAML lists four triple_correspondence_vectors instead of exactly three; equations and vocabulary mappings fail to support the claimed identical two-delay operator."
         }
       ],
-      "synthesis": "Coherence Collapse Of Epidemic Waves",
-      "isomorphism": "Lang-Kobayashi Delay Model mapped to SIRS Delay Model",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Coherence Collapse Of Epidemic Waves",
+      "title": "Semiconductor Laser Dynamics & Mathematical Epidemiology",
       "model_label": "Meta Muse Spark 1.1"
     },
     {
@@ -1653,12 +1653,12 @@
           "rationale": "YAML triple_correspondence_vectors lists four items instead of the required exactly three distinct items, constituting invalid metadata."
         }
       ],
-      "synthesis": "Parton Showers Of Genomes",
-      "isomorphism": "DGLAP Evolution Equation mapped to Duplication Loss Master Equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Parton Showers Of Genomes",
+      "title": "Parton Shower Dynamics & Gene Family Evolution",
       "model_label": "Meta Muse Spark 1.1"
     },
     {
@@ -1723,12 +1723,12 @@
           "rationale": "YAML metadata violates the exact-three-vector rule and vocabulary matrix contains a scalar-to-pair category mismatch, both fatal under the protocol."
         }
       ],
-      "synthesis": "Seismic Faults As Forgetting Synapses",
-      "isomorphism": "Rate And State Friction Law mapped to Tsodyks-Markram Plasticity Model",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Seismic Faults As Forgetting Synapses",
+      "title": "Earthquake Friction Mechanics & Synaptic Plasticity Dynamics",
       "model_label": "Meta Muse Spark 1.1"
     },
     {
@@ -1792,12 +1792,12 @@
           "rationale": "Section 3 claims both equations instantiate the operator structure \u2202_t r = A\u00b7(\u03ba n + nonlocal integral) while the displayed Silo A equation is a fourth-order local bending force, and the numerical_solution_family vector receives zero support in Section 3 body text."
         }
       ],
-      "synthesis": "Helical Buckling of Elastic Defect Lines",
-      "isomorphism": "Resistive\u2011force theory with bending mapped to dislocation mobility law with line tension",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Helical Buckling of Elastic Defect Lines",
+      "title": "Elastohydrodynamics Of Active Filaments & Dislocation Dynamics In Crystalline Solids",
       "model_label": "DeepSeek DeepSeek V4 Pro"
     },
     {
@@ -1861,12 +1861,12 @@
           "rationale": "All six checks pass with full internal consistency between YAML claims, equations, vocabulary mappings, and body text support."
         }
       ],
-      "synthesis": "Elastic Spinodal Patterning of Living Gels",
-      "isomorphism": "Cahn-Hilliard with chemo-elastic coupling mapped to biofilm phase separation with EPS elasticity",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.2857142857142857,
       "n_reject": 2,
       "n_reviews": 7,
-      "title": "Elastic Spinodal Patterning of Living Gels",
+      "title": "Phase Field Dendrite Growth & Biofilm Pattern Formation",
       "model_label": "DeepSeek DeepSeek V4 Pro"
     },
     {
@@ -1930,12 +1930,12 @@
           "rationale": "Category-error mapping in the vocabulary matrix (force-density function to scalar edge weight) constitutes a fatal type mismatch under Check 3."
         }
       ],
-      "synthesis": "Nonlocal Laplacian Solver for Mega-Graph Labeling",
-      "isomorphism": "Peridynamic equilibrium integral operator mapped to graph Laplacian regularization system",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Nonlocal Laplacian Solver for Mega-Graph Labeling",
+      "title": "Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning",
       "model_label": "DeepSeek DeepSeek V4 Pro"
     },
     {
@@ -1999,12 +1999,12 @@
           "rationale": "Neural Fokker-Planck operator lacks the isotropic diffusion required by the claimed governing operator and triple-correspondence vector, while the conserved-quantity vector receives only gestural support."
         }
       ],
-      "synthesis": "Tensor-Train Solver for Neural Ensemble Fokker-Planck",
-      "isomorphism": "Dumbbell Fokker-Planck equation mapped to adaptive integrate-and-fire population density equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Tensor-Train Solver for Neural Ensemble Fokker-Planck",
+      "title": "Microstructural Polymer Dynamics & Population Density Neural Dynamics",
       "model_label": "DeepSeek DeepSeek V4 Pro"
     },
     {
@@ -2068,12 +2068,12 @@
           "rationale": "Section 1 claims exact coincidence of SPH interpolation and GP posterior mean while Section 3 demonstrates only a Nystr\u00f6m approximation with diagonal mass matrix, and the conserved_quantity triple vector receives no mathematical demonstration in the body."
         }
       ],
-      "synthesis": "Gaussian-Process-Adaptive Smoothed Particle Hydrodynamics",
-      "isomorphism": "SPH kernel summation operator mapped to GP posterior mean kernel interpolation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.8571428571428571,
       "n_reject": 6,
       "n_reviews": 7,
-      "title": "Gaussian-Process-Adaptive Smoothed Particle Hydrodynamics",
+      "title": "Smoothed Particle Hydrodynamics & Gaussian Process Regression",
       "model_label": "DeepSeek DeepSeek V4 Pro"
     },
     {
@@ -2137,12 +2137,12 @@
           "rationale": "All six checks pass with no internal contradictions, category errors, or unsupported claims detectable from the entry text alone."
         }
       ],
-      "synthesis": "Gyroscopic Destabilization of Flowing Magnetic Flux Tubes",
-      "isomorphism": "Convective Wave Operator mapped to Thin Flux Tube MHD Equations",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Gyroscopic Destabilization of Flowing Magnetic Flux Tubes",
+      "title": "Axially Moving Continua Mechanics & Solar Coronal Loop MHD",
       "model_label": "Z.AI GLM 5.2"
     },
     {
@@ -2206,12 +2206,12 @@
           "rationale": "All six checks pass with no internal inconsistencies, category errors, or unsupported claims in the entry text."
         }
       ],
-      "synthesis": "Topological Auxetics of Dirac Strings",
-      "isomorphism": "Force Method Equilibrium Matrix mapped to Discrete Spin Flux Divergence",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Topological Auxetics of Dirac Strings",
+      "title": "Topological Structural Mechanics & Artificial Spin Ice",
       "model_label": "Z.AI GLM 5.2"
     },
     {
@@ -2275,12 +2275,12 @@
           "rationale": "Category-error vocabulary mapping of a differential operator expression to a tensor, unsupported YAML boundary-conditions vector in Section 3 body, and equation-type inconsistency (elliptic biharmonic presented for a hyperbolic domain) constitute fatal internal failures."
         }
       ],
-      "synthesis": "Spacetime Buckling of Gravitational Waves",
-      "isomorphism": "F\u00f6ppl-von K\u00e1rm\u00e1n Equations mapped to Szekeres Plane Wave Metric",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Spacetime Buckling of Gravitational Waves",
+      "title": "Thin Plate Elasticity & General Relativity Colliding Waves",
       "model_label": "Z.AI GLM 5.2"
     },
     {
@@ -2344,12 +2344,12 @@
           "rationale": "Body text fully supports the governing stochastic operator and soft-impingement instability but provides no mathematical demonstration of the claimed dimensionless similarity parameters."
         }
       ],
-      "synthesis": "Densification Limits of Solidification Kinetics",
-      "isomorphism": "Poisson Point Process Generating Functional mapped to JMAK Extended Volume Operator",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.7142857142857143,
       "n_reject": 5,
       "n_reviews": 7,
-      "title": "Densification Limits of Solidification Kinetics",
+      "title": "Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing",
       "model_label": "Z.AI GLM 5.2"
     },
     {
@@ -2413,12 +2413,12 @@
           "rationale": "Partial body support for one triple-correspondence vector and a minor type-mixing imprecision in the logical-operator mapping, with no fatal equation or category errors."
         }
       ],
-      "synthesis": "Topological Gauge Fixing of Truss Collapse",
+      "synthesis": "",
       "isomorphism": "",
       "reject_share": 0.8571428571428571,
       "n_reject": 6,
       "n_reviews": 7,
-      "title": "Topological Gauge Fixing of Truss Collapse",
+      "title": "Quantum Information Science & Computational Structural Mechanics",
       "model_label": "Z.AI GLM 5.2"
     },
     {
@@ -2482,12 +2482,12 @@
           "rationale": "All six checks passed with full internal consistency between YAML, equations, vocabulary, and body text."
         }
       ],
-      "synthesis": "Rank-1 Low-Rank Updates in Network Failure Propagation",
-      "isomorphism": "Sherman\u2013Morrison\u2013Woodbury Admittance updates mapped to Nodal Stiffness Reanalysis Matrix Operators",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.0,
       "n_reject": 0,
       "n_reviews": 7,
-      "title": "Rank-1 Low-Rank Updates in Network Failure Propagation",
+      "title": "Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis",
       "model_label": "Anthropic Claude Sonnet 5"
     },
     {
@@ -2551,12 +2551,12 @@
           "rationale": "Category error in vocabulary matrix between operator/matrix and scalar metric."
         }
       ],
-      "synthesis": "Resolution Leakage in Paleoclimate Reconstruction",
-      "isomorphism": "Seismic Resolution-Matrix / Checkerboard Testing mapped to Paleoclimate Pseudoproxy Validation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.7142857142857143,
       "n_reject": 5,
       "n_reviews": 7,
-      "title": "Resolution Leakage in Paleoclimate Reconstruction",
+      "title": "Seismic Tomography & Paleoclimate Field Reconstruction",
       "model_label": "Anthropic Claude Sonnet 5"
     },
     {
@@ -2620,12 +2620,12 @@
           "rationale": "Partial body support for one of the three YAML triple correspondence vectors despite strong core diffusion isomorphism."
         }
       ],
-      "synthesis": "Lundberg Asymptotics for Extinction Risk",
-      "isomorphism": "Cram\u00e9r\u2013Lundberg Ruin Asymptotics mapped to Diffusion-Approximation Extinction Probability",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.7142857142857143,
       "n_reject": 5,
       "n_reviews": 7,
-      "title": "Lundberg Asymptotics for Extinction Risk",
+      "title": "Actuarial Ruin Theory & Population Viability Analysis",
       "model_label": "Anthropic Claude Sonnet 5"
     },
     {
@@ -2689,12 +2689,12 @@
           "rationale": "All checks pass with no fatal inconsistencies or category errors in the provided entry text."
         }
       ],
-      "synthesis": "Stochastic Barrier-Crossing in Ship Capsize",
-      "isomorphism": "Kramers Escape-Rate Theory mapped to GZ-Curve Potential-Barrier Capsize Dynamics",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.5714285714285714,
       "n_reject": 4,
       "n_reviews": 7,
-      "title": "Stochastic Barrier-Crossing in Ship Capsize",
+      "title": "Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment",
       "model_label": "Anthropic Claude Sonnet 5"
     },
     {
@@ -2758,12 +2758,12 @@
           "rationale": "All internal checks on consistency, equation validity, vocabulary coherence, and body support pass with no category errors, misattributions, or contradictions detectable from the entry text alone."
         }
       ],
-      "synthesis": "Saddle-Node Collapse in Grids and Fisheries",
-      "isomorphism": "Continuation Power Flow / Saddle-Node Bifurcation Analysis mapped to Critical-Depensation Fishery Collapse Dynamics",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.14285714285714285,
       "n_reject": 1,
       "n_reviews": 7,
-      "title": "Saddle-Node Collapse in Grids and Fisheries",
+      "title": "Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling",
       "model_label": "Anthropic Claude Sonnet 5"
     },
     {
@@ -2828,12 +2828,12 @@
           "rationale": "YAML triple_correspondence_vectors contains four items instead of the required exactly three distinct items."
         }
       ],
-      "synthesis": "Plastic Projection of Traffic Congestion",
-      "isomorphism": "Return-mapping elastoplasticity mapped to Beckmann traffic equilibrium",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Plastic Projection of Traffic Congestion",
+      "title": "Computational Elastoplasticity & Network Traffic Equilibrium",
       "model_label": "Alibaba Qwen 3.8 Max"
     },
     {
@@ -2897,12 +2897,12 @@
           "rationale": "Partial body-text demonstration of the adjoint_importance_variational_principle vector (asserted via left-eigenvector language without explicit adjoint operator, equation, or variational derivation) while all other checks clear."
         }
       ],
-      "synthesis": "Adjoint Control of Debris Cascades",
-      "isomorphism": "linearized debris Boltzmann cascade equation mapped to neutron transport k-eigenvalue equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.0,
       "n_reject": 0,
       "n_reviews": 7,
-      "title": "Adjoint Control of Debris Cascades",
+      "title": "Orbital Debris Cascade Kinetics & Neutron Transport Criticality",
       "model_label": "Alibaba Qwen 3.8 Max"
     },
     {
@@ -2966,12 +2966,12 @@
           "rationale": "All six checks pass with no category errors, equation misattributions, unsupported vectors, or textbook-analogy collisions; scores are consistent with the demonstrated structural mapping."
         }
       ],
-      "synthesis": "Etch-Shadowed Karst Conduit Pitting",
-      "isomorphism": "Coburn\u2013Winters ion-enhanced etch model mapped to Dreybrodt dissolution law",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.42857142857142855,
       "n_reject": 3,
       "n_reviews": 7,
-      "title": "Etch-Shadowed Karst Conduit Pitting",
+      "title": "High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement",
       "model_label": "Alibaba Qwen 3.8 Max"
     },
     {
@@ -3035,12 +3035,12 @@
           "rationale": "All six checks pass with no internal contradictions, category errors, unsupported vectors, or recognizable textbook-analogy failures."
         }
       ],
-      "synthesis": "Criticality Transport for Landscape Persistence",
-      "isomorphism": "Boltzmann transport k-eigenvalue mapped to linearized stage-structured transport-growth eigenvalue",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 0.14285714285714285,
       "n_reject": 1,
       "n_reviews": 7,
-      "title": "Criticality Transport for Landscape Persistence",
+      "title": "Nuclear Criticality Transport & Spatial Invasion Ecology",
       "model_label": "Alibaba Qwen 3.8 Max"
     },
     {
@@ -3105,12 +3105,12 @@
           "rationale": "YAML triple_correspondence_vectors contains four items instead of the required exactly three distinct items."
         }
       ],
-      "synthesis": "Skin-Localized Outbreak Threshold",
-      "isomorphism": "Hatano-Nelson non-Bloch circuit admittance mapped to directed SIS next-generation operator",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Skin-Localized Outbreak Threshold",
+      "title": "Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology",
       "model_label": "Alibaba Qwen 3.8 Max"
     },
     {
@@ -3174,12 +3174,12 @@
           "rationale": "Equations in Section 3 are structurally inequivalent and fail to demonstrate any of the three claimed operator-level correspondences, contradicting both the isomorphism claim and the high structural scores."
         }
       ],
-      "synthesis": "Optical Instability Mirrors Fluid Turbulence",
-      "isomorphism": "Nonlinear Schr\u00f6dinger Equation mapped to Vorticity Equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Optical Instability Mirrors Fluid Turbulence",
+      "title": "Nonlinear Optics & Fluid Turbulence",
       "model_label": "Amazon Nova 1.0 Pro"
     },
     {
@@ -3243,12 +3243,12 @@
           "rationale": "Equations in Section 3 have incompatible differential operators (third-order dispersive KdV vs first-order hyperbolic conservation law) that cannot support the claimed identical governing operators or isomorphism, and two of three YAML triple-correspondence vectors lack any body-text demonstration."
         }
       ],
-      "synthesis": "Plasma Waves Inform Traffic Flow",
-      "isomorphism": "Korteweg-de Vries Equation mapped to Lighthill-Whitham-Richards Equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Plasma Waves Inform Traffic Flow",
+      "title": "Plasma Physics & Traffic Flow Theory",
       "model_label": "Amazon Nova 1.0 Pro"
     },
     {
@@ -3312,12 +3312,12 @@
           "rationale": "Equations and body text fail to demonstrate any operator-level or structural equivalence between the linear Schr\u00f6dinger equation and the nonlinear Navier-Stokes equations, while two of three YAML triple-correspondence vectors receive zero supporting discussion."
         }
       ],
-      "synthesis": "Quantum Chaos Informs Turbulent Flow",
-      "isomorphism": "Schr\u00f6dinger Equation mapped to Navier-Stokes Equations",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Quantum Chaos Informs Turbulent Flow",
+      "title": "Quantum Chaos & Turbulent Flow",
       "model_label": "Amazon Nova 1.0 Pro"
     },
     {
@@ -3381,12 +3381,12 @@
           "rationale": "Equations in Section 3 are of incompatible types (nonlinear PDE vs. linear program) and do not demonstrate the claimed identical governing differential operators or structural isomorphism."
         }
       ],
-      "synthesis": "Fluid Dynamics Informs Network Optimization",
-      "isomorphism": "Navier-Stokes Equations mapped to Linear Programming Formulations",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Fluid Dynamics Informs Network Optimization",
+      "title": "Fluid Dynamics & Network Flow Optimization",
       "model_label": "Amazon Nova 1.0 Pro"
     },
     {
@@ -3450,13 +3450,284 @@
           "rationale": "Multiple fatal category errors and unsupported correspondences: Helmholtz and Black-Scholes operators are inequivalent, vocabulary maps a spatial domain to a temporal point, and two of three YAML vectors receive zero body support."
         }
       ],
-      "synthesis": "Electromagnetic Waves Inform Option Pricing",
-      "isomorphism": "Helmholtz Equation mapped to Black-Scholes Equation",
+      "synthesis": "",
+      "isomorphism": "",
       "reject_share": 1.0,
       "n_reject": 7,
       "n_reviews": 7,
-      "title": "Electromagnetic Waves Inform Option Pricing",
+      "title": "Electromagnetic Theory & Financial Option Pricing",
       "model_label": "Amazon Nova 1.0 Pro"
+    },
+    {
+      "entry_id": "SID-051",
+      "number": 51,
+      "path": "mappings-anthropic-claude/claude-opus-5_entry-051.md",
+      "maturity_stage": "candidate",
+      "company": "Anthropic",
+      "model_family": "Claude",
+      "model_version": "Opus 5",
+      "generated": "2026-08-03",
+      "domain_a": "subglacial-hydrology",
+      "domain_b": "adaptive-biological-transport-networks",
+      "structural_family": "conductance-adaptation-gradient-flows",
+      "vectors": [
+        "governing_differential_operator",
+        "instability_mechanism",
+        "variational_principle",
+        "dimensionless_similarity_parameter"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Subglacial Hydrology & Adaptive Biological Transport Networks",
+      "model_label": "Anthropic Claude Opus 5"
+    },
+    {
+      "entry_id": "SID-052",
+      "number": 52,
+      "path": "mappings-anthropic-claude/claude-opus-5_entry-052.md",
+      "maturity_stage": "candidate",
+      "company": "Anthropic",
+      "model_family": "Claude",
+      "model_version": "Opus 5",
+      "generated": "2026-08-03",
+      "domain_a": "computational-limit-and-shakedown-analysis",
+      "domain_b": "genome-scale-metabolic-flux-modeling",
+      "structural_family": "convex-conic-feasibility-on-conservation-operators-under-cyclic-forcing",
+      "vectors": [
+        "governing_differential_operator",
+        "variational_principle",
+        "instability_mechanism",
+        "conserved_quantities",
+        "dimensionless_similarity_parameters"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling",
+      "model_label": "Anthropic Claude Opus 5"
+    },
+    {
+      "entry_id": "SID-053",
+      "number": 53,
+      "path": "mappings-anthropic-claude/claude-opus-5_entry-053.md",
+      "maturity_stage": "candidate",
+      "company": "Anthropic",
+      "model_family": "Claude",
+      "model_version": "Opus 5",
+      "generated": "2026-08-03",
+      "domain_a": "computational-lithography-proximity-effect-correction",
+      "domain_b": "laser-powder-bed-fusion-scan-path-design",
+      "structural_family": "thresholded-greens-kernel-inverse-design",
+      "vectors": [
+        "governing_integral_operator",
+        "boundary_conditions",
+        "dimensionless_similarity_parameters",
+        "instability_mechanism",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design",
+      "model_label": "Anthropic Claude Opus 5"
+    },
+    {
+      "entry_id": "SID-054",
+      "number": 54,
+      "path": "mappings-anthropic-claude/claude-opus-5_entry-054.md",
+      "maturity_stage": "candidate",
+      "company": "Anthropic",
+      "model_family": "Claude",
+      "model_version": "Opus 5",
+      "generated": "2026-08-03",
+      "domain_a": "structural-shakedown-and-limit-analysis",
+      "domain_b": "interbank-clearing-network-systemic-risk",
+      "structural_family": "cyclic-variational-inequalities-with-residual-field-certificates",
+      "vectors": [
+        "governing_differential_operator",
+        "variational_principles",
+        "instability_mechanism",
+        "conserved_quantities",
+        "dimensionless_similarity_parameters",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk",
+      "model_label": "Anthropic Claude Opus 5"
+    },
+    {
+      "entry_id": "SID-055",
+      "number": 55,
+      "path": "mappings-anthropic-claude/claude-opus-5_entry-055.md",
+      "maturity_stage": "candidate",
+      "company": "Anthropic",
+      "model_family": "Claude",
+      "model_version": "Opus 5",
+      "generated": "2026-08-03",
+      "domain_a": "athermal-amorphous-plasticity",
+      "domain_b": "power-grid-cascading-outage-analysis",
+      "structural_family": "long-range-signed-kernel-threshold-avalanches",
+      "vectors": [
+        "governing_differential_operator",
+        "conserved_quantities",
+        "instability_mechanism",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis",
+      "model_label": "Anthropic Claude Opus 5"
+    },
+    {
+      "entry_id": "SID-056",
+      "number": 56,
+      "path": "mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md",
+      "maturity_stage": "candidate",
+      "company": "OpenAI",
+      "model_family": "GPT",
+      "model_version": "5.4 Thinking Mini",
+      "generated": "2026-08-03",
+      "domain_a": "quasi-static-brittle-fracture",
+      "domain_b": "power-grid-cascading-failure",
+      "structural_family": "free-boundary-instabilities / graph-redistribution-dynamics",
+      "vectors": [
+        "governing_differential_operator",
+        "boundary_conditions",
+        "instability_mechanism"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Quasi Static Brittle Fracture & Power Grid Cascading Failure",
+      "model_label": "OpenAI GPT 5.4 Thinking Mini"
+    },
+    {
+      "entry_id": "SID-057",
+      "number": 57,
+      "path": "mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md",
+      "maturity_stage": "candidate",
+      "company": "OpenAI",
+      "model_family": "GPT",
+      "model_version": "5.4 Thinking Mini",
+      "generated": "2026-08-03",
+      "domain_a": "queueing-networks",
+      "domain_b": "synaptic-vesicle-trafficking",
+      "structural_family": "reflected-markov-processes-and-heavy-traffic-limits",
+      "vectors": [
+        "governing_differential_operator",
+        "instability_mechanism",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Queueing Networks & Synaptic Vesicle Trafficking",
+      "model_label": "OpenAI GPT 5.4 Thinking Mini"
+    },
+    {
+      "entry_id": "SID-058",
+      "number": 58,
+      "path": "mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md",
+      "maturity_stage": "candidate",
+      "company": "OpenAI",
+      "model_family": "GPT",
+      "model_version": "5.4 Thinking Mini",
+      "generated": "2026-08-03",
+      "domain_a": "semiconductor-reliability-engineering",
+      "domain_b": "computational-neuroscience",
+      "structural_family": "rare-event escape / absorbing-boundary drift-diffusion",
+      "vectors": [
+        "governing_differential_operator",
+        "boundary_conditions",
+        "instability_mechanism",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Semiconductor Reliability Engineering & Computational Neuroscience",
+      "model_label": "OpenAI GPT 5.4 Thinking Mini"
+    },
+    {
+      "entry_id": "SID-059",
+      "number": 59,
+      "path": "mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md",
+      "maturity_stage": "candidate",
+      "company": "OpenAI",
+      "model_family": "GPT",
+      "model_version": "5.4 Thinking Mini",
+      "generated": "2026-08-03",
+      "domain_a": "electrochemical-treeing",
+      "domain_b": "fungal-hyphal-invasion",
+      "structural_family": "laplacian-moving-boundary / screened-branching",
+      "vectors": [
+        "governing_differential_operator",
+        "interfacial_boundary_conditions",
+        "branching_instability_mechanism",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Electrochemical Treeing & Fungal Hyphal Invasion",
+      "model_label": "OpenAI GPT 5.4 Thinking Mini"
+    },
+    {
+      "entry_id": "SID-060",
+      "number": 60,
+      "path": "mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md",
+      "maturity_stage": "candidate",
+      "company": "OpenAI",
+      "model_family": "GPT",
+      "model_version": "5.4 Thinking Mini",
+      "generated": "2026-08-03",
+      "domain_a": "thermoacoustic-combustion-control",
+      "domain_b": "epileptiform-neural-dynamics",
+      "structural_family": "delay-coupled-hopf-instabilities",
+      "vectors": [
+        "governing_differential_operator",
+        "instability_mechanism",
+        "numerical_solution_family"
+      ],
+      "reviews": [],
+      "synthesis": "",
+      "isomorphism": "",
+      "reject_share": null,
+      "n_reject": 0,
+      "n_reviews": 0,
+      "title": "Thermoacoustic Combustion Control & Epileptiform Neural Dynamics",
+      "model_label": "OpenAI GPT 5.4 Thinking Mini"
     }
   ]
 }

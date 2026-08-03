@@ -18,8 +18,8 @@ As of the current commit:
 
 | Metric | Value |
 | --- | --- |
-| Total entries in dataset | 50 |
-| Entries awaiting Stage 2 adversarial review | 0 |
+| Total entries in dataset | 60 |
+| Entries awaiting Stage 2 adversarial review | 10 |
 | Entries that have completed Stage 2 adversarial review | 50 |
 | — rejected at Stage 2 (`adversarial-rejected`) | **33 (66.0%)** |
 | — advanced to Stage 3 queue (`adversarial-flagged`) | **17 (34.0%)** |
@@ -123,7 +123,6 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 2 | 3 | 60% | 51.4% |
 | [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 0 | 0% | 100.0% |
 | [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 0 | 5 | 100% | 34.4% |
-| [Moonshot AI Kimi](https://www.kimi.com/) | 0 | — | — | — | — |
 | [OpenAI GPT 5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
 | [xAI Grok 4](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
 | [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
