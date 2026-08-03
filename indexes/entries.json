@@ -3462,7 +3462,7 @@
       "entry_id": "SID-051",
       "number": 51,
       "path": "mappings-anthropic-claude/claude-opus-5_entry-051.md",
-      "maturity_stage": "candidate",
+      "maturity_stage": "adversarial-rejected",
       "company": "Anthropic",
       "model_family": "Claude",
       "model_version": "Opus 5",
@@ -3476,12 +3476,55 @@
         "variational_principle",
         "dimensionless_similarity_parameter"
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "OpenAI GPT-5.4 Thinking-Mini",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The YAML metadata is internally invalid because `triple_correspondence_vectors` contains four items rather than the required three."
+        },
+        {
+          "reviewer": "Google Gemini 3.1 Pro",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails YAML integrity by listing four correspondence vectors instead of three, and contains a fundamental mathematical category error in the vocabulary matrix."
+        },
+        {
+          "reviewer": "Z.AI GLM-5.2",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The triple_correspondence_vectors field lists 4 items instead of the required 3, violating the YAML metadata schema."
+        },
+        {
+          "reviewer": "Alibaba Qwen3.8",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry is rejected because the YAML triple-correspondence list violates the required three-vector schema and the claimed shared linear elliptic operator is contradicted by the non-Ohmic Silo-A equation."
+        },
+        {
+          "reviewer": "Meta Muse Spark 1.1",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains 4 entries, violating the exactly-3 requirement for metadata integrity."
+        },
+        {
+          "reviewer": "DeepSeek DeepSeek",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The YAML triple_correspondence_vectors field contains four items, violating the specification that it must list exactly three distinct items, a fatal metadata integrity failure."
+        },
+        {
+          "reviewer": "xAI Grok",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML lists four triple_correspondence_vectors instead of the required exactly three, constituting invalid metadata that blocks advancement."
+        }
+      ],
       "synthesis": "",
       "isomorphism": "",
-      "reject_share": null,
-      "n_reject": 0,
-      "n_reviews": 0,
+      "reject_share": 1.0,
+      "n_reject": 7,
+      "n_reviews": 7,
       "title": "Subglacial Hydrology & Adaptive Biological Transport Networks",
       "model_label": "Anthropic Claude Opus 5"
     },
@@ -3489,7 +3532,7 @@
       "entry_id": "SID-052",
       "number": 52,
       "path": "mappings-anthropic-claude/claude-opus-5_entry-052.md",
-      "maturity_stage": "candidate",
+      "maturity_stage": "adversarial-rejected",
       "company": "Anthropic",
       "model_family": "Claude",
       "model_version": "Opus 5",
@@ -3504,12 +3547,55 @@
         "conserved_quantities",
         "dimensionless_similarity_parameters"
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "OpenAI GPT-5.4 Thinking-Mini",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails metadata integrity and contains a category-error vocabulary mapping, so it cannot advance."
+        },
+        {
+          "reviewer": "Google Gemini 3.1 Pro",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry failed YAML metadata integrity and triple-correspondence body verification because it lists five correspondence vectors in the YAML, two of which are entirely unaddressed in Section 3."
+        },
+        {
+          "reviewer": "Z.AI GLM-5.2",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The YAML triple_correspondence_vectors field lists 5 items instead of the required 3, and the final vocabulary matrix mapping contains a category error pairing a dual/kinematic object with a primal object while asserting an incorrect kernel-of-adjoint structure for both."
+        },
+        {
+          "reviewer": "Alibaba Qwen3.8",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails CHECK 1 by listing five triple-correspondence vectors instead of three and fails CHECK 3 by mapping a kinematic collapse mechanism to an unbounded metabolic extreme pathway as an adjoint-kernel/Farkas certificate."
+        },
+        {
+          "reviewer": "Meta Muse Spark 1.1",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors lists 5 entries instead of required exactly 3, violating metadata integrity."
+        },
+        {
+          "reviewer": "DeepSeek DeepSeek",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains 5 items instead of exactly 3 distinct items, violating metadata integrity (Check 1)."
+        },
+        {
+          "reviewer": "xAI Grok",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors lists five items instead of exactly three, violating CHECK 1 metadata integrity."
+        }
+      ],
       "synthesis": "",
       "isomorphism": "",
-      "reject_share": null,
-      "n_reject": 0,
-      "n_reviews": 0,
+      "reject_share": 1.0,
+      "n_reject": 7,
+      "n_reviews": 7,
       "title": "Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling",
       "model_label": "Anthropic Claude Opus 5"
     },
@@ -3517,7 +3603,7 @@
       "entry_id": "SID-053",
       "number": 53,
       "path": "mappings-anthropic-claude/claude-opus-5_entry-053.md",
-      "maturity_stage": "candidate",
+      "maturity_stage": "adversarial-rejected",
       "company": "Anthropic",
       "model_family": "Claude",
       "model_version": "Opus 5",
@@ -3532,12 +3618,55 @@
         "instability_mechanism",
         "numerical_solution_family"
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "OpenAI GPT-5.4 Thinking-Mini",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry is internally invalid because `triple_correspondence_vectors` contains five items instead of exactly three, and the vocabulary matrix also includes a category-mismatch mapping."
+        },
+        {
+          "reviewer": "Google Gemini 3.1 Pro",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails YAML metadata integrity by listing five correspondence vectors instead of exactly three, and fails body verification because the claimed instability mechanism isomorphism lacks any mathematical demonstration in Section 3."
+        },
+        {
+          "reviewer": "Z.AI GLM-5.2",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains 5 items instead of the required 3, and the vocabulary matrix asserts an incorrect mathematical equivalence between resist line collapse and Plateau-Rayleigh balling."
+        },
+        {
+          "reviewer": "Alibaba Qwen3.8",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails metadata and equation checks because the correspondence vector list has five items, the moving heat-equation Green's function is internally inconsistent, and two claimed vectors lack Section 3 mathematical support."
+        },
+        {
+          "reviewer": "Meta Muse Spark 1.1",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors lists 5 items instead of required 3 and Section 3 lacks any mathematical demonstration of instability_mechanism, violating metadata integrity and body verification."
+        },
+        {
+          "reviewer": "DeepSeek DeepSeek",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains 5 items instead of exactly 3, and the vocabulary matrix maps dimensionless lithography metrics (MEEF, NILS) to dimensional LPBF quantities, constituting category errors."
+        },
+        {
+          "reviewer": "xAI Grok",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains five items instead of the required exactly three, violating metadata integrity."
+        }
+      ],
       "synthesis": "",
       "isomorphism": "",
-      "reject_share": null,
-      "n_reject": 0,
-      "n_reviews": 0,
+      "reject_share": 1.0,
+      "n_reject": 7,
+      "n_reviews": 7,
       "title": "Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design",
       "model_label": "Anthropic Claude Opus 5"
     },
@@ -3545,7 +3674,7 @@
       "entry_id": "SID-054",
       "number": 54,
       "path": "mappings-anthropic-claude/claude-opus-5_entry-054.md",
-      "maturity_stage": "candidate",
+      "maturity_stage": "adversarial-rejected",
       "company": "Anthropic",
       "model_family": "Claude",
       "model_version": "Opus 5",
@@ -3561,12 +3690,55 @@
         "dimensionless_similarity_parameters",
         "numerical_solution_family"
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "OpenAI GPT-5.4 Thinking-Mini",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry violates the required three-vector YAML structure and also contains at least one clear category error in the vocabulary matrix."
+        },
+        {
+          "reviewer": "Google Gemini 3.1 Pro",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails multiple checks: invalid YAML vector count, unsupported vectors in the body, and a mathematical category error in the vocabulary matrix."
+        },
+        {
+          "reviewer": "Z.AI GLM-5.2",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors lists 6 items instead of the required exactly 3, constituting invalid metadata under Check 1."
+        },
+        {
+          "reviewer": "Alibaba Qwen3.8",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails metadata integrity by listing six triple-correspondence vectors instead of three and fails vocabulary coherence with a category-mismatch mapping."
+        },
+        {
+          "reviewer": "Meta Muse Spark 1.1",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains 6 entries instead of required 3, and Section 3 provides no mathematical demonstration of the conserved_quantities correspondence."
+        },
+        {
+          "reviewer": "DeepSeek DeepSeek",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "Entry fails CHECK 1 (triple_correspondence_vectors contains 6 items, not the required exactly 3), CHECK 3 (vocabulary matrix maps a physical continuum stress tensor field to an administrative financial claim redistribution vector \u2013 a category error), and CHECK 4 (invalid triple vector field, no three items to verify)."
+        },
+        {
+          "reviewer": "xAI Grok",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains six items instead of the required exactly three distinct items, violating metadata integrity."
+        }
+      ],
       "synthesis": "",
       "isomorphism": "",
-      "reject_share": null,
-      "n_reject": 0,
-      "n_reviews": 0,
+      "reject_share": 1.0,
+      "n_reject": 7,
+      "n_reviews": 7,
       "title": "Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk",
       "model_label": "Anthropic Claude Opus 5"
     },
@@ -3574,7 +3746,7 @@
       "entry_id": "SID-055",
       "number": 55,
       "path": "mappings-anthropic-claude/claude-opus-5_entry-055.md",
-      "maturity_stage": "candidate",
+      "maturity_stage": "adversarial-rejected",
       "company": "Anthropic",
       "model_family": "Claude",
       "model_version": "Opus 5",
@@ -3588,12 +3760,55 @@
         "instability_mechanism",
         "numerical_solution_family"
       ],
-      "reviews": [],
+      "reviews": [
+        {
+          "reviewer": "OpenAI GPT-5.4 Thinking-Mini",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry has a hard metadata integrity failure because `triple_correspondence_vectors` contains four items, not exactly three, so it cannot advance unchanged."
+        },
+        {
+          "reviewer": "Google Gemini 3.1 Pro",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails YAML metadata integrity because the triple_correspondence_vectors field lists four items instead of exactly three."
+        },
+        {
+          "reviewer": "Z.AI GLM-5.2",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "CHECK 1 FAIL: the field triple_correspondence_vectors enumerates four items, violating the schema's exactly-three requirement and contradicting the field's own 'triple' designation \u2014 invalid YAML metadata."
+        },
+        {
+          "reviewer": "Alibaba Qwen3.8",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "The entry fails Check 1 because triple_correspondence_vectors lists four items rather than exactly three."
+        },
+        {
+          "reviewer": "Meta Muse Spark 1.1",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains 4 entries, violating the exactly-3 requirement for metadata integrity."
+        },
+        {
+          "reviewer": "DeepSeek DeepSeek",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "triple_correspondence_vectors contains four items instead of the required three, a hard schema violation that triggers immediate rejection."
+        },
+        {
+          "reviewer": "xAI Grok",
+          "verdict": "REJECT",
+          "timestamp": "2026-08-03",
+          "rationale": "YAML triple_correspondence_vectors contains four items instead of the required exactly three distinct items."
+        }
+      ],
       "synthesis": "",
       "isomorphism": "",
-      "reject_share": null,
-      "n_reject": 0,
-      "n_reviews": 0,
+      "reject_share": 1.0,
+      "n_reject": 7,
+      "n_reviews": 7,
       "title": "Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis",
       "model_label": "Anthropic Claude Opus 5"
     },

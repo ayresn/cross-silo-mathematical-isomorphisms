@@ -66,25 +66,10 @@ Advanced to Stage 3 with reviewer watch items.
   * *Domains:* High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
   * *Model:* Alibaba Qwen 3.8 Max
 
-## `Stage 1 / pending` — 10 entries
+## `Stage 1 / pending` — 5 entries
 
 Generated, not yet adversarially reviewed.
 
-* **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * *Model:* Anthropic Claude Opus 5
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Model:* OpenAI GPT 5.4 Thinking Mini
@@ -101,7 +86,7 @@ Generated, not yet adversarially reviewed.
   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
-## `Stage 2 / rejected` — 33 entries
+## `Stage 2 / rejected` — 38 entries
 
 Majority of reviewers voted to reject. Retained for false-positive-rate tracking; not a research lead.
 
@@ -204,4 +189,19 @@ Majority of reviewers voted to reject. Retained for false-positive-rate tracking
 * **[SID-050](../mappings-amazon-nova/1.0_entry-050.md)** — Electromagnetic Theory & Financial Option Pricing
   * *Domains:* Electromagnetic Theory & Financial Option Pricing
   * *Model:* Amazon Nova 1.0 Pro
+* **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
+  * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
+  * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
+  * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
+  * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
+  * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
+  * *Model:* Anthropic Claude Opus 5
 

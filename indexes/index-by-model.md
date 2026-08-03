@@ -14,7 +14,7 @@ Which model produced each candidate. Useful for comparing generator quality; not
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Alibaba Qwen 3.8 Max | 5 | 5 | 2 | 60% | 51.4% |
 | Amazon Nova 1.0 Pro | 5 | 5 | 5 | 0% | 100.0% |
-| Anthropic Claude Opus 5 | 5 | 0 | 0 | — | — |
+| Anthropic Claude Opus 5 | 5 | 5 | 5 | 0% | 100.0% |
 | Anthropic Claude Sonnet 5 | 5 | 5 | 3 | 40% | 42.9% |
 | DeepSeek DeepSeek V4 Pro | 5 | 5 | 3 | 40% | 62.9% |
 | Google Gemini 3.1 Pro | 5 | 5 | 2 | 60% | 51.4% |
@@ -66,19 +66,19 @@ Which model produced each candidate. Useful for comparing generator quality; not
 ## Anthropic Claude Opus 5
 
 * **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
 * **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
 * **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
 * **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
 
 ## Anthropic Claude Sonnet 5
