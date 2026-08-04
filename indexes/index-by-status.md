@@ -10,7 +10,7 @@ Entries grouped by where they sit in the three-stage pipeline. Rejected entries 
 
 ---
 
-## `Stage 2 / flagged` — 17 entries
+## `Stage 2 / flagged` — 19 entries
 
 Advanced to Stage 3 with reviewer watch items.
 
@@ -29,6 +29,9 @@ Advanced to Stage 3 with reviewer watch items.
 * **[SID-044](../mappings-alibaba-qwen/qwen3.8_entry-044.md)** — Nuclear Criticality Transport & Spatial Invasion Ecology
   * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
   * *Model:* Alibaba Qwen 3.8 Max
+* **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
+  * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
+  * *Model:* OpenAI GPT 5.4 Thinking Mini
 * **[SID-004](../mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
   * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
   * *Model:* OpenAI GPT 5.5
@@ -65,28 +68,11 @@ Advanced to Stage 3 with reviewer watch items.
 * **[SID-043](../mappings-alibaba-qwen/qwen3.8_entry-043.md)** — High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
   * *Domains:* High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
   * *Model:* Alibaba Qwen 3.8 Max
-
-## `Stage 1 / pending` — 5 entries
-
-Generated, not yet adversarially reviewed.
-
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
-  * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
 
-## `Stage 2 / rejected` — 38 entries
+## `Stage 2 / rejected` — 41 entries
 
 Majority of reviewers voted to reject. Retained for false-positive-rate tracking; not a research lead.
 
@@ -129,6 +115,9 @@ Majority of reviewers voted to reject. Retained for false-positive-rate tracking
 * **[SID-038](../mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — Actuarial Ruin Theory & Population Viability Analysis
   * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
   * *Model:* Anthropic Claude Sonnet 5
+* **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
+  * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
+  * *Model:* OpenAI GPT 5.4 Thinking Mini
 * **[SID-002](../mappings-openai-chatgpt/gpt-5.5_entry-002.md)** — Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
   * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
   * *Model:* OpenAI GPT 5.5
@@ -204,4 +193,10 @@ Majority of reviewers voted to reject. Retained for false-positive-rate tracking
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
   * *Model:* Anthropic Claude Opus 5
+* **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
+  * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
+  * *Model:* OpenAI GPT 5.4 Thinking Mini
+* **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
+  * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
+  * *Model:* OpenAI GPT 5.4 Thinking Mini
 

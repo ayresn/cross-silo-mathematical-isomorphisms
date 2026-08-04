@@ -20,7 +20,7 @@ Which model produced each candidate. Useful for comparing generator quality; not
 | Google Gemini 3.1 Pro | 5 | 5 | 2 | 60% | 51.4% |
 | Meta Muse Spark 1.1 | 5 | 5 | 5 | 0% | 100.0% |
 | Microsoft Copilot 1.2 | 5 | 5 | 0 | 100% | 34.3% |
-| OpenAI GPT 5.4 Thinking Mini | 5 | 0 | 0 | — | — |
+| OpenAI GPT 5.4 Thinking Mini | 5 | 5 | 3 | 40% | 65.7% |
 | OpenAI GPT 5.5 | 5 | 5 | 4 | 20% | 60.0% |
 | Z.AI GLM 5.2 | 5 | 5 | 5 | 0% | 74.3% |
 | xAI Grok 4 | 5 | 5 | 4 | 20% | 74.3% |
@@ -174,19 +174,19 @@ Which model produced each candidate. Useful for comparing generator quality; not
 ## OpenAI GPT 5.4 Thinking Mini
 
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
 * **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
 * **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
 * **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
 * **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (14% voted to reject)
   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
 
 ## OpenAI GPT 5.5

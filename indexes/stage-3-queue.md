@@ -12,7 +12,7 @@ Entries that survived adversarial review and are waiting on human bibliometric v
 
 ---
 
-17 entries awaiting Stage 3.
+19 entries awaiting Stage 3.
 
 1. **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
    * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
@@ -28,6 +28,9 @@ Entries that survived adversarial review and are waiting on human bibliometric v
    * *Reject-vote share:* 14% (1/7 reviewers)
 1. **[SID-044](../mappings-alibaba-qwen/qwen3.8_entry-044.md)** — Nuclear Criticality Transport & Spatial Invasion Ecology
    * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
+   * *Reject-vote share:* 14% (1/7 reviewers)
+1. **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
+   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
    * *Reject-vote share:* 14% (1/7 reviewers)
 1. **[SID-004](../mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
    * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
@@ -64,4 +67,7 @@ Entries that survived adversarial review and are waiting on human bibliometric v
    * *Reject-vote share:* 43% (3/7 reviewers)
 1. **[SID-043](../mappings-alibaba-qwen/qwen3.8_entry-043.md)** — High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
    * *Domains:* High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
+   * *Reject-vote share:* 43% (3/7 reviewers)
+1. **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
+   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
    * *Reject-vote share:* 43% (3/7 reviewers)
