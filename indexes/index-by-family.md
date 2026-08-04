@@ -165,7 +165,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Conductance Adaptation Gradient Flows (1)
 
 * **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
   * *Model:* Anthropic Claude Opus 5
 
@@ -193,7 +193,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Convex Conic Feasibility On Conservation Operators Under Cyclic Forcing (1)
 
 * **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
   * *Model:* Anthropic Claude Opus 5
 
@@ -207,14 +207,14 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Cyclic Variational Inequalities With Residual Field Certificates (1)
 
 * **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
   * *Model:* Anthropic Claude Opus 5
 
 ## Delay Coupled Hopf Instabilities (1)
 
 * **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (14% voted to reject)
   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -263,7 +263,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Free Boundary Instabilities / graph Redistribution Dynamics (1)
 
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -319,7 +319,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Laplacian Moving Boundary / screened Branching (1)
 
 * **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -333,7 +333,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Long Range Signed Kernel Threshold Avalanches (1)
 
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
   * *Model:* Anthropic Claude Opus 5
 
@@ -459,7 +459,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Rare Event escape / absorbing Boundary drift Diffusion (1)
 
 * **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -480,7 +480,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Reflected Markov Processes And Heavy Traffic Limits (1)
 
 * **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -515,7 +515,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Thresholded Greens Kernel Inverse Design (1)
 
 * **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
   * *Model:* Anthropic Claude Opus 5
 

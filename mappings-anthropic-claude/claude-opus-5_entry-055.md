@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-055"
   schema_version: "1.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-rejected"
 provenance:
   company: "Anthropic"
   model_family: "Claude"
@@ -41,6 +41,67 @@ validation_status:
   constitutive_equivalence_confidence: "medium"
   primary_failure_risk: "kernel_geometry_mismatch — a transmission network is neither translation-invariant nor isometrically embedded in a Euclidean metric, so the quadrupolar angular structure and clean power-law decay of the Eshelby propagator may not survive on real topologies, invalidating the imported finite-size-scaling relations even if the operator identification holds"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.4 Thinking-Mini"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "The entry has a hard metadata integrity failure because `triple_correspondence_vectors` contains four items, not exactly three, so it cannot advance unchanged."
+    failed_checks: ["Check 1: `triple_correspondence_vectors` has four items instead of exactly three"]
+    flagged_checks: ["Check 4: the `numerical_solution_family` correspondence is only gestured at, not demonstrated with a standalone Section 3 derivation"]
+    stage_3_watch_items: ["None identified."]
+  second_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "The entry fails YAML metadata integrity because the triple_correspondence_vectors field lists four items instead of exactly three."
+    failed_checks: 
+      - "Check 1: triple_correspondence_vectors contains four items"
+    flagged_checks: 
+      - "Check 4: numerical_solution_family lacks mathematical demonstration in body"
+    stage_3_watch_items: []
+  third_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "CHECK 1 FAIL: the field triple_correspondence_vectors enumerates four items, violating the schema's exactly-three requirement and contradicting the field's own 'triple' designation — invalid YAML metadata."
+    failed_checks: ["CHECK 1: triple_correspondence_vectors lists 4 items (governing_differential_operator, conserved_quantities, instability_mechanism, numerical_solution_family), not the required 3; field name 'triple' is self-contradictory with its 4-element content."]
+    flagged_checks: ["CHECK 4: numerical_solution_family vector only partially supported — Section 3 gives the finite-size-scaling ansatz and extreme-value relation but no equation/derivation specifying the extremal-dynamics kMC solution procedure itself.", "CHECK 5: asymmetry plausible-but-not-airtight — reverse transfer of grid-side fast Laplacian / Woodbury rank-one-update techniques into plasticity simulation could yield comparable benefit, weakening the 'preferred direction' claim."]
+    stage_3_watch_items: ["If corrected and resubmitted as a true triple (drop or merge one vector), Stage 3 must confirm the signed anisotropic Eshelby↔LODF kernel correspondence is genuinely novel against the equal-load-sharing fiber-bundle / Galton-Watson prior art the entry itself flags as 'nearest known neighbour' (search string 5).", "Probe whether θ>0 actually holds on real ISO N-1-secure dispatch ensembles — this is the linchpin falsifier for the entire transfer (Prediction 1).", "Probe whether grid topologies (non-translation-invariant, non-Euclidean) actually preserve the quadrupolar angular structure and power-law decay the imported finite-size-scaling relations require — the entry's own primary_failure_risk.", "Probe reverse-direction transfer of grid linear-algebra maturity (Woodbury updates, fast LODF) back into plasticity simulators to test the asymmetry assertion."]
+  fourth_adversarial_review:
+    reviewer_model: "Alibaba Qwen3.8"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "The entry fails Check 1 because triple_correspondence_vectors lists four items rather than exactly three."
+    failed_checks:
+      - "Check 1: triple_correspondence_vectors lists four items ('governing_differential_operator', 'conserved_quantities', 'instability_mechanism', 'numerical_solution_family') instead of exactly three."
+    flagged_checks:
+      - "Check 3: 'Soft spots / low-frequency mode localization ↔ Critical contingency pairs / vulnerable cutsets' maps localized modal sites to outage-pair/cutset objects without fully establishing a common mathematical type."
+      - "Check 4: 'numerical_solution_family' is only partially supported by scaling ansatz and Stage-4 discussion, not demonstrated in Section 3 with a numerical-method correspondence."
+    stage_3_watch_items: []
+  fifth_adversarial_review:
+    reviewer_model: "Meta Muse Spark 1.1"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "YAML triple_correspondence_vectors contains 4 entries, violating the exactly-3 requirement for metadata integrity."
+    failed_checks: ["Check 1: triple_correspondence_vectors lists 4 entries instead of exactly 3 distinct items"]
+    flagged_checks: ["Check 4: numerical_solution_family vector only partially demonstrated in Section 3 body — scaling ansatz present without explicit extremal-dynamics KMC correspondence"]
+    stage_3_watch_items: ["kernel_geometry_mismatch on non-translation-invariant, non-Euclidean transmission topologies vs Eshelby quadrupolar angular structure", "empirical test of P(x)~x^theta on real ISO N-1-secure dispatch ensembles vs assumed theta=0", "statistical verification that LODF inherits signed, sum-rule-constrained, slowly-decaying structure with Braess-type negative entries"]
+  sixth_adversarial_review:
+    reviewer_model: "DeepSeek DeepSeek"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "triple_correspondence_vectors contains four items instead of the required three, a hard schema violation that triggers immediate rejection."
+    failed_checks: ["Check 1: triple_correspondence_vectors has 4 items, schema requires exactly 3"]
+    flagged_checks: ["Check 4: numerical_solution_family is listed in YAML but is not demonstrated with mathematical specificity in Section 3 body"]
+    stage_3_watch_items: []
+  seventh_adversarial_review:
+    reviewer_model: "xAI Grok"
+    review_timestamp: "2026-08-03"
+    verdict: "REJECT"
+    verdict_rationale: "YAML triple_correspondence_vectors contains four items instead of the required exactly three distinct items."
+    failed_checks: ["Check 1: triple_correspondence_vectors lists 4 items instead of exactly 3"]
+    flagged_checks: []
+    stage_3_watch_items: []
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 055
@@ -124,3 +185,124 @@ The first relation is elementary extreme-value statistics of $N$ samples drawn f
 *   `"branching process" AND "blackout size distribution" AND "critical exponent" AND "power grid"` *(prior-art probe: establishes the mean-field baseline this entry claims to generalize)*
 *   `"fiber bundle model" AND "power grid" AND "cascading outage"` *(prior-art probe: nearest known neighbour; confirm it is restricted to equal-load-sharing and does not use a signed anisotropic propagator)*
 *   `("Eshelby" OR "amorphous plasticity" OR "yielding transition") AND ("transmission network" OR "power system")` *(direct collision check for the mapping itself)*
+
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** OpenAI GPT-5.4 Thinking-Mini
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+* **CHECK 1 (YAML Metadata Integrity):** FAIL — `triple_correspondence_vectors` lists four items, not exactly three: `governing_differential_operator`, `conserved_quantities`, `instability_mechanism`, and `numerical_solution_family`.
+* **CHECK 2 (Equation Validity):** PASS — The Section 3 equations are internally consistent with the stated domains and do not show an obvious wrong-equation or misattribution error.
+* **CHECK 3 (Vocabulary Matrix Coherence):** FLAG — The pair `Pseudogap exponent θ in P(x)\sim x^{θ}` ↔ `[no established term]` is not a clean token-to-token mapping because the B-side token is a placeholder rather than a mathematical object.
+* **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — `governing_differential_operator`, `conserved_quantities`, and `instability_mechanism` are discussed in Sections 1 and 3, but `numerical_solution_family` is only gestured at via finite-size-scaling language and does not get its own Section 3 derivation.
+* **CHECK 5 (Rejection Criteria Face-Check):** PASS — The pairing is not an obviously canonical textbook analogy, and Section 4’s prediction is specific and measurable rather than merely “might work better.”
+* **CHECK 6 (Score-Content Plausibility):** PASS — The scores are aggressive but not obviously contradicted by the body text alone.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Second Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** FAIL — The `triple_correspondence_vectors` field incorrectly lists four items (`"governing_differential_operator"`, `"conserved_quantities"`, `"instability_mechanism"`, `"numerical_solution_family"`) instead of exactly three.
+- **CHECK 2 (Equation Validity):** PASS — The continuum elastoplastic equations and discrete DC power flow equations are correctly formulated, and they validly demonstrate the claimed correspondence between the Eshelby propagator and the LODF matrix.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — The vocabulary matrix pairs mathematically compatible objects (e.g., Green's function to Green's function, scalar distance to threshold to flow margin) and precisely explains their structural equivalence.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — The body text mathematically supports the governing differential operator, conserved quantities, and instability mechanism, but only gestures at the `"numerical_solution_family"` (mentioning extreme-value statistics without demonstrating kinetic Monte Carlo in Section 3).
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The isomorphism is non-canonical, the methodological transfer is genuinely asymmetric, and the predictions regarding blackout exponent deviation and extreme-value scaling are specific and falsifiable.
+- **CHECK 6 (Score-Content Plausibility):** PASS — The high representation mismatch and operator equivalence scores are plausible and justified by the distinct domain ontologies and identical latent mathematical structure.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Third Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** FAIL — The field `triple_correspondence_vectors` lists four items — `"governing_differential_operator"`, `"conserved_quantities"`, `"instability_mechanism"`, `"numerical_solution_family"` — not the required three; the field name asserts "triple" while its content enumerates a quadruple, a self-contradiction in required metadata. `maturity_stage: "candidate"` and `relationship_type: "candidate_structural_isomorphism"` are both correctly set; only the vector count fails.
+- **CHECK 2 (Equation Validity):** PASS — Silo A's `Ĝ(q) = -4μ q_x²q_y²/|q|⁴` with `G(r,φ) ∝ cos4φ/r^d` is the standard Eshelby quadrupolar propagator of the elastoplastic equilibrium constraint `∇·σ=0` (elliptic), correctly attributed to amorphous-plasticity; Silo B's `Bθ=P`, `f=DAᵀB⁺P`, `LODF_ℓk = PTDF_ℓk/(1-PTDF_kk)` are the standard DC-power-flow / graph-Laplacian Green's-function relations (elliptic), correctly attributed to power-systems. The Fourier form, the discrete-Poisson structure, and the mean-field `τ→3/2` collapse are each consistent with their stated domains; no equation is misattributed or relabeled from a third field. The two equations do jointly instantiate the claimed "Green's function of an elliptic equilibrium operator" correspondence.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All six mappings pair mathematically compatible types: propagator↔matrix (both Green's-function operators), scalar gap↔scalar gap, exponent↔(honestly-flagged absent) exponent, integrated avalanche size↔integrated load shed, driving-rate protocol↔driving protocol, spectral-localization site-set↔cutset. The Operator-Role explanations specify shared structure (signedness, sum-rule inheritance, extremal-gap control, spectral localization) rather than resting on hedged "analogous to" language; the one asymmetry (pseudogap exponent ↔ `[no established term]`) is transparently framed as a diagnostic gap to be tested, not a false equivalence.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — Three of the four listed vectors are supported with mathematical specificity in Section 3: `governing_differential_operator` (both Green's functions displayed), `conserved_quantities` (`∇·σ=0` and Kirchhoff's current law identified as the conservation laws enforcing the sum rule and nonlocal redistribution, reinforced in the vocabulary matrix), and `instability_mechanism` (pseudogap `P(x)~x^θ` and marginal-stability discussion). The fourth, `numerical_solution_family`, is only partially supported: Section 3 supplies the finite-size-scaling ansatz `P(S)~S^{-τ}F(S/N^{d_f/d})` and the extreme-value relation `⟨x_min⟩~N^{-1/(1+θ)}`, and Section 1 names "extremal-dynamics kinetic Monte Carlo," but no equation or derivation specifies the kMC/extremal-dynamics solution *procedure* itself — only its scaling *output*. Note also that because CHECK 1 finds four vectors rather than three, the "triple" verification frame is itself broken.
+- **CHECK 5 (Rejection Criteria Face-Check):** FLAG — The pairing (athermal amorphous plasticity ↔ power-grid cascading outage) is not a rejected canonical textbook analogy on the order of Schrödinger↔paraxial optics, heat↔solute diffusion, or Ising↔lattice gas; the only recognized prior contact (fiber-bundle / Galton-Watson / SOC mean-field framings) is explicitly acknowledged and distinguished by the entry's signed-anisotropic-kernel contribution, so no FAIL issues. However, the asymmetry assertion is not airtight: Section 4 concedes Silo B's linear algebra (LODF, Woodbury rank-one updates, screening heuristics) is "comparably mature," and that mature machinery could plausibly transfer in the reverse direction (grid → plasticity simulators) with comparable benefit, which would weaken the declared "preferred direction." Falsifiability is satisfied — Predictions 1–3 each name a specific measurable outcome (`θ∈[0.3,0.7]` with a flat/diverging `P(x)` falsifier; `τ<3/2` varying with LODF decay; `⟨x_min⟩~M^{-1/(1+θ)}` across the IEEE 118/300/1354/2000-bus series) that differs from current branching-process practice.
+- **CHECK 6 (Score-Content Plausibility):** PASS — `structural_isomorphism_score: 8.4` is consistent with Section 3's genuine operator-level Green's-function identification, and the entry pairs it with an explicit `primary_failure_risk` documenting the kernel-geometry caveat rather than hiding it. `operator_equivalence_confidence: "high"` is consistent with a vocabulary matrix that contains no category errors (CHECK 3 passed). `representation_mismatch_score: 9.0` is consistent with the entry's own characterization of the foundational-object gap (continuum second-rank stress tensor on `ℝ^d` vs scalar flow vector on a discrete graph cycle space). `novelty_prior: 6.8±1.6` and `vocabulary_divergence_score: 8.8` are both plausible given the acknowledged fiber-bundle prior contact and the genuinely disjoint terminologies. No score is obviously contradicted by the body content.
+
+#### Stage 3 Watch Items
+- If the metadata is corrected to a true triple (by dropping or merging one vector, most naturally demoting `numerical_solution_family` to a derived consequence rather than a core correspondence vector) and resubmitted, Stage 3 must verify the signed anisotropic Eshelby↔LODF kernel identification is genuinely novel against the equal-load-sharing fiber-bundle and Galton-Watson branching prior art the entry itself flags as "nearest known neighbour."
+- Stage 3 must probe the linchpin falsifier: whether `θ>0` actually holds on real ISO N-1-secure dispatch ensembles, since the entire methodological transfer collapses if the margin density is flat or diverging near zero.
+- Stage 3 must probe whether non-translation-invariant, non-Euclidean grid topologies preserve the quadrupolar angular structure and clean power-law decay on which the imported finite-size-scaling relations depend (the entry's own `primary_failure_risk`).
+- Stage 3 should test the asymmetry claim by assessing whether grid-side fast-Laplacian / Woodbury rank-one-update techniques transfer back into plasticity simulation with comparable benefit.
+
+### Fourth Adversarial Review
+**Reviewer:** Alibaba Qwen3.8
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** FAIL — `triple_correspondence_vectors` lists four items: `- "governing_differential_operator"`, `- "conserved_quantities"`, `- "instability_mechanism"`, `- "numerical_solution_family"`, not exactly three.
+- **CHECK 2 (Equation Validity):** PASS — The Section 3 equations for the Eshelby Green's function and DC-power-flow/LODF redistribution are internally consistent with the claimed elliptic, instantaneous, signed redistribution structure.
+- **CHECK 3 (Vocabulary Matrix Coherence):** FLAG — "Soft spots / low-frequency mode localization ↔ Critical contingency pairs / vulnerable cutsets" is not clearly a same-type mathematical object, because localized modal regions are mapped to contingency pairs/cutsets without a demonstrated spectral-localization equivalence.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — Section 3 supports `governing_differential_operator`, `conserved_quantities`, and `instability_mechanism`, but `numerical_solution_family` is only gestured at through scaling forms and not demonstrated as a numerical-method correspondence in Section 3.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The Eshelby-propagator/LODF pairing is not a canonical textbook analogy from my training knowledge, and the falsifiable predictions are specific enough to be face-valid.
+- **CHECK 6 (Score-Content Plausibility):** PASS — The high scores are not obviously contradicted by the displayed equations or the domain separation described in the entry.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Fifth Adversarial Review
+**Reviewer:** Meta Muse Spark 1.1
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** FAIL — `triple_correspondence_vectors` lists 4 entries `["governing_differential_operator", "conserved_quantities", "instability_mechanism", "numerical_solution_family"]` instead of exactly 3 distinct items as required.
+- **CHECK 2 (Equation Validity):** PASS — Silo A equation `hat{G}(q)= -4 mu q_x^2 q_y^2 / |q|^4, G(r,phi) ∝ cos 4phi / r^d` is the correct Eshelby propagator for `∇·σ=0` and Silo B equations `B θ = P, f = D A^T B^+ P, LODF_{lk}=PTDF_{lk}/(1-PTDF_{kk})` correctly model DC power flow redistribution via the graph Laplacian pseudoinverse, both supporting the claimed signed long-range elliptic Green's function isomorphism.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All paired mappings are type-compatible (operator↔operator, gap variable `x = sigma_th - sigma` ↔ `x_l = f_l^max - |f_l|`, event size `S` ↔ `S`, driving protocol↔driving protocol, localization site↔cutset) and Operator Role explanations specify shared mathematical structure (Green's function inversion, sum rule, extremal statistics) without relying on hedged similarity language.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — Of 4 YAML vectors listed: `governing_differential_operator` fully supported in Section 3 via `G(r,phi)` and `B theta = P`/`LODF` equations; `conserved_quantities` supported via `∇·σ=0` and `Kirchhoff's current law admits no transient storage`; `instability_mechanism` supported via `P(x)∼x^theta` pseudogap and marginal stability discussion; `numerical_solution_family` only partially supported — Section 3 provides scaling ansatz `P(S)∼S^{-τ}F(S/N^{d_f/d})` and extreme-value relation `<x_min>∼N^{-1/(1+θ)}` but no explicit demonstration of extremal-dynamics kinetic Monte Carlo correspondence.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The Eshelby ↔ LODF pairing is not a canonical graduate-textbook analogy (unlike Schrödinger↔paraxial optics, heat↔solutal diffusion, Ising↔lattice gas); transfer direction A→B is asymmetrically justified (25-year theory of signed kernels and finite-size scaling in plasticity vs enumerative N-1/N-2 practice in power systems), and Section 4 predictions are falsifiable with quantitative thresholds (`0.3≲θ≲0.7`, `τ<3/2`, `M^{-1/(1+θ)}` scaling, `≥90%` of N-2 pairs via `O(M log M)` screening).
+- **CHECK 6 (Score-Content Plausibility):** PASS — `structural_isomorphism_score 8.4` with `operator_equivalence_confidence high` is consistent with demonstrated signed elliptic Green's function correspondence; `representation_mismatch_score 9.0` is plausible given continuum second-rank tensor field on `R^d` vs scalar flow on discrete random graph cycle space.
+
+#### Stage 3 Watch Items
+- Validate `kernel_geometry_mismatch` risk: does quadrupolar angular structure and clean power-law decay survive on real non-Euclidean, non-translation-invariant transmission topologies?
+- Empirical measurement of margin density `P(x)` on synthetic IEEE 118/300/1354/2000-bus and real ISO state estimates to test predicted `θ>0` vs flat density.
+- Statistical characterization of LODF sign alternation and sum-rule-constrained far-field averaging to confirm marginal stability mechanism.
+
+### Sixth Adversarial Review
+**Reviewer:** DeepSeek DeepSeek
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** FAIL — `triple_correspondence_vectors` lists four items (`governing_differential_operator`, `conserved_quantities`, `instability_mechanism`, `numerical_solution_family`) instead of exactly three.
+- **CHECK 2 (Equation Validity):** PASS — Both equations correctly model the claimed domains and support the structural isomorphism.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All mappings pair objects of compatible mathematical type and the operator‑role explanations describe shared mathematical structure, not mere analogies.
+- **CHECK 4 (Triple-Correspondence Body Verification):** FLAG — The YAML carries four vectors (itself a schema fail); of these, `numerical_solution_family` is not demonstrated with an equation, operator, or derivation in Section 3. The body discusses scaling relations and extreme‑value statistics but never addresses extremal‑dynamics kinetic Monte Carlo or finite‑size scaling protocols as a shared numerical object.
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The Eshelby‑to‑LODF mapping is not a canonical textbook analogy; the transfer direction is genuinely asymmetric, and the falsifiable predictions are specific and measurable.
+- **CHECK 6 (Score-Content Plausibility):** PASS — All self‑assessed scores and confidence levels are consistent with the entry’s content; no obvious contradictions.
+
+#### Stage 3 Watch Items
+None (entry rejected at Stage 2).
+
+### Seventh Adversarial Review
+**Reviewer:** xAI Grok
+**Verdict:** REJECT
+**Review Date:** 2026-08-03
+
+#### Results by Check
+- **CHECK 1 (YAML Metadata Integrity):** FAIL — `triple_correspondence_vectors` lists four items ("governing_differential_operator", "conserved_quantities", "instability_mechanism", "numerical_solution_family") rather than exactly three distinct items.
+- **CHECK 2 (Equation Validity):** PASS — Both displayed equations correctly model the claimed Green's-function redistribution under the respective elliptic equilibrium operators and jointly support the stated operator-level correspondence.
+- **CHECK 3 (Vocabulary Matrix Coherence):** PASS — All paired tokens are of compatible mathematical type and the Operator Role statements specify shared structure (signed sum-rule-constrained Green's functions, residual-threshold densities, extremal-driven avalanches) rather than mere analogy.
+- **CHECK 4 (Triple-Correspondence Body Verification):** PASS — Section 3 and the opening definition explicitly demonstrate all four listed vectors with equations or derivations (Eshelby/LODF Green's functions, force-balance/Kirchhoff conservation, signed-kernel marginal stability/pseudogap, extremal-dynamics finite-size scaling).
+- **CHECK 5 (Rejection Criteria Face-Check):** PASS — The signed-kernel non-mean-field mapping is not a canonical textbook analogy; transfer asymmetry and the three concrete, measurable predictions satisfy the criteria.
+- **CHECK 6 (Score-Content Plausibility):** PASS — High structural and operator-confidence scores are consistent with the detailed operator, kernel and scaling correspondences actually shown.
+
+#### Stage 3 Watch Items
+None identified.

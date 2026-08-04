@@ -24,7 +24,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
   * *Paired with:* Subglacial Hydrology
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Adaptive Ecosystem Management
 
@@ -60,7 +60,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
   * *Paired with:* Power Grid Cascading Outage Analysis
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Axially Moving Continua Mechanics
 
@@ -120,13 +120,13 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
   * *Paired with:* Genome Scale Metabolic Flux Modeling
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Computational Lithography Proximity Effect Correction
 
 * **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
   * *Paired with:* Laser Powder Bed Fusion Scan Path Design
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Computational Morphogenesis
 
@@ -141,7 +141,7 @@ No entry here is verified. See the README for what the status tags mean.
   * `Stage 2 / flagged` (43% voted to reject)
 * **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
   * *Paired with:* Semiconductor Reliability Engineering
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Computational Structural Mechanics
 
@@ -225,7 +225,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
   * *Paired with:* Fungal Hyphal Invasion
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Electromagnetic Theory
 
@@ -237,7 +237,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
   * *Paired with:* Thermoacoustic Combustion Control
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (14% voted to reject)
 
 ## Evolutionary Game Dynamics
 
@@ -273,7 +273,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
   * *Paired with:* Electrochemical Treeing
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Gaussian Process Regression
 
@@ -297,7 +297,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
   * *Paired with:* Computational Limit And Shakedown Analysis
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Graph Based Semi Supervised Learning
 
@@ -333,7 +333,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
   * *Paired with:* Structural Shakedown And Limit Analysis
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Interfacial Shear Delamination In Soft Adhesives
 
@@ -357,7 +357,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
   * *Paired with:* Computational Lithography Proximity Effect Correction
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Macroscopic Pedestrian Dynamics
 
@@ -525,7 +525,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Paired with:* Quasi Static Brittle Fracture
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (43% voted to reject)
 
 ## Power Grid Cascading Failure Analysis
 
@@ -537,7 +537,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
   * *Paired with:* Athermal Amorphous Plasticity
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Power System Voltage Stability Analysis
 
@@ -561,13 +561,13 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Paired with:* Power Grid Cascading Failure
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (43% voted to reject)
 
 ## Queueing Networks
 
 * **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
   * *Paired with:* Synaptic Vesicle Trafficking
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (71% voted to reject)
 
 ## Resistive Magnetohydrodynamic Tearing Modes
 
@@ -597,7 +597,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
   * *Paired with:* Computational Neuroscience
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Smoothed Particle Hydrodynamics
 
@@ -651,7 +651,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
   * *Paired with:* Interbank Clearing Network Systemic Risk
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Structural Vibration Analysis
 
@@ -663,7 +663,7 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
   * *Paired with:* Adaptive Biological Transport Networks
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
 
 ## Synaptic Plasticity Dynamics
 
@@ -675,13 +675,13 @@ No entry here is verified. See the README for what the status tags mean.
 
 * **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
   * *Paired with:* Queueing Networks
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (71% voted to reject)
 
 ## Thermoacoustic Combustion Control
 
 * **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
   * *Paired with:* Epileptiform Neural Dynamics
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (14% voted to reject)
 
 ## Thin Plate Elasticity
 

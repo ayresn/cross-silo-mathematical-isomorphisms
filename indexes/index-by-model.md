@@ -8,25 +8,6 @@ Which model produced each candidate. Useful for comparing generator quality; not
 
 [← Back to README](../README.md)
 
----
-
-| Model | Entries | Reviewed | Rejected | Survived | Mean reject-vote |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Alibaba Qwen 3.8 Max | 5 | 5 | 2 | 60% | 51.4% |
-| Amazon Nova 1.0 Pro | 5 | 5 | 5 | 0% | 100.0% |
-| Anthropic Claude Opus 5 | 5 | 0 | 0 | — | — |
-| Anthropic Claude Sonnet 5 | 5 | 5 | 3 | 40% | 42.9% |
-| DeepSeek DeepSeek V4 Pro | 5 | 5 | 3 | 40% | 62.9% |
-| Google Gemini 3.1 Pro | 5 | 5 | 2 | 60% | 51.4% |
-| Meta Muse Spark 1.1 | 5 | 5 | 5 | 0% | 100.0% |
-| Microsoft Copilot 1.2 | 5 | 5 | 0 | 100% | 34.3% |
-| OpenAI GPT 5.4 Thinking Mini | 5 | 0 | 0 | — | — |
-| OpenAI GPT 5.5 | 5 | 5 | 4 | 20% | 60.0% |
-| Z.AI GLM 5.2 | 5 | 5 | 5 | 0% | 74.3% |
-| xAI Grok 4 | 5 | 5 | 4 | 20% | 74.3% |
-
----
-
 ## Alibaba Qwen 3.8 Max
 
 * **[SID-041](../mappings-alibaba-qwen/qwen3.8_entry-041.md)** — Computational Elastoplasticity & Network Traffic Equilibrium
@@ -66,19 +47,19 @@ Which model produced each candidate. Useful for comparing generator quality; not
 ## Anthropic Claude Opus 5
 
 * **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
 * **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
 * **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
 * **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
 
 ## Anthropic Claude Sonnet 5
@@ -174,19 +155,19 @@ Which model produced each candidate. Useful for comparing generator quality; not
 ## OpenAI GPT 5.4 Thinking Mini
 
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
 * **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
 * **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
 * **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * `Stage 1 / pending`
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
 * **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * `Stage 1 / pending`
+  * `Stage 2 / flagged` (14% voted to reject)
   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
 
 ## OpenAI GPT 5.5
@@ -207,24 +188,6 @@ Which model produced each candidate. Useful for comparing generator quality; not
   * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
 
-## Z.AI GLM 5.2
-
-* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
-* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Thin Plate Elasticity & General Relativity Colliding Waves
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
-* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Quantum Information Science & Computational Structural Mechanics
-
 ## xAI Grok 4
 
 * **[SID-011](../mappings-xai-grok/grok-beta_entry-011.md)** — Black Hole Perturbation Theory & Structural Vibration Analysis
@@ -242,4 +205,22 @@ Which model produced each candidate. Useful for comparing generator quality; not
 * **[SID-015](../mappings-xai-grok/grok-beta_entry-015.md)** — Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
+
+## Z.AI GLM 5.2
+
+* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+  * `Stage 2 / rejected` (57% voted to reject)
+  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
+  * `Stage 2 / rejected` (57% voted to reject)
+  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
+* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Thin Plate Elasticity & General Relativity Colliding Waves
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
+* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
+  * `Stage 2 / rejected` (71% voted to reject)
+  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
+* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
+  * `Stage 2 / rejected` (86% voted to reject)
+  * *Domains:* Quantum Information Science & Computational Structural Mechanics
 
