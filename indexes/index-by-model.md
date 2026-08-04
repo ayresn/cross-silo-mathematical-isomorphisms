@@ -8,25 +8,6 @@ Which model produced each candidate. Useful for comparing generator quality; not
 
 [← Back to README](../README.md)
 
----
-
-| Model | Entries | Reviewed | Rejected | Survived | Mean reject-vote |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Alibaba Qwen 3.8 Max | 5 | 5 | 2 | 60% | 51.4% |
-| Amazon Nova 1.0 Pro | 5 | 5 | 5 | 0% | 100.0% |
-| Anthropic Claude Opus 5 | 5 | 5 | 5 | 0% | 100.0% |
-| Anthropic Claude Sonnet 5 | 5 | 5 | 3 | 40% | 42.9% |
-| DeepSeek DeepSeek V4 Pro | 5 | 5 | 3 | 40% | 62.9% |
-| Google Gemini 3.1 Pro | 5 | 5 | 2 | 60% | 51.4% |
-| Meta Muse Spark 1.1 | 5 | 5 | 5 | 0% | 100.0% |
-| Microsoft Copilot 1.2 | 5 | 5 | 0 | 100% | 34.3% |
-| OpenAI GPT 5.4 Thinking Mini | 5 | 5 | 3 | 40% | 65.7% |
-| OpenAI GPT 5.5 | 5 | 5 | 4 | 20% | 60.0% |
-| Z.AI GLM 5.2 | 5 | 5 | 5 | 0% | 74.3% |
-| xAI Grok 4 | 5 | 5 | 4 | 20% | 74.3% |
-
----
-
 ## Alibaba Qwen 3.8 Max
 
 * **[SID-041](../mappings-alibaba-qwen/qwen3.8_entry-041.md)** — Computational Elastoplasticity & Network Traffic Equilibrium
