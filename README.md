@@ -19,10 +19,10 @@ As of the current commit:
 | Metric | Value |
 | --- | --- |
 | Total entries in dataset | 60 |
-| Entries awaiting Stage 2 adversarial review | 5 |
-| Entries that have completed Stage 2 adversarial review | 55 |
-| — rejected at Stage 2 (`adversarial-rejected`) | **38 (69.1%)** |
-| — advanced to Stage 3 queue (`adversarial-flagged`) | **17 (30.9%)** |
+| Entries awaiting Stage 2 adversarial review | 0 |
+| Entries that have completed Stage 2 adversarial review | 60 |
+| — rejected at Stage 2 (`adversarial-rejected`) | **41 (68.3%)** |
+| — advanced to Stage 3 queue (`adversarial-flagged`) | **19 (31.7%)** |
 | — cleared with no reviewer objections (`adversarial-cleared`) | **0** |
 | Entries that have completed Stage 3 human bibliometric validation | **0** |
 | — failed bibliometric validation at Stage 3 (`failed-validation`) | **0** |
@@ -124,11 +124,11 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 | [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 2 | 3 | 60% | 51.4% |
 | [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 0 | 0% | 100.0% |
 | [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 0 | 5 | 100% | 34.4% |
-| [OpenAI GPT 5.4 Thinking Mini](https://chatgpt.com/) | - | - | - | - | - |
+| [OpenAI GPT 5.4 Thinking Mini](https://chatgpt.com/) | 5 | 3 | 2 | 40% | 60.0% |
 | [OpenAI GPT 5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
 | [xAI Grok 4](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
 | [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
-| **TOTAL** | **55** | **38** | **17** | **30.9%** | **68.3%** |
+| **TOTAL** | **60** | **41** | **19** | **31.7%** | **68.3%** |
 
 ---
 
@@ -165,7 +165,7 @@ The five candidates that drew the fewest reject votes from adversarial reviewers
    * Nuclear Criticality Transport & Spatial Invasion Ecology
    * *Boltzmann transport k-eigenvalue ↔ stage-structured growth eigenvalue*
 
-[See all 17 →](indexes/stage-3-queue.md)
+[See all 19 →](indexes/stage-3-queue.md)
 
 ### How to help
 **If an entry in the [Stage 3 queue](indexes/stage-3-queue.md) touches your field, the ask is about twenty minutes.** Open an issue, or comment on the entry, answering either question:
