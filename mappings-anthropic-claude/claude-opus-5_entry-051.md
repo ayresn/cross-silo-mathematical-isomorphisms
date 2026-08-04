@@ -319,7 +319,7 @@ which is *sharply* sensitive to `κ`: at `α = 5/4, n = 3`, the system crosses `
 - Check sensitivity of γ_eff crossing at κ≈0.07 to Glen exponent n≈3 and flow-law exponents α=5/4,4/3 — measurement feasibility of κ.
 
 ### Sixth Adversarial Review
-**Reviewer:** DeepSeek DeepSeek
+**Reviewer:** DeepSeek DeepSeek V4 Pro
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-03
