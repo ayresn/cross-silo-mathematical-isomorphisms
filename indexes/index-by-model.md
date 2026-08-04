@@ -207,24 +207,6 @@ Which model produced each candidate. Useful for comparing generator quality; not
   * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
 
-## Z.AI GLM 5.2
-
-* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
-* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Thin Plate Elasticity & General Relativity Colliding Waves
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
-* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Quantum Information Science & Computational Structural Mechanics
-
 ## xAI Grok 4
 
 * **[SID-011](../mappings-xai-grok/grok-beta_entry-011.md)** — Black Hole Perturbation Theory & Structural Vibration Analysis
@@ -242,4 +224,22 @@ Which model produced each candidate. Useful for comparing generator quality; not
 * **[SID-015](../mappings-xai-grok/grok-beta_entry-015.md)** — Adjoint Sensitivity Analysis & Inverse Problem Ecology
   * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
+
+## Z.AI GLM 5.2
+
+* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+  * `Stage 2 / rejected` (57% voted to reject)
+  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
+  * `Stage 2 / rejected` (57% voted to reject)
+  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
+* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Thin Plate Elasticity & General Relativity Colliding Waves
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
+* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
+  * `Stage 2 / rejected` (71% voted to reject)
+  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
+* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
+  * `Stage 2 / rejected` (86% voted to reject)
+  * *Domains:* Quantum Information Science & Computational Structural Mechanics
 
