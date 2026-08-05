@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-045"
   schema_version: "1.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-flagged"
 provenance:
   company: "Alibaba"
   model_family: "Qwen"
