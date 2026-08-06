@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-040"
   schema_version: "1.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-flagged"
 provenance:
   company: "Anthropic"
   model_family: "Claude"
