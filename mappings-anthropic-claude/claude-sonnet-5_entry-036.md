@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-036"
   schema_version: "1.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-flagged"
 provenance:
   company: "Anthropic"
   model_family: "Claude"
@@ -40,6 +40,90 @@ validation_status:
   constitutive_equivalence_confidence: "medium"
   primary_failure_risk: "target_bottleneck_partially_addressed_by_existing_guidelines"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.4 Thinking-Mini"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "PASS"
+    verdict_rationale: "The entry’s equations, vocabulary mappings, correspondence vectors, and transfer hypothesis are internally consistent and mutually support the claimed structural isomorphism."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: []
+  second_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "REJECT"
+    verdict_rationale: "The entry lists 'governing_differential_operator' as a correspondence vector, but the body only demonstrates discrete linear algebraic matrix equations, leaving fewer than three vectors supported."
+    failed_checks: ["Check 3: Undemonstrated correspondence vector and fewer than three vectors demonstrated"]
+    flagged_checks: []
+    quoted_evidence: ["governing_differential_operator", "P = B\\,\\theta", "F = K\\,u", "sparse linear network operator (nodal admittance/Laplacian-type matrix vs. global stiffness matrix)"]
+    stage_3_watch_items: []
+  third_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "FLAG"
+    verdict_rationale: "Two non-fatal internal inconsistencies: a mislabeling of real power as reactive power in the constitutive-law description, and a YAML vector named 'governing_differential_operator' for equations that are algebraic rather than differential."
+    failed_checks: []
+    flagged_checks:
+      - "Check 1: Section 1 text labels the DC power-flow constitutive law as 'reactive power flow,' but the equation P = Bθ models real (active) power; the equation is correct but the text mischaracterizes the quantity it represents."
+      - "Check 3: The vector 'governing_differential_operator' is partially covered — the body demonstrates a shared sparse linear operator (B ↔ K) via P = Bθ and F = Ku, but both are algebraic matrix equations, not differential operators or differential equations."
+    quoted_evidence: []
+    stage_3_watch_items:
+      - "Verify whether Woodbury/SMW-based structural reanalysis applied specifically to exhaustive progressive-collapse screening has been previously proposed; the technique itself ('structural reanalysis') is well-established in structural optimization literature."
+      - "Confirm whether 'force (load) redistribution factor' is established terminology in structural engineering or a coined analog to LODF."
+      - "Probe whether the 'reactive power' mislabeling in Section 1 reflects a deeper confusion about AC vs. DC power flow models or is a purely textual error."
+  fourth_adversarial_review:
+    reviewer_model: "Alibaba Qwen3.8 Max"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "FLAG"
+    verdict_rationale: "The core linear-operator and Woodbury-update correspondence is internally supported, but Section 1 mislabels the DC power-flow side as linear reactive power flow, which is inconsistent with the active-power equation P = B theta."
+    failed_checks: []
+    flagged_checks:
+      - "Check 1: Section 1 calls the Silo A constitutive law 'linear reactive power flow' while Section 3 displays the DC active power-flow equation P = B theta."
+    quoted_evidence: []
+  stage_3_watch_items:
+    - "Verify prior work on Woodbury/Sherman-Morrison contingency screening in power systems and matrix reanalysis in structural progressive collapse."
+    - "Confirm whether governing_differential_operator is intended as a discrete Laplacian/stiffness operator, because Section 3 demonstrates finite-dimensional matrix equations rather than continuous differential operators."
+    - "Check whether the structural force redistribution factor is established with the same mathematical status and dimensionality as LODF."
+    - "Assess whether existing progressive-collapse guidelines already incorporate sensitivity or reanalysis screening, which would affect the claimed transfer asymmetry."
+  fifth_adversarial_review:
+    reviewer_model: "Meta Muse Spark 1.1"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "PASS"
+    verdict_rationale: "Both equations are valid domain models of same algebraic class and jointly support the claimed rank-1 Woodbury redistribution isomorphism with coherent vocabulary and falsifiable transfer."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Verify novelty of Woodbury-accelerated exhaustive screening vs existing structural reanalysis literature and GSA/UFC Linear Static procedure acknowledged in Section 4"]
+  sixth_adversarial_review:
+    reviewer_model: "DeepSeek DeepSeek V4 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "REJECT"
+    verdict_rationale: "Correspondence vector 'governing_differential_operator' is claimed but not demonstrated; the body presents only algebraic matrix operators, with no differential equation shown."
+    failed_checks: ["Check 3: Undemonstrated correspondence vector 'governing_differential_operator'."]
+    flagged_checks: []
+    quoted_evidence:
+      - "triple_correspondence_vectors:\n    - \"governing_differential_operator\""
+      - "Silo A models steady-state transmission flow via the linearized DC power-flow equation\n\n```math\nP = B\\,\\theta\n```\n\nwhere $B$ is the network susceptance (Laplacian-type) matrix"
+      - "Silo B models static structural equilibrium via\n\n```math\nF = K\\,u\n```\n\nwhere $K$ is the global stiffness matrix"
+    stage_3_watch_items:
+      - "Woodbury-based reanalysis in structural mechanics is a known technique; verify whether the specific exhaustive-screening transfer from power systems is novel against existing structural reanalysis literature."
+  seventh_adversarial_review:
+    reviewer_model: "xAI Grok 4.5"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-06"
+    verdict: "PASS"
+    verdict_rationale: "All four checks pass: equations are valid linear network operators of matching class, vocabulary mappings are type-compatible with shared rank-1 update structure, all three listed vectors are demonstrated by equations and derivations in Section 3, and the transfer is asymmetric with a concrete falsifiable prediction."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Confirm whether Woodbury/Sherman-Morrison reanalysis for progressive-collapse alternate-load-path screening is already standard practice in structural engineering literature, independent of power-systems LODF methods."]
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 036
@@ -83,3 +167,118 @@ where $K$ is the global stiffness matrix, $F$ the applied nodal force vector, an
 ## 5. RELEVANT ACADEMIC SEARCH STRINGS FOR VERIFICATION
 *   `"line outage distribution factor" AND "Sherman-Morrison-Woodbury" AND "contingency analysis"`
 *   `"alternate load path" AND "progressive collapse" AND "stiffness matrix reanalysis"`
+
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** OpenAI GPT-5.4 Thinking-Mini
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-06
+
+#### Results by Check
+* **CHECK 1 (Equation Validity):** PASS — The displayed DC power-flow and static stiffness equations are correctly matched to their stated domains, and the low-rank update claims are internally consistent.
+* **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Each paired term names a compatible object or scenario type, and the operator-role explanations specify shared linear-update structure rather than mere analogy.
+* **CHECK 3 (Correspondence Vector Support):** PASS — The body demonstrates all listed vectors: governing operator (Sections 1 and 3), instability mechanism (Sections 1 and 2), and numerical solution family (Section 3).
+* **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction is presented as asymmetric in a way that is plausible from the text alone, and the prediction is specific enough to be benchmarked against a measurable target.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Second Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-06
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — The discrete algebraic equations $P = B\theta$ and $F = Ku$ correctly model DC power flow and static structural equilibrium, respectively, and validly support the shared low-rank operator-update framework.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The vocabulary mappings pair mathematically compatible objects with shared structure (e.g., both LODF and force redistribution factors are explicitly defined as sensitivity coefficients derived from rank-1 updates of a governing linear operator).
+- **CHECK 3 (Correspondence Vector Support):** FAIL — The vector `governing_differential_operator` is listed in the YAML but has no supporting body text at all. The equations demonstrated ("P = B\,\theta" and "F = K\,u") and described in the text ("sparse linear network operator (nodal admittance/Laplacian-type matrix vs. global stiffness matrix)") are strictly finite-dimensional discrete algebraic systems, not differential operators. While `instability_mechanism` and `numerical_solution_family` are successfully demonstrated, this leaves only two supported vectors, which is below the mandatory floor of three. 
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer rationale is robustly asymmetric (leveraging mature, real-time matrix update techniques from power grids for computationally expensive structural alternate-load-path scans), and the predicted outcome (>90% precision and recall for top-quartile severity against full nonlinear AEM) is highly specific and experimentally falsifiable.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Third Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Protocol:** v2.0
+**Verdict:** FLAG
+**Review Date:** 2026-08-06
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FLAG — The equations P = Bθ and F = Ku are correct and of the same class (sparse linear algebraic systems), and the rank-1/Sherman–Morrison–Woodbury update mathematics is valid for both; however, Section 1 describes the DC power-flow constitutive law as "linear reactive power flow," whereas P = Bθ models real (active) power injection, not reactive power. The equation is correct; the text mislabels the physical quantity.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All three paired mappings are of compatible mathematical types (testing protocols, threshold-triggered events, and sensitivity coefficients respectively), and each Operator Role explanation names a specific shared structure (rank-1 update, threshold-triggered operator deletion, sensitivity coefficient derivation) rather than relying on hedged analogy.
+- **CHECK 3 (Correspondence Vector Support):** FLAG — The "instability_mechanism" vector is fully demonstrated via the threshold-triggered cascading-removal description in Section 2 and the honest post-linear-regime caveat in Section 3; the "numerical_solution_family" vector is fully demonstrated via the Sherman–Morrison–Woodbury rank-1 update discussion for both B⁻¹ and K⁻¹ in Section 3; the "governing_differential_operator" vector is only partially covered — Section 3 establishes a shared governing *operator* (B ↔ K, both sparse and linear), but the equations shown are algebraic matrix equations, not differential equations, and no derivation connects them to a shared differential operator.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction (Power Systems → Structural Engineering) is genuinely asymmetric: the entry documents mature LODF-based contingency screening on the source side and identifies a specific computational bottleneck (per-scenario full nonlinear re-simulation) on the target side, while honestly acknowledging existing simplified linear static guidelines that narrow but do not eliminate the gap. The falsifiable prediction names a specific metric (precision and recall > 90% for top-quartile-severity column-removal scenarios ranked by peak dynamic amplification factor), a specific comparison method (Applied Element Method simulation), and a clear failure condition. No canonical textbook prior-art analogy was recognized for this specific domain pairing.
+
+#### Stage 3 Watch Items
+- Verify whether Woodbury/SMW-based structural reanalysis applied specifically to exhaustive progressive-collapse column-removal screening has been previously proposed in the structural engineering literature. The mathematical technique of matrix-update reanalysis ("structural reanalysis") is well-established in structural optimization; the novelty claim appears to rest on the application context, not the technique itself.
+- Confirm whether "force (load) redistribution factor" is established structural engineering terminology or a coined analog to the power-systems LODF.
+- Probe whether the "reactive power" mislabeling in Section 1 reflects a deeper conceptual confusion between AC and DC power flow formulations or is a purely textual error with no downstream mathematical consequence.
+
+### Fourth Adversarial Review
+**Reviewer:** Alibaba Qwen3.8 Max
+**Protocol:** v2.0
+**Verdict:** FLAG
+**Review Date:** 2026-08-06
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FLAG — The displayed equations are class-consistent and domain-appropriate, but Section 1’s phrase “linear reactive power flow” is inconsistent with Section 3’s displayed DC power-flow equation `P = B\theta`, which is the standard linearized active-power/phase-angle relation, not a reactive-power model.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — the paired terms are compatible mathematical objects, and the Operator Role text names a shared rank-1 update/sensitivity structure rather than only hedged analogy.
+- **CHECK 3 (Correspondence Vector Support):** PASS — `governing_differential_operator` is supported by `P = B\theta` and `F = K u` plus the low-rank operator-update discussion in Section 3; `instability_mechanism` is supported by the threshold-triggered recursive removal descriptions in Sections 1–3; `numerical_solution_family` is supported by the Sherman–Morrison–Woodbury/LODF/reanalysis discussion in Section 3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — the stated transfer direction is asymmetric in the entry’s own terms, and the prediction specifies top-quartile scenario identification with greater than 90% precision and recall against a named nonlinear simulation benchmark.
+
+#### Stage 3 Watch Items
+- Verify prior work on Woodbury/Sherman-Morrison contingency screening in power systems and matrix reanalysis in structural progressive collapse.
+- Confirm whether `governing_differential_operator` is intended as a discrete Laplacian/stiffness operator, because Section 3 demonstrates finite-dimensional matrix equations rather than continuous differential operators.
+- Check whether the structural force redistribution factor is established with the same mathematical status and dimensionality as LODF.
+- Assess whether existing progressive-collapse guidelines already incorporate sensitivity or reanalysis screening, which would affect the claimed transfer asymmetry.
+
+### Fifth Adversarial Review
+**Reviewer:** Meta Muse Spark 1.1
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-06
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Equations P = Bθ (DC power flow with Laplacian-type susceptance matrix) and F = Ku (static equilibrium with global stiffness matrix) are correctly attributed, same linear algebraic class, and support the shared rank-1 Sherman-Morrison-Woodbury redistribution claimed in Section 1.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All three pairs (N-1 contingency ↔ single-member removal, overload/trip ↔ failure/collapse, LODF ↔ redistribution factor) map compatible mathematical types with explicit shared structure (operator deletion test, threshold-triggered removal, rank-1 sensitivity coefficient), no category errors.
+- **CHECK 3 (Correspondence Vector Support):** PASS — governing_differential_operator demonstrated in Sections 1 and 3 via B and K as sparse linear network operators with P=Bθ and F=Ku; instability_mechanism demonstrated in Section 1 and Section 2 as threshold-triggered recursive removal; numerical_solution_family demonstrated in Section 3 via Sherman-Morrison/Woodbury low-rank update avoiding full re-inversion on both sides.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Asymmetry is justified (Power Systems has mature real-time N-k LODF screening; Structural relies on repeated full nonlinear FEM per Section 4) and not reversible with comparable benefit; falsifiability is satisfied by specific >90% precision/recall on top-quartile severity ranked by peak dynamic amplification factor vs AEM with orders-of-magnitude speedup; no canonical textbook prior-art pairing recognized.
+
+#### Stage 3 Watch Items
+- Section 4 notes existing GSA 2016 / UFC 4-023-03 Linear Static procedure — Stage 3 should probe whether exhaustive Woodbury-based elastic screening is already described in structural reanalysis literature and whether transfer novelty lies only in exhaustive ranking workflow.
+- Body explicitly limits isomorphism to linear-elastic regime and acknowledges divergence into plastic/dynamic behavior — Stage 3 should verify benchmark structures used for falsifiable claim remain within that regime for the claimed precision/recall.
+
+### Sixth Adversarial Review
+**Reviewer:** DeepSeek DeepSeek V4 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-06
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — The displayed equations P = B θ and F = K u are correct linear algebraic models for their respective domains and support the claimed sparse-operator correspondence.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All three paired terms are of compatible mathematical type, and the Operator Role descriptions identify a shared structural basis (deletion test, threshold-triggered removal, rank‑1 sensitivity coefficients).
+- **CHECK 3 (Correspondence Vector Support):** FAIL — The YAML vector `governing_differential_operator` is not demonstrated anywhere in the body. The entry exhibits only static algebraic equations (P = B θ, F = K u) with matrix operators, neither differential nor even dynamic. The other two vectors (`instability_mechanism`, `numerical_solution_family`) are clearly demonstrated in Sections 3 and 4. The failure of the first vector leaves only two demonstrated vectors, below the required minimum of three.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction (power systems → structural) is asymmetric and well-motivated. The falsifiable prediction names a specific measurable target (>90% precision/recall for top-quartile severity ranking) and a concrete benchmarking methodology.
+
+#### Stage 3 Watch Items
+- Woodbury-based reanalysis in structural mechanics is a known technique; the human reviewer should probe whether the specific transfer of exhaustive, screening-style contingency analysis from power systems to progressive collapse assessment is novel or already appears in structural-health-monitoring or reliability-based design optimization literature.
+
+### Seventh Adversarial Review
+**Reviewer:** xAI Grok 4.5
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-06
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both displayed equations are sparse linear network operators of identical class (P = B θ and F = K u) whose rank-1 update mathematics via Sherman–Morrison–Woodbury directly supports the claimed structural correspondence.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All three paired mappings are objects of compatible mathematical type (contingency/removal test, threshold-triggered removal event, rank-1 sensitivity coefficient) and the Operator Role statements name the shared structure rather than merely asserting analogy.
+- **CHECK 3 (Correspondence Vector Support):** PASS — governing_differential_operator, instability_mechanism, and numerical_solution_family are each demonstrated in Section 3 by the explicit operator equations, the threshold-triggered cascade description, and the shared Sherman–Morrison–Woodbury update procedure.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Transfer direction is asymmetrically justified by maturity of real-time LODF pipelines versus per-scenario nonlinear FEM; the prediction names a concrete measurable (top-quartile severity ranking by peak dynamic amplification factor at >90% precision/recall) that can falsify the claim.
+
+#### Stage 3 Watch Items
+- Confirm whether Woodbury/Sherman-Morrison reanalysis for progressive-collapse alternate-load-path screening is already standard practice in structural engineering literature, independent of power-systems LODF methods.
