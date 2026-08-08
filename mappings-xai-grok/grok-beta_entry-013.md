@@ -197,7 +197,7 @@ These curves map onto each other in latent space topology through the shared pro
 - Whether the specific hardening models and games the authors have in mind actually satisfy the claimed symmetric positive-definite / shared Lie-group structure in Section 2, pair 2, since it is not a general property of either model class as stated.
 
 ### Second Adversarial Review
-**Reviewer:** GPT-5.6 Luna
+**Reviewer:** OpenAI GPT-5.6 Luna
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-08
