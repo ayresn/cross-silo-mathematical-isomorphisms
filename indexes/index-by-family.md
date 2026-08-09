@@ -137,7 +137,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Algebraic Topology Chain Complexes (1)
 
 * **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
-  * `Stage 2 / rejected` (86% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Quantum Information Science & Computational Structural Mechanics
   * *Model:* Z.AI GLM 5.2
 
@@ -151,28 +151,28 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Branching Splitting Renormalization (1)
 
 * **[SID-024](../mappings-meta-muse/muse-spark-1-1_entry-024.md)** — Parton Shower Dynamics & Gene Family Evolution
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Parton Shower Dynamics & Gene Family Evolution
   * *Model:* Meta Muse Spark 1.1
 
 ## Cascading Failure Network Instabilities (1)
 
 * **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-  * `Stage 2 / flagged` (0% voted to reject)
+  * `Stage 2 / flagged` (29% voted to reject)
   * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
   * *Model:* Anthropic Claude Sonnet 5
 
 ## Conductance Adaptation Gradient Flows (1)
 
 * **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
   * *Model:* Anthropic Claude Opus 5
 
 ## Conformation Tensor Transport Instabilities (1)
 
 * **[SID-022](../mappings-meta-muse/muse-spark-1-1_entry-022.md)** — Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
   * *Model:* Meta Muse Spark 1.1
 
@@ -186,14 +186,14 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Constrained Variational Inequality Localization (1)
 
 * **[SID-041](../mappings-alibaba-qwen/qwen3.8_entry-041.md)** — Computational Elastoplasticity & Network Traffic Equilibrium
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / flagged` (29% voted to reject)
   * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
   * *Model:* Alibaba Qwen 3.8 Max
 
 ## Convex Conic Feasibility On Conservation Operators Under Cyclic Forcing (1)
 
 * **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
   * *Model:* Anthropic Claude Opus 5
 
@@ -207,14 +207,14 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Cyclic Variational Inequalities With Residual Field Certificates (1)
 
 * **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
   * *Model:* Anthropic Claude Opus 5
 
 ## Delay Coupled Hopf Instabilities (1)
 
 * **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * `Stage 2 / flagged` (14% voted to reject)
+  * `Stage 2 / flagged` (29% voted to reject)
   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -235,35 +235,35 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## First Passage Absorption Processes (1)
 
 * **[SID-038](../mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — Actuarial Ruin Theory & Population Viability Analysis
-  * `Stage 2 / rejected` (71% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
   * *Model:* Anthropic Claude Sonnet 5
 
 ## Fokker Planck Operators (1)
 
 * **[SID-029](../mappings-deepseek-deepseek/deepseek_entry-029.md)** — Microstructural Polymer Dynamics & Population Density Neural Dynamics
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Microstructural Polymer Dynamics & Population Density Neural Dynamics
   * *Model:* DeepSeek DeepSeek V4 Pro
 
 ## Free Boundary Instabilities (1)
 
 * **[SID-017](../mappings-microsoft-copilot/copilot_entry-017.md)** — Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
-  * `Stage 2 / flagged` (29% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
   * *Model:* Microsoft Copilot 1.2
 
 ## Free Boundary Instabilities / gradient Flow Variational Systems (1)
 
 * **[SID-019](../mappings-microsoft-copilot/copilot_entry-019.md)** — Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks
   * *Model:* Microsoft Copilot 1.2
 
 ## Free Boundary Instabilities / graph Redistribution Dynamics (1)
 
 * **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -277,21 +277,21 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Gradient Flow Optimization (1)
 
 * **[SID-015](../mappings-xai-grok/grok-beta_entry-015.md)** — Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * *Model:* xAI Grok 4
+  * *Model:* xAI Grok 4 Fast
 
 ## Graph Laplacian Divergence Operators (1)
 
 * **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
   * *Model:* Z.AI GLM 5.2
 
 ## Ill Posed Linear Inverse Problems (1)
 
 * **[SID-037](../mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — Seismic Tomography & Paleoclimate Field Reconstruction
-  * `Stage 2 / rejected` (71% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
   * *Model:* Anthropic Claude Sonnet 5
 
@@ -300,7 +300,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 * **[SID-014](../mappings-xai-grok/grok-beta_entry-014.md)** — Nonlocal Damage Mechanics & Spatial Epidemiology
   * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
-  * *Model:* xAI Grok 4
+  * *Model:* xAI Grok 4 Fast
 
 ## Irreversible Variational Evolution (1)
 
@@ -312,28 +312,28 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Kernel Interpolation Operators (1)
 
 * **[SID-030](../mappings-deepseek-deepseek/deepseek_entry-030.md)** — Smoothed Particle Hydrodynamics & Gaussian Process Regression
-  * `Stage 2 / rejected` (86% voted to reject)
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Smoothed Particle Hydrodynamics & Gaussian Process Regression
   * *Model:* DeepSeek DeepSeek V4 Pro
 
 ## Laplacian Moving Boundary / screened Branching (1)
 
 * **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
 ## Linear Multiplicative Transport Eigenproblems (1)
 
 * **[SID-044](../mappings-alibaba-qwen/qwen3.8_entry-044.md)** — Nuclear Criticality Transport & Spatial Invasion Ecology
-  * `Stage 2 / flagged` (14% voted to reject)
+  * `Stage 2 / flagged` (29% voted to reject)
   * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
   * *Model:* Alibaba Qwen 3.8 Max
 
 ## Long Range Signed Kernel Threshold Avalanches (1)
 
 * **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / flagged` (14% voted to reject)
   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
   * *Model:* Anthropic Claude Opus 5
 
@@ -347,56 +347,56 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Multi Slip System Flow Rules (1)
 
 * **[SID-013](../mappings-xai-grok/grok-beta_entry-013.md)** — Crystal Plasticity & Evolutionary Game Dynamics
-  * `Stage 2 / rejected` (86% voted to reject)
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
-  * *Model:* xAI Grok 4
+  * *Model:* xAI Grok 4 Fast
 
 ## Multiplicative Linear Boltzmann Cascades (1)
 
 * **[SID-042](../mappings-alibaba-qwen/qwen3.8_entry-042.md)** — Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-  * `Stage 2 / flagged` (0% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
   * *Model:* Alibaba Qwen 3.8 Max
 
 ## Noise Induced Escape From Potential Wells (1)
 
 * **[SID-039](../mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment
   * *Model:* Anthropic Claude Sonnet 5
 
 ## Non Conservative Coupled Oscillators (1)
 
 * **[SID-007](../mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — Computational Aeroelasticity & Decentralized Finance Tokenomics
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
   * *Model:* Google Gemini 3.1 Pro
 
 ## Non Hermitian Skin Instabilities (1)
 
 * **[SID-045](../mappings-alibaba-qwen/qwen3.8_entry-045.md)** — Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / flagged` (14% voted to reject)
   * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
   * *Model:* Alibaba Qwen 3.8 Max
 
 ## Non Self Adjoint Gyroscopic Systems (1)
 
 * **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / flagged` (29% voted to reject)
   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
   * *Model:* Z.AI GLM 5.2
 
 ## Nonlinear Advection Diffusion Integro Differential Wave (1)
 
 * **[SID-020](../mappings-microsoft-copilot/copilot_entry-020.md)** — Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
-  * `Stage 2 / flagged` (14% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
   * *Model:* Microsoft Copilot 1.2
 
 ## Nonlinear Continuum Localization / master Equation Driven Instabilities (1)
 
 * **[SID-018](../mappings-microsoft-copilot/copilot_entry-018.md)** — Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
   * *Model:* Microsoft Copilot 1.2
 
@@ -431,35 +431,35 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Nonlocal Elliptic Operators (1)
 
 * **[SID-028](../mappings-deepseek-deepseek/deepseek_entry-028.md)** — Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning
   * *Model:* DeepSeek DeepSeek V4 Pro
 
 ## Nucleation Growth Coalescence Percolation (1)
 
 * **[SID-021](../mappings-meta-muse/muse-spark-1-1_entry-021.md)** — Ductile Fracture Mechanics & Early Universe Cosmology
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
   * *Model:* Meta Muse Spark 1.1
 
 ## Poisson Point Process Generating Functionals (1)
 
 * **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * `Stage 2 / rejected` (71% voted to reject)
+  * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
   * *Model:* Z.AI GLM 5.2
 
 ## Quasinormal Mode Decay Spectra (1)
 
 * **[SID-011](../mappings-xai-grok/grok-beta_entry-011.md)** — Black Hole Perturbation Theory & Structural Vibration Analysis
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
-  * *Model:* xAI Grok 4
+  * *Model:* xAI Grok 4 Fast
 
 ## Rare Event escape / absorbing Boundary drift Diffusion (1)
 
 * **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / flagged` (29% voted to reject)
   * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
   * *Model:* OpenAI GPT 5.4 Thinking Mini
 
@@ -473,7 +473,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Rate And State Memory Instabilities (1)
 
 * **[SID-025](../mappings-meta-muse/muse-spark-1-1_entry-025.md)** — Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
   * *Model:* Meta Muse Spark 1.1
 
@@ -487,14 +487,14 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Saddle Node Bifurcation Collapse Phenomena (1)
 
 * **[SID-040](../mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-  * `Stage 2 / flagged` (14% voted to reject)
+  * `Stage 2 / flagged` (43% voted to reject)
   * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
   * *Model:* Anthropic Claude Sonnet 5
 
 ## Self Consistent Phase Space Advection (1)
 
 * **[SID-009](../mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — Collisionless Plasma Kinetics & HFT Market Microstructure
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Collisionless Plasma Kinetics & HFT Market Microstructure
   * *Model:* Google Gemini 3.1 Pro
 
@@ -508,14 +508,14 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Symplectic Map And Kick Drift Evolution (1)
 
 * **[SID-003](../mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
-  * `Stage 2 / rejected` (57% voted to reject)
+  * `Stage 2 / rejected` (86% voted to reject)
   * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
   * *Model:* OpenAI GPT 5.5
 
 ## Thresholded Greens Kernel Inverse Design (1)
 
 * **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * `Stage 2 / rejected` (100% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
   * *Model:* Anthropic Claude Opus 5
 
@@ -529,7 +529,7 @@ The shared mathematical structure each entry claims, independent of subject matt
 ## Transport With Source Sink Defect Kinetics (1)
 
 * **[SID-004](../mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
-  * `Stage 2 / flagged` (29% voted to reject)
+  * `Stage 2 / rejected` (71% voted to reject)
   * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
   * *Model:* OpenAI GPT 5.5
 
@@ -538,12 +538,12 @@ The shared mathematical structure each entry claims, independent of subject matt
 * **[SID-012](../mappings-xai-grok/grok-beta_entry-012.md)** — Poroelasticity & Agent Based Epidemic Modeling
   * `Stage 2 / rejected` (100% voted to reject)
   * *Domains:* Poroelasticity & Agent Based Epidemic Modeling
-  * *Model:* xAI Grok 4
+  * *Model:* xAI Grok 4 Fast
 
 ## Variational Gradient Flow / nonlocal Interaction Systems (1)
 
 * **[SID-016](../mappings-microsoft-copilot/copilot_entry-016.md)** — Variational Phase Field Fracture & Kinetic Opinion Dynamics
-  * `Stage 2 / flagged` (43% voted to reject)
+  * `Stage 2 / rejected` (57% voted to reject)
   * *Domains:* Variational Phase Field Fracture & Kinetic Opinion Dynamics
   * *Model:* Microsoft Copilot 1.2
 

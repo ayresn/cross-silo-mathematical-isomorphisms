@@ -114,21 +114,21 @@ The methodology used to generate Stage 1 candidates can be reviewed in the [Extr
 ## STAGE 2 YIELD BY GENERATING MODEL
 Survival rate is the share of a model's entries that advanced to the Stage 3 queue rather than being rejected. Mean reject-vote share is the average across that model's entries of the fraction of panel reviewers voting REJECT. Both are computed over five entries per model, so all figures carry wide confidence intervals and none of the between-model differences should be treated as established.
 
-| Generating model | Reviewed | Rejected | Flagged | Survival | Mean reject-vote |
+| Model | Entries | Reviewed | Rejected | Survived | Mean reject-vote |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [Alibaba Qwen 3.8 Max](https://chat.qwen.ai/) | 5 | 2 | 3 | 60% | 51.4% |
-| [Amazon Nova 1.0 Pro](https://nova.amazon.com/) | 5 | 5 | 0 | 0% | 100.0% |
-| [Anthropic Claude Opus 5](https://claude.ai/) | 5 | 5 | 0 | 0% | 100.0% |
-| [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 3 | 2 | 40% | 42.6% |
-| [DeepSeek DeepSeek V4 Pro](https://chat.deepseek.com/) | 5 | 3 | 2 | 40% | 63.0% |
-| [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 2 | 3 | 60% | 51.4% |
-| [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 0 | 0% | 100.0% |
-| [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 0 | 5 | 100% | 34.4% |
-| [OpenAI GPT 5.4 Thinking Mini](https://chatgpt.com/) | 5 | 3 | 2 | 40% | 65.7% |
-| [OpenAI GPT 5.5](https://chatgpt.com/) | 5 | 4 | 1 | 20% | 60.0% |
-| [xAI Grok 4](https://grok.com/) | 5 | 4 | 1 | 20% | 74.4% |
-| [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 0 | 0% | 74.2% |
-| **TOTAL** | **60** | **41** | **19** | **31.7%** | **65.5%** |
+| [Alibaba Qwen 3.8 Max](https://chat.qwen.ai/) | 5 | 5 | 0 | 100% | 31.4% |
+| [Amazon Nova 1.0 Pro](https://nova.amazon.com/) | 5 | 5 | 5 | 0% | 100.0% |
+| [Anthropic Claude Opus 5](https://claude.ai/) | 5 | 5 | 2 | 60% | 45.7% |
+| [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 5 | 2 | 60% | 54.3% |
+| [DeepSeek DeepSeek V4 Pro](https://chat.deepseek.com/) | 5 | 5 | 4 | 20% | 74.3% |
+| [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 5 | 3 | 40% | 65.7% |
+| [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 5 | 0% | 82.9% |
+| [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 5 | 4 | 20% | 65.7% |
+| [OpenAI GPT 5.4 Thinking Mini](https://chatgpt.com/) | 5 | 5 | 3 | 40% | 57.1% |
+| [OpenAI GPT 5.5](https://chatgpt.com/) | 5 | 5 | 5 | 0% | 74.3% |
+| [xAI Grok 4 Fast](https://grok.com/) | 5 | 5 | 4 | 20% | 74.3% |
+| [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 4 | 20% | 77.1% |
+| **TOTAL** | **60** | **60** | **41** | **31.7%** | **66.9%** |
 
 ---
 
@@ -149,21 +149,21 @@ Machine-readable: [`indexes/entries.json`](indexes/entries.json).
 ### Where help is most needed
 The five candidates that drew the fewest reject votes from adversarial reviewers in Stage 2:
 
-1. **[SID-036](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — 0% reject —
-   * Power Grid Cascading Failure & Structural Progressive Collapse
-   * *Sherman–Morrison–Woodbury admittance updates ↔ nodal stiffness reanalysis*
-1. **[SID-042](mappings-alibaba-qwen/qwen3.8_entry-042.md)** — 0% reject —
-   * Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-   * *Linearized debris Boltzmann cascade ↔ neutron transport k-eigenvalue*
-1. **[SID-020](mappings-microsoft-copilot/copilot_entry-020.md)** — 14% reject —
-   * Turbulent Boundary Layer & Cortical Spiking Neural Field
-   * *Filtered Navier–Stokes LES closure ↔ Wilson–Cowan neural-field closure*
-1. **[SID-040](mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — 14% reject —
-   * Power System Voltage Stability & Fisheries Bioeconomic Collapse
-   * *Continuation power flow ↔ critical-depensation collapse dynamics*
-1. **[SID-044](mappings-alibaba-qwen/qwen3.8_entry-044.md)** — 14% reject —
-   * Nuclear Criticality Transport & Spatial Invasion Ecology
-   * *Boltzmann transport k-eigenvalue ↔ stage-structured growth eigenvalue*
+1. **[SID-045](../mappings-alibaba-qwen/qwen3.8_entry-045.md)**
+   * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
+   * *Reject-vote share:* 14% (1/7 reviewers)
+1. **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)**
+   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
+   * *Reject-vote share:* 14% (1/7 reviewers)
+1. **[SID-027](../mappings-deepseek-deepseek/deepseek_entry-027.md)**
+   * *Domains:* Phase Field Dendrite Growth & Biofilm Pattern Formation
+   * *Reject-vote share:* 29% (2/7 reviewers)
+1. **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)**
+   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
+   * *Reject-vote share:* 29% (2/7 reviewers)
+1. **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)**
+   * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
+   * *Reject-vote share:* 29% (2/7 reviewers)
 
 [See all 19 →](indexes/stage-3-queue.md)
 
