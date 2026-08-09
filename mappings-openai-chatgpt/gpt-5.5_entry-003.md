@@ -136,7 +136,7 @@ validation_status:
       - "Check 3: No demonstrated correspondence vectors – governing differential operator, symmetry groups, numerical solution family all absent from body"
     flagged_checks: []
     quoted_evidence:
-      - "M = e^{L_D \\Delta s} e^{L_K \\Delta s} + \\mathcal{O}(\\Delta s^2)" and "x_{n+1} = \\mathcal{I}_n \\circ \\Phi_{\\Delta t} (x_n) ... The distinction lies only in the semantics of the state variables, not in the operator algebra."
+      - "\"M = e^{L_D \\Delta s} e^{L_K \\Delta s} + \\mathcal{O}(\\Delta s^2)\" and \"x_{n+1} = \\mathcal{I}_n \\circ \\Phi_{\\Delta t} (x_n) ... The distinction lies only in the semantics of the state variables, not in the operator algebra.\""
       - "triple_correspondence_vectors: [\"governing_differential_operator\", \"symmetry_groups\", \"numerical_solution_family\"] – body contains no differential operator equation, no symmetry groups, and no demonstrated ecological splitting algorithm."
     stage_3_watch_items: []
   seventh_adversarial_review:

@@ -54,7 +54,7 @@ validation_status:
     verdict_rationale: "Section 1 asserts a finite-extensibility saddle-node mechanism that is not supported by the displayed Oldroyd-B and covariance equations, so the entry’s mathematical claim set is internally inconsistent."
     failed_checks: ["Check 1: finite-extensibility / equation-class mismatch"]
     flagged_checks: ["Check 2: graph Laplacian role is not established as non-normal", "Check 3: variational principle correspondence is under-demonstrated"]
-    quoted_evidence: [""Both systems evolve a symmetric positive definite second order tensor via an identical upper convected Lyapunov transport operator with relaxation, sharing the same variational principle of minimum elastic plus entropic free energy, the same finite extensibility induced saddle node instability at critical Weissenberg number, and the same log conformation numerical stabilization family.""]
+    quoted_evidence: ["\"Both systems evolve a symmetric positive definite second order tensor via an identical upper convected Lyapunov transport operator with relaxation, sharing the same variational principle of minimum elastic plus entropic free energy, the same finite extensibility induced saddle node instability at critical Weissenberg number, and the same log conformation numerical stabilization family.\""]
     stage_3_watch_items: ["Section 4 mixes Oldroyd-B language with FENE-P language; verify whether this is a deliberate model switch or an unsupported hybridization.", "Check whether the social-network Laplacian is intended to be directed/asymmetric; otherwise the 'non normal driving operator' wording in Section 2 is mathematically overstated."]
   third_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"

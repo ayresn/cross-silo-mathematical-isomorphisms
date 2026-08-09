@@ -50,7 +50,7 @@ validation_status:
     verdict_rationale: "The entry contains a hard vocabulary category error by mapping a dimensionless lithography metric to an explicitly dimensional thermal gradient without any nondimensionalization."
     failed_checks: ["Check 2: Vocabulary Matrix Coherence"]
     flagged_checks: ["Check 3: Instability mechanism correspondence is described but not derived"]
-    quoted_evidence: [""Normalized Image Log-Slope (NILS) ↔ Melt-pool boundary thermal gradient G (K·mm⁻¹)""]
+    quoted_evidence: ["\"Normalized Image Log-Slope (NILS) ↔ Melt-pool boundary thermal gradient G (K·mm⁻¹)\""]
     stage_3_watch_items: ["Probe whether the LPBF kernel is genuinely Gaussian under the stated moving-source and phase-change assumptions.", "Probe the unsupported capillary-instability claim in the Section 2 mapping between resist line collapse and melt-track breakup."]
   second_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"
@@ -132,9 +132,9 @@ validation_status:
       - "Check 3: instability_mechanism vector lacks equation or derivation in the body."
     flagged_checks: []
     quoted_evidence:
-      - "G=\frac{\exp\!\big[-|\mathbf{x}-\mathbf{x}'|^{2}/4\alpha_{\mathrm{th}}(t-t')\big]}{\rho c_p\,\big[4\pi\alpha_{\mathrm{th}}(t-t')\big]^{3/2}}"
-      - "Normalized Image Log-Slope (NILS) ↔ Melt-pool boundary thermal gradient G (K·mm⁻¹) ... Both are the normalized magnitude of the normal derivative"
-      - "triple_correspondence_vectors: ... - instability_mechanism" and body text "Both are capillary instabilities... both linearize to the same dispersion relation" without equation.
+      - '"G=\frac{\exp\!\big[-|\mathbf{x}-\mathbf{x}''|^{2}/4\alpha_{\mathrm{th}}(t-t'')\big]}{\rho c_p\,\big[4\pi\alpha_{\mathrm{th}}(t-t'')\big]^{3/2}}"'
+      - 'Normalized Image Log-Slope (NILS) ↔ Melt-pool boundary thermal gradient G (K·mm⁻¹) ... Both are the normalized magnitude of the normal derivative'
+      - '"triple_correspondence_vectors: ... - instability_mechanism" and body text "Both are capillary instabilities... both linearize to the same dispersion relation" without equation.'
     stage_3_watch_items:
       - "Prior art: Analogy between e-beam proximity correction and heat accumulation in LPBF may have known precedents; probe OPC/ILT applications to additive manufacturing."
   seventh_adversarial_review:

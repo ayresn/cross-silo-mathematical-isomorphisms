@@ -143,8 +143,8 @@ validation_status:
       - "Check 2: The mapping `Carrier lifetime tau_s ↔ Waning immunity time tau_w` pairs an ODE rate constant with a discrete delay, a category mismatch."
     flagged_checks: []
     quoted_evidence:
-      - "Both systems are governed by an identical nonlinear delay differential operator with two competing delays" (Section 1)
-      - "Carrier lifetime tau_s ↔ Waning immunity time tau_w ... Both are the slow recovery timescale in the second equation, governing reinjection of carriers or susceptibles" (Section 2)
+      - "\"Both systems are governed by an identical nonlinear delay differential operator with two competing delays\" (Section 1)"
+      - "\"Carrier lifetime tau_s ↔ Waning immunity time tau_w ... Both are the slow recovery timescale in the second equation, governing reinjection of carriers or susceptibles\" (Section 2)"
     stage_3_watch_items: []
   seventh_adversarial_review:
     reviewer_model: "xAI Grok 4.5 Fast"
@@ -154,7 +154,7 @@ validation_status:
     verdict_rationale: "Equations displayed for Silo A contain only a single discrete delay while Section 1 and Section 3 claim an identical two-delay nonlinear operator and a two-delay characteristic equation shared with Silo B."
     failed_checks: ["Check 1: equation-class/delay-count mismatch between claimed operator and displayed Lang-Kobayashi equations", "Check 2: linewidth-enhancement factor mapped to undefined behavioral response factor with no corresponding phase-coupling structure on the epidemiology side", "Check 3: governing_differential_operator vector not demonstrated because the body equations contradict the claimed identical two-delay operator"]
     flagged_checks: []
-    quoted_evidence: ["Both systems are governed by an identical nonlinear delay differential operator with two competing delays, sharing the same Hopf bifurcation structure", "a 2 delay DDE with characteristic equation lambda squared plus a lambda plus b plus c exp[minus lambda tau_r] plus d exp[minus lambda tau_w] equals 0", "Linewidth enhancement factor alpha ↔ Behavioral response factor *Operator Role:* Both couple amplitude to phase, introducing shear in the Hopf normal form", "```math:disable-run
+    quoted_evidence: ["Both systems are governed by an identical nonlinear delay differential operator with two competing delays, sharing the same Hopf bifurcation structure", "a 2 delay DDE with characteristic equation lambda squared plus a lambda plus b plus c exp[minus lambda tau_r] plus d exp[minus lambda tau_w] equals 0", "Linewidth enhancement factor alpha ↔ Behavioral response factor *Operator Role:* Both couple amplitude to phase, introducing shear in the Hopf normal form"]
     stage_3_watch_items: ["Confirm whether any non-standard multi-delay extension of Lang-Kobayashi is intended; the displayed equations are the classical single-delay form"]
 ---
 

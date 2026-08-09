@@ -53,10 +53,10 @@ validation_status:
     verdict_rationale: "The entry asserts an isomorphic mixed parabolic-elliptic governing system, but the epidemic equation supplied is a first-order nonlinear advection-reaction continuity equation with no elliptic deformation or pressure constraint, and the listed correspondence vectors are not demonstrated in the body."
     failed_checks: ["Check 1: The claimed shared mixed parabolic-elliptic operator is not supported because the two displayed governing equations are not the same differential-operator class.", "Check 3: The listed governing_differential_operator, boundary_conditions, and numerical_solution_family vectors are not demonstrated by equations, operator identities, or derivations."]
     flagged_checks: []
-    quoted_evidence: [""\nabla \cdot \boldsymbol{\sigma}' - \alpha \nabla p = 0, \quad \frac{\partial \zeta}{\partial t} = \nabla \cdot \left( \frac{\kappa}{\mu} \nabla p \right)"", ""\frac{\partial \rho}{\partial t} + \nabla \cdot (\mathbf{v}(\rho) \rho) = \beta(\rho) S I - \gamma \rho""]
+    quoted_evidence: ['"\nabla \cdot \boldsymbol{\sigma}'' - \alpha \nabla p = 0, \quad \frac{\partial \zeta}{\partial t} = \nabla \cdot \left( \frac{\kappa}{\mu} \nabla p \right)"', '"\frac{\partial \rho}{\partial t} + \nabla \cdot (\mathbf{v}(\rho) \rho) = \beta(\rho) S I - \gamma \rho"']
     stage_3_watch_items: []
   third_adversarial_review:
-    reviewer_model: "Google Gemini 3.1 Pro
+    reviewer_model: "Google Gemini 3.1 Pro"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-08"
     verdict: "REJECT"
@@ -131,7 +131,7 @@ validation_status:
     flagged_checks:
       - "Check 2: The vocabulary mapping 'Skempton coefficient / undrained response ↔ Herd immunity threshold with behavioral response' uses hedged assertion without specifying a shared mathematical structure, only stating 'maps to … under the same effective compressibility'."
     quoted_evidence:
-      - "In dynamic agent-based epidemic modeling, the mean-field density ρ(𝐱,𝑡) of infected agents obeys a continuity equation where mobility (diffusion/advection) is modulated by local prevalence pressure, coupled back to contact rates via behavioral rules, yielding an identical mixed-type system in the continuum limit.  ```math \frac{\partial \rho}{\partial t} + \nabla \cdot (\mathbf{v}(\rho) \rho) = \beta(\rho) S I - \gamma \rho ```"
+      - "In dynamic agent-based epidemic modeling, the mean-field density ρ(𝐱,𝑡) of infected agents obeys a continuity equation where mobility (diffusion/advection) is modulated by local prevalence pressure, coupled back to contact rates via behavioral rules, yielding an identical mixed-type system in the continuum limit.  ```math \\frac{\\partial \\rho}{\\partial t} + \\nabla \\cdot (\\mathbf{v}(\\rho) \\rho) = \\beta(\\rho) S I - \\gamma \\rho ```"
       - "triple_correspondence_vectors:\n    - \"governing_differential_operator\"\n    - \"boundary_conditions\"\n    - \"numerical_solution_family\""
       - "No section of the body discusses boundary conditions for either domain; Section 4 proposes importing numerical methods but does not demonstrate that the two fields already share a common numerical solution family."
     stage_3_watch_items:

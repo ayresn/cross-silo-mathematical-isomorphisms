@@ -129,9 +129,9 @@ validation_status:
       - "Check 3: Correspondence Vector Support — numerical_solution_family vector is not demonstrated with equations or operator identities; merely mentioned as a proposed transfer."
       - "Check 4: Prior Art — the Laplacian-growth isomorphism between dielectric breakdown and diffusion-limited aggregation is a textbook interdisciplinary analogy, requiring bibliometric review."
     quoted_evidence:
-      - "Both are bulk scalar fields whose Laplacian or diffusion-limited gradients define the local normal flux that drives interface advance." (Section 2)
-      - "v_n = α c^η - β κ" (Section 3, Silo B equation)
-      - "c|_{\Gamma(t)} = c_{\min},\qquad -D\partial_n c|_{\Gamma(t)} = q_{\mathrm{uptake}}." (Section 3, Silo B boundary conditions)
+      - '"Both are bulk scalar fields whose Laplacian or diffusion-limited gradients define the local normal flux that drives interface advance." (Section 2)'
+      - '"v_n = α c^η - β κ" (Section 3, Silo B equation)'
+      - '"c|_{\Gamma(t)} = c_{\min},\qquad -D\partial_n c|_{\Gamma(t)} = q_{\mathrm{uptake}}." (Section 3, Silo B boundary conditions)'
     stage_3_watch_items:
       - "Dielectric breakdown ↔ DLA/MB Laplacian growth isomorphism is canonical; verify novelty of the specific electrochemical-treeing ↔ fungal-hyphal-invasion pairing."
       - "Probe whether the fungal equation v_n = α c^η is a genuine model from the fungal literature or a mis-specified growth law that would not produce tip branching under harmonic fields."

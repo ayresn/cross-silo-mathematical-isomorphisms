@@ -61,7 +61,7 @@ validation_status:
     verdict_rationale: "The entry lists a 'dimensionless_similarity_parameters' correspondence but never demonstrates any dimensionless construction or nondimensionalization in the body, so Check 3 fails."
     failed_checks: ["Check 3: listed dimensionless_similarity_parameters vector is not demonstrated"]
     flagged_checks: []
-    quoted_evidence: ["triple_correspondence_vectors:\n    - "governing_differential_operator"\n    - "instability_mechanism"\n    - "dimensionless_similarity_parameters"", "Dynamic Pressure ($q$ or $\rho V^2$) ↔ Arbitrage Capital Velocity ($V_{cap}^2$)"]
+    quoted_evidence: ["triple_correspondence_vectors:\n    - \"governing_differential_operator\"\n    - \"instability_mechanism\"\n    - \"dimensionless_similarity_parameters\"", "Dynamic Pressure ($q$ or $\rho V^2$) ↔ Arbitrage Capital Velocity ($V_{cap}^2$)"]
     stage_3_watch_items: ["Verify whether the claimed dimensionless similarity parameters are actually derived anywhere in the entry, since the only related quantities shown are dimensional scalars.", "Check whether the tokenomic second-order state-space model is a derivation or just an analogy."]
   third_adversarial_review:
     reviewer_model: "Z.AI GLM-5.2"

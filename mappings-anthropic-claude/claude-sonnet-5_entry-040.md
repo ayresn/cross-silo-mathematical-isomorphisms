@@ -125,12 +125,12 @@ validation_status:
     verdict: "REJECT"
     verdict_rationale: "Equation-class mismatch (algebraic system claimed to reduce to an ODE normal form) and an undemonstrated correspondence vector."
     failed_checks:
-      - "Check 1: Equation-class mismatch — static algebraic system g(x,λ)=0 cannot be reduced via center-manifold projection to the dynamic normal form \dot z = \mu - z^2."
+      - "Check 1: Equation-class mismatch — static algebraic system g(x,λ)=0 cannot be reduced via center-manifold projection to the dynamic normal form \\dot z = \\mu - z^2."
       - "Check 3: Correspondence vector 'continuation_method_numerical_solution_family' is not demonstrated in the body with any equation, operator identity, or derivation."
     flagged_checks:
       - "Check 4: Prior art — saddle-node bifurcation as a generic cross-domain collapse mechanism is canonical in the critical-transitions literature (e.g., Scheffer et al.); entry itself flags this risk. Stage 3 should investigate."
     quoted_evidence:
-      - "Silo A writes the power-flow equilibrium as an implicit algebraic system in the bus voltage/angle vector $x$, parametrized by a uniform load-scaling factor $\lambda$:\n```math\ng(x,\\lambda) = 0, \\qquad \\det\\left(\\frac{\\partial g}{\\partial x}\\right)\\bigg|_{x^{*},\\,\\lambda_c} = 0\n```\n...\nNear their respective critical points, both systems reduce via center-manifold projection to the same scalar normal form,\n```math\n\\dot z = \\mu - z^2, \\qquad \\mu \\propto (\\lambda_c - \\lambda) \\ \\text{or}\\ (E_c - E)\n```"
+      - "Silo A writes the power-flow equilibrium as an implicit algebraic system in the bus voltage/angle vector $x$, parametrized by a uniform load-scaling factor $\\lambda$:\\n```math\\ng(x,\\\\lambda) = 0, \\\\qquad \\\\det\\\\left(\\\\frac{\\\\partial g}{\\\\partial x}\\\\right)\\\\bigg|_{x^{*},\\\\,\\\\lambda_c} = 0\\n```\\n...\\nNear their respective critical points, both systems reduce via center-manifold projection to the same scalar normal form,\\n```math\\n\\\\dot z = \\\\mu - z^2, \\\\qquad \\\\mu \\\\propto (\\\\lambda_c - \\\\lambda) \\\\ \\\\text{or}\\\\ (E_c - E)\\n```"
       - "From Section 1: 'power systems possessing a mature multi-parameter numerical continuation toolkit for tracing the full bifurcation manifold that fisheries science largely lacks.' The body provides no equation, operator identity, or derivation establishing the continuation method family itself as a correspondence vector."
     stage_3_watch_items:
       - "Prior-art risk from generic critical-transitions / early-warning-signals research (Scheffer et al.) — confirm that the specific normal-form equivalence plus numerical-continuation transfer has not already been published."

@@ -43,7 +43,7 @@ validation_status:
     verdict_rationale: "The entry lists a correspondence vector that is not demonstrated anywhere in the body, so the claimed triple correspondence is internally incomplete."
     failed_checks: ["Check 3: Correspondence vector support"]
     flagged_checks: []
-    quoted_evidence: ["- "laplace_transform_numerical_solution_family""]
+    quoted_evidence: ["- \"laplace_transform_numerical_solution_family\""]
     stage_3_watch_items: ["Verify whether a Laplace-transform-based numerical solution family is actually demonstrated in Section 3; the body currently contains no Laplace transform or numerical inversion argument."]
   second_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"
@@ -95,7 +95,7 @@ validation_status:
     flagged_checks: ["Check 4: prior art – the diffusion‑approximation isomorphism between ruin theory and population extinction (Lande/Dennis–Munholland–Scott formula) is a textbook applied‑probability equivalence; flagging for Stage 3 bibliometric check."]
     quoted_evidence:
       - "triple_correspondence_vectors: ... - \"laplace_transform_numerical_solution_family\"  (no corresponding equation, operator identity, or derivation in the entry body)"
-      - "For subexponential claims, Cramér's exponential bound fails entirely and ψ(u) instead decays as a power law governed by the claim-tail itself."  (states the mechanism but provides no explicit power‑law formula or derivation; the vector “heavy_tailed_instability_mechanism” is not demonstrated by an equation or operator identity)
+      - "\"For subexponential claims, Cramér's exponential bound fails entirely and ψ(u) instead decays as a power law governed by the claim-tail itself.\"  (states the mechanism but provides no explicit power‑law formula or derivation; the vector \"heavy_tailed_instability_mechanism\" is not demonstrated by an equation or operator identity)"
     stage_3_watch_items:
       - "Diffusion‑approximation isomorphism between ruin theory and population viability (Lande/Dennis–Munholland–Scott) is a standard applied‑probability result; check for prior publication and whether the claimed asymmetric transfer of heavy‑tail methods is genuinely novel."
   seventh_adversarial_review:

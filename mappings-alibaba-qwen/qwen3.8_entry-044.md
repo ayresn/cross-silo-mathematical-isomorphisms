@@ -62,7 +62,7 @@ validation_status:
     verdict_rationale: "The body does not actually demonstrate the listed numerical_solution_family correspondence, so the required three correspondence vectors are not all established."
     failed_checks: ["Check 3: Correspondence vector support"]
     flagged_checks: []
-    quoted_evidence: [""dominant eigenvalue, inflow boundary trace, and discrete-ordinates/adjoint solution family obey an equivalent Perron-Frobenius threshold structure.""]
+    quoted_evidence: ["\"dominant eigenvalue, inflow boundary trace, and discrete-ordinates/adjoint solution family obey an equivalent Perron-Frobenius threshold structure.\""]
     stage_3_watch_items: ["Verify whether the numerical_solution_family vector can be supported by an explicit solver-level equivalence rather than a named analogy; the current body names discrete-ordinates and adjoint methods but does not derive a matching solution-family correspondence."]
   third_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"

@@ -118,7 +118,7 @@ validation_status:
     flagged_checks: []
     quoted_evidence:
       - "Both systems are governed by an identical 2D slow fast rate and state operator with a fast rate variable and a slow memory state obeying aging or recovery law"
-      - "Silo B: \frac{dx}{dt} = \frac{1-x}{\tau_{d}} - u x \sum_{sp}\delta(t-t_{sp}), \quad \frac{du}{dt} = -\frac{u}{\tau_{f}} + U(1-u)\sum_{sp}\delta(t-t_{sp})"
+      - "Silo B: \\frac{dx}{dt} = \\frac{1-x}{\\tau_{d}} - u x \\sum_{sp}\\delta(t-t_{sp}), \\quad \\frac{du}{dt} = -\\frac{u}{\\tau_{f}} + U(1-u)\\sum_{sp}\\delta(t-t_{sp})"
       - "Slip velocity V ↔ Instantaneous firing rate r ... Operator Role: Both are the fast rate variable entering logarithmically in the direct effect term a ln V, setting the instantaneous output, friction coefficient mu or synaptic current."
       - "triple_correspondence_vectors: [governing_differential_operator, instability_mechanism, dimensionless_similarity_parameters, numerical_solution_family]"
     stage_3_watch_items:

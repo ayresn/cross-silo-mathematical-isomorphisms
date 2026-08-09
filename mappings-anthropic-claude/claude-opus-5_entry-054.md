@@ -51,7 +51,7 @@ validation_status:
     verdict_rationale: "Section 1 contains a self-contradictory conserved/dissipative claim, which is a genuine mathematical-semantic error."
     failed_checks: ["Check 1: self-contradictory dissipation claim"]
     flagged_checks: ["Check 3: conserved_quantities correspondence is not actually derived in the body"]
-    quoted_evidence: [""boundedness of the conserved irreversible dissipation functional is decided by a single convex feasibility problem""]
+    quoted_evidence: ["\"boundedness of the conserved irreversible dissipation functional is decided by a single convex feasibility problem\""]
     stage_3_watch_items: ["Verify whether the phrase 'conserved irreversible dissipation functional' was intended to mean a bounded dissipation measure rather than a conserved quantity.", "Probe whether the traction/displacement boundary split has a true boundary-condition analogue on the financial side."]
   second_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"
@@ -128,7 +128,7 @@ validation_status:
     flagged_checks: ["Check 3: variational_principles vector partially covered (no dual equation or derivation for Silo B).", "Check 3: conserved_quantities vector not demonstrated with an equation.", "Check 4: potential prior art in shakedown-finance analogies (advisory)."]
     quoted_evidence:
       - "YAML triple_correspondence_vectors includes 'governing_differential_operator'."
-      - "Section 3 Silo B equation: 'B\,\bar{c}=0' — a purely algebraic constraint with no differential operator."
+      - "Section 3 Silo B equation: 'B\\,\\bar{c}=0' — a purely algebraic constraint with no differential operator."
     stage_3_watch_items:
       - "prior art: isomorphism between structural shakedown / limit analysis and financial network contagion — check for existing literature mapping Melan theorem to systemic risk certificates."
   seventh_adversarial_review:

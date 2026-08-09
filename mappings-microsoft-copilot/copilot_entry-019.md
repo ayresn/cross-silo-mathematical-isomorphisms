@@ -53,7 +53,7 @@ validation_status:
     verdict_rationale: "The entry contains a category-error vocabulary mapping from a vector-valued elastic displacement to a scalar influence potential and does not mathematically demonstrate the listed instability-mechanism/front-propagation correspondence."
     failed_checks: ["Check 2: elastic displacement vector mapped to scalar influence potential without an explicit transformation", "Check 3: instability mechanism and front propagation is asserted but not demonstrated by an equation, operator identity, or derivation"]
     flagged_checks: []
-    quoted_evidence: ["**elastic displacement \(\mathbf{u}(\mathbf{x},t)\)** ↔ **influence potential \(\psi_i(t)\)**", "Topologically, crack-tip stress concentration ↔ high-degree/bridge-node influence concentration; both produce localized front propagation governed by the same energy descent and front-regularization length scale \(\ell\)."]
+    quoted_evidence: ["**elastic displacement \\(\\mathbf{u}(\\mathbf{x},t)\\)** ↔ **influence potential \\(\\psi_i(t)\\)**", "Topologically, crack-tip stress concentration ↔ high-degree/bridge-node influence concentration; both produce localized front propagation governed by the same energy descent and front-regularization length scale \\(\\ell\\)."]
     stage_3_watch_items: []
   third_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"
@@ -115,9 +115,9 @@ validation_status:
       - "Check 3: The vectors variational_principle_and_energy_landscape and instability_mechanism_and_front_propagation are not demonstrated with equations or derivations in the body; only one (governing_differential_operator) is clearly supported."
     flagged_checks: []
     quoted_evidence:
-      - "Both systems are gradient flows of nonconvex energy functionals that couple a smooth field (elastic displacement / node influence potential) to a binary/continuous order parameter (phase‑field / adoption state) whose dynamics regularize a moving free boundary" (Section 1).  The Silo-B formulation gives E_cascade[ψ,u] = ∑ (1-u_i)^2 Φ_i(ψ) + α∑ w_ij Γ_ℓ(u_i,u_j) and the elliptic equation ∑ L_ij ψ_j = f_i(u) is not derived from this energy; no stationarity or gradient-flow equation for ψ is provided, so the energy does not couple ψ in a variational sense."
-      - "elastic displacement u(x,t) ↔ influence potential ψ_i(t)" (Section 2).  u is a real vector field, ψ_i is a real scalar field; the entry provides no transformation that would reconcile the mismatch in mathematical type."
-      - "triple_correspondence_vectors: ... variational_principle_and_energy_landscape ... instability_mechanism_and_front_propagation" (metadata).  Section 3 states the energy functionals but the cascade energy is not shown to generate the ψ equation, and the instability mechanism is only asserted qualitatively (“crack-tip stress concentration ↔ high-degree/bridge-node influence concentration”) without an equation, derivation, or operator identity linking them."
+      - '"Both systems are gradient flows of nonconvex energy functionals that couple a smooth field (elastic displacement / node influence potential) to a binary/continuous order parameter (phase‑field / adoption state) whose dynamics regularize a moving free boundary" (Section 1).  The Silo-B formulation gives E_cascade[ψ,u] = ∑ (1-u_i)^2 Φ_i(ψ) + α∑ w_ij Γ_ℓ(u_i,u_j) and the elliptic equation ∑ L_ij ψ_j = f_i(u) is not derived from this energy; no stationarity or gradient-flow equation for ψ is provided, so the energy does not couple ψ in a variational sense.'
+      - '"elastic displacement u(x,t) ↔ influence potential ψ_i(t)" (Section 2).  u is a real vector field, ψ_i is a real scalar field; the entry provides no transformation that would reconcile the mismatch in mathematical type.'
+      - '"triple_correspondence_vectors: ... variational_principle_and_energy_landscape ... instability_mechanism_and_front_propagation" (metadata).  Section 3 states the energy functionals but the cascade energy is not shown to generate the ψ equation, and the instability mechanism is only asserted qualitatively (“crack-tip stress concentration ↔ high-degree/bridge-node influence concentration”) without an equation, derivation, or operator identity linking them.'
     stage_3_watch_items: []
   seventh_adversarial_review:
     reviewer_model: "xAI Grok 4.5 Fast"
