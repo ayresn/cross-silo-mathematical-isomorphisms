@@ -6,7 +6,7 @@ sid_metadata:
 provenance:
   company: "xAI"
   model_family: "Grok"
-  model_version: "4"
+  model_version: "4 Fast"
   generation_timestamp: "2026-07-22"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:
