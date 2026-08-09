@@ -149,19 +149,19 @@ Machine-readable: [`indexes/entries.json`](indexes/entries.json).
 ### Where help is most needed
 The five candidates that drew the fewest reject votes from adversarial reviewers in Stage 2:
 
-1. **[SID-045](../mappings-alibaba-qwen/qwen3.8_entry-045.md)**
+1. **[SID-045](mappings-alibaba-qwen/qwen3.8_entry-045.md)**
    * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
    * *Reject-vote share:* 14% (1/7 reviewers)
-1. **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)**
+1. **[SID-055](mappings-anthropic-claude/claude-opus-5_entry-055.md)**
    * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
    * *Reject-vote share:* 14% (1/7 reviewers)
-1. **[SID-027](../mappings-deepseek-deepseek/deepseek_entry-027.md)**
+1. **[SID-027](mappings-deepseek-deepseek/deepseek_entry-027.md)**
    * *Domains:* Phase Field Dendrite Growth & Biofilm Pattern Formation
    * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)**
+1. **[SID-031](mappings-zai-glm/glm-5-2_entry-031.md)**
    * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
    * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)**
+1. **[SID-036](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)**
    * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
    * *Reject-vote share:* 29% (2/7 reviewers)
 
