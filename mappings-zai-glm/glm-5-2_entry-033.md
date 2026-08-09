@@ -110,7 +110,7 @@ validation_status:
       - "Probe the mapping of the Monge-Ampère bracket to T_μν; this may indicate a fundamental misunderstanding of the field equations."
       - "Check if any extant literature explicitly identifies a Föppl-von Kármán ↔ Szekeres isomorphism."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-09"
     verdict: "REJECT"
@@ -273,7 +273,7 @@ None identified.
 - Check whether any published work draws a Föppl–von Kármán ↔ Szekeres isomorphism; this appears highly non‑standard and warrants bibliometric scrutiny.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-09

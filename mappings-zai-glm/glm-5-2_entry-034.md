@@ -118,7 +118,7 @@ validation_status:
     quoted_evidence: ["Section 1: 'identical governing stochastic operators, dimensionless similarity parameters, and soft-impingement instability mechanisms'; YAML triple_correspondence_vectors: ['governing_stochastic_operator', 'dimensionless_similarity_parameters', 'instability_mechanism']. No definition, equation, or derivation for any dimensionless similarity parameter or instability mechanism appears anywhere in Sections 2-4."]
     stage_3_watch_items: ["Check for prior art: The mapping between Poisson point process void probabilities (wireless coverage) and Johnson-Mehl-Avrami kinetics (phase transformations) is a canonical Boolean model example; verify novelty against stochastic geometry monographs (e.g., Stoyan et al., Baccelli & Błaszczyszyn).", "Probe whether the claimed 'dimensionless similarity parameters' correspond to recognized non-dimensional groups in both fields (e.g., SINR threshold vs. dimensionless undercooling or Péclet number)."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-09"
     verdict: "REJECT"
@@ -276,7 +276,7 @@ None identified.
 - Probe whether the claimed `dimensionless_similarity_parameters` correspond to recognized non-dimensional groups in both fields (e.g., SINR threshold vs. dimensionless undercooling or Péclet number).
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-09

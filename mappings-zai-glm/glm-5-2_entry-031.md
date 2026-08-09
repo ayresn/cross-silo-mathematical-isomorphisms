@@ -96,7 +96,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Potential prior art: the isomorphism between axially moving continua and MHD flux tube kink waves is a recognized gyroscopic analogy; Stage 3 should probe novelty in the existing literature on non-self-adjoint gyroscopic systems."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-09"
     verdict: "PASS"
@@ -252,7 +252,7 @@ In both systems, the mixed derivative term breaks Hermitian symmetry, leading to
 - Investigate whether the exact mapping between axially moving continua and line-tied MHD kink modes has already been published in the literature on gyroscopic continua or coronal loop oscillations.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-09

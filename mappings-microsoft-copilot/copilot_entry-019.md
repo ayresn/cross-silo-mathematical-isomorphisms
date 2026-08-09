@@ -120,7 +120,7 @@ validation_status:
       - "triple_correspondence_vectors: ... variational_principle_and_energy_landscape ... instability_mechanism_and_front_propagation" (metadata).  Section 3 states the energy functionals but the cascade energy is not shown to generate the ψ equation, and the instability mechanism is only asserted qualitatively (“crack-tip stress concentration ↔ high-degree/bridge-node influence concentration”) without an equation, derivation, or operator identity linking them."
     stage_3_watch_items: []
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-07"
     verdict: "PASS"
@@ -295,7 +295,7 @@ None identified.
 None identified.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-07

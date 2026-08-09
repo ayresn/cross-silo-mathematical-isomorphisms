@@ -104,7 +104,7 @@ validation_status:
     quoted_evidence: ["Both define the strictly conserved, directional transport of the underlying quantity (electromagnetic energy / human mass) along the orthogonal gradient of the potential field. The divergence of this vector dictates the temporal accumulation of density.", "Both represent the fundamental symmetry group of the system. The equations retain their exact mathematical structure when the spatial grid is continuously deformed (e.g., tearing a hole in space to hide an object), provided the corresponding metric tensor is inversely scaled to compensate for the topological distortion."]
     stage_3_watch_items: ["Prior art: Hughes (2002) pedestrian model is based on an eikonal equation from geometric optics; the analogy between pedestrian potential and optical phase is a known canonical correspondence. Stage 3 should probe whether the anisotropic extension and transformation-optics cloaking transfer constitute a novel isomorphism or merely an incremental extension of a textbook analogy."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -254,7 +254,7 @@ None identified.
 - Prior art: The Hughes pedestrian model (2002) is itself an optical analogue (an eikonal equation for the potential). Stage 3 should determine whether the anisotropic slowness tensor extension and the explicit borrowing of transformation-optics cloaking solutions go beyond this canonical analogy, and whether the claimed isomorphism is novel in the literature.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

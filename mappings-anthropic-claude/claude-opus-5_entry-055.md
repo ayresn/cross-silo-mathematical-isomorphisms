@@ -110,7 +110,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Probe for any existing literature that explicitly draws an analogy between the Eshelby propagator and the LODF matrix in cascading failure analysis, as the entry claims this mapping is absent from mean-field approaches. Also verify that the soft-spot ↔ critical contingency pair correspondence is supported by spectral analysis of the graph Laplacian in the power-systems literature."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -308,7 +308,7 @@ The first relation is elementary extreme-value statistics of $N$ samples drawn f
 - Verify whether the identification of soft spots with critical contingency pairs via low-lying spectrum of the equilibrium operator has precedent in power-systems literature (e.g., spectral partitioning or vulnerability analysis using the Laplacian).
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

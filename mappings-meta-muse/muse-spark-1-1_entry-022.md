@@ -127,7 +127,7 @@ validation_status:
       - "Check if any published literature already maps viscoelastic conformation-tensor transport to opinion covariance dynamics (bibliometric search)."
       - "Verify whether the mapping of the upper-convected derivative to a Lyapunov ODE without spatial transport can be justified through a Lagrangian formulation not shown in the entry."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -307,7 +307,7 @@ I now have sufficient information to complete the adversarial review. The search
 - Verify whether the mapping of the upper‑convected derivative to a Lyapunov ODE without spatial transport can be justified through a Lagrangian formulation not shown in the entry.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

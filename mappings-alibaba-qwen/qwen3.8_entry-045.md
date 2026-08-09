@@ -114,7 +114,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Prior art: The Hatano-Nelson non-Hermitian skin effect has been applied to directed metapopulation or ecological dynamics in recent literature (e.g., non-Hermitian topology in population dynamics). Verify bibliometric novelty.", "Numerical_solution_family correspondence: Determine whether generalized Brillouin-zone solvers or non-Bloch spectral methods have already been transferred to epidemiological patch models, which would affect the claimed transfer novelty."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -318,7 +318,7 @@ If the observed critical recovery rate instead scales with `beta_R + beta_L`, or
 - Numerical_solution_family correspondence: Verify whether generalized Brillouin-zone solvers or non-Bloch spectral methods have already been applied to epidemiological patch models; prior transfer would weaken the claimed novelty of this vector.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

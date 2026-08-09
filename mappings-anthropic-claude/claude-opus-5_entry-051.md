@@ -131,7 +131,7 @@ validation_status:
       - "Prior art check: mapping between subglacial drainage and optimal transport / biological network adaptation may have antecedents in optimal channel network theory and Murray's law extensions; verify novelty of the explicit Hu–Cai operator mapping and the γ_eff derivation."
       - "Primary_failure_risk ('nonlocal effective-pressure coupling destroys Lyapunov structure') should be probed for coupling-induced loss of variational structure."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-03"
     verdict: "FLAG"
@@ -335,7 +335,7 @@ which is *sharply* sensitive to `κ`: at `α = 5/4, n = 3`, the system crosses `
 - The `primary_failure_risk` (“nonlocal effective-pressure coupling destroys Lyapunov structure”) should be scrutinized against the gradient-flow hypothesis; a bibliometric probe for coupling-induced loss of variational structure is advised.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-03

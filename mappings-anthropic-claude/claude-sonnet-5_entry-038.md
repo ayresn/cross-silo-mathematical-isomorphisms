@@ -99,7 +99,7 @@ validation_status:
     stage_3_watch_items:
       - "Diffusion‑approximation isomorphism between ruin theory and population viability (Lande/Dennis–Munholland–Scott) is a standard applied‑probability result; check for prior publication and whether the claimed asymmetric transfer of heavy‑tail methods is genuinely novel."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -260,7 +260,7 @@ One honest flag from inside the entry itself, worth surfacing rather than buryin
 - Verify if the specific heavy‑tailed asymptotic methods (subexponential ruin asymptotics, Embrechts–Veraverbeke) have been previously applied to population extinction risk, which would undermine the novelty of the transfer.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

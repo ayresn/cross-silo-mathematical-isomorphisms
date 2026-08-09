@@ -120,7 +120,7 @@ validation_status:
     quoted_evidence: ["conserved_quantity (mass and momentum invariants enforced by symmetric kernel constructions / reproducing kernel Hilbert space inner-product invariants)"]
     stage_3_watch_items: ["Verify bibliometric novelty of SPH kernel interpolation ↔ GP/RKHS posterior mean connection in meshfree/kriging literature (RKPM, Wendland kernels)", "Probe whether SPH mass/momentum invariants enforced by symmetric kernels map to any RKHS inner-product invariant beyond quadrature weight symmetry"]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-09"
     verdict: "REJECT"
@@ -273,7 +273,7 @@ When each particle is assigned a weight w_b = (m_b/ρ_b) and the kernel is chose
 - Probe whether claimed `conserved_quantity` correspondence can be salvaged bibliometrically, specifically whether symmetric SPH kernel constructions enforcing mass/momentum conservation map to any RKHS inner-product invariant or merely to quadrature weight symmetry.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-09

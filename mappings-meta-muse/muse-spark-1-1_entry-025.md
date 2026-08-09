@@ -124,7 +124,7 @@ validation_status:
     stage_3_watch_items:
       - "The claimed isomorphism between rate-and-state friction (smooth ODEs) and the Tsodyks-Markram model (hybrid impulsive system) is not standard. Stage 3 should probe whether any known mean-field reduction yields a genuine structural match, and whether the mapping of slip velocity V to firing rate r is mathematically defensible."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -293,7 +293,7 @@ In latent space topology both are 2D nonautonomous slow fast systems on a cylind
 - The entry maps a scalar state variable (θ) to two variables (x, u); the human reviewer should verify if any canonical mapping exists in the literature.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

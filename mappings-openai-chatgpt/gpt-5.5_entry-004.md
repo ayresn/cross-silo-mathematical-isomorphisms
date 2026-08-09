@@ -121,7 +121,7 @@ validation_status:
     quoted_evidence: ["Both systems evolve state densities through transport equations containing conservative advection operators coupled to localized source-sink production terms, preserving global measures while employing identical finite-volume transport algorithms"]
     stage_3_watch_items: []
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-07"
     verdict: "PASS"
@@ -308,7 +308,7 @@ None identified.
 None identified.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-07

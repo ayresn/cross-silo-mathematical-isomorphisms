@@ -117,7 +117,7 @@ validation_status:
     quoted_evidence: ["YAML triple_correspondence_vectors entry: 'numerical_solution_family_return_mapping_arc_length'; Section 1 claim: 'return-mapping/arc-length numerical solution families correspond directly.' The body shows no equation, operator identity, or derivation that establishes an arc-length continuation formulation for the network traffic equilibrium problem; only a methodological transfer proposal in Section 4."]
     stage_3_watch_items: ["Known prior-art analogue: rate-independent plasticity (Moreau's sweeping process) ⇔ dynamic traffic assignment with bottleneck queues and complementarity. Bibliometric search for works applying elastoplastic return mapping or arc-length continuation to traffic equilibrium, and for earlier structural isomorphisms between the two domains."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -305,7 +305,7 @@ In latent-space topology, the elastic domain in stress space and the feasible fl
 - The isomorphism between rate-independent plasticity (Moreau sweeping process) and dynamic traffic assignment with complementarity constraints is a recognized analogy. Stage 3 bibliometric review should check for prior publications that explicitly map elastoplastic return mapping, consistent tangent operators, or arc-length continuation onto network traffic equilibrium, and assess whether the entry’s claimed correspondence vectors have already been formalised.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

@@ -121,7 +121,7 @@ validation_status:
     quoted_evidence: ["`sperm number (Sp)` ↔ `climb‑force threshold (σ_c b / G)`", "Both are dimensionless control parameters that characterize the balance between elastic bending rigidity and a destabilizing line‑wise force; crossing the critical value triggers a buckling bifurcation from a straight to a deformed (sinuous or helical) state."]
     stage_3_watch_items: ["Verify kernel equivalence: Stokeslet (1/r) vs anisotropic elastic dislocation stress kernel - validation_status already flags constitutive_law_mismatch", "Check dimensional correction for climb-force threshold: σ_c b / G has units of length; expected dimensionless form is σ_c / G or σ_c b^2 / line-tension", "Probe numerical family transfer feasibility: spectral Ewald for Stokes vs elastic fields - confirm O(N log N) claim holds for anisotropic elasticity"]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-08"
     verdict: "REJECT"
@@ -281,7 +281,7 @@ Both equations are instances of the operator structure ∂_t r = A·(κ n + nonl
 - Probe spectral Ewald transfer feasibility for anisotropic elasticity and confirm bibliometric novelty of this specific filament → dislocation direction.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-08

@@ -116,7 +116,7 @@ validation_status:
       - "Verify whether a continuous-limit version of the gene-family master equation can be cast into a DGLAP-like form with a plus-prescription kernel; the current discrete equation is ill-defined."
       - "Examine whether the vocabulary mapping from continuous parton density to discrete gene-family size distribution requires an explicit discretisation or continuum limit to be mathematically coherent."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -289,7 +289,7 @@ None identified.
 - The mapping of a continuous parton density to a discrete gene‑family size distribution may require an explicit discretisation or continuum limit; this should be probed for category coherence.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

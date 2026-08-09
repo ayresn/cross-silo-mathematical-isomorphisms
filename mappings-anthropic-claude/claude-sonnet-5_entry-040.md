@@ -136,7 +136,7 @@ validation_status:
       - "Prior-art risk from generic critical-transitions / early-warning-signals research (Scheffer et al.) — confirm that the specific normal-form equivalence plus numerical-continuation transfer has not already been published."
       - "Verify that the claim of 'same operator' is not undermined by the algebraic vs. differential nature of the two systems; check whether power-system saddle-node bifurcation is properly a DAE phenomenon requiring a dynamic embedding."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -297,7 +297,7 @@ One prior-art risk worth flagging plainly for Stage 3: the "critical transitions
 - Scrutinize the novelty of mapping voltage stability margins to precautionary fisheries buffers — the underlying “distance to fold” is a textbook saddle-node concept.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

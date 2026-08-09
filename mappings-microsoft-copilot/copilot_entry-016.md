@@ -148,7 +148,7 @@ validation_status:
       - "Instability mechanism correspondence (spinodal decomposition ↔ opinion polarization) is asserted without derivation; probe if existing work links the instability criteria mathematically."
       - "Numerical solution family correspondence is claimed but not demonstrated; check whether energy-stable adaptive FEM and entropy-stable solvers share a variational structure that can be transferred."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "FLAG"
@@ -301,7 +301,7 @@ which can be written as a gradient flow of a free energy \(\mathcal{F}[\rho]=\in
 - Numerical solution family correspondence is claimed but not demonstrated; examine whether the variational structure of energy‑stable adaptive FEM genuinely parallels entropy‑stable solvers for aggregation‑diffusion PDEs.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-06

@@ -110,7 +110,7 @@ validation_status:
       - "Verify if resolution-matrix-based diagnostics have already been applied in paleoclimate CFR literature; the entry's novelty claim depends on this gap."
       - "Check whether the checkerboard-test ↔ pseudoproxy-experiment mapping has been noted in inverse-theory review papers, which could influence the community-separation score."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -259,7 +259,7 @@ None identified.
 - Investigate whether the analogy between checkerboard tests and pseudoproxy experiments has been described in inverse‑problem review articles, as this could reduce the community‑separation score.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

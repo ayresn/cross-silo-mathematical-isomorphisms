@@ -124,7 +124,7 @@ validation_status:
       - "Verify if the closed-form Kramers rate formula has been previously applied to ship capsize (beyond safe‑basin erosion / Melnikov‑function qualitative approaches)."
       - "Probe whether colored, non‑stationary wave forcing invalidates the claimed operator identity to the point that the analogy collapses entirely."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "PASS"
@@ -292,7 +292,7 @@ Two things worth flagging for Stage 3 specifically: the `constitutive_equivalenc
 - The entry’s own note that “colored_nonstationary_wave_forcing_violates_white_noise_assumption” is a major threat to the claimed operator identity; the human reviewer should assess whether the proposed transfer collapses to a trivial (non‑quantitative) analogy once realistic sea‑state spectra are imposed.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-06

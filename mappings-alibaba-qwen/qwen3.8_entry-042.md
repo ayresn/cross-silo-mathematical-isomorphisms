@@ -101,7 +101,7 @@ validation_status:
     quoted_evidence: ["In Section 3: 'The right eigenvector gives the asymptotic spatial/orbital shape of the cascade, while the left eigenvector gives the importance or worth field.' This statement mentions adjoint importance but provides no equation, operator definition, or variational principle formulation. The listed triple_correspondence_vectors includes 'adjoint_importance_variational_principle' without any derivational support in the body."]
     stage_3_watch_items: ["Investigate whether the nuclear-reactor analogy to orbital debris cascades (Kessler syndrome as criticality, adjoint-based remediation) has prior published work, e.g., in Acta Astronautica or similar journals, which could affect novelty."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -280,7 +280,7 @@ The latent-space correspondence is that both equations define a positive transpo
 - Investigate whether the nuclear-reactor analogy to orbital debris cascades (Kessler syndrome as criticality, adjoint-based remediation) has prior published work, e.g., in Acta Astronautica or similar journals, which could affect novelty.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

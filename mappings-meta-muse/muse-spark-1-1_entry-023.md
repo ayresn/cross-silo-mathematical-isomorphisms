@@ -147,7 +147,7 @@ validation_status:
       - "Carrier lifetime tau_s ↔ Waning immunity time tau_w ... Both are the slow recovery timescale in the second equation, governing reinjection of carriers or susceptibles" (Section 2)
     stage_3_watch_items: []
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-06"
     verdict: "REJECT"
@@ -331,7 +331,7 @@ In latent space topology both reduce to the same normal form near double Hopf po
 None identified.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-06

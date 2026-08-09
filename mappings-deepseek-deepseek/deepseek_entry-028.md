@@ -125,7 +125,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Verify convergence of peridynamic AMG preconditioner on highly inhomogeneous graph weights (constitutive mismatch risk noted in entry)", "Check soft-penalty Dirichlet via mu I_L vs hard peridynamic horizon boundary condition equivalence", "Stage 3 bibliometric search should probe nonlocal vector calculus literature linking peridynamic operators to graph Laplacians for novelty"]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-08"
     verdict: "PASS"
@@ -280,7 +280,7 @@ whose minimizer satisfies the linear system (L + μ I_L) f = μ y, where L is th
 - Confirm soft Dirichlet (mu penalty) vs hard horizon Dirichlet equivalence for boundary condition vector.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-08

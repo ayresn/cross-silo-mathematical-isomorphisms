@@ -122,7 +122,7 @@ validation_status:
     stage_3_watch_items:
       - "Probe whether a defensible mapping for boundary conditions exists between continuum damage mechanics (Dirichlet/Neumann conditions) and any constraints in Bayesian network structure learning; the entry claims the correspondence but provides no mathematical link."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-07"
     verdict: "PASS"
@@ -317,7 +317,7 @@ None identified.
 - No canonical prior-art isomorphism recognized between these fields; Stage 3 novelty check should proceed as planned.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-07

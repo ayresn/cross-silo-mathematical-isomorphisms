@@ -126,7 +126,7 @@ validation_status:
     stage_3_watch_items:
       - "Probe whether any phase‑field‑to‑cascading‑failure analogies have been previously published; the mapping may be less novel than the entry assumes."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "FLAG"
@@ -296,7 +296,7 @@ where (s_\ell) is the line damage/outage state. The latent-space mapping is a sh
 - The bibliometric reviewer should search for prior art that applies phase‑field or damage‑mechanics methods to power‑grid cascading failures; the mapping may not be as novel as the entry suggests.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-04

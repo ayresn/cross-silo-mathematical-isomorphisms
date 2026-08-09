@@ -112,7 +112,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Confirm that the Melan/Koiter dual (shadow-price dual) genuinely maps to the metabolic dual program under box constraints vs. smooth yield surface; verify prior art for shakedown-to-metabolic mapping; investigate whether the claimed maintenance-energy prediction from the Koiter dual is realizable given the discrete, piecewise-linear capacity box."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -316,7 +316,7 @@ None identified.
 - The entry's own `primary_failure_risk` notes that storage-polymer charge/discharge modes are essential; confirm that the mapping can be applied to reconstructions lacking such modes.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

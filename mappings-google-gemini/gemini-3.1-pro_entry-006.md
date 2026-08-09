@@ -96,7 +96,7 @@ validation_status:
     quoted_evidence: ["- \"numerical_solution_family\""]
     stage_3_watch_items: []
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-03"
     verdict: "PASS"
@@ -251,7 +251,7 @@ When multiple-scales reductive perturbation is applied to the Amari equation nea
 None identified.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-03

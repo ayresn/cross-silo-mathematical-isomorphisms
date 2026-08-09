@@ -108,7 +108,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Rotenberg, M. (1972) 'Theory of population transport', J. Theor. Biol. 37(2), 291-305, and subsequent velocity-jump/dispersal transport models that draw on neutron transport formalism. Human bibliometric reviewer should verify whether the specific discrete-ordinates/adjoint transfer and the directional sensitivity prediction are novel."]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -284,7 +284,7 @@ Under the mapping from neutron angular flux to directional organism density, tot
 - The human reviewer should determine whether the particular transfer of deterministic discrete‑ordinates solvers, adjoint perturbation sensitivity, and the specific directional dispersal intervention prediction have been published previously.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

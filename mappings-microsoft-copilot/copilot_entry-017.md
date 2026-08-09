@@ -123,7 +123,7 @@ validation_status:
     stage_3_watch_items:
       - "Verify whether the claimed instability mechanism and dimensionless similarity parameter can be supported by explicit derivations or operator identities from the underlying equations; the entry currently only asserts these correspondences."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-07"
     verdict: "PASS"
@@ -290,7 +290,7 @@ None identified.
 - The isomorphism was not recognized as a canonical textbook analogy during this review; no prior-art flag is raised.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-07

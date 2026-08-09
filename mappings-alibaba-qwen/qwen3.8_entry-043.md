@@ -127,7 +127,7 @@ validation_status:
     stage_3_watch_items:
       - "Verify whether the transient term in the karst equation can be neglected to recover a quasi-steady advection-diffusion operator in the limit of slow aperture change, and whether an underlying Robin boundary condition at fracture walls can be extracted from the aperture-averaged formulation to salvage the claimed vector."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -319,7 +319,7 @@ None identified.
 - Check whether the transient term in the karst equation can be neglected to recover a quasi‑steady advection‑diffusion operator in the limit of slow aperture change, and whether an underlying Robin boundary condition at fracture walls can be extracted from the aperture‑averaged formulation to salvage the claimed vector.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

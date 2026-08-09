@@ -138,7 +138,7 @@ validation_status:
     stage_3_watch_items:
       - "Prior art: Analogy between e-beam proximity correction and heat accumulation in LPBF may have known precedents; probe OPC/ILT applications to additive manufacturing."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "REJECT"
@@ -349,7 +349,7 @@ k_1^{\rm opt}=\frac{\mathrm{CD}\cdot \mathrm{NA}}{\lambda}\ \ \longleftrightarro
 - Prior art: The proximity effect correction ↔ thermal accumulation analogy may exist in literature (e.g., model-based scan-path optimization for LPBF). Human reviewer should verify novelty via bibliometric search.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-04

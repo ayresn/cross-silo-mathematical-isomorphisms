@@ -132,7 +132,7 @@ validation_status:
     stage_3_watch_items:
       - "prior art: isomorphism between structural shakedown / limit analysis and financial network contagion — check for existing literature mapping Melan theorem to systemic risk certificates."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -324,7 +324,7 @@ None identified.
 - Prior art: Isomorphism between structural shakedown/limit analysis and financial network systemic risk — check for existing literature that applies Melan’s static theorem or Koiter’s kinematic theorem to interbank clearing networks, particularly any work that uses residual-field feasibility certificates for worst-case stress testing.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

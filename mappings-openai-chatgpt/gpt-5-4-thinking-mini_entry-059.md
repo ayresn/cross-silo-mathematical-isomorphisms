@@ -312,7 +312,7 @@ c|_{\Gamma(t)} &= c_{\min},\qquad -D\partial_n c|_{\Gamma(t)} = q_{\mathrm{uptak
 - Confirm whether `v_n = α c^η` (concentration-dependent growth) is a recognized model in the fungal-invasion literature or an erroneous specification that would not produce the claimed flux-concentration-driven branching.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-05

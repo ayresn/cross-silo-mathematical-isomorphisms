@@ -111,7 +111,7 @@ validation_status:
     quoted_evidence: ["triple_correspondence_vectors:\n  - \"governing_differential_operator\"\n  - \"instability_mechanism\"\n  - \"dimensionless_similarity_parameters\""]
     stage_3_watch_items: []
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-03"
     verdict: "REJECT"
@@ -264,7 +264,7 @@ When the arbitrage velocity $V_{cap}$ exceeds a critical threshold, the eigenval
 None identified.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-03

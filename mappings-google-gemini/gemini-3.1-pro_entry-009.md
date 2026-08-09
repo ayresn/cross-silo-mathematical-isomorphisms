@@ -109,7 +109,7 @@ validation_status:
     stage_3_watch_items:
       - "The Vlasov-Poisson to limit order book analogy may have prior art in mean-field game theory and econophysics literature; human reviewer should probe novelty."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-04"
     verdict: "PASS"
@@ -259,7 +259,7 @@ In latent topological space, the limit order book is mathematically indistinguis
 - Potential prior art in mean-field game theory or econophysics literature for Vlasov-Poisson models of limit order books.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-04

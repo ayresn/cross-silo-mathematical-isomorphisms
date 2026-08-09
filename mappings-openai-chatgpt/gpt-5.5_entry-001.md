@@ -110,7 +110,7 @@ validation_status:
     stage_3_watch_items:
       - "Potential prior art in gradient-flow/free-energy minimization analogies linking phase-field Allen-Cahn-type models to variational inference/active inference; investigate literature on Wasserstein gradient flows in Bayesian inference, Stein variational gradient descent, and free-energy principle gradient flows."
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-07"
     verdict: "FLAG"
@@ -299,7 +299,7 @@ None identified.
 - Prior art: Gradient-flow and free-energy minimization correspondences between Allen-Cahn/Cahn-Hilliard-type phase-field equations and variational inference/active inference. Possible known literature includes “Stein variational gradient descent as a gradient flow,” “Wasserstein gradient flows for Bayesian inference,” and the free-energy principle’s gradient descent formulations.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-07

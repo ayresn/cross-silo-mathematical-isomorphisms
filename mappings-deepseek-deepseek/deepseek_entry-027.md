@@ -107,7 +107,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Verify EPS elastic kernel scaling claim Ĝ(k) ~ constant or ~k^-2 holds under nonlinear viscoelasticity vs linear eigenstrain, as noted in primary_failure_risk"]
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-08"
     verdict: "PASS"
@@ -265,7 +265,7 @@ The EPS elastic energy `\mathcal{E}_{\text{EPS}}` gives a long‑range repulsion
 - Validate that biofilm growth term g(n,S) can be treated as analogous reaction source R(c) without breaking conservation structure claimed.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-08

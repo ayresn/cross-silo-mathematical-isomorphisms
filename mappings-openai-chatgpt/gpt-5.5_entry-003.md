@@ -140,7 +140,7 @@ validation_status:
       - "triple_correspondence_vectors: [\"governing_differential_operator\", \"symmetry_groups\", \"numerical_solution_family\"] – body contains no differential operator equation, no symmetry groups, and no demonstrated ecological splitting algorithm."
     stage_3_watch_items: []
   seventh_adversarial_review:
-    reviewer_model: "xAI Grok 4.5"
+    reviewer_model: "xAI Grok 4.5 Fast"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-07"
     verdict: "REJECT"
@@ -330,7 +330,7 @@ None identified.
 None identified.
 
 ### Seventh Adversarial Review
-**Reviewer:** xAI Grok 4.5
+**Reviewer:** xAI Grok 4.5 Fast
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-07
