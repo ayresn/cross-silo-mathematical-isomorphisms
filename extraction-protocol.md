@@ -42,14 +42,11 @@ CRITICAL STRUCTURAL DISCOVERY CONSTRAINTS:
 STRUCTURE & FORMATTING:
 Output your entire response as raw Markdown in exactly two parts, in this order: (1) the candidate entry matching the format in Sections 1-5 below, and (2) the README directory-entry snippet matching Section 6 below, preceded by the separator line specified in Section 6. Do not include conversational preambles or postscripts beyond that separator. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
 
-ENTRY NUMBERING RULE:
-Every entry has exactly one 3-digit number, scoped to the generating model's own directory (Claude's entries are numbered independently of Gemini's, GPT's, etc., each starting at 001). This single number is reused verbatim everywhere it appears below: `sid_metadata.entry_id` (as "SID-NNN"), the "ENTRY NNN" heading, and both places it appears in the Section 6 filename/link. These are not separate counters. You have no visibility into the actual current count for this model's directory from within this session — insert your best guess as a placeholder (e.g., 001 if unknown), and note for the maintainer that it must be verified or renumbered against the real current state of that directory before committing.
-
 ### METADATA AND STRUCTURAL BLUEPRINT:
 
 ---
 sid_metadata:
-  entry_id: "SID-[Entry Number per the Entry Numbering Rule above, e.g., 001]"
+  entry_id: "SID-TBD"
   schema_version: "2.0-production"
   maturity_stage: "candidate"
 provenance:
@@ -99,7 +96,7 @@ validation_status:
   bibliometric_validation: "pending"
 ---
 
-# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY [Same Entry Number as sid_metadata.entry_id above, e.g., 001]
+# INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY TBD
 
 ## 1. CROSS-SILO SYSTEM DEFINITION
 *   **Silo A (Field 1):** [Specific technical sub-discipline and core phenomenon observed].
