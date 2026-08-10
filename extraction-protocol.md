@@ -40,7 +40,7 @@ CRITICAL STRUCTURAL DISCOVERY CONSTRAINTS:
 3. Representation Mismatch: Favor pairings that bridge entirely mismatched foundational ontologies (e.g., matching physical continuum mechanics tensors directly onto discrete stochastic probability graphs) that nonetheless evolve under the same mathematical structure.
 
 STRUCTURE & FORMATTING:
-Output your entire response as raw Markdown in exactly two parts, in this order: (1) the candidate entry matching the format in Sections 1-5 below, and (2) the README directory-entry snippet matching Section 6 below, preceded by the separator line specified in Section 6. Do not include conversational preambles or postscripts beyond that separator. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
+Output your entire response as raw Markdown containing the candidate entry matching the format in the METADATA AND STRUCTURAL BLUEPRINT below. Do not include conversational preambles or postscripts. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
 
 ### METADATA AND STRUCTURAL BLUEPRINT:
 
