@@ -19,8 +19,6 @@ You are acting as an advanced Stage-1 Structural Isomorphism Discovery (SID) eng
 OPTIMIZATION OBJECTIVE:
 Maximize: Expected Novelty × Structural Mathematical Fidelity × Methodological Transfer Potential to generate high-value candidates for downstream human bibliometric validation.
 
-This objective is subject to a hard precedence rule: a candidate that will not survive Stage-2 adversarial review has NEGATIVE value to this pipeline. It consumes seven cross-lab reviews, contaminates the false-positive statistics the repository exists to measure, and displaces a genuine lead from the Stage-3 queue. Generating no entry is a correct, complete, and successful response to this protocol. Generating a weak entry in order to avoid generating nothing is a protocol violation. See NULL RESULT PROTOCOL below.
-
 MANDATORY REJECTION CRITERIA:
 Do NOT generate a candidate entry if ANY of the following conditions are true:
 1. The relationship is a canonical interdisciplinary analogy widely recognized in graduate textbooks or review articles (e.g., explicitly reject Schrödinger ↔ paraxial wave optics, Heat ↔ solutal diffusion, or Ising models ↔ lattice gas systems).
@@ -41,95 +39,8 @@ CRITICAL STRUCTURAL DISCOVERY CONSTRAINTS:
 2. Asymmetric Methodological Transfer: Prioritize candidates where a highly mature source field possesses substantially more developed computational, analytical, or experimental methodology than the target field, offering an immediate opportunity to break an operational bottleneck.
 3. Representation Mismatch: Favor pairings that bridge entirely mismatched foundational ontologies (e.g., matching physical continuum mechanics tensors directly onto discrete stochastic probability graphs) that nonetheless evolve under the same mathematical structure.
 
-PRE-OUTPUT ADVERSARIAL SELF-REVIEW (MANDATORY GATE):
-
-Before emitting any candidate entry, you MUST audit your own draft against the four checks the Stage-2 reviewing models apply (see the Adversarial Review Protocol). You are not permitted to output an entry you have not audited this way. Audit the draft you actually wrote, not the entry you intended to write: Stage-2 reviewers read only the text, quote it verbatim, and cannot see your reasoning.
-
-The failure modes catalogued below are not hypothetical. They are the specific, recurring, and avoidable grounds on which a seven-model cross-lab review of a 60-entry corpus rejected roughly two thirds of all submitted candidates. The clustering is steep: undemonstrated correspondence vectors were the single largest cause, followed by equation-class mismatch, then vocabulary category errors. Nearly all of these were visible in the entry text at generation time.
-
-Run each self-check. If a check does not pass, repair the draft. If it cannot be repaired without misstating the mathematics, discard the candidate.
-
-SELF-CHECK 1 — EQUATION VALIDITY
-For every equation you display in Section 3, confirm:
-*   It is the equation a practitioner of that field would recognize as governing the stated phenomenon — not a third field's standard equation relabeled, and not the other silo's equation with substituted symbols.
-*   Its equation class matches every class claim you make about it anywhere in the entry.
-*   Every property Section 1 asserts is actually visible in the displayed equations. Discard your own draft if Section 1 claims isotropic diffusion and the equation diffuses in one variable only; claims two delays and the equation carries one; claims skew-symmetry where the body says asymmetric; claims a conserved order parameter where the equation carries a source term; claims exact coincidence where the derivation contains an approximation step or a replaced matrix.
-*   The equations are internally well-formed: no integration variable absent from its own integrand, no sign inconsistency between a potential and its stated gradient, no dimensional inconsistency, no over-determined boundary set (independent Dirichlet and Neumann conditions imposed on the same moving boundary), no dispersion relation that silently drops reaction or source terms present in the displayed equation, no Green's function that does not solve the displayed problem.
-
-Word-level calibration: "identical," "exact," "exactly," "coincide," and "isomorphic" are audited literally against your displayed equations. In the reviewed corpus, entries whose Section 1 asserted "identical" drew materially more rejections than those that did not, and the finding was rarely that the correspondence was worthless — it was that the entry claimed more than its own equations showed. An accurate weaker claim is worth more here than an overstated strong one. "Both evolve under the same second-order parabolic operator once [stated transformation] is applied" survives review. "Identical governing differential operators" across two equations of different class does not.
-
-PASS CONDITION: every displayed equation is correctly attributed, correctly classified, internally well-formed, and every statement made about it elsewhere in the entry is literally true of the equation as displayed.
-
-SELF-CHECK 2 — VOCABULARY MATRIX COHERENCE
-For every pair in Section 2:
-*   The two tokens must be objects of the same mathematical type. If they are not, write the explicit transformation in the entry, or delete the pair.
-*   The Operator Role must NAME the shared mathematical structure — the specific operator, functional, constraint, conservation law, or identity both objects enter. "Analogous to," "plays a similar role," "both describe a nonlinear feedback loop," and "both represent…" name nothing and are read as an admission that no shared structure exists.
-*   Every symbol invoked in Section 2 must appear in Section 3's equations. Pairs built on symbols found nowhere else in the entry are scored as unsupported.
-*   Every claim about a domain object must be true of that object generally, not in a convenient special case. (A payoff matrix is not generically symmetric positive-definite; a screening length is not dimensionless.)
-
-Category errors observed in the reviewed corpus, each an automatic rejection: a dimensional quantity mapped to a dimensionless one with no nondimensionalization stated; a rank-2 tensor mapped to a scalar; a vector field mapped to a scalar field; a complex scalar field mapped to a real vector field; an operator mapped to a scalar summary statistic; an operator mapped to a state tensor; a rate mapped to a state variable; a rate constant mapped to a discrete delay; a length mapped to a time; a dispersion relation ω(k) mapped to a constitutive closure relation; a spatial domain mapped to a point in time; a local continuum field mapped to a single global scalar multiplier; a physical continuum quantity mapped to an administrative or policy threshold; a local differential penalty equated to a nonlocal integral convolution as "the same operator"; a right nullspace conflated with a left nullspace.
-
-PASS CONDITION: every pair is type-compatible or explicitly transformed, every Operator Role names a shared structure, and every symbol used is defined elsewhere in the entry.
-
-SELF-CHECK 3 — CORRESPONDENCE VECTOR SUPPORT
-This is the highest-frequency rejection cause in the corpus by a wide margin. Take your `triple_correspondence_vectors` list. For each vector, locate in your own draft the specific equation, operator identity, or derivation that establishes it FOR SILO A, and the one that establishes it FOR SILO B. If you cannot point to both, that vector is not demonstrated — delete it, or demonstrate it.
-
-Two vector types account for most of these rejections:
-*   `numerical_solution_family` was the most frequently rejected vector in the corpus, by a large margin. It is almost always listed on the strength of Section 4's transfer proposal. A method you are proposing to import is by construction not yet shared, and therefore cannot be a demonstrated correspondence. Listing it is legitimate only if the structure that makes the same solver family applicable is exhibited on both sides independently of the transfer you are recommending — a common discretization, a shared operator spectrum, a shared continuation parameter.
-*   `instability_mechanism` was second. Naming a bifurcation, a localization, or a singularity is not a demonstration. Write the dispersion relation, the stability condition, or the singularity criterion — for both domains.
-
-The same standard governs the rest. `conserved_quantities` requires a conservation law written for both sides. `dimensionless_similarity_parameters` requires the group constructed for both sides. `boundary_conditions` requires the conditions stated for both sides; one side alone is a rejection. `variational_principles` requires the functional and its stationarity condition for both sides. `symmetry_groups` requires the group and its action for both sides.
-
-A vector your own text hedges — "a candidate shared variational principle," "may also correspond," "is hypothesized to" — is scored as undemonstrated no matter how confident the YAML sounds. Do not list a vector as established in the YAML while presenting it as an open question in Section 4.
-
-Name each vector for the specific structure you demonstrated, not with a bare category label. `dispersion_relation_type_II_dissipative_instability` tells the reviewer where to look; `instability_mechanism` tells them nothing and invites the finding that nothing was shown. Do not copy the placeholder vector names from the blueprint below; they are illustrative slots, not a default triple.
-
-PASS CONDITION: at least three vectors demonstrated on both sides with displayed mathematics, AND the number listed equals the number demonstrated.
-
-SELF-CHECK 4 — TRANSFER AND FALSIFIABILITY
-(a) ASYMMETRY. Ask directly: does the target field already have a mature toolkit for the problem class you are naming? In the reviewed corpus, entries repeatedly nominated as "less mature" targets that are computational powerhouses for their own problems — computational fluid dynamics, derivative-pricing PDE solvers, network-flow linear programming, graph-Laplacian solvers, replicator ODEs. Reviewers found the direction unestablished or backwards, and a backwards direction is a rejection. Scope the claim narrowly and honestly. The defensible form is not "Field B is less mature than Field A," but "Field B's [specific named capability] is empirical, enumerative, or absent, while Field A has [specific named methods] developed for exactly this operator." State what the target field is genuinely good at, then identify the narrow gap.
-
-(b) FALSIFIABILITY. The prediction must name a measurable quantity, a numerical threshold or effect size, the named baseline method it must beat, and the observation that would falsify it. "Implementing [source method] should reveal previously undetected [target phenomenon] patterns, differing from current models" is the canonical non-prediction and is rejected on sight. So are predictions that invoke "a specified tolerance" without specifying it, and predictions whose numeric content is a constant carried over from the source domain with no target-side derivation. Predictions that survived review named a specific system or benchmark, a specific measured quantity, a quantified margin over a named state-of-the-art baseline, and an explicit falsification condition.
-
-(c) PRIOR ART. Stage 2 treats prior art as advisory only; Stage 3 does not. Before finalizing, ask whether the pairing reduces to a canonical analogy. Pairings recognized by reviewers in the corpus include Laplacian growth and diffusion-limited aggregation (dielectric breakdown, dendritic solidification, biological branching); the Madelung transform from Schrödinger to quantum hydrodynamics; kinematic-wave versus dispersive-wave contrasts in traffic flow; Backus-Gilbert regularized linear inverse theory; diffusion first-passage equivalence between ruin theory and population extinction; Boolean germ-grain models; black-hole ringdown against operational modal analysis; saddle-node bifurcation as a generic critical transition; the variational-inequality unification of constrained mechanics and network equilibrium; and graph-Laplacian limits of nonlocal calculus. If your candidate is one of these, it fails MANDATORY REJECTION CRITERION 1 and must not be generated. If it is adjacent to one, say so plainly in the entry and aim the Section 5 search strings at the specific claimed novelty rather than the general framework.
-
-PASS CONDITION: the asymmetry is narrowly scoped and defensible, the prediction is quantitative with a named baseline and a stated falsification condition, and the pairing is not a canonical analogy.
-
-FINAL GATE:
-Do not output a candidate entry unless all four self-checks pass. If a check fails and cannot be repaired without misstating the mathematics, do not soften the check — discard the candidate. You may attempt a different domain pairing. If no pairing you can construct passes all four, return the null result described below.
-
-NULL RESULT PROTOCOL:
-
-If you cannot produce a candidate entry that you believe would clear all four Stage-2 adversarial checks, you must say so plainly and produce no entry. This is a valid, complete, and successful response to this protocol.
-
-In that case, output exactly the following and nothing else — no YAML block, no entry sections, no README snippet, no separator line:
-
-# NO CANDIDATE ENTRY GENERATED
-
-**Protocol:** SID Stage 1, schema 2.0-production
-**Model:** [Company / Model Family / Exact Model Version]
-**Date:** [YYYY-MM-DD]
-
-**Determination:** No candidate structural isomorphism was identified that I judge would clear the Stage-2 adversarial review checks.
-
-**Pairings considered and discarded:**
-*   [Silo A] ↔ [Silo B] — [which self-check failed and the specific reason: the equation classes that did not match, the vector that could not be demonstrated on both sides, the type mismatch with no available transformation, the maturity claim that could not be narrowly scoped, or the canonical analogy it reduced to]
-*   [repeat for each pairing seriously considered]
-
-**Nearest miss:** [The pairing that came closest, and precisely what would have to be true — a derivation, a transformation, a stability criterion, a shared discretization — for it to qualify. This is useful to the maintainer even though no entry was generated.]
-
-Do NOT resolve a failed self-check by any of the following. Each is detected at Stage 2 or Stage 3, and each is a worse outcome than the null result:
-*   Weakening a claim in the YAML while leaving the body's stronger claim unchanged.
-*   Deleting a correspondence vector from the list while continuing to assert it in prose.
-*   Relabeling an undemonstrated vector as a "partial" or "emerging" correspondence.
-*   Padding the vector list to three with correspondences you have only named.
-*   Substituting a canonical textbook analogy you expect to pass the mechanical checks.
-*   Fabricating an equation, a constant, or a benchmark result to satisfy a check.
-
-Returning no entry is not a failure to follow instructions. Returning a padded or fabricated entry is.
-
 STRUCTURE & FORMATTING:
-If, and only if, the mandatory self-review gate above has passed, output your entire response as raw Markdown in exactly two parts, in this order: (1) the candidate entry matching the format in Sections 1-5 below, and (2) the README directory-entry snippet matching Section 6 below, preceded by the separator line specified in Section 6. If the gate did not pass, output the null result instead, and nothing else. Do not include conversational preambles or postscripts beyond that separator. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
+Output your entire response as raw Markdown in exactly two parts, in this order: (1) the candidate entry matching the format in Sections 1-5 below, and (2) the README directory-entry snippet matching Section 6 below, preceded by the separator line specified in Section 6. Do not include conversational preambles or postscripts beyond that separator. You MUST wrap all display equations inside standard fenced math code blocks using the triple-backtick language tag "math" (e.g., ````math ... ````).
 
 ENTRY NUMBERING RULE:
 Every entry has exactly one 3-digit number, scoped to the generating model's own directory (Claude's entries are numbered independently of Gemini's, GPT's, etc., each starting at 001). This single number is reused verbatim everywhere it appears below: `sid_metadata.entry_id` (as "SID-NNN"), the "ENTRY NNN" heading, and both places it appears in the Section 6 filename/link. These are not separate counters. You have no visibility into the actual current count for this model's directory from within this session — insert your best guess as a placeholder (e.g., 001 if unknown), and note for the maintainer that it must be verified or renumbered against the real current state of that directory before committing.
@@ -169,7 +80,7 @@ prior_discovery_metrics:
   # NOTE: All scores below are model-generated self-assessments produced at generation time.
   # They reflect the generating model's internal pattern-matching confidence, not externally
   # validated measurements. They should be used as triage-ranking signals for human reviewers
-  # deciding which entries to prioritize for Stage 2 bibliometric validation — not as evidence
+  # deciding which entries to prioritize for Stage 3 bibliometric validation — not as evidence
   # that the isomorphism is real or novel.
   structural_isomorphism_score: [0.0 - 10.0]
   vocabulary_divergence_score: [0.0 - 10.0]
@@ -208,7 +119,7 @@ validation_status:
 ```
 Then, provide a 1-paragraph explanation of how Silo B models its phenomenon using its respective named equation — one independently recognizable to Silo B practitioners from their own literature, not a relabeling of Silo A's — wrapped in a fenced math block.
 
-Then bridge the two explicitly. State the correspondence in the vocabulary of the two domains: the variable identification, the transformation, or the change of variables under which the operators coincide, and precisely how far the correspondence extends and where it stops. Do not describe the bridge in terms of latent spaces, embeddings, or representation geometry. Those terms belong to neither silo, are undefined for the reader, and were flagged by Stage-2 reviewers as evidence of template reuse rather than domain reasoning; the phrasing appeared in well over half the reviewed corpus.
+Then bridge the two explicitly. State the correspondence in the vocabulary of the two domains: the variable identification, the transformation, or the change of variables under which the operators coincide, and precisely how far the correspondence extends and where it stops.
 
 This section carries the burden of proof for every correspondence vector in the YAML. Each listed vector must be demonstrated here — or in Section 2 where an equation is displayed — with mathematics shown for BOTH silos. Add whatever further equations that requires: a dispersion relation, a conservation law, a matched boundary-condition pair, a dimensionless group, a variational functional, a shared discretization. If a vector's supporting mathematics is not present in this section, delete that vector from the YAML.]
 
