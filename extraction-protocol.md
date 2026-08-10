@@ -134,21 +134,6 @@ This section carries the burden of proof for every correspondence vector in the 
 *   `"Exact Jargon Phrase from Silo A" AND "Core Equation Name A" AND "Secondary Concept A"`
 *   `"Exact Jargon Phrase from Silo B" AND "Core Equation Name B" AND "Secondary Concept B"`
 *   `"[Cross-domain string aimed squarely at the specific claimed transfer]"`
-
-## 6. README DIRECTORY ENTRY
-Immediately after Section 5, output the separator line `--- END ENTRY / BEGIN DIRECTORY SNIPPET ---`, then output the following four-line snippet. This snippet is for the maintainer to paste into the matching company subsection of README.md's CORE DATASET DIRECTORY — it does not belong in the entry file itself.
-
-*   **[<model_version-slug>_entry-[Same Entry Number as sid_metadata.entry_id above, e.g., 001]](mappings-<company-slug>-<model_family-slug>/<model_version-slug>_entry-[same number].md)** — `Stage 1 / pending`
-    *   *System Synthesis:* [A short, evocative 3-6 word Title Case phrase capturing the discovery, in the style of existing entries such as "Resonant Destabilization of Crystalline Plaque" — do not simply restate the Mathematical Isomorphism sentence from Section 1]
-    *   *Domains:* [Domain A, Title Case] & [Domain B, Title Case]
-    *   *Isomorphism:* [Named equation/method from Silo A] mapped to [Named equation/method from Silo B]
-
-Constraints on this snippet:
-*   The entry number here must be numerically identical to this entry's own `sid_metadata.entry_id` and to the "ENTRY NNN" heading above — see the Entry Numbering Rule.
-*   The filename slug must exactly match this entry's own `provenance.model_version` field so the directory link resolves correctly.
-*   The directory path must exactly match `mappings-[provenance.company]-[provenance.model_family]/`, lowercased and hyphenated.
-*   The status tag is always `Stage 1 / pending` for a newly generated entry — never mark it as validated here.
-*   *Domains* and *Isomorphism* must reuse the same domain names and named methods already established in this entry's own YAML and Section 3 — do not introduce new terminology that doesn't appear elsewhere in the entry.
 ````
 
 ---
