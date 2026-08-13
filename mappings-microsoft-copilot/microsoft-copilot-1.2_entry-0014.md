@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-0014"
   schema_version: "2.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-rejected"
 provenance:
   company: "Microsoft"
   model_family: "Copilot"
