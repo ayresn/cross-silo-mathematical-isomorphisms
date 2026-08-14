@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-0021"
   schema_version: "2.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-rejected"
 provenance:
   company: "OpenAI"
   model_family: "GPT"
