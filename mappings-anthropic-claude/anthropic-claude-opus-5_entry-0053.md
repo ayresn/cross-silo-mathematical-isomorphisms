@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-0053"
   schema_version: "2.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-flagged"
 provenance:
   company: "Anthropic"
   model_family: "Claude"
@@ -38,6 +38,140 @@ validation_status:
   constitutive_equivalence_confidence: "medium"
   primary_failure_risk: "source_term_nonautonomy — the Silo B source depends on slow variables (ATP availability, [Na⁺]ᵢ, glutamate, cell swelling) that are frozen in the single-field reduction; the bistable reduction is valid only on the fast ionic timescale"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "Alibaba Qwen3.8 Max"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-06-22"
+    verdict: "REJECT"
+    verdict_rationale: "The entry claims the Silo A current-sharing point θ_A=1-I/I_c0 is an interior unstable zero of the shared source, but its own displayed Silo A source gives ĝ_A(θ_A)=-θ_A, so the claimed shared bistable root structure is not supported."
+    failed_checks:
+      - "Check 1: Bridge/V1 asserts ĝ(θ)=0 with θ_A=1-I/I_c0, but the displayed Silo A source yields ĝ_A(θ_A)=-θ_A."
+      - "Check 2: The T_cs ↔ [K+]_{e,θ} mapping identifies T_cs as the interior unstable zero, which the Silo A equation contradicts."
+    flagged_checks:
+      - "Check 3: Vector 1 (shared bistable operator) is only partially supported; the operator form is shown, but the Silo A interior unstable zero is not the stated θ_A."
+    quoted_evidence:
+      - |
+        Both are the interior unstable zero $\theta$ of the shared source, $\hat g(\theta)=0$, $\hat g'(\theta)>0$, separating the two basins of $\tau\partial_t u=\lambda^2\partial_x^2u+\hat g(u)$. $T_{cs}$ is a real scalar in K; $[\mathrm{K^+}]_{e,\theta}$ is a real scalar in mol m⁻³. The affine maps $u=(T-T_{op})/(T_c-T_{op})$ and $w=(K-K_{rest})/(K_r-K_{rest})$ carry both to the same dimensionless $\theta\in(0,u_+)$, giving $\theta_A=1-I/I_{c0}$ and $\theta_B=(K_\theta-K_{rest})/(K_r-K_{rest})$.
+      - |
+        $\hat g_A(u)=\alpha_S\,\varphi_A(u)-u$
+      - |
+        $\varphi_A(u)=
+        \begin{cases}
+        0,&u<\theta_A\\[3pt]
+        \Bigl(\tfrac{u-\theta_A}{1-\theta_A}\Bigr)^{2},&\theta_A\le u\le 1\\[5pt]
+        1,&u>1
+        \end{cases}$
+      - |
+        $\hat g(0)=\hat g(\theta)=\hat g(u_+)=0,\quad \hat g'(0)=-1,\quad \hat g'(u_+)<0,$
+      - |
+        with $(\tau,\lambda,\theta,u_+)=(CA/hP,\ \sqrt{kA/hP},\ 1-I/I_{c0},\ \alpha_S)$ for Silo A
+    stage_3_watch_items:
+      - "Verify whether a separate Silo A interior unstable root (distinct from the current-sharing switch-on point θ_A) is defined in the literature and whether it maps to the SD threshold root."
+      - "Probe prior art for direct quench-protection ↔ spreading-depolarization analogies, and for use of Nagumo/equal-area/critical-nucleus bistable-front theory in both domains."
+      - "Check whether the Silo B pump-reserve ratio Π alone can determine the sign of the equal-area integral, given the displayed dependence on K_r, K_p, K_{rest}, and K_+."
+      - "Assess whether the V6 dose-integral correspondence survives the slow-variable source nonautonomy identified in the entry's failure risk."
+  second_adversarial_review:
+    reviewer_model: "DeepSeek DeepSeek V4 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "REJECT"
+    verdict_rationale: "The shared-operator Bridge asserts a three-root bistable source with θ_A=1-I/I_c0 as the interior unstable zero, but the Silo A piecewise source gives ĝ_A(θ_A)=-θ_A≠0; this is a fatal internal contradiction."
+    failed_checks:
+      - "Check 1: Bridge equation falsely claims ĝ(θ)=0 for Silo A with θ=1-I/I_c0."
+      - "Check 2: Vocabulary matrix maps T_cs to the interior unstable zero ĝ(θ)=0, which is false for Silo A."
+    flagged_checks:
+      - "Check 3: Vector 3 (unstable stationary nucleus first integral) is not demonstrated for Silo A by the shared first integral; Silo A uses a step-source idealization with cooling neglected."
+    quoted_evidence:
+      - "Both systems are now instances of ... \hat g(0)=\hat g(\theta)=\hat g(u_+)=0,\quad \hat g'(0)=-1,\quad \hat g'(u_+)<0, with (\tau,\lambda,\theta,u_+)=(CA/hP,\ \sqrt{kA/hP},\ 1-I/I_{c0},\ \alpha_S) for Silo A"
+      - "\varphi_A(u)= \begin{cases} 0,&u<\theta_A ... \end{cases} \qquad \theta_A=1-\tfrac{I}{I_{c0}}"
+      - "\hat g_A(u)=\alpha_S\,\varphi_A(u)-u"
+      - "Both are the interior unstable zero $\theta$ of the shared source, $\hat g(\theta)=0$, $\hat g'(\theta)>0$"
+    stage_3_watch_items:
+      - "Probe whether redefining θ_A as the actual unstable root of α_S φ_A - u, rather than 1-I/I_c0, restores the shared three-root structure."
+      - "Check the V3 Silo A MPZ derivation against the full stationary Wilson equation with cooling; the step-source idealization may not be the same first-integral nucleus."
+      - "Verify the V6 Silo A adiabatic equation C dT/dt=ρ_m J_m^2 against the earlier source term G=ρ_m J_m^2 A_m/A; possible missing matrix-fraction factor."
+      - "Prior-art watch: bistable reaction-diffusion ignition-front analogies between superconducting quench and cortical spreading depolarization (Wilson/Dresner and Tuckwell-Miura); determine if the pairing is canonical."
+  third_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a fatal mathematical contradiction in Section 3 regarding the condition for the upper root's existence in Silo B, claiming it exists when generation exceeds clearance at infinity."
+    failed_checks: ["Check 1: Equation Validity"]
+    flagged_checks: ["Check 4: Transfer and Falsifiability"]
+    quoted_evidence: ["In Silo B, since $J_{rel}-J_{pump}\\to j_0+j_r-j_p$ as $K\\to\\infty$, the upper root exists iff\n\n```math\n\\Pi\\equiv\\frac{j_0+j_r}{j_p}>1 .\n```"]
+    stage_3_watch_items: ["The bistable traveling wave equation (often formulated as FitzHugh-Nagumo or Schlögl) is a textbook canonical model for both excitable biological media and superconducting normal zones; verify if the specific interdisciplinary transfer of metrology ($E_{MQE}$, MIITs) is genuinely novel despite this established structural analogy."]
+  fourth_adversarial_review:
+    reviewer_model: "Xiaomi MiMo V2.5 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "FLAG"
+    verdict_rationale: "The vocabulary mapping and Bridge V1 identify θ_A = 1 − I/I_{c0} as the interior unstable zero of the shared source with ĝ(θ)=0, but the entry's own Silo A derivation gives ĝ_A(θ_A) = −θ_A ≠ 0; the abstract three-zero bistable structure is valid for both systems, all six correspondence vectors are demonstrated with correct mathematics, and the computational content of V2–V6 is unaffected, but the specific identification of θ for Silo A is a quotable mathematical misidentification."
+    failed_checks: []
+    flagged_checks:
+      - "Check 2: Vocabulary mapping T_cs ↔ [K⁺]_{e,θ} and Bridge V1 claim both are the interior unstable zero θ of the shared source with ĝ(θ)=0, ĝ′(θ)>0, but ĝ_A(θ_A) = −θ_A ≠ 0 for Silo A; the actual interior zero of ĝ_A lies at θ̂ ∈ (θ_A, 1) satisfying α_S((θ̂−θ_A)/(1−θ_A))² = θ̂, which depends on both θ_A and α_S"
+    quoted_evidence:
+      - "Bridge V1: 'ĝ(0)=ĝ(θ)=ĝ(u₊)=0' with '(τ,λ,θ,u₊)=(CA/hP, √(kA/hP), 1−I/I_{c0}, α_S) for Silo A'"
+      - "Silo A derivation: 'ĝ_A(u) = α_S φ_A(u) − u' and 'φ_A(u) = 0, u < θ_A' — therefore ĝ_A(θ_A) = α_S·0 − θ_A = −θ_A ≠ 0"
+      - "Vocabulary matrix: 'Both are the interior unstable zero θ of the shared source, ĝ(θ)=0, ĝ′(θ)>0 ... giving θ_A = 1−I/I_{c0}'"
+    stage_3_watch_items:
+      - "The specific cross-domain pairing (superconductor quench ↔ cortical spreading depolarization via shared bistable parabolic operator) should be checked against published interdisciplinary analogies; individually, the Grafstein-Tuckwell-Miura SD model and the Wilson/Stekly quench model are canonical in their fields, and bistable reaction-diffusion reductions of SD have appeared in the work of Dahlem, Miura, and others"
+      - "The falsifiable prediction of a logarithmic law L*(v_SD) = λ_tail ln(B/τc) with experimentally testable quantitative claims should be checked against existing SD threshold/initiation data and against the bistable RD front-interaction literature"
+      - "The V5 claim that for Silo A 'the upper root always exists and α_S=1 marks its position' should be verified: for the piecewise source as written, the upper root u₊=α_S lies in the valid region u>1 only when α_S>1, which is functionally the same existence criterion as Silo B's Π>1; the stated distinction between 'position' and 'existence' may be imprecise"
+  fifth_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "The entry demonstrates internally consistent mathematics with correctly derived nondimensionalizations, matched equation classes, and fully supported correspondence vectors."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Verify the novelty of the specific domain pairing (magnet quench protection ↔ cortical spreading depolarization). While the interdisciplinary transfer of metrology is novel, the shared mathematical structure (bistable semilinear parabolic reaction-diffusion equations, Maxwell equal-area, mountain-pass) is a canonical framework in mathematical physics and biology."]
+  sixth_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.6 Luna"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a fatal vocabulary/equilibrium error: it identifies the superconducting current-sharing threshold with an interior unstable zero of the nondimensional source, but the displayed Silo A equation has nonzero source at that threshold."
+    failed_checks: ["Check 2: The mapping T_cs ↔ SD initiation threshold incorrectly identifies T_cs with the unstable zero theta of the shared source.", "Check 1: The claimed shared bistable operator has the stated Silo A condition g_hat(theta)=0, but the displayed Silo A source gives g_hat(theta)=-theta, so the asserted root structure is internally inconsistent."]
+    flagged_checks: []
+    quoted_evidence: ["**Current-sharing temperature $T_{cs}$** ↔ **SD initiation threshold $[\mathrm{K^+}]_{e,\theta}$**\n    *   *Operator Role:* Both are the interior unstable zero $\theta$ of the shared source, $\hat g(\theta)=0$, $\hat g'(\theta)>0$, separating the two basins of $\tau\partial_t u=\lambda^2\partial_x^2u+\hat g(u)$.", "`math\n\\varphi_A(u)=\n\\begin{cases}\n0,&u<\\theta_A\\\\[3pt]\n\\Bigl(\\tfrac{u-\\theta_A}{1-\\theta_A}\\Bigr)^{2},&\\theta_A\\le u\\le 1\\\\[5pt]\n1,&u>1\n\\end{cases}\n\\qquad \\theta_A=1-\\tfrac{I}{I_{c0}}\n`", "Note $\hat g_A(0)=0$, $\hat g_A'(0)=-1$, and the upper root is $u_+=\alpha_S$, which is a fully resistive self-sustaining state iff $\alpha_S>1$ — the classical Stekly cryostability criterion recovered as a statement about root position.", "`math\n\\tau\\,\\partial_t u=\\lambda^{2}\\,\\partial_x^{2}u+\\hat g(u),\n\\qquad\n\\hat g(0)=\\hat g(\\theta)=\\hat g(u_+)=0,\\quad \\hat g'(0)=-1,\\quad \\hat g'(u_+)<0,\n`"]
+    stage_3_watch_items: ["If the entry is otherwise retained after the equilibrium/root error is addressed, verify the stronger Section 1 claim that the two systems have an exact operator identification while Section 1 simultaneously states that their constitutive source shapes differ."]
+  seventh_adversarial_review:
+    reviewer_model: "Microsoft Copilot 1.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "The entry presents internally consistent semilinear bistable parabolic operators on both sides, type-consistent vocabulary mappings, and provides explicit equations/derivations supporting each listed correspondence vector; the proposed methodological transfer is asymmetric and names measurable outcomes."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items:
+      - "Verify prior-art overlap with classical Nagumo / Grafstein reductions and Wilson MPZ/MQE literature (look for canonical mappings and earlier explicit reductions)."
+      - "Check empirical feasibility and existing experimental protocols in SD literature for constructing an energy–duration (E_{MQE}-equivalent) calibration and a tissue-calibrated Γ_B mapping."
+      - "Confirm assumptions behind the flux-factorization in V6 for realistic pump dynamics (the entry notes failure when m depends on K)."
+      - "Examine the step-source and adiabatic idealizations used in Silo A closed-form derivations for applicability to modern composite conductor geometries and nonuniform J_m(T)."
+  eighth_adversarial_review:
+    reviewer_model: "xAI Grok 4.5 Fast"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "All four checks confirm internal mathematical consistency of the shared bistable parabolic structure, type-compatible mappings, fully demonstrated vectors, and a specific measurable falsifiable prediction under genuine asymmetry."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Constitutive source forms differ (piecewise-quadratic vs Hill) and are explicitly excluded from the claimed identity; confirm that the operator-level claims do not silently rely on source-shape identity.", "V6 dose-integral correspondence holds only under flux factorization and fails when m depends on K; verify that this limitation is respected in any transfer of the MIITs concept.", "Single-field reduction freezes slow variables (ATP, [Na+]i, glutamate, swelling); probe whether the bistable operator remains predictive once those variables are restored."]
+  ninth_adversarial_review:
+    reviewer_model: "Meta Muse Spark 1.1"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "All six correspondence vectors are demonstrated with a shared semilinear bistable parabolic operator, Maxwell equal-area, first-integral nucleus, L2 gradient-flow Lyapunov and mountain-pass content, unit-threshold capacity ratio, and conditional dose integral; vocabulary types are compatible and transfer prediction is quantitatively falsifiable."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Generic bistable reaction-diffusion (Nagumo / Allen-Cahn) structure is textbook; Stage 3 should bibliometrically verify novelty of specific MPZ/MQE/MIITs ↔ SD threshold/duration mapping via the provided search strings", "Entry's own primary_failure_risk notes source_term_nonautonomy — Silo B source depends on slow variables ATP, Na_i, glutamate, swelling frozen in single-field reduction; Stage 3 should probe validity of fast-ionic-timescale reduction for predicted L* ~ log(1/v_SD) law"]
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 0053
@@ -274,3 +408,166 @@ so the clinically recorded depolarization duration is likewise a path-independen
 *   `("spreading depolarization" OR "spreading depression") AND ("quench propagation" OR "normal zone propagation" OR "minimum quench energy" OR "Stekly")` — deliberate self-falsification of the pairing claim
 *   `("MIITs" OR "quench integral" OR "hot spot temperature") AND ("depolarization duration" OR "cumulative depolarization" OR "neurocritical care")` — self-falsification of the V6 transfer claim
 *   `"critical nucleus" AND "logarithmic" AND "front interaction" AND "bistable reaction-diffusion" AND ("spreading depolarization" OR "cortical")` — tests whether the predicted log law has already been applied target-side
+
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** Alibaba Qwen3.8 Max
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-06-22
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — The bridge states “$\hat g(0)=\hat g(\theta)=\hat g(u_+)=0$” and assigns Silo A “$\theta=1-I/I_{c0}$,” but the displayed Silo A source “$\hat g_A(u)=\alpha_S\,\varphi_A(u)-u$” with “$\varphi_A(\theta_A)=0$” gives “$\hat g_A(\theta_A)=-\theta_A$,” so the claimed shared zero at $\theta_A$ is not modeled by the Silo A equation.
+- **CHECK 2 (Vocabulary Matrix Coherence):** FAIL — The pair “Current-sharing temperature $T_{cs}$ ↔ SD initiation threshold $[\mathrm{K^+}]_{e,\theta}$” states “Both are the interior unstable zero $\theta$ of the shared source,” but $T_{cs}$ maps to the Silo A switch-on point $\theta_A$ in $\varphi_A$, not to a root of $\hat g_A$.
+- **CHECK 3 (Correspondence Vector Support):** FLAG — Vectors V2–V6 are supported by derivations in Section 3 (V2 equal-area condition, V3 stationary nucleus, V4 Lyapunov/content, V5 capacity ratio, V6 dose integral). Vector 1, “shared_bistable_parabolic_operator_with_unit_restoring_slope_after_affine_nondimensionalization,” is only partially supported: the nondimensional parabolic operator is demonstrated, but the Silo A interior unstable zero required for bistability is not correctly established because $\theta_A$ is not a source root.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction is specifically asymmetric (quench-protection metrology and protection-decision stack → SD threshold metrology), and the prediction names measurable quantitative criteria (regression slope within 25% of independently measured $\lambda_{tail}$, $R^2\ge0.9$, specified falsification conditions). Prior-art advisory: general bistable-front equal-area/critical-nucleus theory is well developed; Stage 3 should check whether this specific domain pairing has been published.
+
+#### Stage 3 Watch Items
+- Verify whether a separate Silo A interior unstable root (distinct from the current-sharing switch-on point $\theta_A$) is defined in the quench literature and whether it maps to the SD threshold root.
+- Probe prior art for direct quench-protection ↔ cortical spreading depolarization analogies, and for explicit use of Nagumo/equal-area/critical-nucleus bistable-front theory in both domains.
+- Check whether the Silo B pump-reserve ratio $\Pi$ alone can determine the sign of the equal-area integral, or whether the additional Hill-function parameters shown in the entry are required.
+- Assess whether the V6 dose-integral correspondence survives the slow-variable source nonautonomy noted in the entry’s primary failure risk.
+
+### Second Adversarial Review
+**Reviewer:** DeepSeek DeepSeek V4 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — The Bridge claims both systems are instances of
+  ```
+  τ ∂_t u = λ² ∂_x² u + ĝ(u),  ĝ(0)=ĝ(θ)=ĝ(u_+)=0
+  ```
+  with `θ=1-I/I_c0` for Silo A. But from the Silo A definitions,
+  ```
+  ĝ_A(u)=α_S φ_A(u)-u,
+  φ_A(u)=0 for u<θ_A,  θ_A=1-I/I_c0,
+  ```
+  so at `u=θ_A` one has `φ_A(θ_A)=0` and therefore `ĝ_A(θ_A)=-θ_A≠0`. Thus the claimed shared three-root operator is false for Silo A.
+- **CHECK 2 (Vocabulary Matrix Coherence):** FAIL — The mapping “Current-sharing temperature `T_cs` ↔ SD initiation threshold” states: “Both are the interior unstable zero `θ` of the shared source, `ĝ(θ)=0`, `ĝ'(θ)>0`.” This is false for Silo A: `T_cs` is the switch-on threshold of the generation term, not a zero of `ĝ_A`.
+- **CHECK 3 (Correspondence Vector Support):** FLAG — The vector `unstable_stationary_nucleus_first_integral_mpz_vs_critical_initiation_half_length` is not demonstrated for Silo A by the shared first integral. Silo A uses a step-source idealization with cooling neglected (`kT''=-G_max`, finite Dirichlet boundaries), while Silo B uses the full stationary equation `λ²U''+ĝ(U)=0`. The other five listed vectors have body derivations, subject to the V1 root error.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The asymmetry rationale is specific and directional, and the falsifiable prediction names measurable quantities, thresholds, and explicit falsification conditions. No prior-art recognition requiring rejection; see Stage 3 watch items.
+
+#### Stage 3 Watch Items
+- Probe whether redefining `θ_A` as the actual unstable root of `α_S φ_A - u`, rather than `1-I/I_c0`, restores the shared three-root structure.
+- Check the V3 Silo A MPZ derivation against the full stationary Wilson equation with cooling; the step-source idealization may not be the same first-integral nucleus.
+- Verify the V6 Silo A adiabatic equation `C dT/dt=ρ_m J_m^2` against the earlier source term `G=ρ_m J_m^2 A_m/A`; possible missing matrix-fraction factor.
+- Prior-art watch: bistable reaction-diffusion ignition-front analogies between superconducting quench and cortical spreading depolarization, especially Wilson/Dresner quench theory and Tuckwell-Miura extracellular K⁺ models.
+
+### Third Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — The claim about the existence of the upper root in Silo B is mathematically backward; if $\Pi > 1$, peak generation ($j_0+j_r$) strictly exceeds maximum clearance ($j_p$) as $K \to \infty$, meaning the source term remains positive and no upper stable equilibrium can form. Error text: "In Silo B, since $J_{rel}-J_{pump}\to j_0+j_r-j_p$ as $K\to\infty$, the upper root exists iff \n\n```math\n\Pi\equiv\frac{j_0+j_r}{j_p}>1 .\n```"
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All vocabulary pairs map objects of compatible mathematical types and explicitly describe identical structural roles within the shared bistable framework.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All six vectors listed in the metadata are rigorously demonstrated in the text via explicit derivations, integrations, and operator identities.
+- **CHECK 4 (Transfer and Falsifiability):** FLAG — The methodological transfer is genuinely asymmetric and the specific experimental predictions are highly falsifiable, but as an advisory prior-art note, the mapping of both fields to the generic bistable traveling wave equation is well-established in nonlinear dynamics textbooks.
+
+#### Stage 3 Watch Items
+- The bistable traveling wave equation (frequently studied via the FitzHugh-Nagumo or Schlögl models) is a canonical mechanism for both excitable biological tissues and propagating superconducting normal zones; Stage 3 should evaluate whether the specific proposed transfer of engineering metrology (MIITs, $E_{MQE}$ protocols) offers novel value beyond the well-known mathematical homology.
+
+### Fourth Adversarial Review
+**Reviewer:** Xiaomi MiMo V2.5 Pro
+**Protocol:** v2.0
+**Verdict:** FLAG
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both the Wilson normal-zone equation and the Grafstein–Tuckwell–Miura extracellular-potassium equation are genuine semilinear parabolic PDEs from their stated domains. The nondimensionalization to the shared form τ∂_t u = λ²∂_x² u + ĝ(u) with ĝ(0)=0, ĝ′(0)=−1 is correctly performed on both sides. The traveling-wave solvability relation, equal-area condition, first integral, gradient-flow Lyapunov functionals, and diffusion-free core dose integrals are all derived with correct equations. The piecewise quadratic current-sharing source and the Hill-function release/pump source are correctly reduced.
+- **CHECK 2 (Vocabulary Matrix Coherence):** FLAG — The vocabulary mapping T_cs ↔ [K⁺]_{e,θ} and Bridge V1 claim both quantities are the interior unstable zero θ of the shared source with ĝ(θ)=0. For Silo A, the entry's own derivation defines ĝ_A(u) = α_S φ_A(u) − u with φ_A(u)=0 for u < θ_A, giving ĝ_A(θ_A) = −θ_A ≠ 0. The actual interior unstable zero of ĝ_A exists at a point θ̂ ∈ (θ_A, 1) satisfying α_S((θ̂−θ_A)/(1−θ_A))² = θ̂, which depends on both θ_A and α_S and is not simply 1−I/I_{c0}. For Silo B, the identification is correct: K_θ is a genuine root of ĝ_B. The abstract three-zero bistable structure is valid for both systems, and all other vocabulary mappings (Stekly ↔ pump reserve, MPZ ↔ critical half-length, MQE ↔ threshold KCl, NZPV ↔ v_SD, MIITs ↔ depolarization duration) are between compatible mathematical types with correct dimensional reconciliations.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All six listed vectors are independently demonstrated with equations and/or derivations in Section 3: V1 (shared operator, Bridge section), V2 (Maxwell equal-area with closed-form Silo A cold-end recovery and Silo B SD abort integral), V3 (unstable stationary nucleus with Wilson MPZ formula and quadrature for SD critical half-length), V4 (explicit Lyapunov functionals F_A, F_B with gradient flow structure and mountain-pass content integrals E_MQE, Q*), V5 (Stekly α_S and pump-reserve Π with unit threshold), V6 (MIITs quench integral and cumulative depolarization duration as path-independent state functions under flux factorization).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction (superconductivity → SD) is genuinely asymmetric: the entry identifies a specific, narrow capability gap in SD research (no calibrated stimulus-energy threshold metrology, no E_MQE-equivalent energy–duration map, no protection-decision architecture with quantified false-positive budget) that superconductivity has developed over sixty years for the same operator class, while acknowledging SD's maturity in multi-ion biophysical modeling and PDE analysis. The falsifiable prediction is quantitatively specific: a logarithmic law L*(v_SD) = λ_tail ln(B/τc) predicting linearity of minimum initiation half-length against ln(1/v_SD) with R² ≥ 0.9, slope equal to independently measured λ_tail within 25%, beating a zero-slope null hypothesis, with explicit falsification conditions including non-logarithmic (e.g., power-law) dependence. Prior art advisory: the individual models are canonical in their fields and bistable RD reductions of SD have appeared in the computational neuroscience literature; the specific structural isomorphism with MQE/MIITS transfer should be verified at Stage 3.
+
+#### Stage 3 Watch Items
+- The cross-domain pairing should be checked for prior publication; the Grafstein–Tuckwell–Miura SD model, the Wilson/Stekly quench framework, and bistable reaction-diffusion models of SD are individually well-established.
+- The falsifiable prediction (logarithmic law for critical nucleus half-length) should be checked against existing SD initiation threshold data and the front-interaction literature for bistable RD systems.
+- The V5 qualitative claim distinguishing Silo A ("position") from Silo B ("existence") at the unit threshold should be verified against standard Stekly-parameter presentations.
+
+### Fifth Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both the Wilson normal-zone equation and the Grafstein–Tuckwell–Miura extracellular-potassium equation are correctly nondimensionalized into the same bistable semilinear parabolic operator class.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All mapped pairs are of compatible mathematical types and are tied together by explicit structural identifications rather than hedged assertions.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All six listed correspondence vectors (V1 through V6) are explicitly derived and demonstrated with equations in Section 3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The methodological transfer is strictly asymmetric (focusing on the metrology and protection-decision stack absent in SD), and the falsifiable prediction provides specific regression criteria, thresholds, and explicit falsification conditions.
+
+#### Stage 3 Watch Items
+- Verify the novelty of the specific domain pairing (magnet quench protection ↔ cortical spreading depolarization). While the interdisciplinary transfer of metrology is novel, the shared mathematical structure (bistable semilinear parabolic reaction-diffusion equations, Maxwell equal-area, mountain-pass) is a canonical framework in mathematical physics and biology.
+
+### Sixth Adversarial Review
+**Reviewer:** OpenAI GPT-5.6 Luna
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-14
+
+#### Results by Check
+* **CHECK 1 (Equation Validity):** FAIL — The Silo A source does not have the claimed unstable root at $\theta_A$: the displayed piecewise $\varphi_A$ gives $\hat g_A(\theta_A)=\alpha_S\varphi_A(\theta_A)-\theta_A=-\theta_A$, contradicting the later shared-operator assertion $\hat g(\theta)=0$.
+* **CHECK 2 (Vocabulary Matrix Coherence):** FAIL — The mapping **“Current-sharing temperature $T_{cs}$ ↔ SD initiation threshold $[\mathrm{K^+}]_{e,\theta}$”** is explicitly assigned the role of an interior unstable zero, but the Silo A equation makes $T_{cs}$ merely the onset point of the piecewise Joule-generation term, not an equilibrium/unstable zero of $\hat g_A$.
+* **CHECK 3 (Correspondence Vector Support):** PASS — The six listed vectors are each addressed in Sections 2–3 and supported by equations or derivations: the normalized parabolic form (V1), Maxwell stall condition (V2), stationary-nucleus first integral (V3), Lyapunov functional (V4), generation/clearance ratio (V5), and diffusion-free integral (V6).
+* **CHECK 4 (Transfer and Falsifiability):** PASS — The stated transfer direction is explicitly argued as asymmetric, and the prediction supplies measurable variables, a quantitative logarithmic slope, an $R^2$ threshold, a fourfold-speed test, and explicit falsification criteria. No prior-art determination is made at Stage 2.
+
+#### Stage 3 Watch Items
+* Probe the Section 1 assertion that the identification is “exact” and “coincide[s] term by term” despite the entry itself stating that the two constitutive shapes of $\hat g$ differ.
+
+### Seventh Adversarial Review
+**Reviewer:** Microsoft Copilot 1.2
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both Silo A and Silo B are reduced to the same semilinear bistable parabolic form \(\tau\partial_t u=\lambda^{2}\partial_x^{2}u+\hat g(u)\) with \(\hat g(0)=0,\ \hat g'(0)=-1\); the Wilson normal-zone PDE and the Grafstein–Tuckwell–Miura potassium PDE are correctly cast as parabolic reaction–diffusion problems and the operator classes match.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Each paired token in Section 2 maps objects of the same mathematical type (scalar thresholds, dimensionless ratios, length scales, extensive nucleus content, eigenvalue front speed, path-independent integrals); the Operator Role entries specify shared mathematical structure rather than hedged analogy.
+- **CHECK 3 (Correspondence Vector Support):** PASS — Every vector listed in `triple_correspondence_vectors` is demonstrated in the body: V1 (shared operator) in Bridge (V1); V2 (Maxwell equal-area) in V2 with closed-form evaluations for both silos; V3 (unstable stationary nucleus and first integral) in V3 with MPZ and \(\ell^{*}\) expressions; V4 (L² gradient flow, Lyapunov, mountain-pass content) in V4 with explicit functionals and MQE/Q* integrals; V5 (generation/clearance unit threshold) in V5; V6 (diffusion-free core dose integral) in V6. Each listed correspondence is supported by an equation, operator identity, or derivation.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction is plausibly asymmetric (superconductivity offers calibrated metrology and instrumented decision stacks not present in SD practice), and the proposal names concrete, measurable outcomes (an energy–duration MQE-style calibration map and a tissue-calibrated \(\Gamma_B\) converting depolarization duration to peak excursion), which are falsifiable by experiment or protocol development; prior-art analogies (Nagumo reductions, Grafstein–Tuckwell, Wilson MPZ theory) are present as background but do not invalidate the internal mathematical claims.
+
+#### Stage 3 Watch Items
+- Verify prior-art overlap with classical Nagumo / Grafstein reductions and Wilson MPZ/MQE literature (look for canonical mappings and earlier explicit reductions).
+- Check empirical feasibility and existing experimental protocols in SD literature for constructing an energy–duration (E_{MQE}-equivalent) calibration and a tissue-calibrated \(\Gamma_B\) mapping.
+- Confirm assumptions behind the flux-factorization in V6 for realistic pump dynamics (the entry notes failure where ATP availability \(m\) depends on \(K\)).
+- Inspect the step-source and adiabatic idealizations used in Silo A closed-form derivations for applicability to modern composite conductor geometries and nonuniform \(J_m(T)\).
+
+### Eighth Adversarial Review
+**Reviewer:** xAI Grok 4.5 Fast
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both systems reduce to the identical semilinear bistable parabolic operator after the stated affine nondimensionalizations; the displayed Wilson and Grafstein–Tuckwell–Miura equations are of matching class and support the claimed structural correspondence.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Every paired token is of compatible mathematical type and the Operator Role statements identify shared zeros, first integrals, mountain-pass content or unit-threshold ratios rather than hedged analogy.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All six listed vectors are demonstrated by explicit operator reduction (V1), traveling-wave solvability and Maxwell condition (V2), first-integral nucleus (V3), Lyapunov functional and mountain-pass content (V4), unit-threshold capacity ratio (V5), and path-independent core integrals under flux factorization (V6).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Transfer direction is asymmetric toward the instrumented metrology gap in SD; the prediction supplies a concrete linear relation L*(v_SD) versus ln(1/v_SD) with quantitative slope and R^{2} criteria that can be falsified by experiment.
+
+#### Stage 3 Watch Items
+- Constitutive source forms differ (piecewise-quadratic vs Hill) and are explicitly excluded from the claimed identity; confirm that the operator-level claims do not silently rely on source-shape identity.
+- V6 dose-integral correspondence holds only under flux factorization and fails when m depends on K; verify that this limitation is respected in any transfer of the MIITs concept.
+- Single-field reduction freezes slow variables (ATP, [Na+]i, glutamate, swelling); probe whether the bistable operator remains predictive once those variables are restored.
+
+### Ninth Adversarial Review
+**Reviewer:** Meta Muse Spark 1.1
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both Silo A Wilson equation `C ∂_t T = k ∂_x^2 T + G(T;I) - hP/A(T-T_op)` and Silo B Tuckwell-Miura `∂_t K = D_K* ∂_x^2 K + 1/α[J_rel-J_pump]` reduce after stated affine rescalings to the same semilinear bistable parabolic operator `τ ∂_t u = λ^2 ∂_x^2 u + ĝ(u)` with `ĝ(0)=0, ĝ'(0)=-1`; both parabolic, no class mismatch, and together support the Section 1 operator identity.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All seven mappings pair compatible mathematical types: scalar unstable zeros (T_cs ↔ [K+]_θ), dimensionless capacity ratios (α_S ↔ Π), lengths (ℓ_Mpz ↔ ℓ*), extensive contents with explicit conjugate-density reconciliation C(T-Top) ↔ α(K-Krest) and shared dimensionless invariant (E_MQE ↔ Q*), codimension-one Maxwell surfaces (I_p ↔ abort threshold), front eigenvalues (NZPV ↔ v_SD), and dose integrals normalized to seconds (MIITs ↔ depolarization duration); each Operator Role names shared structure (common zero, equal-area integral, first integral, Lyapunov functional).
+- **CHECK 3 (Correspondence Vector Support):** PASS — All six vectors listed in YAML are demonstrated in body: shared_bistable_parabolic_operator_with_unit_restoring_slope_after_affine_nondimensionalization in Bridge V1, maxwell_equal_area_stall_condition_minimum_propagating_current_vs_sd_abort_threshold in V2 with solvability `τc∫U'^2 = ∫_0^{u+}ĝ du` and closed forms for both silos, unstable_stationary_nucleus_first_integral_mpz_vs_critical_initiation_half_length in V3 via `λ^2/2 U'^2 + Ĝ(U)=0`, shared_L2_gradient_flow_lyapunov_functional_and_mountain_pass_content_mqe_vs_threshold_kcl_moles in V4 via F_A and F_B gradient flows, generation_to_clearance_capacity_ratio_with_unit_threshold_stekly_number_vs_pump_reserve in V5 via `Π=(j0+jr)/jp>1`, diffusion_free_core_path_independent_dose_integral_miits_vs_depolarization_duration in V6 via `Γ_A=∫(Jm/Jop)^2 dt` and `Γ_B=∫m(t)dt`.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Asymmetry is genuine: source provides 60-year instrumented MPZ/MQE metrology, heater-pulse energy-duration map, Stekly/cold-end-recovery design rules, MIITs limit, and voltage-plus-validation-window detection with false-trigger budget, while target lacks calibrated energy-duration threshold and is mature elsewhere (multi-ion models, bifurcation analysis, COSBID ECoG), not backwards. Falsifiability is quantitative: prediction that L* regressed on ln(1/v_SD) is linear with R^2≥0.9 and slope within 25% of independently measured λ_tail, ΔL*=λ_tail ln4=0.28–0.83 mm for 4-fold speed reduction, and conditional cubic corollary θ=1/2 → 29–31 mM abort, with explicit falsification if slope≈0 or non-logarithmic. No canonical textbook pairing recognized for this specific domain pair.
+
+#### Stage 3 Watch Items
+- Generic bistable RD framework is textbook (Nagumo/Allen-Cahn); verify via bibliometric search that detailed MPZ/MQE/MIITs ↔ critical KCl volume / depolarization duration mapping has not been published.
+- Probe entry's stated primary failure risk: source_term_nonautonomy — Silo B source depends on slow variables (ATP availability, [Na+]_i, glutamate, cell swelling) frozen in single-field reduction; test whether single-field reduction remains valid over the 4-fold v_SD grading needed for log law.
+- Verify V6 flux-factorization condition holds for experimental conditions proposed (pump-limited factorization α dK/dt = -m(t) J_pump(K)).
