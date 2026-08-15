@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-0054"
   schema_version: "2.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-flagged"
 provenance:
   company: "Anthropic"
   model_family: "Claude"
@@ -40,6 +40,121 @@ validation_status:
   constitutive_equivalence_confidence: "medium"
   primary_failure_risk: "guard_cell_kinetics_may_be_oscillatory_rather_than_bistable_collapsing_the_scalar_SNDC_mapping_into_a_two_component_activator_inhibitor_system"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "Alibaba Qwen3.8 Max"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "The displayed constrained reaction-diffusion equations, vocabulary mappings, and all five claimed correspondence vectors are internally consistent and demonstrated in the body, and the transfer direction and predictions are specific, asymmetric, and falsifiable."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items:
+      - "Verify whether the leaf-side local semilinear PDE is accepted as a leading-order reduction of the Haefner-Buckley-Mott elliptic network, since exact elimination is nonlocal and the entry's local operator relies on a long-wave or frozen-coefficient approximation."
+      - "Check whether Gamma and ell_h are consistently treated as constants evaluated at a homogeneous operating point, because Gamma = chi(M-1)D g'(a)/k_l is state-dependent if not frozen."
+      - "Probe prior art around plant-electrical or plant-hydraulic circuit analogies, such as the van den Honert analogy, and globally coupled bistable reaction-diffusion systems, to confirm the claimed pattern-selection isomorphism is distinct from canonical analogies."
+      - "Confirm whether chamber flow rate F has been used as a bifurcation or load-line parameter in leaf gas-exchange literature, especially for the implicit constraint D = D0 - (1/F) integral D g(a) dA."
+      - "Assess whether bundle-sheath-extension zero lateral conductance is standardly represented as a Neumann zero-flux boundary for the aperture field."
+  second_adversarial_review:
+    reviewer_model: "DeepSeek DeepSeek V4 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "REJECT"
+    verdict_rationale: "The entry claims an identical scalar semilinear parabolic operator, but the derived leaf equation has a state-dependent diffusion coefficient via Γ ∝ g'(a), making it quasilinear rather than semilinear and contradicting the core operator identity."
+    failed_checks:
+      - "Check 1: Silo B leaf equation is quasilinear/state-dependent diffusion, not the claimed semilinear operator"
+      - "Check 3: Correspondence vector nonlocal_load_line_constrained_semilinear_parabolic_operator not demonstrated as semilinear"
+    flagged_checks: []
+    quoted_evidence:
+      - >-
+        both systems are governed by the *identical* scalar semilinear parabolic operator subject to a *single* scalar linear integral constraint, `τ∂ₜa = ℓ²∇²a + f(a,u)` with `u = U₀ − R∫_Ω j(a,u)dA` and zero-flux boundaries
+      - >-
+        \ell_h^{2}=c_z\frac{k_c}{k_l}\,\Gamma\,h^{2}, \qquad \Gamma\equiv\frac{\chi(M-1)\,D\,g'(a)}{k_l}, \qquad f_a=\Gamma-1 .
+    stage_3_watch_items:
+      - "Verify whether the exact HBM continuum reduction yields ∇²g(a) (and hence quasilinear/nonlocal diffusion) rather than ℓ_h²∇²a"
+      - "Check whether a linear-in-a stomatal conductance function can rescue the semilinear claim under a stated physiological regime"
+      - "Run the entry's own self-falsification search strings for prior art on load-line/bistable stomatal patchiness and apparent feedforward"
+      - "Probe the YAML primary failure risk: guard-cell kinetics may be oscillatory rather than bistable"
+  third_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "All checks pass; the entry correctly identifies and maps a shared constrained semilinear parabolic operator, demonstrating flawless algebraic consistency across all five vectors with precise, falsifiable predictions."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: []
+  fourth_adversarial_review:
+    reviewer_model: "Xiaomi MiMo V2.5 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "All five correspondence vectors are demonstrated on both sides with consistent equations, the vocabulary mappings are mathematically type-compatible, the parabolic equation class is shared without mismatch, and the falsifiable predictions are specific and quantitative."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items:
+      - "The entry's self-falsification search string 3 targets the exact pairing with terms like 'current filament' AND 'stomatal patchiness' — Stage 3 must run this query to determine if the constrained-PDE mapping to stomatal patchiness has already been published."
+      - "Search string 5 targets the specific transfer claim that chamber flow rate acts as a bifurcation parameter (ρ) for apparent feedforward responses — run this query."
+      - "The entry acknowledges that the diffusion coefficient ℓ_h² = c_z(k_c/k_l)Γh² carries implicit a-dependence through Γ = χ(M-1)Dg'(a)/k_l; verify that the target community's parameter regime justifies the frozen-coefficient approximation for the stated continuum reduction."
+      - "The adiabatic elimination of hydraulic dynamics (τ_g >> hydraulic relaxation) is the stated validity window — Stage 3 should check whether empirical guard-cell kinetic timescales support this separation in the species named (Phaseolus, Xanthium)."
+      - "The entry names Schöll, Wacker & Schöll, and Niedernostheide for the semiconductor side and Buckley–Mott–Farquhar and Haefner–Buckley–Mott for the leaf side — verify these attributions correspond to real publications at Stage 3."
+  fifth_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2024-05-24"
+    verdict: "PASS"
+    verdict_rationale: "The entry is mathematically rigorous, with correctly derived equations, a flawless vocabulary mapping, all correspondence vectors explicitly demonstrated, and a highly specific falsifiable prediction."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Stage 3 should verify the novelty of this specific isomorphism, as the mathematical derivation is sound but the interdisciplinary leap is highly unusual.", "Verify whether the 'apparent feedforward' response de/dD < 0 is genuinely accepted as a bistable NDC branch in the plant physiology literature or if alternative models are more dominant."]
+  sixth_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.6 Luna"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "REJECT"
+    verdict_rationale: "Check 1 contains a genuine spectral-geometry error: the entry asserts that an arbitrary two-dimensional domain of chord L has Neumann spectrum q_min = π/L, which does not follow from the stated boundary condition and invalidates the claimed universal minimum-domain criterion."
+    failed_checks: ["Check 1: incorrect Neumann eigenvalue quantization for a general two-dimensional domain"]
+    flagged_checks: ["Check 4: the stated asymmetry is plausible from the entry text but the maturity comparison is asserted rather than mathematically demonstrated; the falsifiable prediction also contains a universal baseline derivative bound whose stated assumptions do not mathematically imply it."]
+    quoted_evidence: ["**(iv) Neumann quantization and minimum domain.** `n̂·∇a|_{∂Ω} = 0` holds at the etched mesa edge (device) and at the bundle-sheath extension (leaf, because `k_c|_BSE = 0`). On a domain of chord `L` this gives `q_min = π/L` on both sides, so pattern existence requires `q_min < q_c`:", "`math\n\\underbrace{L>\\frac{\\pi\\ell}{\\sqrt{f_a}}}_{\\text{device}}\n\\qquad\\Longleftrightarrow\\qquad\n\\underbrace{L>\\frac{\\pi\\ell_h}{\\sqrt{\\Gamma-1}}=\\pi h\\sqrt{\\frac{c_z\\,\\Gamma\\,k_c/k_l}{\\Gamma-1}}}_{\\text{leaf}} .\n`"]
+    stage_3_watch_items: ["Probe the claimed transfer against the exact plant-physiology modelling literature, especially whether the HBM/areole construction actually yields the asserted scalar semilinear PDE with the stated Neumann boundary condition and whether BSE boundaries are correctly represented as zero lateral hydraulic flux.", "Probe the numerical continuation and load-line claims in Section 4 against the actual cited semiconductor pattern-formation framework.", "Check the claimed baseline inequality `dD_leaf/dD₀ = [1 + β + (A/F)D\,dg/dD]^{-1} ≥ 0.40` for a general single-valued non-folded g(D); the entry does not mathematically derive that lower bound from its stated assumptions.", "Probe the Maxwell-point/lever-rule claim for the globally constrained leaf model, including whether the asserted equal-area construction follows under the specific nonlocal constraint and constitutive dependence used here.", "Check the claimed exact scaling and numerical values in the granularity prediction against the parameter definitions and independently measured quantities."]
+  seventh_adversarial_review:
+    reviewer_model: "Microsoft Copilot 1.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "The entry presents mathematically consistent semilinear parabolic operators with an identical global integral constraint, demonstrates each listed correspondence with explicit equations and derivations, and provides a falsifiable, asymmetric transfer hypothesis with measurable predictions."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items:
+      - "Verify the continuum limit error estimates for the areole lattice reduction (magnitude of the claimed O((h/L)^2) corrections) and whether ℓ_h ≲ h regimes are empirically relevant for target species."
+      - "Check experimental feasibility and parameter ranges used in the falsifiable predictions (units and typical magnitudes for D, g, F, A, and the assumed D_M = 20 mmol mol⁻¹) against instrument limits and biological variability."
+      - "Confirm that the derivation of σ_stat on the leaf side (σ_stat = −g/(Γ−1)) correctly follows from the stated definitions of j_u, j_a, and f_u in the adiabatic-elimination limit and that no hidden sign or algebraic slip occurs in the substitution."
+      - "Examine the constitutive-function gap: ensure Stage-3 reviewers assess whether plausible functional forms of f and g permit the equal-area Maxwell construction in realistic physiological parameter regimes."
+      - "Assess prior-art overlap with known constrained reaction–diffusion plus global constraint literature (pattern formation under global conservation/load-line constraints) to determine novelty; flag canonical analogies if found."
+  eighth_adversarial_review:
+    reviewer_model: "xAI Grok 4.5 Fast"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "All four checks are satisfied: equations belong to the same semilinear parabolic class with matching nonlocal constraint and are derived term-for-term, vocabulary mappings preserve mathematical type and operator role, all five listed correspondence vectors are demonstrated by explicit operator identities and linearizations in Section 3, and the transfer is asymmetric with concrete quantitative falsifiable predictions."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Primary failure risk already recorded in YAML (oscillatory guard-cell kinetics collapsing the scalar mapping); continuum reduction of the discrete areole network and its O((h/L)^2) corrections; whether chamber-flow dependence of the load-line parameter ρ has been previously treated as a bifurcation parameter in the plant-physiology literature."]
+  ninth_adversarial_review:
+    reviewer_model: "Meta Muse Spark 1.1"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-14"
+    verdict: "PASS"
+    verdict_rationale: "All five correspondence vectors demonstrated with matched semilinear parabolic operator class, coherent vocabulary types with explicit nondimensionalization, and specific falsifiable predictions with quantitative thresholds."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Verify continuum limit factor Gamma in ℓ_h^2 = c_z (k_c/k_l) Gamma h^2 derivation vs simple ℓ_0^2 = c_z (k_c/k_l) h^2 — does not affect class but check algebra", "Confirm Neumann condition at bundle-sheath extensions from k_c|_BSE=0 and its use for q_min = π/L quantization", "Probe guard-cell bistability assumption — primary failure risk notes possible oscillatory kinetics collapsing scalar SNDC to two-component activator-inhibitor breathing filament case"]
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 0054
@@ -211,3 +326,166 @@ Both systems therefore collapse onto the same two dimensionless similarity group
 *   `("globally coupled bistable" OR "nonlocal integral constraint" OR "global inhibitory coupling") AND (stomata OR "guard cell" OR "leaf gas exchange") AND ("Maxwell construction" OR "lever rule" OR "front pinning")`  *(self-falsification: seeks the framing under different terminology)*
 *   `("chamber flow rate" OR "cuvette flow rate" OR "boundary layer conductance") AND ("apparent feedforward" OR "feedforward response") AND stomata AND (bistability OR bifurcation OR hysteresis)`  *(targets the specific claimed transfer: flow rate as bifurcation parameter `ρ`)*
 *   `"numerical continuation" AND "integral constraint" AND ("reaction-diffusion" OR bistable) AND (stomatal OR "leaf" OR "gas exchange")`
+
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** Alibaba Qwen3.8 Max
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — The Silo-A and Silo-B final equations are both scalar semilinear parabolic equations with zero-flux boundaries and an algebraic global load constraint, and the derived dispersion, load-line, quantization, and Maxwell/lever equations follow from those equations.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The mapped tokens have compatible mathematical roles, and the dimensional mismatch in `R ↔ 1/F` is explicitly handled by the dimensionless `β` and `ρ` groups.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All listed vectors are demonstrated: constrained operator in Section 3 Silo-A/Silo-B equations and Bridge; dispersion/cutoff in item (ii); homogeneous load-line criterion in item (iii); Neumann quantization/minimum domain in item (iv); Maxwell clamping/lever rule in item (v).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The semiconductor-to-leaf transfer is asymmetric because the semiconductor side supplies continuation and selection methods absent from the leaf-side forward-simulation tradition, and the predictions specify measurable thresholds and falsification criteria; no exact textbook prior art for this constrained-PDE pairing is recognized, though adjacent circuit analogies should be checked.
+
+#### Stage 3 Watch Items
+- Verify whether the leaf-side local semilinear PDE is accepted as a leading-order reduction of the Haefner-Buckley-Mott elliptic network, since exact elimination is nonlocal and the entry's local operator relies on a long-wave or frozen-coefficient approximation.
+- Check whether `Γ` and `ℓ_h` are consistently treated as constants evaluated at a homogeneous operating point, because `Γ = χ(M-1)D g'(a)/k_l` is state-dependent if not frozen.
+- Probe prior art around plant-electrical or plant-hydraulic circuit analogies, such as the van den Honert analogy, and globally coupled bistable reaction-diffusion systems, to confirm the claimed pattern-selection isomorphism is distinct from canonical analogies.
+- Confirm whether chamber flow rate `F` has been used as a bifurcation or load-line parameter in leaf gas-exchange literature, especially for the implicit constraint `D = D0 - (1/F)∫ D g(a)dA`.
+- Assess whether bundle-sheath-extension zero lateral conductance is standardly represented as a Neumann zero-flux boundary for the aperture field.
+
+### Second Adversarial Review
+**Reviewer:** DeepSeek DeepSeek V4 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — Section 1 claims an identical scalar semilinear operator, but Silo B defines `ℓ_h²` through `Γ ≡ χ(M−1)Dg′(a)/k_l`, so the diffusion coefficient is state-dependent; the leaf PDE is quasilinear, not semilinear, and the displayed equation also drops the `g″(a)|∇a|²` term arising from `∇²g(a)` unless `g` is linear.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The mapped tokens are of compatible mathematical type (scalar fields, scalar constraint coefficients, flux derivatives, lengths, boundary conditions, extensive fluxes, scalar Maxwell roots), with nondimensionalization stated for the dimensional mismatch.
+- **CHECK 3 (Correspondence Vector Support):** FAIL — The vector `nonlocal_load_line_constrained_semilinear_parabolic_operator` is not demonstrated as named, because the body's leaf equation is not a semilinear operator with constant diffusion; the remaining four vectors have explicit equations in §3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction is asymmetric as claimed, and the predictions name measurable quantities and numeric thresholds; no canonical prior-art analogy is recognized, but Stage 3 should probe the entry's self-falsification searches.
+
+#### Stage 3 Watch Items
+- Verify whether the exact HBM continuum reduction yields `∇²g(a)`, and therefore a state-dependent/quasilinear diffusion, rather than the displayed `ℓ_h²∇²a`.
+- Check whether a linear-in-`a` stomatal conductance function can rescue the semilinear claim under any stated physiological regime; the entry does not state one.
+- Run the entry's own self-falsification search strings for prior art on load-line/bistable stomatal patchiness and apparent feedforward.
+- Probe the YAML primary failure risk: guard-cell kinetics may be oscillatory rather than bistable, relocating the correspondence to a two-component activator-inhibitor system.
+
+### Third Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Equations are rigorously derived and perfectly mapped; the adiabatic elimination of the hydraulic field yields a correct semilinear parabolic operator that structurally identically matches the SNDC device model. All derivative variables ($\Gamma$, $f_a$, $f_u$) correspond flawlessly.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All mappings correctly match compatible mathematical objects, such as equating scalar global coefficients or identical constraint derivatives evaluated on stationary branches, without dimension mismatch or category errors.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All five correspondence vectors listed in the YAML are fully and independently demonstrated mathematically with explicit step-by-step derivations in Section 3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer rationale is sound, targeting a verified analytical bottleneck in leaf physiology. The scientific hypothesis delivers highly specific, measurable, and falsifiable quantitative predictions (e.g., specific scaling exponents $n = -1.0 \pm 0.15$ and clamped intervals).
+
+#### Stage 3 Watch Items
+None identified.
+
+### Fourth Adversarial Review
+**Reviewer:** Xiaomi MiMo V2.5 Pro
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both Silo A and Silo B present genuine scalar semilinear parabolic reaction-diffusion equations with a single scalar linear integral constraint and Neumann boundary conditions; equation classes match on both sides. The adiabatic elimination derivation from the Haefner–Buckley–Mott areole network to the PDE form is carried out explicitly and correctly, yielding the claimed ℓ_h² and f_a = Γ−1. The leaf-side σ_stat = −g/(Γ−1) is verified by explicit differentiation along the f = 0 branch. The Maxwell-point equal-area condition and lever rule are derived consistently on both sides.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All seven mapping pairs are mathematically type-compatible (scalar fields ↔ scalar fields, length ↔ length, flux ↔ flux, boundary condition ↔ boundary condition). Each Operator Role names a specific shared mathematical structure (integral constraint coefficient, Neumann quantization, equal-area root, etc.) rather than relying on hedged analogy. The dimensional mismatch between R and 1/F is explicitly resolved by forming dimensionless groups ρ and β on both sides.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All five listed vectors are demonstrated with equations or derivations in Section 3: (i) constrained operator in §3 Bridge with both equation pairs displayed; (ii) dispersion relation with cutoff q_c in §3(ii) with linearized equations on both sides; (iii) homogeneous-mode load-line criterion in §3(iii) with full derivation of σ(0) on both sides and the ρ > 1 inequality; (iv) Neumann quantization and minimum domain in §3(iv) with the L > πℓ/√f_a condition on both sides; (v) Maxwell clamping and lever rule in §3(v) with the equal-area integral and fraction equation on both sides.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction (semiconductor → leaf physiology) is genuinely asymmetric: the semiconductor community has built numerical continuation, branch diagrams, and analytic selection theory for this exact constrained PDE class over three decades, while the leaf-side patchiness tradition is forward-integration only. The falsifiable predictions are specific and quantitative: (1) dD_leaf/dD₀ ≤ 0.05 vs. smooth-model baseline ≥ 0.40 (≥8× effect size); (2) plateau width scaling ΔD₀ ∝ F^n with n = −1.0 ± 0.15; (3) lever-rule fraction with R² ≥ 0.90; (4) granularity shift of ≈40% in linear dimension. Explicit falsification criteria are stated for each. No canonical textbook analogy is recognized for this specific semiconductor-to-leaf pairing, though the gas-discharge/CO-oxidation/superconductor family of constrained bistable RD systems is well-established in the nonlinear dynamics community (noted as advisory for Stage 3).
+
+#### Stage 3 Watch Items
+- Run the entry's self-falsification search strings 3 and 5 to determine whether the constrained-PDE / load-line framework has already been applied to stomatal patchiness in the published literature.
+- Verify that the named references (Schöll; Wacker & Schöll; Niedernostheide; Buckley–Mott–Farquhar; Haefner–Buckley–Mott) correspond to real publications and that the attributed models are correctly described.
+- Check whether empirical guard-cell kinetic timescales in Phaseolus vulgaris and Xanthium strumarium support the adiabatic elimination (τ_g >> hydraulic relaxation) that underpins the entire correspondence.
+- Investigate whether the "apparent feedforward" response (de/dD < 0 at fixed a) has been previously explained by an NDC/bistability mechanism in the plant physiology literature, or whether this interpretation is genuinely new to this entry.
+
+### Fifth Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2024-05-24
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — The Silo A (semiconductor) and Silo B (leaf) equations are both semilinear parabolic PDEs with a linear global integral constraint, correctly derived and mathematically isomorphic.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All paired mappings (e.g., series load resistance R ↔ inverse chamber flow 1/F, SNDC ↔ apparent feedforward de/dD < 0) are of compatible mathematical types and dimensions are properly nondimensionalized.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All five listed vectors (constrained operator, dispersion relation, load-line criterion, Neumann quantization, and Maxwell clamping) are explicitly derived and demonstrated in Section 3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction is genuinely asymmetric, leveraging advanced analytical tools from semiconductor physics to solve an analytical gap in plant gas-exchange modelling, and the falsifiable prediction provides highly specific, quantifiable thresholds.
+
+#### Stage 3 Watch Items
+- Stage 3 should verify the novelty of this specific isomorphism, as the mathematical derivation is sound but the interdisciplinary leap is highly unusual.
+- Verify whether the 'apparent feedforward' response de/dD < 0 is genuinely accepted as a bistable NDC branch in the plant physiology literature or if alternative models (e.g., Cowan two-component oscillators) are more dominant.
+
+### Sixth Adversarial Review
+**Reviewer:** OpenAI GPT-5.6 Luna
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-14
+
+#### Results by Check
+* **CHECK 1 (Equation Validity):** FAIL — The statement “On a domain of chord `L` this gives `q_min = π/L` on both sides” is not valid for a general two-dimensional domain: Neumann boundary conditions determine the Laplacian eigenvalues through the domain geometry, and the first nonzero wavenumber is not generally `π/L` for an arbitrary domain specified only by its chord.
+* **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The paired tokens are generally assigned compatible mathematical roles, and the explanations identify explicit shared quantities or operators rather than relying only on analogy language.
+* **CHECK 3 (Correspondence Vector Support):** PASS — The constrained semilinear operator, transverse dispersion relation, homogeneous load-line criterion, Neumann quantization, and Maxwell/lever-rule correspondence are each explicitly developed with equations on both sides in Section 3; the Check 1 spectral-geometry error does not erase the fact that each listed vector is substantively addressed.
+* **CHECK 4 (Transfer and Falsifiability):** FLAG — The stated semiconductor-to-plant direction is given a concrete methodological rationale, but the maturity asymmetry is asserted rather than established mathematically; additionally, the Section 4 baseline claim that a general single-valued non-folded `g(D)` necessarily gives `dD_leaf/dD₀ ≥ 0.40` is not implied by the displayed derivative formula alone.
+
+#### Stage 3 Watch Items
+* Verify the precise spectral quantization and minimum-domain criterion for the actual device and leaf geometries rather than the generic “domain of chord `L`” formulation.
+* Probe whether the bundle-sheath-extension boundary condition and the discrete hydraulic network genuinely produce the claimed scalar continuum boundary-value problem.
+* Verify the asserted semiconductor numerical-continuation toolkit and the characterization of plant patchiness modelling as “forward integration only.”
+* Test the claimed Maxwell-point clamping and lever-rule construction for the specific globally constrained leaf equations.
+* Check the Section 4 baseline derivative bound and all numerical parameter-dependent predictions independently.
+* Check the claimed interdisciplinary pairing and its exact structural scope during Stage 3 bibliometric review.
+
+### Seventh Adversarial Review
+**Reviewer:** Microsoft Copilot 1.2
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — The Silo A and Silo B governing equations are both presented as scalar semilinear parabolic PDEs with identical Neumann boundary conditions and an algebraic global integral constraint; the linearisation and dispersion relation derivations are consistent with the stated operator class.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Each mapped token pair in Section 2 is of compatible mathematical type (scalar field ↔ scalar field, integral-constraint coefficient ↔ scalar load parameter, diffusion length ↔ diffusion length, boundary enforcing object ↔ boundary enforcing object, Maxwell root ↔ Maxwell root) and the Operator Role entries specify explicit shared structures rather than hedged analogies.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All five YAML-listed vectors are demonstrated in the body with equations or derivations: (1) nonlocal_load_line_constrained_semilinear_parabolic_operator (operator + constraint displayed in §3 Silo A and Silo B), (2) transverse_dispersion_relation_with_cutoff_wavenumber_q_c (linearisation and \( \sigma(q) \) with \( q_c \) shown), (3) homogeneous_mode_load_line_criterion_rho_equals_R_Omega_sigma_stat (closed-form \( \sigma(0) \) and \( \rho \) inequality derived), (4) neumann_zero_flux_mode_quantization_setting_minimum_pattern_domain (Neumann BC → \( q_{\min}=\pi/L \) and pattern condition), (5) maxwell_point_clamping_of_global_variable_with_lever_rule_on_fraction (equal-area condition and lever rule written for both systems).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction is argued asymmetrically (semiconductor methods → plant physiology) with plausible rationale; the entry supplies concrete, measurable predictions (VPD clamping threshold, plateau width scaling with flow \(F\), lever-rule relation) that are experimentally falsifiable. Prior-art note: the entry explicitly disavows the simple sap-flow Ohm's-law analogy; Stage-3 should still check for overlap with the broader literature on globally constrained RD systems.
+
+#### Stage 3 Watch Items
+- Verify the algebraic steps that produce the leaf-side \( \sigma_{\rm stat} = -g/(\Gamma-1) \) from the definitions \( j_u=g \), \( j_a=Dg' \), and \( f_u=\Gamma g/(Dg') \) to ensure no hidden algebraic sign or division-by-zero assumptions.
+- Quantify the continuum-limit error \(O((h/L)^2)\) claimed for the areole lattice reduction and confirm parameter regimes where the PDE approximation is valid for the species and leaf sizes proposed.
+- Validate the numerical plausibility of the falsifiable prediction parameters (units and typical biological ranges for \(D_0,D_M,F,A,g_\pm\)) and whether the required effect sizes exceed experimental noise and biological variability.
+- Assess whether the Maxwell equal-area construction and lever-rule selection are robust for realistic, possibly smooth constitutive functions \(f\) and \(g\) encountered in plant physiology.
+- Check for prior-art overlap with established literature on pattern formation under global constraints (conserved quantities or load-line constraints) to determine novelty and appropriate citations.
+
+### Eighth Adversarial Review
+**Reviewer:** xAI Grok 4.5 Fast
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both sides display the identical semilinear parabolic operator τ∂ₜa = ℓ²∇²a + f(a,u) closed by a single scalar linear integral constraint with Neumann data; the Silo-B pair is obtained by adiabatic elimination of the explicit BMF + HBM system and matches term-for-term under the stated identification, with no class mismatch.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Every paired token is of compatible mathematical type (scalar field, diffusion length, Neumann boundary, Maxwell root, constrained integral flux, etc.) and the Operator Role entries name the shared structure rather than merely asserting analogy.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All five listed vectors (nonlocal constrained operator, transverse dispersion with qc, homogeneous-mode load-line criterion ρ, Neumann quantization of qmin, Maxwell clamping + lever rule) are demonstrated by explicit operator identities, linearizations and equal-area conditions on both sides in Section 3 (i)–(v).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Transfer direction is genuinely asymmetric (semiconductor community possesses the constrained-continuation and filament-selection toolkit that plant gas-exchange modelling lacks); predictions supply concrete measurable thresholds (dDleaf/dD₀ ≤ 0.05, ΔD₀ ∝ F⁻¹, lever-rule R² ≥ 0.90) together with explicit falsification criteria.
+
+#### Stage 3 Watch Items
+- Primary failure risk already recorded in YAML (oscillatory guard-cell kinetics collapsing the scalar mapping).
+- Continuum reduction of the discrete areole network and its O((h/L)²) corrections.
+- Whether chamber-flow dependence of the load-line parameter ρ has been previously treated as a bifurcation parameter in the plant-physiology literature.
+
+### Ninth Adversarial Review
+**Reviewer:** Meta Muse Spark 1.1
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-14
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both sides share τ∂_t a = ℓ^2∇^2 a + f(a,u) with u = U0 − R∫j dA and Neumann data, same semilinear parabolic class; Silo A equations from SNDC filament literature and Silo B equations from Buckley–Mott–Farquhar relation, Haefner–Buckley–Mott network, and chamber mass balance are correctly typed and support the isomorphism claim in Section 1.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All seven mappings pair compatible types (scalar fields, scalar constraint coefficients, derivatives σ_stat, lengths ℓ, boundary conditions, extensive fluxes I0/E_tot, Maxwell roots u_M/D_M) with explicit nondimensionalization β ≡ R|Ω|j_u and ρ ≡ R|Ω||σ_stat| removing dimensional mismatch.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All five listed vectors demonstrated in Section 3: (i) nonlocal_load_line_constrained_semilinear_parabolic_operator in (i), (ii) transverse_dispersion_relation_with_cutoff_wavenumber_q_c as σ = (f_a−ℓ^2 q^2)/τ and q_c = √(f_a)/ℓ in (ii), (iii) homogeneous_mode_load_line_criterion as σ(0)=f_a[1+R|Ω|σ_stat]/τ[1+R|Ω|j_u] and ρ>1 in (iii), (iv) neumann_zero_flux_mode_quantization as q_min=π/L and L>πℓ/√f_a in (iv), (v) maxwell_point_clamping as ∫f da=0 with lever rule φj_++(1−φ)j_- = I0/|Ω| in (v).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Transfer direction semiconductor SNDC → leaf gas-exchange is asymmetric with mature continuation toolkit (AUTO/pde2path, filament selection theory) vs forward-only Haefner–Buckley–Mott integration; falsifiability satisfied by quantitative thresholds dD_leaf/dD0 ≤0.05 vs baseline ≥0.40, ΔD0 ∝ F^n with n=−1.0±0.15, lever-rule R^2≥0.90 and slope within 15%, and explicit falsification conditions; no canonical textbook prior-art pairing recognized as advisory.
+
+#### Stage 3 Watch Items
+- Verify continuum limit derivation yielding ℓ_h^2 = c_z (k_c/k_l) Γ h^2 vs ℓ_0^2 = c_z (k_c/k_l) h^2 — factor Γ does not change operator class but check algebra for Stage 3.
+- Confirm empirical justification for Neumann condition n̂·∇a|_∂Ω=0 at heterobaric bundle-sheath extensions from k_c|_BSE=0.
+- Probe primary failure risk: guard-cell kinetics may be oscillatory rather than bistable, collapsing scalar SNDC mapping to two-component activator–inhibitor breathing-filament system — check recent guard-cell literature.
