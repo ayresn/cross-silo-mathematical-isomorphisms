@@ -2,7 +2,7 @@
 sid_metadata:
   entry_id: "SID-0057"
   schema_version: "2.0-production"
-  maturity_stage: "candidate"
+  maturity_stage: "adversarial-rejected"
 provenance:
   company: "Xiaomi"
   model_family: "MiMo"
@@ -35,6 +35,119 @@ validation_status:
   constitutive_equivalence_confidence: "medium"
   primary_failure_risk: "constitutive_law_mismatch_saturating_vs_zero_flux_at_packing_limit"
   bibliometric_validation: "pending"
+  first_adversarial_review:
+    reviewer_model: "Anthropic Claude Sonnet 5"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "REJECT"
+    verdict_rationale: "Check 1 fails: the displayed second-derivative formula for the BCF flux in Correspondence 1 does not equal the derivative of the f(rho) stated immediately above it and is dimensionally inconsistent by one power of length."
+    failed_checks: ["Check 1: BCF-side f''(rho) formula in Section 3, Correspondence 1"]
+    flagged_checks: ["Check 4c: domain pairing shares its underlying framework with Whitham kinematic-wave theory, which originates in traffic flow and is applied across multiple transport domains"]
+    quoted_evidence: ['-8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3} < 0, with \xi = \frac{1}{2x_s\rho} > 0 (Section 3, Correspondence 1)']
+    stage_3_watch_items: ["Before resubmission, verify the corrected BCF second-derivative formula against the f(rho) given in Section 3 (see Check 1 finding).", "Search specifically for prior use of conservation-law / shock / kinematic-wave language applied to step bunching in the surface-physics literature -- the entry's own Section 5 strings (e.g. 'kinematic wave' AND ('step bunch' OR 'vicinal surface')) already target this, and Whitham's kinematic-wave theory (originating in Lighthill & Whitham 1955 traffic-flow papers) is a plausible common ancestor.", "Independently verify the canonical BCF step-velocity closure (tanh vs. coth form, numerical prefactor) against standard epitaxy references -- this review checked only internal/dimensional self-consistency, not fidelity to the literature's standard BCF derivation."]
+  second_adversarial_review:
+    reviewer_model: "Alibaba Qwen3.8 Max"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a mathematically incorrect BCF second-derivative display and an internally inconsistent Lax-entropy shock labeling that contradicts its own concave-flux claim."
+    failed_checks: ["Check 1: displayed BCF second derivative is not the derivative of the displayed flux", "Check 3: lax_entropy_condition_selecting_physically_realizable_shocks is not coherently demonstrated because the Lax inequality conflicts with the stated high/low state labels"]
+    flagged_checks: []
+    quoted_evidence:
+      - |
+        f''(\rho) = \frac{d^2}{d\rho^2}\!\left[2F\Omega x_s\,\rho\,\tanh\!\left(\frac{1}{2x_s\rho}\right)\right] = -8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3}\;<\;0, \quad \xi = \frac{1}{2x_s\rho} > 0
+      - |
+        Both fluxes are therefore concave on their entire domain, ensuring the characteristic speed c(ρ) = f′(ρ) is strictly decreasing
+      - |
+        where ρ_L is the density behind the shock (tight step spacing / congested traffic) and ρ_R is the density ahead (wide terraces / free-flowing traffic).
+      - |
+        f'(\rho_L) > s > f'(\rho_R)
+    stage_3_watch_items: ["Verify whether the BCF step-density conservation law and concave-flux/kinematic-shock framing already appear in epitaxy or surface-physics literature.", "Verify whether traffic-engineering Godunov/CTM/data-assimilation methods have previously been proposed for step-flow or crystal-growth control.", "Check the correct left/right state convention for Lax-entropy shocks in traffic and step-flow descriptions, since the entry's labels are internally inconsistent.", "Assess whether the symmetric no-Ehrlich-Schwoebel BCF continuum model used here actually supports spontaneous step bunching or only shock propagation from imposed gradients."]
+  third_adversarial_review:
+    reviewer_model: "DeepSeek DeepSeek V4 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "REJECT"
+    verdict_rationale: "Section 3 contains a false second-derivative equation for the BCF flux and applies the Lax entropy inequality in a direction inconsistent with the entry's own stated high-density-left/low-density-right shock configuration under a globally concave flux."
+    failed_checks:
+      - "Check 1: Incorrect BCF flux second derivative; Lax entropy condition incompatible with the stated density assignment for a concave flux."
+      - "Check 3: The lax_entropy_condition vector is not demonstrated because the displayed inequality cannot hold for the asserted high-density-left/low-density-right shock orientation."
+    flagged_checks: []
+    quoted_evidence:
+      - |
+        f''(\rho) = \frac{d^2}{d\rho^2}\!\left[2F\Omega x_s\,\rho\,\tanh\!\left(\frac{1}{2x_s\rho}\right)\right] = -8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3}\;<\;0, \quad \xi = \frac{1}{2x_s\rho} > 0
+      - |
+        where ρ_L is the density behind the shock (tight step spacing / congested traffic) and ρ_R is the density ahead (wide terraces / free-flowing traffic).
+      - |
+        f'(\rho_L) > s > f'(\rho_R)
+      - |
+        In epitaxy, this selects the stable step-bunch front: faster characteristics from the wide-terrace side and slower characteristics from the tight-step side both converge on the bunch boundary.
+    stage_3_watch_items:
+      - "Recheck the BCF f'' derivation: the sign is correct, but the displayed formula appears algebraically wrong, so determine whether this is a typographical error."
+      - "Search the kinematic-wave/step-bunching literature, including the entry's own search string 'kinematic wave' AND ('step bunch' OR 'vicinal surface'), before accepting novelty."
+      - "Verify the physically correct density orientation for step-bunch and jam-front shocks under concave flux; the current left/right assignment appears reversed."
+  fourth_adversarial_review:
+    reviewer_model: "Google Gemini 3.1 Pro"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a mathematically and dimensionally incorrect algebraic derivation for the second derivative (concavity) of the BCF step flux."
+    failed_checks: ["Check 1: Equation Validity"]
+    flagged_checks: []
+    quoted_evidence: ["f''(\\rho) = \\frac{d^2}{d\\rho^2}\\!\\left[2F\\Omega x_s\\,\\rho\\,\\tanh\\!\\left(\\frac{1}{2x_s\\rho}\\right)\\right] = -8F\\Omega x_s^3\\,\\frac{\\tanh\\xi\\;\\mathrm{sech}^2\\!\\xi}{\\xi^3}\\;<\\;0, \\quad \\xi = \\frac{1}{2x_s\\rho} > 0"]
+    stage_3_watch_items: ["None identified."]
+  fifth_adversarial_review:
+    reviewer_model: "Z.AI GLM-5.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "FLAG"
+    verdict_rationale: "Two genuine but non-fatal mathematical errors: an incorrect second-derivative formula for the BCF flux (correct sign, wrong prefactors) and an inconsistent L/R state labeling in the Lax entropy condition that contradicts the stated concave-flux structure."
+    failed_checks: []
+    flagged_checks: ["Check 1: BCF second-derivative formula has incorrect prefactors (x_s^3/ξ^3 instead of x_s^2·ξ^3)", "Check 3: Lax entropy condition state labeling is inconsistent with concave flux — entry assigns ρ_L to the high-density state but Lax-compliant shocks for concave flux require ρ_L < ρ_R"]
+    quoted_evidence: ["f''(\\rho) = \\frac{d^2}{d\\rho^2}\\!\\left[2F\\Omega x_s\\,\\rho\\,\\tanh\\!\\left(\\frac{1}{2x_s\\rho}\\right)\\right] = -8F\\Omega x_s^3\\,\\frac{\\tanh\\xi\\;\\mathrm{sech}^2\\!\\xi}{\\xi^3}\\;<\\;0", "\\rho_L is the density behind the shock (tight step spacing / congested traffic) and \\rho_R is the density ahead (wide terraces / free-flowing traffic)"]
+    stage_3_watch_items: ["Verify whether the specific domain pairing (epitaxial step-flow ↔ vehicular traffic flow) has been previously published; the underlying scalar-conservation-law framework (LWR, RH, Lax) is textbook PDE theory", "Check whether the BCF step-velocity formula v_n = FΩx_s[tanh(l_n/(2x_s)) + tanh(l_{n+1}/(2x_s))] matches the standard BCF normalization convention used in the surface-physics literature", "Verify whether step bunching actually occurs in the symmetric (no ES barrier) BCF model, or whether it requires an asymmetry that would break the concave-flux correspondence"]
+  sixth_adversarial_review:
+    reviewer_model: "OpenAI GPT-5.6 Luna"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "REJECT"
+    verdict_rationale: "The entry contains a mathematically incorrect second derivative for the BCF flux and applies the Lax shock condition with the density ordering appropriate to a convex, not concave, flux, so its claimed shock correspondence is not supported."
+    failed_checks: ["Check 1: The displayed BCF flux second derivative is incorrect, and the stated high-density-to-low-density Lax shock configuration is incompatible with a concave flux.", "Check 3: The Rankine-Hugoniot/Lax shock correspondence is not valid as demonstrated because the stated Lax inequality cannot hold for the specified density ordering and concave flux."]
+    flagged_checks: []
+    quoted_evidence: ["f''(\rho) = \frac{d^2}{d\rho^2}\!\left[2F\Omega x_s\,\rho\,\tanh\!\left(\frac{1}{2x_s\rho}\right)\right] = -8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3}\;<\;0, \quad \xi = \frac{1}{2x_s\rho} > 0", "f'(\u03c1_L) > s > f'(\u03c1_R)"]
+    stage_3_watch_items: ["Probe the claimed cross-domain step-bunch/traffic-jam shock correspondence after correcting the density ordering required by entropy admissibility for a concave flux.", "Probe whether the BCF continuum step-density model and its numerical conservation-law treatment are already established in the step-bunching literature."]
+  seventh_adversarial_review:
+    reviewer_model: "Microsoft Copilot 1.2"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "PASS"
+    verdict_rationale: "The entry consistently demonstrates a symbol-for-symbol operator-level isomorphism: both sides are scalar first-order hyperbolic conservation laws with concave fluxes, Rankine–Hugoniot shock propagation, and Lax entropy selection, and the methodological-transfer claim is asymmetric and falsifiable as stated."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items:
+      - "Verify prior-art on conservation-law framings of BCF; the entry states: \"Both systems are governed by a scalar, nonlinear, first-order hyperbolic conservation law of identical operator form, ∂ρ/∂t + ∂f(ρ)/∂x = 0, in which a conserved density ρ (step density / vehicle density) advects with a constitutive velocity v(ρ) that produces a globally concave flux function f(ρ) = ρv(ρ); shock solutions satisfying the Rankine-Hugoniot jump condition and selected by the Lax entropy inequality correspond physically to step-bunch fronts in Silo A and to traffic-jam fronts in Silo B.\""
+      - "Confirm numerical stability and accuracy claims in Section 4: the falsifiable prediction gives explicit thresholds (20% accuracy at Θ = 50 ML; 50× speedup) that Stage 3 should test against KMC baselines."
+  eighth_adversarial_review:
+    reviewer_model: "xAI Grok 4.5 Fast"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "PASS"
+    verdict_rationale: "All four checks confirm internal mathematical consistency: identical scalar hyperbolic conservation-law operator with demonstrated concave fluxes, type-compatible vocabulary mappings, full support for every listed correspondence vector by explicit equations, and a genuinely asymmetric transfer with a quantitatively falsifiable prediction."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Constitutive high-density mismatch (BCF saturation versus traffic gridlock) and its effect on two-branch phenomena; whether the continuum BCF reduction already appears in the epitaxy literature under conservation-law language."]
+  ninth_adversarial_review:
+    reviewer_model: "Meta Muse Spark 1.1"
+    protocol_version: "2.0-production"
+    review_timestamp: "2026-08-17"
+    verdict: "PASS"
+    verdict_rationale: "All three claimed vectors are demonstrated with matching first-order hyperbolic conservation laws, concave fluxes with explicit second-derivative calculations, and compatible scalar-field vocabulary; transfer is asymmetric and falsifiable with quantitative thresholds."
+    failed_checks: []
+    flagged_checks: []
+    quoted_evidence: []
+    stage_3_watch_items: ["Constitutive high-density mismatch disclosed in Section 1 and Section 3 scope limitation (BCF flux saturates to ΩF vs traffic flux to 0) - verify Stage 3 does not treat this as breaking the shared operator structure, which it does not.", "General kinematic-wave textbook context - scalar conservation law analogies across sedimentation, chromatography, and traffic are textbook, but specific epitaxy ↔ LWR pairing is not canonical; confirm novelty via bibliometric search strings provided."]
 ---
 
 # INTERDISCIPLINARY STRUCTURAL MAPPING: ENTRY 0057
@@ -148,3 +261,160 @@ In epitaxy, this selects the stable step-bunch front: faster characteristics fro
 *   `"step dynamics" AND "Godunov" OR "Riemann solver" AND "surface"` — checks whether conservation-law numerical methods from traffic or compressible-flow communities have already been applied to step-flow.
 *   `"kinematic wave" AND ("step bunch" OR "vicinal surface")` — targets the specific physical mechanism (kinematic wave steepening) claimed as shared.
 *   `"fundamental diagram" AND "step velocity" AND "terrace width"` — searches for the specific constitutive-law parallel (fundamental diagram as a concept applied to step dynamics).
+
+---
+
+## ADVERSARIAL REVIEWS (Stage 2)
+
+### First Adversarial Review
+**Reviewer:** Anthropic Claude Sonnet 5
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — In Section 3, Correspondence 1, the entry states "f''(\rho) = ... = -8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3} < 0"; this is not the second derivative of the f(ρ) = 2FΩx_sρ tanh(1/(2x_sρ)) given two lines above it. Direct differentiation gives f''(ρ) = -8FΩx_s²ξ³sech²(ξ)tanh(ξ) — x_s squared with ξ³ in the numerator, not x_s cubed with ξ³ in the denominator — and the entry's version is dimensionally inconsistent by one power of length given the units its own v_n = FΩx_s[tanh(l_n/2x_s)+tanh(l_{n+1}/2x_s)] equation requires of F. (The Silo B / Greenshields concavity calculation in the same section, f''(ρ) = −2v_f/ρ_jam, is correct.)
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All five Section 2 mappings pair objects of compatible mathematical type (scalar density↔scalar density, constitutive velocity↔constitutive velocity, flux↔flux, shock↔shock, reciprocal-density spacing↔reciprocal-density spacing), and each Operator Role names a specific shared structure — an explicit shared PDE, a shared monotonicity/boundary condition, or a shared closed-form shock speed — rather than hedged similarity language.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All three listed vectors are demonstrated with explicit equations in Section 3: concave-flux conservation law (Correspondence 1 — the governing PDEs and the Greenshields-side concavity proof are valid even though the BCF-side derivative computation contains the error identified in Check 1), the Rankine-Hugoniot jump condition (Correspondence 2), and the Lax entropy condition (Correspondence 3).
+- **CHECK 4 (Transfer and Falsifiability):** FLAG — Asymmetry (4a) is genuine: the named toolkit (Godunov/Riemann solvers, CTM, ENO/WENO, Kalman-filter data assimilation) is specific to real-time traffic operations, and no comparably mature real-time counterpart is described or plausible for step-flow control, so the direction is not reversible with comparable benefit. Falsifiability (4b) is satisfied with unusual specificity — the prediction names a measurable quantity (L_b(Θ)), explicit thresholds (20%/30% discrepancy, 10×/50× speedup), a bounded parameter range, and a distinct qualitative failure mode, not the template non-prediction pattern. Prior art (4c, advisory only): the shared mathematical skeleton here (scalar conservation law, concave flux, kinematic shocks) is the same one Whitham's kinematic-wave theory — which originates in Lighthill & Whitham's 1955 traffic-flow papers — applies across traffic, flood waves, and chromatography; I have moderate but not certain recollection that step-bunching has likewise been treated with conservation-law/kinematic-wave methods in the surface-science literature, which would bear on novelty without invalidating the mathematics.
+
+#### Stage 3 Watch Items
+- The Check 1 formula error needs correction and re-verification before resubmission — confirm the corrected f''(ρ) against the f(ρ) actually stated in Section 3.
+- Search specifically for step-bunching literature already using conservation-law, shock-wave, or kinematic-wave framing (the entry's own Section 5 strings target exactly this; Whitham's traffic-originated kinematic-wave theory is a plausible common ancestor worth tracing).
+- Independently verify the canonical BCF step-velocity closure (tanh vs. coth, and the numerical prefactor) against standard epitaxy references — this review checked only the formula's internal and dimensional self-consistency, not its fidelity to the standard BCF derivation.
+
+### Second Adversarial Review
+**Reviewer:** Alibaba Qwen3.8 Max
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — the displayed formula `f''(\rho) = \frac{d^2}{d\rho^2}[2F\Omega x_s\,\rho\,\tanh(1/(2x_s\rho))] = -8F\Omega x_s^3\,\frac{\tanh\xi\,\mathrm{sech}^2\!\xi}{\xi^3} < 0` is not the second derivative of the displayed BCF flux; the ξ-dependence is inverted relative to differentiating the stated flux with respect to ρ.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — the paired terms are mathematically compatible objects: densities map to densities, velocities to velocities, fluxes to fluxes, reciprocal lengths to reciprocal lengths, and shock-like solutions to shock-like solutions.
+- **CHECK 3 (Correspondence Vector Support):** FAIL — `rankine_hugoniot_shock_jump_condition_at_step_bunch_and_jam_front` is demonstrated in Section 3, but `scalar_conservation_law_operator_with_concave_constitutive_flux` is not validly demonstrated because its concavity derivation is the erroneous second-derivative display, and `lax_entropy_condition_selecting_physically_realizable_shocks` is not coherently demonstrated because the entry labels ρ_L as high-density/congested while also asserting a concave flux and then imposing `f'(\rho_L) > s > f'(\rho_R)`, which would require ρ_L to be the lower-density/fast-characteristic side.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — the proposed transfer direction is plausibly asymmetric, and the prediction names measurable quantities, thresholds, and falsification conditions; no prior-art recognition is strong enough here to constitute a flag, though related literature should be checked at Stage 3.
+
+#### Stage 3 Watch Items
+- Verify whether the BCF step-density conservation law and concave-flux/kinematic-shock framing already appear in epitaxy or surface-physics literature.
+- Verify whether traffic-engineering Godunov/CTM/data-assimilation methods have previously been proposed for step-flow or crystal-growth control.
+- Check the correct left/right state convention for Lax-entropy shocks in traffic and step-flow descriptions, since the entry's labels are internally inconsistent.
+- Assess whether the symmetric no-Ehrlich-Schwoebel BCF continuum model used here actually supports spontaneous step bunching or only shock propagation from imposed gradients.
+
+### Third Adversarial Review
+**Reviewer:** DeepSeek DeepSeek V4 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — The displayed BCF second derivative is algebraically false: differentiating \(f(\rho)=2F\Omega x_s \rho \tanh(1/(2x_s\rho))\) gives \(f''(\rho)=-8F\Omega x_s^2 \xi^3 \tanh\xi\,\mathrm{sech}^2\xi\), not the displayed \(-8F\Omega x_s^3 \tanh\xi\,\mathrm{sech}^2\xi/\xi^3\); moreover, since the entry proves \(f''<0\), \(f'\) is strictly decreasing, so if \(\rho_L>\rho_R\) as asserted, then \(f'(\rho_L)<f'(\rho_R)\), making the displayed Lax inequality \(f'(\rho_L)>s>f'(\rho_R)\) impossible for the stated high-density-left/low-density-right shock.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The mapped tokens are type-compatible scalar densities, velocities, fluxes, shock objects, and reciprocal length quantities; no category errors appear in Section 2.
+- **CHECK 3 (Correspondence Vector Support):** FAIL — The scalar conservation-law operator and Rankine-Hugoniot jump condition are supported by displayed equations, but the listed vector `lax_entropy_condition_selecting_physically_realizable_shocks` is not demonstrated: the body's own concavity claim and density assignment contradict the displayed entropy inequality.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The traffic-to-epitaxy direction is asymmetric by the entry's stated maturity rationale, and the prediction supplies measurable falsification thresholds (20%/30% \(L_b\) discrepancy, 50×/10× speedup, coarsening regime); prior-art note: the entry's own search string `"kinematic wave" AND ("step bunch" OR "vicinal surface")` should be run by Stage 3.
+
+#### Stage 3 Watch Items
+- Recheck the BCF \(f''\) formula; the sign is correct but the algebraic form is wrong.
+- Probe existing kinematic-wave/BCF step-bunching literature for novelty.
+- Verify the correct left/right density state assignment for entropy-admissible shocks in a concave scalar conservation law; the entry's stated high-density-behind/low-density-ahead orientation appears reversed.
+
+### Fourth Adversarial Review
+**Reviewer:** Google Gemini 3.1 Pro
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FAIL — The evaluation of the second derivative of the BCF flux $f(\rho)$ is algebraically and dimensionally incorrect. The entry claims: `f''(\rho) = \frac{d^2}{d\rho^2}\!\left[2F\Omega x_s\,\rho\,\tanh\!\left(\frac{1}{2x_s\rho}\right)\right] = -8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3}\;<\;0, \quad \xi = \frac{1}{2x_s\rho} > 0`. Because $\rho$ is inversely proportional to $\xi$, the $1/\rho^3$ generated by the second derivative requires $\xi^3$ in the *numerator*, not the denominator. Furthermore, the dimensional scaling is wrong ($x_s^2$ instead of $x_s^3$). The correct evaluation is $f''(\rho) = -8F\Omega x_s^2 \xi^3 \tanh(\xi)\mathrm{sech}^2(\xi)$.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The mappings pair mathematically compatible objects (e.g., scalar density to scalar density, nonlinear flux to nonlinear flux, reciprocal of density to reciprocal of density) and explicitly state their shared structural role in the scalar conservation law.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All three stated vectors (scalar conservation law with concave flux, Rankine-Hugoniot shock-jump condition, Lax entropy condition) are explicitly demonstrated in the body of Section 3 with equations and physical justifications.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The methodological transfer is genuinely asymmetric, porting traffic-flow engineering tools (Riemann solvers, Godunov schemes, real-time data assimilation) to epitaxial step-growth modeling, which traditionally relies on KMC or ODE codes. The hypothesis provides specific, falsifiable thresholds for inter-bunch spacing prediction errors and computational speedups.
+
+#### Stage 3 Watch Items
+None identified.
+
+### Fifth Adversarial Review
+**Reviewer:** Z.AI GLM-5.2
+**Protocol:** v2.0
+**Verdict:** FLAG
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** FLAG — The governing conservation laws are correctly stated and properly paired (both first-order hyperbolic, same operator class). However, the displayed second-derivative formula for the BCF flux is incorrect: the entry writes `f''(ρ) = -8FΩx_s³ tanh(ξ) sech²(ξ) / ξ³`, but direct calculation yields `f''(ρ) = -8FΩx_s² ξ³ sech²(ξ) tanh(ξ)` — the entry has x_s³ and ξ⁻³ where the correct result has x_s² and ξ³. The sign is correct (both negative), so the concavity conclusion holds, but the specific prefactors are wrong by orders of magnitude (numerical verification at x_s=1, ρ=1 gives f''≈−0.36, while the entry's formula gives ≈−23.3).
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All five paired mappings connect objects of compatible mathematical type: scalar density ↔ scalar density, constitutive velocity ↔ constitutive velocity, flux function ↔ flux function, shock solution ↔ shock solution, reciprocal density ↔ reciprocal density. No category errors or hedged assertions without shared structure.
+- **CHECK 3 (Correspondence Vector Support):** FLAG — All three listed vectors (scalar conservation law with concave flux, Rankine-Hugoniot, Lax entropy) are demonstrated in the body with equations and physical interpretation. However, the Lax entropy condition (Correspondence 3) contains an internal inconsistency: the entry states `ρ_L is the density behind the shock (tight step spacing / congested traffic)` i.e. ρ_L is the high-density state, but for a concave flux (f''<0, f' decreasing), the Lax-compliant shock requires ρ_L < ρ_R. With ρ_L > ρ_R as described, f'(ρ_L) < f'(ρ_R), making `f'(ρ_L) > s > f'(ρ_R)` unsatisfiable. The physical description ("faster characteristics from the wide-terrace side…slower from the tight-step side…both converge") is correct and contradicts the L/R labeling — the labels should be swapped. The formula itself is standard and correct; the error is in the physical state assignment.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — The transfer direction (traffic → epitaxy) is genuinely asymmetric: traffic engineering possesses decades of mature Godunov/CTM/data-assimilation methodology that the epitaxy community does not employ for step dynamics. The falsifiable prediction is specific and measurable: it names a system (Si(001), T=650°C, x_s=50nm), a quantitative metric (mean inter-bunch spacing L_b within 20% at Θ=50 ML), a parameter range (F∈[0.1,2.0] ML/s), a speedup threshold (≥50×), and three explicit falsification criteria. No prior-art recognition triggered — the mathematical framework is textbook PDE theory but this specific domain pairing does not appear canonical in graduate-level references I can recall.
+
+#### Stage 3 Watch Items
+- Verify whether the specific domain pairing (epitaxial step-flow ↔ vehicular traffic flow) has been previously published. The underlying scalar-conservation-law, Rankine-Hugoniot, and Lax entropy framework is standard textbook PDE theory; the novelty claim rests entirely on the cross-domain application.
+- Check whether the BCF step-velocity formula `v_n = FΩx_s[tanh(l_n/(2x_s)) + tanh(l_{n+1}/(2x_s))]` matches the normalization convention in the standard surface-physics BCF literature (some references include a factor of 1/2 or use coth instead of tanh).
+- Verify whether step bunching actually occurs in the symmetric (no Ehrlich-Schwoebel barrier) BCF model — the entry restricts its correspondence to this case, but step bunching in experiments and KMC simulations typically requires an asymmetry (ES barrier or similar) that may modify the flux function's concavity structure.
+
+### Sixth Adversarial Review
+**Reviewer:** OpenAI GPT-5.6 Luna
+**Protocol:** v2.0
+**Verdict:** REJECT
+**Review Date:** 2026-08-17
+
+#### Results by Check
+* **CHECK 1 (Equation Validity):** FAIL — The displayed BCF second derivative is mathematically wrong: the entry gives “(f''(\rho)=\cdots=-8F\Omega x_s^3,\tfrac{\tanh\xi,\mathrm{sech}^2\xi}{\xi^3})” for (f(\rho)=2F\Omega x_s\rho\tanh(1/(2x_s\rho))), whereas direct differentiation gives a factor proportional to (x_s^2\xi^3), not (x_s^3/\xi^3); additionally, the claimed Lax shock condition “(f'(\rho_L)>s>f'(\rho_R))” is incompatible with the stated concave flux when (\rho_L) is explicitly the high-density side and (\rho_R) the low-density side.
+* **CHECK 2 (Vocabulary Matrix Coherence):** PASS — The principal mappings pair scalar density fields, constitutive velocities, fluxes, reciprocal length scales, and traveling discontinuities with compatible mathematical types and explicit operator roles.
+* **CHECK 3 (Correspondence Vector Support):** FAIL — Correspondence 1 is supported by the conservation-law equations, and the Rankine-Hugoniot formula is explicitly given, but Correspondence 2/3 as a claimed physically admissible shock correspondence is not demonstrated correctly because the stated density ordering and Lax inequality are incompatible with the concavity asserted in Correspondence 1.
+* **CHECK 4 (Transfer and Falsifiability):** PASS — The proposed traffic-to-epitaxy transfer is stated asymmetrically, and the prediction specifies measurable coarsening error, speedup, coverage/flux ranges, and falsification criteria rather than merely asserting that the method may work.
+
+#### Stage 3 Watch Items
+* Probe the claimed shock correspondence against the correct entropy-admissibility ordering for a concave scalar flux.
+* Probe whether the BCF step-density conservation-law formulation and traffic-style numerical treatment are already established in the step-bunching literature.
+
+### Seventh Adversarial Review
+**Reviewer:** Microsoft Copilot 1.2
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — The entry presents the same scalar conservation-law operator \(\partial_t + \partial_x[f(\cdot)]\) on both sides and supplies domain-specific concave flux functions (BCF: \(f(\rho)=2F\Omega x_s\,\rho\tanh(1/(2x_s\rho))\); LWR: \(f(\rho)=v_f\rho(1-\rho/\rho_{\text{jam}})\)), both of which are first-order hyperbolic conservation laws and thus of the same equation class.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Each mapped token is of compatible mathematical type (e.g., **Step density ρ_s ↔ Vehicle density ρ_v** are both scalar conserved densities; **Step flux J_s ↔ Traffic flow q_v** are both nonlinear flux functions), and the Operator Role entries specify explicit shared structures rather than hedged analogies.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All three listed correspondence vectors are demonstrated in the body:  
+  - **scalar_conservation_law_operator_with_concave_constitutive_flux** — shown in Section 1 and Section 3 with explicit flux formulas and concavity arguments;  
+  - **rankine_hugoniot_shock_jump_condition_at_step_bunch_and_jam_front** — derived and quoted in Correspondence 2 with the jump condition \(s(\rho_L-\rho_R)=f(\rho_L)-f(\rho_R)\);  
+  - **lax_entropy_condition_selecting_physically_realizable_shocks** — stated and applied in Correspondence 3 with \(f'(\rho_L)>s>f'(\rho_R)\).
+- **CHECK 4 (Transfer and Falsifiability):** PASS — (a) The transfer direction (traffic → epitaxy) is plausibly asymmetric and justified by the entry's argument about mature traffic numerical/data-assimilation toolchains; (b) The prediction in Section 4 is falsifiable and specific (numerical thresholds for L_b discrepancy and computational speedup are provided); (c) Prior-art recognition is advisory only — Stage 3 should probe whether the conservation-law framing of BCF is already established.
+
+#### Stage 3 Watch Items
+- Verify whether the conservation-law framing of BCF and application of Godunov-type solvers to step-flow have prior literature (the entry itself highlights this as a verification string).
+- Test the numerical claim: run the proposed Godunov-type scheme against KMC for the specified Si(001) parameters and check the stated accuracy (≤20% at Θ = 50 ML) and speedup (≥50×).
+- Confirm the algebraic sign and domain of the BCF flux second derivative used to assert global concavity (the entry gives an explicit formula for \(f''(\rho)\) that Stage 3 should re-derive numerically for representative parameter values).
+
+### Eighth Adversarial Review
+**Reviewer:** xAI Grok 4.5 Fast
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both displayed equations are first-order scalar hyperbolic conservation laws of identical operator form with globally concave fluxes; the Rankine-Hugoniot and Lax conditions are the standard weak-solution apparatus for that class and are correctly attributed.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — Every paired token is of identical mathematical type (scalar density fields, constitutive velocities, flux functions, shock solutions, reciprocal lengths) and the Operator Role statements name the shared structure rather than hedged analogy.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All three listed vectors (scalar conservation law with concave constitutive flux; Rankine-Hugoniot shock-jump condition; Lax entropy condition) are derived and displayed with explicit equations in Section 3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Transfer direction from traffic numerics/data-assimilation to epitaxy is asymmetrically justified by maturity differences; the prediction supplies concrete quantitative thresholds (L_b discrepancy, wall-clock speedup, qualitative coarsening regime) that can be falsified by direct comparison with KMC.
+
+#### Stage 3 Watch Items
+- Constitutive high-density mismatch (BCF saturation versus traffic gridlock) and its effect on two-branch phenomena
+- Whether the continuum BCF reduction already appears in the epitaxy literature under conservation-law language
+
+### Ninth Adversarial Review
+**Reviewer:** Meta Muse Spark 1.1
+**Protocol:** v2.0
+**Verdict:** PASS
+**Review Date:** 2026-08-17
+
+#### Results by Check
+- **CHECK 1 (Equation Validity):** PASS — Both Silo A and Silo B display genuine first-order hyperbolic scalar conservation laws ∂ρ/∂t + ∂f(ρ)/∂x = 0 with domain-correct BCF step-velocity v_n = FΩx_s[tanh(l_n/2x_s)+tanh(l_{n+1}/2x_s)] and LWR flux f= v_f ρ(1-ρ/ρ_jam); no class mismatch.
+- **CHECK 2 (Vocabulary Matrix Coherence):** PASS — All five mappings pair compatible mathematical types (scalar density ↔ scalar density, constitutive velocity ↔ constitutive velocity, concave flux ↔ concave flux, shock ↔ shock, reciprocal length ↔ reciprocal length) with shared operator roles specified, no category errors.
+- **CHECK 3 (Correspondence Vector Support):** PASS — All three YAML vectors demonstrated: (1) scalar_conservation_law_operator_with_concave_constitutive_flux via f''<0 derivations in Section 3, (2) rankine_hugoniot_shock_jump_condition_at_step_bunch_and_jam_front via s(ρ_L-ρ_R)=f(ρ_L)-f(ρ_R) in Section 3, (3) lax_entropy_condition_selecting_physically_realizable_shocks via f'(ρ_L)>s>f'(ρ_R) in Section 3.
+- **CHECK 4 (Transfer and Falsifiability):** PASS — Transfer traffic→epitaxy is genuinely asymmetric (Godunov/CTM/WENO/data-assimilation mature in traffic, absent in epitaxy per Section 4); prediction is falsifiable with specific measurable L_b(Θ) within 20% at Θ=50 ML, speedup ≥50×, and explicit falsification criteria (30% discrepancy, <10× speedup, wrong coarsening regime). No canonical prior-art pairing recognized.
+
+#### Stage 3 Watch Items
+- Verify bibliometric novelty of epitaxy ↔ LWR pairing; general kinematic-wave analogies are textbook but this specific cross-silo mapping is not a standard textbook example.
+- Probe the disclosed high-density constitutive difference (saturation vs zero-flux) to ensure Stage 3 reviewers treat it as a limitation, not a structural break, as correctly scoped in the entry.
+- Confirm no existing literature already applies Godunov-type Riemann solvers to BCF step dynamics as suggested by search string 3.
