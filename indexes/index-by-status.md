@@ -10,193 +10,193 @@ Entries grouped by where they sit in the three-stage pipeline. Rejected entries 
 
 ---
 
-## `Stage 2 / flagged` — 19 entries
+## `Stage 2 / flagged` — 24 entries
 
 Advanced to Stage 3 with reviewer watch items.
 
-* **[SID-045](../mappings-alibaba-qwen/qwen3.8_entry-045.md)** — Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-  * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
+* **[SID-0024](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0024.md)** — Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+  * *Domains:* Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+  * *Model:* OpenAI GPT 5.6 Luna
+* **[SID-0031](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0031.md)** — Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
+  * *Domains:* Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
   * *Model:* Alibaba Qwen 3.8 Max
-* **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-027](../mappings-deepseek-deepseek/deepseek_entry-027.md)** — Phase Field Dendrite Growth & Biofilm Pattern Formation
-  * *Domains:* Phase Field Dendrite Growth & Biofilm Pattern Formation
-  * *Model:* DeepSeek DeepSeek V4 Pro
-* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * *Model:* Z.AI GLM 5.2
-* **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-  * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
+* **[SID-0035](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0035.md)** — Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+  * *Domains:* Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+  * *Model:* Alibaba Qwen 3.8 Max
+* **[SID-0023](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0023.md)** — Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+  * *Domains:* Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+  * *Model:* OpenAI GPT 5.6 Luna
+* **[SID-0032](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0032.md)** — Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
+  * *Domains:* Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
+  * *Model:* Alibaba Qwen 3.8 Max
+* **[SID-0048](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0048.md)** — Rate And State Fault Friction & Short Term Synaptic Plasticity
+  * *Domains:* Rate And State Fault Friction & Short Term Synaptic Plasticity
   * *Model:* Anthropic Claude Sonnet 5
-* **[SID-041](../mappings-alibaba-qwen/qwen3.8_entry-041.md)** — Computational Elastoplasticity & Network Traffic Equilibrium
-  * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
-  * *Model:* Alibaba Qwen 3.8 Max
-* **[SID-044](../mappings-alibaba-qwen/qwen3.8_entry-044.md)** — Nuclear Criticality Transport & Spatial Invasion Ecology
-  * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
-  * *Model:* Alibaba Qwen 3.8 Max
-* **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-006](../mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — Nonlinear Fiber Optics & Computational Neuroscience
-  * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
+* **[SID-0018](../mappings-xai-grok/xai-grok-4.5-fast_entry-0018.md)** — Semiconductor Drift Diffusion Transport & Electrolyte Poisson Nernst Planck Transport
+  * *Domains:* Semiconductor Drift Diffusion Transport & Electrolyte Poisson Nernst Planck Transport
+  * *Model:* xAI Grok 4.5 Fast
+* **[SID-0022](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0022.md)** — Second Order Macroscopic Traffic Flow & Deformable Porous Media Flow
+  * *Domains:* Second Order Macroscopic Traffic Flow & Deformable Porous Media Flow
+  * *Model:* OpenAI GPT 5.6 Luna
+* **[SID-0026](../mappings-google-gemini/google-gemini-3.1-pro_entry-0026.md)** — Glaciological Subglacial Hydrology & Neuromorphic Memristive Media
+  * *Domains:* Glaciological Subglacial Hydrology & Neuromorphic Memristive Media
   * *Model:* Google Gemini 3.1 Pro
-* **[SID-010](../mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — Transformation Optics & Macroscopic Pedestrian Dynamics
-  * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
-  * *Model:* Google Gemini 3.1 Pro
-* **[SID-015](../mappings-xai-grok/grok-beta_entry-015.md)** — Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * *Model:* xAI Grok 4 Fast
-* **[SID-017](../mappings-microsoft-copilot/copilot_entry-017.md)** — Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
-  * *Domains:* Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
+* **[SID-0034](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0034.md)** — Geocryology Frost Heave & Lithium Metal Dendrite Electrodeposition
+  * *Domains:* Geocryology Frost Heave & Lithium Metal Dendrite Electrodeposition
+  * *Model:* Alibaba Qwen 3.8 Max
+* **[SID-0054](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0054.md)** — Current Filamentation In S Type Ndc Semiconductor Devices & Patchy Stomatal Conductance In Heterobaric Leaves
+  * *Domains:* Current Filamentation In S Type Ndc Semiconductor Devices & Patchy Stomatal Conductance In Heterobaric Leaves
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-0011](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0011.md)** — Electrodeposition Dendrite Growth & Evaporative Colloidal Fingering Deposition
+  * *Domains:* Electrodeposition Dendrite Growth & Evaporative Colloidal Fingering Deposition
   * *Model:* Microsoft Copilot 1.2
-* **[SID-037](../mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — Seismic Tomography & Paleoclimate Field Reconstruction
-  * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
-  * *Model:* Anthropic Claude Sonnet 5
-* **[SID-040](../mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-  * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-  * *Model:* Anthropic Claude Sonnet 5
-* **[SID-042](../mappings-alibaba-qwen/qwen3.8_entry-042.md)** — Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-  * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
+* **[SID-0015](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0015.md)** — Thin Film Marangoni Surfactant Hydrodynamics & Active Nematic Thin Layer Defect Dynamics
+  * *Domains:* Thin Film Marangoni Surfactant Hydrodynamics & Active Nematic Thin Layer Defect Dynamics
+  * *Model:* Microsoft Copilot 1.2
+* **[SID-0016](../mappings-xai-grok/xai-grok-4.5-fast_entry-0016.md)** — Viscous Thin Film Rupture Under Van Der Waals & Continuum Dislocation Climb Mediated By Vacancy Diffusion
+  * *Domains:* Viscous Thin Film Rupture Under Van Der Waals & Continuum Dislocation Climb Mediated By Vacancy Diffusion
+  * *Model:* xAI Grok 4.5 Fast
+* **[SID-0033](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0033.md)** — Elastohydrodynamic Lubrication Line Contact & Subglacial Sheet Cavitation Hydrology
+  * *Domains:* Elastohydrodynamic Lubrication Line Contact & Subglacial Sheet Cavitation Hydrology
   * *Model:* Alibaba Qwen 3.8 Max
-* **[SID-043](../mappings-alibaba-qwen/qwen3.8_entry-043.md)** — High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-  * *Domains:* High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-  * *Model:* Alibaba Qwen 3.8 Max
-* **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
+* **[SID-0046](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0046.md)** — Regenerative Machine Tool Chatter Dynamics & Delayed Ctl Response Viral Dynamics
+  * *Domains:* Regenerative Machine Tool Chatter Dynamics & Delayed Ctl Response Viral Dynamics
+  * *Model:* Anthropic Claude Sonnet 5
+* **[SID-0051](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0051.md)** — Semiconductor Device Transport Numerics & Population Genetics Diffusion Theory
+  * *Domains:* Semiconductor Device Transport Numerics & Population Genetics Diffusion Theory
   * *Model:* Anthropic Claude Opus 5
-* **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
+* **[SID-0055](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0055.md)** — Particulate Process Engineering Population Balance Modeling & Orbital Debris Environment Evolution Modeling
+  * *Domains:* Particulate Process Engineering Population Balance Modeling & Orbital Debris Environment Evolution Modeling
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-0020](../mappings-xai-grok/xai-grok-4.5-fast_entry-0020.md)** — Computational Micromagnetics & Nematic Liquid Crystal Director Dynamics
+  * *Domains:* Computational Micromagnetics & Nematic Liquid Crystal Director Dynamics
+  * *Model:* xAI Grok 4.5 Fast
+* **[SID-0028](../mappings-google-gemini/google-gemini-3.1-pro_entry-0028.md)** — Marine Glaciology & Polymer Thin Film Dynamics
+  * *Domains:* Marine Glaciology & Polymer Thin Film Dynamics
+  * *Model:* Google Gemini 3.1 Pro
+* **[SID-0037](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0037.md)** — Inertial Confinement Fusion Implosion Stability & Single Bubble Sonoluminescence Collapse Stability
+  * *Domains:* Inertial Confinement Fusion Implosion Stability & Single Bubble Sonoluminescence Collapse Stability
+  * *Model:* DeepSeek DeepSeek V4 Pro
+* **[SID-0050](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0050.md)** — Chromatographic Equilibrium Theory & Macroscopic Traffic Flow Theory
+  * *Domains:* Chromatographic Equilibrium Theory & Macroscopic Traffic Flow Theory
+  * *Model:* Anthropic Claude Sonnet 5
+* **[SID-0052](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0052.md)** — Elastohydrodynamic Lubrication And Rough Surface Contact Tribology & Subglacial Hydrology And Hard Bed Glacier Sliding
+  * *Domains:* Elastohydrodynamic Lubrication And Rough Surface Contact Tribology & Subglacial Hydrology And Hard Bed Glacier Sliding
+  * *Model:* Anthropic Claude Opus 5
+* **[SID-0053](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0053.md)** — Applied Superconductivity Magnet Quench Protection & Clinical Neurophysiology Cortical Spreading Depolarization
+  * *Domains:* Applied Superconductivity Magnet Quench Protection & Clinical Neurophysiology Cortical Spreading Depolarization
   * *Model:* Anthropic Claude Opus 5
 
-## `Stage 2 / rejected` — 41 entries
+## `Stage 2 / rejected` — 36 entries
 
 Majority of reviewers voted to reject. Retained for false-positive-rate tracking; not a research lead.
 
-* **[SID-001](../mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
-  * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
-  * *Model:* OpenAI GPT 5.5
-* **[SID-011](../mappings-xai-grok/grok-beta_entry-011.md)** — Black Hole Perturbation Theory & Structural Vibration Analysis
-  * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
-  * *Model:* xAI Grok 4 Fast
-* **[SID-016](../mappings-microsoft-copilot/copilot_entry-016.md)** — Variational Phase Field Fracture & Kinetic Opinion Dynamics
-  * *Domains:* Variational Phase Field Fracture & Kinetic Opinion Dynamics
-  * *Model:* Microsoft Copilot 1.2
-* **[SID-019](../mappings-microsoft-copilot/copilot_entry-019.md)** — Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks
-  * *Domains:* Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks
-  * *Model:* Microsoft Copilot 1.2
-* **[SID-024](../mappings-meta-muse/muse-spark-1-1_entry-024.md)** — Parton Shower Dynamics & Gene Family Evolution
-  * *Domains:* Parton Shower Dynamics & Gene Family Evolution
+* **[SID-0008](../mappings-meta-muse/meta-muse-spark-1.1_entry-0008.md)** — Electrochemical Lithium Dendrite Electrodeposition & Carbonate Acidization Reactive Wormholing
+  * *Domains:* Electrochemical Lithium Dendrite Electrodeposition & Carbonate Acidization Reactive Wormholing
   * *Model:* Meta Muse Spark 1.1
-* **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-004](../mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
-  * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
-  * *Model:* OpenAI GPT 5.5
-* **[SID-005](../mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — Continuum Damage Mechanics & Bayesian Network Structure Learning
-  * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
-  * *Model:* OpenAI GPT 5.5
-* **[SID-008](../mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — Seismological Tribology & Multi Echelon Supply Chain Logistics
-  * *Domains:* Seismological Tribology & Multi Echelon Supply Chain Logistics
+* **[SID-0012](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0012.md)** — Nonlocal Kirchhoff Plate Buckling & Neural Field Pattern Formation
+  * *Domains:* Nonlocal Kirchhoff Plate Buckling & Neural Field Pattern Formation
+  * *Model:* Microsoft Copilot 1.2
+* **[SID-0021](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0021.md)** — Reactive Infiltration Instability In Porous Geochemistry & Autothermal Reactive Transport In Porous Catalysts
+  * *Domains:* Reactive Infiltration Instability In Porous Geochemistry & Autothermal Reactive Transport In Porous Catalysts
+  * *Model:* OpenAI GPT 5.6 Luna
+* **[SID-0025](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0025.md)** — Hele Shaw Viscous Fingering Dynamics & Electrochemical Dendrite Growth
+  * *Domains:* Hele Shaw Viscous Fingering Dynamics & Electrochemical Dendrite Growth
+  * *Model:* OpenAI GPT 5.6 Luna
+* **[SID-0029](../mappings-google-gemini/google-gemini-3.1-pro_entry-0029.md)** — Deep Learning Optimization Theory & Early Universe Cosmology
+  * *Domains:* Deep Learning Optimization Theory & Early Universe Cosmology
   * *Model:* Google Gemini 3.1 Pro
-* **[SID-009](../mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — Collisionless Plasma Kinetics & HFT Market Microstructure
-  * *Domains:* Collisionless Plasma Kinetics & HFT Market Microstructure
+* **[SID-0030](../mappings-google-gemini/google-gemini-3.1-pro_entry-0030.md)** — Machine Tribology & Subglacial Hydrology
+  * *Domains:* Machine Tribology & Subglacial Hydrology
   * *Model:* Google Gemini 3.1 Pro
-* **[SID-028](../mappings-deepseek-deepseek/deepseek_entry-028.md)** — Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning
-  * *Domains:* Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning
+* **[SID-0038](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0038.md)** — Geomechanics Biot Poroelasticity & Tumor Biomechanics Biphasic Growth
+  * *Domains:* Geomechanics Biot Poroelasticity & Tumor Biomechanics Biphasic Growth
   * *Model:* DeepSeek DeepSeek V4 Pro
-* **[SID-029](../mappings-deepseek-deepseek/deepseek_entry-029.md)** — Microstructural Polymer Dynamics & Population Density Neural Dynamics
-  * *Domains:* Microstructural Polymer Dynamics & Population Density Neural Dynamics
-  * *Model:* DeepSeek DeepSeek V4 Pro
-* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
-  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
+* **[SID-0044](../mappings-zai-glm/zai-glm-5.2_entry-0044.md)** — Bcc Screw Dislocation Kink Pair Plasticity & Ferroic Domain Wall Periodic Pinning Depinning
+  * *Domains:* Bcc Screw Dislocation Kink Pair Plasticity & Ferroic Domain Wall Periodic Pinning Depinning
   * *Model:* Z.AI GLM 5.2
-* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
-  * *Domains:* Quantum Information Science & Computational Structural Mechanics
-  * *Model:* Z.AI GLM 5.2
-* **[SID-039](../mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment
-  * *Domains:* Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment
+* **[SID-0049](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0049.md)** — Theoretical Ecology Community Matrix Stability & Robust Control Structured Singular Value Theory
+  * *Domains:* Theoretical Ecology Community Matrix Stability & Robust Control Structured Singular Value Theory
   * *Model:* Anthropic Claude Sonnet 5
-* **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * *Model:* Anthropic Claude Opus 5
-* **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
-  * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-002](../mappings-openai-chatgpt/gpt-5.5_entry-002.md)** — Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
-  * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
-  * *Model:* OpenAI GPT 5.5
-* **[SID-003](../mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
-  * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
-  * *Model:* OpenAI GPT 5.5
-* **[SID-014](../mappings-xai-grok/grok-beta_entry-014.md)** — Nonlocal Damage Mechanics & Spatial Epidemiology
-  * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
-  * *Model:* xAI Grok 4 Fast
-* **[SID-018](../mappings-microsoft-copilot/copilot_entry-018.md)** — Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
-  * *Domains:* Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
-  * *Model:* Microsoft Copilot 1.2
-* **[SID-020](../mappings-microsoft-copilot/copilot_entry-020.md)** — Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
-  * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
-  * *Model:* Microsoft Copilot 1.2
-* **[SID-021](../mappings-meta-muse/muse-spark-1-1_entry-021.md)** — Ductile Fracture Mechanics & Early Universe Cosmology
-  * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
+* **[SID-0057](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0057.md)** — Epitaxial Step Flow Dynamics & Vehicular Traffic Flow Theory
+  * *Domains:* Epitaxial Step Flow Dynamics & Vehicular Traffic Flow Theory
+  * *Model:* Xiaomi MiMo V2.5 Pro
+* **[SID-0059](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0059.md)** — Elastohydrodynamic Lubrication & Pulmonary Airway Thin Film Mechanics
+  * *Domains:* Elastohydrodynamic Lubrication & Pulmonary Airway Thin Film Mechanics
+  * *Model:* Xiaomi MiMo V2.5 Pro
+* **[SID-0010](../mappings-meta-muse/meta-muse-spark-1.1_entry-0010.md)** — Athermal Amorphous Plasticity & Earthquake Aftershock Triggering
+  * *Domains:* Athermal Amorphous Plasticity & Earthquake Aftershock Triggering
   * *Model:* Meta Muse Spark 1.1
-* **[SID-022](../mappings-meta-muse/muse-spark-1-1_entry-022.md)** — Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
-  * *Domains:* Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
-  * *Model:* Meta Muse Spark 1.1
-* **[SID-025](../mappings-meta-muse/muse-spark-1-1_entry-025.md)** — Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
-  * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
-  * *Model:* Meta Muse Spark 1.1
-* **[SID-038](../mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — Actuarial Ruin Theory & Population Viability Analysis
-  * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
-  * *Model:* Anthropic Claude Sonnet 5
-* **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-* **[SID-007](../mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — Computational Aeroelasticity & Decentralized Finance Tokenomics
-  * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
+* **[SID-0017](../mappings-xai-grok/xai-grok-4.5-fast_entry-0017.md)** — Continuum Dislocation Dynamics & Inviscid Vortex Dynamics
+  * *Domains:* Continuum Dislocation Dynamics & Inviscid Vortex Dynamics
+  * *Model:* xAI Grok 4.5 Fast
+* **[SID-0019](../mappings-xai-grok/xai-grok-4.5-fast_entry-0019.md)** — Viscous Thin Film Lubrication & Shallow Ice Approximation Glaciology
+  * *Domains:* Viscous Thin Film Lubrication & Shallow Ice Approximation Glaciology
+  * *Model:* xAI Grok 4.5 Fast
+* **[SID-0027](../mappings-google-gemini/google-gemini-3.1-pro_entry-0027.md)** — Financial Market Microstructure & Thermochemical Fluid Dynamics
+  * *Domains:* Financial Market Microstructure & Thermochemical Fluid Dynamics
   * *Model:* Google Gemini 3.1 Pro
-* **[SID-012](../mappings-xai-grok/grok-beta_entry-012.md)** — Poroelasticity & Agent Based Epidemic Modeling
-  * *Domains:* Poroelasticity & Agent Based Epidemic Modeling
-  * *Model:* xAI Grok 4 Fast
-* **[SID-013](../mappings-xai-grok/grok-beta_entry-013.md)** — Crystal Plasticity & Evolutionary Game Dynamics
-  * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
-  * *Model:* xAI Grok 4 Fast
-* **[SID-023](../mappings-meta-muse/muse-spark-1-1_entry-023.md)** — Semiconductor Laser Dynamics & Mathematical Epidemiology
-  * *Domains:* Semiconductor Laser Dynamics & Mathematical Epidemiology
+* **[SID-0036](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0036.md)** — Polymer Melt Extrusion & 3d Cell Migration In Ecm
+  * *Domains:* Polymer Melt Extrusion & 3d Cell Migration In Ecm
+  * *Model:* DeepSeek DeepSeek V4 Pro
+* **[SID-0039](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0039.md)** — Thermocapillary Thin Film Spreading & Ferrofluid Thin Film Spreading
+  * *Domains:* Thermocapillary Thin Film Spreading & Ferrofluid Thin Film Spreading
+  * *Model:* DeepSeek DeepSeek V4 Pro
+* **[SID-0041](../mappings-zai-glm/zai-glm-5.2_entry-0041.md)** — Soft Matter Biophysics & Mems Nems Compliant Mechanisms
+  * *Domains:* Soft Matter Biophysics & Mems Nems Compliant Mechanisms
+  * *Model:* Z.AI GLM 5.2
+* **[SID-0042](../mappings-zai-glm/zai-glm-5.2_entry-0042.md)** — Nonlocal Continuum Mechanics & Relativistic Quantum Field Theory
+  * *Domains:* Nonlocal Continuum Mechanics & Relativistic Quantum Field Theory
+  * *Model:* Z.AI GLM 5.2
+* **[SID-0043](../mappings-zai-glm/zai-glm-5.2_entry-0043.md)** — Image Processing Tv Denoising & Fluid Dynamics Viscoplastic Flow
+  * *Domains:* Image Processing Tv Denoising & Fluid Dynamics Viscoplastic Flow
+  * *Model:* Z.AI GLM 5.2
+* **[SID-0047](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0047.md)** — Genome Scale Flux Balance Analysis & Power Systems Optimal Power Flow And Electricity Markets
+  * *Domains:* Genome Scale Flux Balance Analysis & Power Systems Optimal Power Flow And Electricity Markets
+  * *Model:* Anthropic Claude Sonnet 5
+* **[SID-0056](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0056.md)** — Polycrystalline Grain Growth & Thin Film Magnetic Domain Coarsening
+  * *Domains:* Polycrystalline Grain Growth & Thin Film Magnetic Domain Coarsening
+  * *Model:* Xiaomi MiMo V2.5 Pro
+* **[SID-0060](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0060.md)** — Memristive Valence Change Resistive Switching & Lithium Ion Battery Sei Growth And Degradation
+  * *Domains:* Memristive Valence Change Resistive Switching & Lithium Ion Battery Sei Growth And Degradation
+  * *Model:* Xiaomi MiMo V2.5 Pro
+* **[SID-0005](../mappings-amazon-nova/amazon-nova-pro_entry-0005.md)** — Fluid Dynamics & Traffic Flow Theory
+  * *Domains:* Fluid Dynamics & Traffic Flow Theory
+  * *Model:* Amazon Nova Pro
+* **[SID-0006](../mappings-meta-muse/meta-muse-spark-1.1_entry-0006.md)** — Collisionless Electrostatic Plasma Kinetics & Dilute Pusher Microswimmer Suspension Kinetics
+  * *Domains:* Collisionless Electrostatic Plasma Kinetics & Dilute Pusher Microswimmer Suspension Kinetics
   * *Model:* Meta Muse Spark 1.1
-* **[SID-026](../mappings-deepseek-deepseek/deepseek_entry-026.md)** — Elastohydrodynamics Of Active Filaments & Dislocation Dynamics In Crystalline Solids
-  * *Domains:* Elastohydrodynamics Of Active Filaments & Dislocation Dynamics In Crystalline Solids
-  * *Model:* DeepSeek DeepSeek V4 Pro
-* **[SID-030](../mappings-deepseek-deepseek/deepseek_entry-030.md)** — Smoothed Particle Hydrodynamics & Gaussian Process Regression
-  * *Domains:* Smoothed Particle Hydrodynamics & Gaussian Process Regression
-  * *Model:* DeepSeek DeepSeek V4 Pro
-* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Thin Plate Elasticity & General Relativity Colliding Waves
-  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
+* **[SID-0007](../mappings-meta-muse/meta-muse-spark-1.1_entry-0007.md)** — Lithium Metal Dendrite Electrodeposition & Geological Stylolite Pressure Solution
+  * *Domains:* Lithium Metal Dendrite Electrodeposition & Geological Stylolite Pressure Solution
+  * *Model:* Meta Muse Spark 1.1
+* **[SID-0013](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0013.md)** — Variational Phase Field Fracture & Thin Film Rupture With Disjoining Pressure
+  * *Domains:* Variational Phase Field Fracture & Thin Film Rupture With Disjoining Pressure
+  * *Model:* Microsoft Copilot 1.2
+* **[SID-0014](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0014.md)** — Thin Film Viscous Flow & Population Genetics Wavefronts
+  * *Domains:* Thin Film Viscous Flow & Population Genetics Wavefronts
+  * *Model:* Microsoft Copilot 1.2
+* **[SID-0045](../mappings-zai-glm/zai-glm-5.2_entry-0045.md)** — Single Pass Free Electron Laser Physics & Magnetospheric Whistler Mode Chorus Generation
+  * *Domains:* Single Pass Free Electron Laser Physics & Magnetospheric Whistler Mode Chorus Generation
   * *Model:* Z.AI GLM 5.2
-* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * *Model:* Z.AI GLM 5.2
-* **[SID-046](../mappings-amazon-nova/1.0_entry-046.md)** — Nonlinear Optics & Fluid Turbulence
-  * *Domains:* Nonlinear Optics & Fluid Turbulence
-  * *Model:* Amazon Nova 1.0 Pro
-* **[SID-047](../mappings-amazon-nova/1.0_entry-047.md)** — Plasma Physics & Traffic Flow Theory
-  * *Domains:* Plasma Physics & Traffic Flow Theory
-  * *Model:* Amazon Nova 1.0 Pro
-* **[SID-048](../mappings-amazon-nova/1.0_entry-048.md)** — Quantum Chaos & Turbulent Flow
-  * *Domains:* Quantum Chaos & Turbulent Flow
-  * *Model:* Amazon Nova 1.0 Pro
-* **[SID-049](../mappings-amazon-nova/1.0_entry-049.md)** — Fluid Dynamics & Network Flow Optimization
-  * *Domains:* Fluid Dynamics & Network Flow Optimization
-  * *Model:* Amazon Nova 1.0 Pro
-* **[SID-050](../mappings-amazon-nova/1.0_entry-050.md)** — Electromagnetic Theory & Financial Option Pricing
-  * *Domains:* Electromagnetic Theory & Financial Option Pricing
-  * *Model:* Amazon Nova 1.0 Pro
+* **[SID-0009](../mappings-meta-muse/meta-muse-spark-1.1_entry-0009.md)** — Lithospheric Buckling Folding Instability & Graphene Polymer Wrinkle Fold Transition
+  * *Domains:* Lithospheric Buckling Folding Instability & Graphene Polymer Wrinkle Fold Transition
+  * *Model:* Meta Muse Spark 1.1
+* **[SID-0058](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0058.md)** — Single Molecule Motor Biophysics & Closed Cyclic Queueing Network Theory
+  * *Domains:* Single Molecule Motor Biophysics & Closed Cyclic Queueing Network Theory
+  * *Model:* Xiaomi MiMo V2.5 Pro
+* **[SID-0001](../mappings-amazon-nova/amazon-nova-pro_entry-0001.md)** — Plasma Physics & Complex Fluid Dynamics
+  * *Domains:* Plasma Physics & Complex Fluid Dynamics
+  * *Model:* Amazon Nova Pro
+* **[SID-0002](../mappings-amazon-nova/amazon-nova-pro_entry-0002.md)** — Nonlinear Optics & Nonlinear Acoustics
+  * *Domains:* Nonlinear Optics & Nonlinear Acoustics
+  * *Model:* Amazon Nova Pro
+* **[SID-0003](../mappings-amazon-nova/amazon-nova-pro_entry-0003.md)** — Quantum Mechanics & Stochastic Finance
+  * *Domains:* Quantum Mechanics & Stochastic Finance
+  * *Model:* Amazon Nova Pro
+* **[SID-0004](../mappings-amazon-nova/amazon-nova-pro_entry-0004.md)** — Quantum Mechanics & Plasma Physics
+  * *Domains:* Quantum Mechanics & Plasma Physics
+  * *Model:* Amazon Nova Pro
+* **[SID-0040](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0040.md)** — Ostwald Ripening In Alloys & Stdp Synaptic Weight Distribution
+  * *Domains:* Ostwald Ripening In Alloys & Stdp Synaptic Weight Distribution
+  * *Model:* DeepSeek DeepSeek V4 Pro
 

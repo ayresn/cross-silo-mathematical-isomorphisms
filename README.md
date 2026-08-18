@@ -21,8 +21,8 @@ As of the current commit:
 | Total entries in dataset | 60 |
 | Entries awaiting Stage 2 adversarial review | 0 |
 | Entries that have completed Stage 2 adversarial review | 60 |
-| — rejected at Stage 2 (`adversarial-rejected`) | **41 (68.3%)** |
-| — advanced to Stage 3 queue (`adversarial-flagged`) | **19 (31.7%)** |
+| — rejected at Stage 2 (`adversarial-rejected`) | **36 (60.0%)** |
+| — advanced to Stage 3 queue (`adversarial-flagged`) | **24 (40.0%)** |
 | — cleared with no reviewer objections (`adversarial-cleared`) | **0** |
 | Entries that have completed Stage 3 human bibliometric validation | **0** |
 | — failed bibliometric validation at Stage 3 (`failed-validation`) | **0** |
@@ -116,19 +116,19 @@ Survival rate is the share of a model's entries that advanced to the Stage 3 que
 
 | Model | Entries | Reviewed | Rejected | Survived | Mean reject-vote |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [Alibaba Qwen 3.8 Max](https://chat.qwen.ai/) | 5 | 5 | 0 | 100% | 31.4% |
-| [Amazon Nova 1.0 Pro](https://nova.amazon.com/) | 5 | 5 | 5 | 0% | 100.0% |
-| [Anthropic Claude Opus 5](https://claude.ai/) | 5 | 5 | 2 | 60% | 45.7% |
-| [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 5 | 2 | 60% | 54.3% |
-| [DeepSeek DeepSeek V4 Pro](https://chat.deepseek.com/) | 5 | 5 | 4 | 20% | 74.3% |
-| [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 5 | 3 | 40% | 65.7% |
-| [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 5 | 0% | 82.9% |
-| [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 5 | 4 | 20% | 65.7% |
-| [OpenAI GPT 5.4 Thinking Mini](https://chatgpt.com/) | 5 | 5 | 3 | 40% | 57.1% |
-| [OpenAI GPT 5.5](https://chatgpt.com/) | 5 | 5 | 5 | 0% | 74.3% |
-| [xAI Grok 4 Fast](https://grok.com/) | 5 | 5 | 4 | 20% | 74.3% |
-| [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 4 | 20% | 77.1% |
-| **TOTAL** | **60** | **60** | **41** | **31.7%** | **66.9%** |
+| [Alibaba Qwen 3.8 Max](https://chat.qwen.ai/) | 5 | 5 | 0 | 100% | 13.3% |
+| [Amazon Nova Pro](https://nova.amazon.com/) | 5 | 5 | 5 | 0% | 95.6% |
+| [Anthropic Claude Opus 5](https://claude.ai/) | 5 | 5 | 0 | 100% | 35.6% |
+| [Anthropic Claude Sonnet 5](https://claude.ai/) | 5 | 5 | 2 | 60% | 42.2% |
+| [DeepSeek DeepSeek V4 Pro](https://chat.deepseek.com/) | 5 | 5 | 4 | 20% | 66.7% |
+| [Google Gemini 3.1 Pro](https://aistudio.google.com/) | 5 | 5 | 3 | 40% | 48.9% |
+| [Meta Muse Spark 1.1](https://www.meta.ai/) | 5 | 5 | 5 | 0% | 73.3% |
+| [Microsoft Copilot 1.2](https://copilot.microsoft.com/) | 5 | 5 | 3 | 40% | 55.6% |
+| [OpenAI GPT 5.6 Luna](https://chatgpt.com/) | 5 | 5 | 2 | 60% | 28.9% |
+| [xAI Grok 4 Fast](https://grok.com/) | 5 | 5 | 2 | 60% | 46.7% |
+| [Xiaomi MiMo V2.5 Pro](https://aistudio.xiaomimimo.com/) | 5 | 5 | 5 | 0% | 66.7% |
+| [Z.AI GLM 5.2](https://chat.z.ai/) | 5 | 5 | 5 | 0% | 66.7% |
+| **TOTAL** | **60** | **60** | **36** | **40.0%** | **53.4%** |
 
 ---
 
@@ -147,25 +147,28 @@ The status tags for the entries in the dataset identify each entry's current pip
 Machine-readable: [`indexes/entries.json`](indexes/entries.json).
 
 ### Where help is most needed
-The five candidates that drew the fewest reject votes from adversarial reviewers in Stage 2:
+The six candidates that drew the fewest reject votes from adversarial reviewers in Stage 2:
 
-1. **[SID-045](mappings-alibaba-qwen/qwen3.8_entry-045.md)**
-   * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-   * *Reject-vote share:* 14% (1/7 reviewers)
-1. **[SID-055](mappings-anthropic-claude/claude-opus-5_entry-055.md)**
-   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-   * *Reject-vote share:* 14% (1/7 reviewers)
-1. **[SID-027](mappings-deepseek-deepseek/deepseek_entry-027.md)**
-   * *Domains:* Phase Field Dendrite Growth & Biofilm Pattern Formation
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-031](mappings-zai-glm/glm-5-2_entry-031.md)**
-   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-036](mappings-anthropic-claude/claude-sonnet-5_entry-036.md)**
-   * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-   * *Reject-vote share:* 29% (2/7 reviewers)
+1. **[SID-0024](mappings-openai-gpt/openai-gpt-5.6-luna_entry-0024.md)**
+   * *Domains:* Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+   * *Reject-vote share:* 0% (0/9 reviewers)
+1. **[SID-0031](mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0031.md)**
+   * *Domains:* Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
+   * *Reject-vote share:* 0% (0/9 reviewers)
+1. **[SID-0035](mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0035.md)**
+   * *Domains:* Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+   * *Reject-vote share:* 0% (0/9 reviewers)
+1. **[SID-0023](mappings-openai-gpt/openai-gpt-5.6-luna_entry-0023.md)**
+   * *Domains:* Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+   * *Reject-vote share:* 11% (1/9 reviewers)
+1. **[SID-0032](mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0032.md)**
+   * *Domains:* Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
+   * *Reject-vote share:* 11% (1/9 reviewers)
+1. **[SID-0048](mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0048.md)**
+   * *Domains:* Rate And State Fault Friction & Short Term Synaptic Plasticity
+   * *Reject-vote share:* 11% (1/9 reviewers)
 
-[See all 19 →](indexes/stage-3-queue.md)
+[See all 24 →](indexes/stage-3-queue.md)
 
 ### How to help
 **If an entry in the [Stage 3 queue](indexes/stage-3-queue.md) touches your field, the ask is about twenty minutes.** Open an issue, or comment on the entry, answering either question:

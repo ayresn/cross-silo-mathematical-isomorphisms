@@ -12,70 +12,69 @@ The shared mathematical structure each entry claims, independent of subject matt
 
 ---
 
-**60 families across 60 entries.** The five largest account for 5/60 (8%).
+**59 families across 60 entries.** The five largest account for 6/60 (10%).
 
 | Structural family | Entries |
 | --- | ---: |
-| Algebraic Topology Chain Complexes | 1 |
-| Anisotropic Eikonal Wave Propagation | 1 |
-| Branching Splitting Renormalization | 1 |
-| Cascading Failure Network Instabilities | 1 |
-| Conductance Adaptation Gradient Flows | 1 |
-| Conformation Tensor Transport Instabilities | 1 |
-| Conservation Laws And Optimization | 1 |
-| Constrained Variational Inequality Localization | 1 |
-| Convex Conic Feasibility On Conservation Operators Under Cyclic Forcing | 1 |
-| Coupled Biharmonic Monge Ampere Systems | 1 |
-| Cyclic Variational Inequalities With Residual Field Certificates | 1 |
-| Delay Coupled Hopf Instabilities | 1 |
-| Delay Differential Hopf Instabilities | 1 |
-| Diffusion Operators And Boundary Value Problems | 1 |
-| First Passage Absorption Processes | 1 |
-| Fokker Planck Operators | 1 |
-| Free Boundary Instabilities | 1 |
-| Free Boundary Instabilities / gradient Flow Variational Systems | 1 |
-| Free Boundary Instabilities / graph Redistribution Dynamics | 1 |
-| Gradient Flow And Free Energy Dissipation | 1 |
-| Gradient Flow Optimization | 1 |
-| Graph Laplacian Divergence Operators | 1 |
-| Ill Posed Linear Inverse Problems | 1 |
-| Integral Kernel Regularization | 1 |
-| Irreversible Variational Evolution | 1 |
-| Kernel Interpolation Operators | 1 |
-| Laplacian Moving Boundary / screened Branching | 1 |
-| Linear Multiplicative Transport Eigenproblems | 1 |
-| Long Range Signed Kernel Threshold Avalanches | 1 |
-| Measure Valued Particle Evolution | 1 |
-| Multi Slip System Flow Rules | 1 |
-| Multiplicative Linear Boltzmann Cascades | 1 |
-| Noise Induced Escape From Potential Wells | 1 |
-| Non Conservative Coupled Oscillators | 1 |
-| Non Hermitian Skin Instabilities | 1 |
-| Non Self Adjoint Gyroscopic Systems | 1 |
-| Nonlinear Advection Diffusion Integro Differential Wave | 1 |
-| Nonlinear Continuum Localization / master Equation Driven Instabilities | 1 |
-| Nonlinear Dynamical Systems | 1 |
-| Nonlinear Wave Instabilities | 1 |
-| Nonlinear Wave Propagation | 1 |
-| Nonlocal Curvature Flow | 1 |
-| Nonlocal Elliptic Operators | 1 |
-| Nucleation Growth Coalescence Percolation | 1 |
-| Poisson Point Process Generating Functionals | 1 |
-| Quasinormal Mode Decay Spectra | 1 |
-| Rare Event escape / absorbing Boundary drift Diffusion | 1 |
-| Rate And State Limit Cycle Oscillators | 1 |
-| Rate And State Memory Instabilities | 1 |
-| Reflected Markov Processes And Heavy Traffic Limits | 1 |
-| Saddle Node Bifurcation Collapse Phenomena | 1 |
-| Self Consistent Phase Space Advection | 1 |
-| Spinodal Phase Separation With Nonlocal Elasticity | 1 |
-| Symplectic Map And Kick Drift Evolution | 1 |
-| Thresholded Greens Kernel Inverse Design | 1 |
-| Transport Limited Reactive Boundary Recession | 1 |
-| Transport With Source Sink Defect Kinetics | 1 |
-| Two Way Coupled Diffusion Deformation | 1 |
-| Variational Gradient Flow / nonlocal Interaction Systems | 1 |
-| Weakly Nonlinear Envelope Dynamics | 1 |
+| Nonlinear Wave Propagation | 2 |
+| Advection Diffusion Reaction Front Instabilities | 1 |
+| Bistable Semilinear Parabolic Ignition Fronts | 1 |
+| Chemical Potential Driven Stefan Free Boundary | 1 |
+| Cold Plasma Relativistic Vlasov Maxwell Systems | 1 |
+| Collisional Breakage Population Balance Operators | 1 |
+| Conserved Gradient Flow Spinodal | 1 |
+| Coupled Reynolds Elasticity Free Boundary Problems | 1 |
+| Curvature Driven Interface Evolution | 1 |
+| Degenerate Elliptic Variational Problems | 1 |
+| Degenerate Fourth Order Surface Diffusion Free Boundary Flows | 1 |
+| Delay Induced Hopf Lobe Instabilities In Linear Retarded Feedback Operators | 1 |
+| Diffusion Operators | 1 |
+| Dissipation Driven Filamentation | 1 |
+| Dissipative Unit Length Orientational Torque Dynamics | 1 |
+| Driven Bilinear Relaxation Feedback Bifurcations | 1 |
+| Elastic Foundation Bifurcation | 1 |
+| Electrochemical Reaction Diffusion With Moving Boundaries | 1 |
+| Elliptic Parabolic Coupled Field Equations | 1 |
+| Exponentially Fitted Drift Diffusion Operators With Gibbs Stationary States | 1 |
+| Fourth Order Degenerate Parabolic Free Boundary Operators | 1 |
+| Fourth Order Gradient Flow With Forcing | 1 |
+| Fourth Order Stabilized Instability / k2 Vs K4 Competition | 1 |
+| Free Boundary Complementarity With Nonlocal Half Space Compliance | 1 |
+| Gradient Flow Instability Driven Free Boundary | 1 |
+| Integro Differential Complementarity Systems | 1 |
+| Kinetic Mean Field Instabilities | 1 |
+| Load Line Constrained Bistable Reaction Diffusion | 1 |
+| Lubrication Reduced Stokes Free Surface Flow | 1 |
+| Markov Chain Currents On Directed Cycles | 1 |
+| Moving Boundary Flux Driven Instabilities | 1 |
+| Moving Phase Boundary And Capillary Regularized Free Boundary Growth | 1 |
+| Network Flow Linear Programming Duality | 1 |
+| Nonlinear Diffusive Fronts With Curvature Driven Instability | 1 |
+| Nonlinear Drift Conservation Law With Reciprocal Cubic Singularity | 1 |
+| Nonlinear Elastica And Sturm Liouville Operators | 1 |
+| Nonlinear Traveling Wave Instability | 1 |
+| Nonlinear Wave Equations | 1 |
+| Nonlinear Wave Operators | 1 |
+| Nonlocal Integral Operator Instability / eigenvalue Selection | 1 |
+| Nonlocal Threshold Plasticity With State Diffusion | 1 |
+| Overdamped Langevin Collective Coordinate In Periodic Potential | 1 |
+| Periodically Reconfigured Scalar Hyperbolic Conservation Law Networks | 1 |
+| Reaction Diffusion Moving Boundary | 1 |
+| Reactive Infiltration Laplacian Growth Instabilities | 1 |
+| Regularized Laplacian Free Boundary Instabilities | 1 |
+| Robin First Passage Capacity Operators | 1 |
+| Scalar Hyperbolic Conservation Shocks | 1 |
+| Scalar Nonlinear Conservation Laws | 1 |
+| Screened Poisson Operators / massive Field Theories | 1 |
+| Self Consistent Drift Diffusion Poisson Systems | 1 |
+| Singular Integral Transport Of Divergence Free Line Densities | 1 |
+| Singular Moving Boundary Lubrication | 1 |
+| Spherical Rayleigh Taylor Instability Dynamics | 1 |
+| Stress Mediated Atg Free Boundary Instability | 1 |
+| Structured Perturbation Spectral Stability | 1 |
+| Thin Film Cavitation Reynolds Operators | 1 |
+| Time Dependent Variational Calculus And Damped Nonlinear Oscillators | 1 |
+| Upper Convected Maxwell Viscoelastic Flows | 1 |
 
 ## Structural vocabulary
 
@@ -83,474 +82,481 @@ The shared mathematical structure each entry claims, independent of subject matt
 
 | Token | Entries |
 | --- | ---: |
-| `instabilities` | 9 |
-| `nonlinear` | 6 |
-| `operators` | 6 |
-| `boundary` | 5 |
+| `boundary` | 12 |
+| `free` | 11 |
+| `nonlinear` | 10 |
+| `diffusion` | 9 |
+| `operators` | 9 |
+| `driven` | 7 |
+| `instabilities` | 6 |
 | `flow` | 5 |
-| `systems` | 5 |
-| `variational` | 5 |
-| `coupled` | 4 |
-| `diffusion` | 4 |
-| `free` | 4 |
-| `gradient` | 4 |
-| `kernel` | 4 |
-| `transport` | 4 |
-| `wave` | 4 |
-| `evolution` | 3 |
-| `linear` | 3 |
-| `non` | 3 |
+| `instability` | 5 |
+| `moving` | 5 |
+| `wave` | 5 |
+| `conservation` | 4 |
+| `fourth` | 4 |
+| `order` | 4 |
+| `reaction` | 4 |
+| `degenerate` | 3 |
+| `drift` | 3 |
+| `field` | 3 |
+| `gradient` | 3 |
 | `nonlocal` | 3 |
-| `advection` | 2 |
-| `branching` | 2 |
-| `conservation` | 2 |
-| `cyclic` | 2 |
-| `delay` | 2 |
-| `differential` | 2 |
+| `parabolic` | 3 |
+| `scalar` | 3 |
+| `systems` | 3 |
+| `bistable` | 2 |
+| `complementarity` | 2 |
+| `coupled` | 2 |
+| `curvature` | 2 |
 | `dynamics` | 2 |
-| `hopf` | 2 |
-| `inverse` | 2 |
-| `laplacian` | 2 |
-| `multiplicative` | 2 |
-| `optimization` | 2 |
-| `oscillators` | 2 |
-| `phase` | 2 |
+| `elliptic` | 2 |
+| `equations` | 2 |
+| `feedback` | 2 |
+| `flows` | 2 |
+| `fronts` | 2 |
+| `growth` | 2 |
+| `hyperbolic` | 2 |
+| `integral` | 2 |
+| `law` | 2 |
+| `line` | 2 |
+| `linear` | 2 |
+| `lubrication` | 2 |
+| `maxwell` | 2 |
+| `poisson` | 2 |
+| `potential` | 2 |
 | `problems` | 2 |
-| `processes` | 2 |
 | `propagation` | 2 |
-| `rate` | 2 |
-| `self` | 2 |
-| `state` | 2 |
+| `regularized` | 2 |
+| `reynolds` | 2 |
+| `singular` | 2 |
+| `surface` | 2 |
+| `variational` | 2 |
 
 ## Near-duplicate families
 
-5 clusters of labels that overlap enough to plausibly describe the same structure, covering 17/60 entries (28%). **Treat this, not the table above, as the concentration estimate.**
+3 clusters of labels that overlap enough to plausibly describe the same structure, covering 34/60 entries (57%). **Treat this, not the table above, as the concentration estimate.**
 
-* **6 entries** — Free Boundary Instabilities; Free Boundary Instabilities / gradient Flow Variational Systems; Free Boundary Instabilities / graph Redistribution Dynamics; Gradient Flow And Free Energy Dissipation; Gradient Flow Optimization; Variational Gradient Flow / nonlocal Interaction Systems
-* **5 entries** — Anisotropic Eikonal Wave Propagation; Nonlinear Advection Diffusion Integro Differential Wave; Nonlinear Continuum Localization / master Equation Driven Instabilities; Nonlinear Wave Instabilities; Nonlinear Wave Propagation
-* **2 entries** — Delay Coupled Hopf Instabilities; Delay Differential Hopf Instabilities
-* **2 entries** — Linear Multiplicative Transport Eigenproblems; Multiplicative Linear Boltzmann Cascades
-* **2 entries** — Rate And State Limit Cycle Oscillators; Rate And State Memory Instabilities
+* **27 entries** — Advection Diffusion Reaction Front Instabilities; Chemical Potential Driven Stefan Free Boundary; Conserved Gradient Flow Spinodal; Coupled Reynolds Elasticity Free Boundary Problems; Curvature Driven Interface Evolution; Degenerate Fourth Order Surface Diffusion Free Boundary Flows; Electrochemical Reaction Diffusion With Moving Boundaries; Fourth Order Degenerate Parabolic Free Boundary Operators; Fourth Order Gradient Flow With Forcing; Fourth Order Stabilized Instability / k2 Vs K4 Competition; Free Boundary Complementarity With Nonlocal Half Space Compliance; Gradient Flow Instability Driven Free Boundary; Load Line Constrained Bistable Reaction Diffusion; Lubrication Reduced Stokes Free Surface Flow; Moving Boundary Flux Driven Instabilities; Moving Phase Boundary And Capillary Regularized Free Boundary Growth; Nonlinear Diffusive Fronts With Curvature Driven Instability; Nonlinear Elastica And Sturm Liouville Operators; Nonlinear Traveling Wave Instability; Nonlinear Wave Equations; Nonlinear Wave Operators; Nonlinear Wave Propagation; Reaction Diffusion Moving Boundary; Regularized Laplacian Free Boundary Instabilities; Singular Moving Boundary Lubrication; Stress Mediated Atg Free Boundary Instability
+* **4 entries** — Nonlinear Drift Conservation Law With Reciprocal Cubic Singularity; Periodically Reconfigured Scalar Hyperbolic Conservation Law Networks; Scalar Hyperbolic Conservation Shocks; Scalar Nonlinear Conservation Laws
+* **3 entries** — Diffusion Operators; Exponentially Fitted Drift Diffusion Operators With Gibbs Stationary States; Self Consistent Drift Diffusion Poisson Systems
 
 ---
 
-## Algebraic Topology Chain Complexes (1)
+## Nonlinear Wave Propagation (2)
 
-* **[SID-035](../mappings-zai-glm/glm-5-2_entry-035.md)** — Quantum Information Science & Computational Structural Mechanics
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Quantum Information Science & Computational Structural Mechanics
-  * *Model:* Z.AI GLM 5.2
+* **[SID-0002](../mappings-amazon-nova/amazon-nova-pro_entry-0002.md)** — Nonlinear Optics & Nonlinear Acoustics
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Nonlinear Optics & Nonlinear Acoustics
+  * *Model:* Amazon Nova Pro
+* **[SID-0005](../mappings-amazon-nova/amazon-nova-pro_entry-0005.md)** — Fluid Dynamics & Traffic Flow Theory
+  * `Stage 2 / rejected` (78% voted to reject)
+  * *Domains:* Fluid Dynamics & Traffic Flow Theory
+  * *Model:* Amazon Nova Pro
 
-## Anisotropic Eikonal Wave Propagation (1)
+## Advection Diffusion Reaction Front Instabilities (1)
 
-* **[SID-010](../mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — Transformation Optics & Macroscopic Pedestrian Dynamics
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
-  * *Model:* Google Gemini 3.1 Pro
+* **[SID-0021](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0021.md)** — Reactive Infiltration Instability In Porous Geochemistry & Autothermal Reactive Transport In Porous Catalysts
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Reactive Infiltration Instability In Porous Geochemistry & Autothermal Reactive Transport In Porous Catalysts
+  * *Model:* OpenAI GPT 5.6 Luna
 
-## Branching Splitting Renormalization (1)
+## Bistable Semilinear Parabolic Ignition Fronts (1)
 
-* **[SID-024](../mappings-meta-muse/muse-spark-1-1_entry-024.md)** — Parton Shower Dynamics & Gene Family Evolution
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Parton Shower Dynamics & Gene Family Evolution
-  * *Model:* Meta Muse Spark 1.1
-
-## Cascading Failure Network Instabilities (1)
-
-* **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-  * *Model:* Anthropic Claude Sonnet 5
-
-## Conductance Adaptation Gradient Flows (1)
-
-* **[SID-051](../mappings-anthropic-claude/claude-opus-5_entry-051.md)** — Subglacial Hydrology & Adaptive Biological Transport Networks
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Subglacial Hydrology & Adaptive Biological Transport Networks
+* **[SID-0053](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0053.md)** — Applied Superconductivity Magnet Quench Protection & Clinical Neurophysiology Cortical Spreading Depolarization
+  * `Stage 2 / flagged` (44% voted to reject)
+  * *Domains:* Applied Superconductivity Magnet Quench Protection & Clinical Neurophysiology Cortical Spreading Depolarization
   * *Model:* Anthropic Claude Opus 5
 
-## Conformation Tensor Transport Instabilities (1)
+## Chemical Potential Driven Stefan Free Boundary (1)
 
-* **[SID-022](../mappings-meta-muse/muse-spark-1-1_entry-022.md)** — Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Viscoelastic Fluid Mechanics & Adaptive Social Network Dynamics
-  * *Model:* Meta Muse Spark 1.1
-
-## Conservation Laws And Optimization (1)
-
-* **[SID-049](../mappings-amazon-nova/1.0_entry-049.md)** — Fluid Dynamics & Network Flow Optimization
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Fluid Dynamics & Network Flow Optimization
-  * *Model:* Amazon Nova 1.0 Pro
-
-## Constrained Variational Inequality Localization (1)
-
-* **[SID-041](../mappings-alibaba-qwen/qwen3.8_entry-041.md)** — Computational Elastoplasticity & Network Traffic Equilibrium
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
+* **[SID-0034](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0034.md)** — Geocryology Frost Heave & Lithium Metal Dendrite Electrodeposition
+  * `Stage 2 / flagged` (22% voted to reject)
+  * *Domains:* Geocryology Frost Heave & Lithium Metal Dendrite Electrodeposition
   * *Model:* Alibaba Qwen 3.8 Max
 
-## Convex Conic Feasibility On Conservation Operators Under Cyclic Forcing (1)
+## Cold Plasma Relativistic Vlasov Maxwell Systems (1)
 
-* **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-  * *Model:* Anthropic Claude Opus 5
-
-## Coupled Biharmonic Monge Ampere Systems (1)
-
-* **[SID-033](../mappings-zai-glm/glm-5-2_entry-033.md)** — Thin Plate Elasticity & General Relativity Colliding Waves
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Thin Plate Elasticity & General Relativity Colliding Waves
+* **[SID-0045](../mappings-zai-glm/zai-glm-5.2_entry-0045.md)** — Single Pass Free Electron Laser Physics & Magnetospheric Whistler Mode Chorus Generation
+  * `Stage 2 / rejected` (78% voted to reject)
+  * *Domains:* Single Pass Free Electron Laser Physics & Magnetospheric Whistler Mode Chorus Generation
   * *Model:* Z.AI GLM 5.2
 
-## Cyclic Variational Inequalities With Residual Field Certificates (1)
+## Collisional Breakage Population Balance Operators (1)
 
-* **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
+* **[SID-0055](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0055.md)** — Particulate Process Engineering Population Balance Modeling & Orbital Debris Environment Evolution Modeling
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Particulate Process Engineering Population Balance Modeling & Orbital Debris Environment Evolution Modeling
   * *Model:* Anthropic Claude Opus 5
 
-## Delay Coupled Hopf Instabilities (1)
+## Conserved Gradient Flow Spinodal (1)
 
-* **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-
-## Delay Differential Hopf Instabilities (1)
-
-* **[SID-023](../mappings-meta-muse/muse-spark-1-1_entry-023.md)** — Semiconductor Laser Dynamics & Mathematical Epidemiology
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Semiconductor Laser Dynamics & Mathematical Epidemiology
-  * *Model:* Meta Muse Spark 1.1
-
-## Diffusion Operators And Boundary Value Problems (1)
-
-* **[SID-050](../mappings-amazon-nova/1.0_entry-050.md)** — Electromagnetic Theory & Financial Option Pricing
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Electromagnetic Theory & Financial Option Pricing
-  * *Model:* Amazon Nova 1.0 Pro
-
-## First Passage Absorption Processes (1)
-
-* **[SID-038](../mappings-anthropic-claude/claude-sonnet-5_entry-038.md)** — Actuarial Ruin Theory & Population Viability Analysis
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Actuarial Ruin Theory & Population Viability Analysis
-  * *Model:* Anthropic Claude Sonnet 5
-
-## Fokker Planck Operators (1)
-
-* **[SID-029](../mappings-deepseek-deepseek/deepseek_entry-029.md)** — Microstructural Polymer Dynamics & Population Density Neural Dynamics
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Microstructural Polymer Dynamics & Population Density Neural Dynamics
-  * *Model:* DeepSeek DeepSeek V4 Pro
-
-## Free Boundary Instabilities (1)
-
-* **[SID-017](../mappings-microsoft-copilot/copilot_entry-017.md)** — Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
-  * *Model:* Microsoft Copilot 1.2
-
-## Free Boundary Instabilities / gradient Flow Variational Systems (1)
-
-* **[SID-019](../mappings-microsoft-copilot/copilot_entry-019.md)** — Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Phase Field Fracture In Continuum Mechanics & Information Cascade Fronts On Complex Networks
-  * *Model:* Microsoft Copilot 1.2
-
-## Free Boundary Instabilities / graph Redistribution Dynamics (1)
-
-* **[SID-056](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-056.md)** — Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Quasi Static Brittle Fracture & Power Grid Cascading Failure
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-
-## Gradient Flow And Free Energy Dissipation (1)
-
-* **[SID-001](../mappings-openai-chatgpt/gpt-5.5_entry-001.md)** — Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Computational Morphogenesis & Bayesian Active Inference On Probabilistic Graphs
-  * *Model:* OpenAI GPT 5.5
-
-## Gradient Flow Optimization (1)
-
-* **[SID-015](../mappings-xai-grok/grok-beta_entry-015.md)** — Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
-  * *Model:* xAI Grok 4 Fast
-
-## Graph Laplacian Divergence Operators (1)
-
-* **[SID-032](../mappings-zai-glm/glm-5-2_entry-032.md)** — Topological Structural Mechanics & Artificial Spin Ice
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Topological Structural Mechanics & Artificial Spin Ice
-  * *Model:* Z.AI GLM 5.2
-
-## Ill Posed Linear Inverse Problems (1)
-
-* **[SID-037](../mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — Seismic Tomography & Paleoclimate Field Reconstruction
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
-  * *Model:* Anthropic Claude Sonnet 5
-
-## Integral Kernel Regularization (1)
-
-* **[SID-014](../mappings-xai-grok/grok-beta_entry-014.md)** — Nonlocal Damage Mechanics & Spatial Epidemiology
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Nonlocal Damage Mechanics & Spatial Epidemiology
-  * *Model:* xAI Grok 4 Fast
-
-## Irreversible Variational Evolution (1)
-
-* **[SID-005](../mappings-openai-chatgpt/gpt-5.5_entry-005.md)** — Continuum Damage Mechanics & Bayesian Network Structure Learning
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Continuum Damage Mechanics & Bayesian Network Structure Learning
-  * *Model:* OpenAI GPT 5.5
-
-## Kernel Interpolation Operators (1)
-
-* **[SID-030](../mappings-deepseek-deepseek/deepseek_entry-030.md)** — Smoothed Particle Hydrodynamics & Gaussian Process Regression
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Smoothed Particle Hydrodynamics & Gaussian Process Regression
-  * *Model:* DeepSeek DeepSeek V4 Pro
-
-## Laplacian Moving Boundary / screened Branching (1)
-
-* **[SID-059](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-059.md)** — Electrochemical Treeing & Fungal Hyphal Invasion
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Electrochemical Treeing & Fungal Hyphal Invasion
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-
-## Linear Multiplicative Transport Eigenproblems (1)
-
-* **[SID-044](../mappings-alibaba-qwen/qwen3.8_entry-044.md)** — Nuclear Criticality Transport & Spatial Invasion Ecology
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
+* **[SID-0032](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0032.md)** — Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
+  * `Stage 2 / flagged` (11% voted to reject)
+  * *Domains:* Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
   * *Model:* Alibaba Qwen 3.8 Max
 
-## Long Range Signed Kernel Threshold Avalanches (1)
+## Coupled Reynolds Elasticity Free Boundary Problems (1)
 
-* **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-  * `Stage 2 / flagged` (14% voted to reject)
-  * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
+* **[SID-0059](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0059.md)** — Elastohydrodynamic Lubrication & Pulmonary Airway Thin Film Mechanics
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Elastohydrodynamic Lubrication & Pulmonary Airway Thin Film Mechanics
+  * *Model:* Xiaomi MiMo V2.5 Pro
+
+## Curvature Driven Interface Evolution (1)
+
+* **[SID-0056](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0056.md)** — Polycrystalline Grain Growth & Thin Film Magnetic Domain Coarsening
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Polycrystalline Grain Growth & Thin Film Magnetic Domain Coarsening
+  * *Model:* Xiaomi MiMo V2.5 Pro
+
+## Degenerate Elliptic Variational Problems (1)
+
+* **[SID-0043](../mappings-zai-glm/zai-glm-5.2_entry-0043.md)** — Image Processing Tv Denoising & Fluid Dynamics Viscoplastic Flow
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Image Processing Tv Denoising & Fluid Dynamics Viscoplastic Flow
+  * *Model:* Z.AI GLM 5.2
+
+## Degenerate Fourth Order Surface Diffusion Free Boundary Flows (1)
+
+* **[SID-0023](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0023.md)** — Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+  * `Stage 2 / flagged` (11% voted to reject)
+  * *Domains:* Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+  * *Model:* OpenAI GPT 5.6 Luna
+
+## Delay Induced Hopf Lobe Instabilities In Linear Retarded Feedback Operators (1)
+
+* **[SID-0046](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0046.md)** — Regenerative Machine Tool Chatter Dynamics & Delayed Ctl Response Viral Dynamics
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Regenerative Machine Tool Chatter Dynamics & Delayed Ctl Response Viral Dynamics
+  * *Model:* Anthropic Claude Sonnet 5
+
+## Diffusion Operators (1)
+
+* **[SID-0003](../mappings-amazon-nova/amazon-nova-pro_entry-0003.md)** — Quantum Mechanics & Stochastic Finance
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Quantum Mechanics & Stochastic Finance
+  * *Model:* Amazon Nova Pro
+
+## Dissipation Driven Filamentation (1)
+
+* **[SID-0026](../mappings-google-gemini/google-gemini-3.1-pro_entry-0026.md)** — Glaciological Subglacial Hydrology & Neuromorphic Memristive Media
+  * `Stage 2 / flagged` (22% voted to reject)
+  * *Domains:* Glaciological Subglacial Hydrology & Neuromorphic Memristive Media
+  * *Model:* Google Gemini 3.1 Pro
+
+## Dissipative Unit Length Orientational Torque Dynamics (1)
+
+* **[SID-0020](../mappings-xai-grok/xai-grok-4.5-fast_entry-0020.md)** — Computational Micromagnetics & Nematic Liquid Crystal Director Dynamics
+  * `Stage 2 / flagged` (44% voted to reject)
+  * *Domains:* Computational Micromagnetics & Nematic Liquid Crystal Director Dynamics
+  * *Model:* xAI Grok 4.5 Fast
+
+## Driven Bilinear Relaxation Feedback Bifurcations (1)
+
+* **[SID-0048](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0048.md)** — Rate And State Fault Friction & Short Term Synaptic Plasticity
+  * `Stage 2 / flagged` (11% voted to reject)
+  * *Domains:* Rate And State Fault Friction & Short Term Synaptic Plasticity
+  * *Model:* Anthropic Claude Sonnet 5
+
+## Elastic Foundation Bifurcation (1)
+
+* **[SID-0009](../mappings-meta-muse/meta-muse-spark-1.1_entry-0009.md)** — Lithospheric Buckling Folding Instability & Graphene Polymer Wrinkle Fold Transition
+  * `Stage 2 / rejected` (89% voted to reject)
+  * *Domains:* Lithospheric Buckling Folding Instability & Graphene Polymer Wrinkle Fold Transition
+  * *Model:* Meta Muse Spark 1.1
+
+## Electrochemical Reaction Diffusion With Moving Boundaries (1)
+
+* **[SID-0060](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0060.md)** — Memristive Valence Change Resistive Switching & Lithium Ion Battery Sei Growth And Degradation
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Memristive Valence Change Resistive Switching & Lithium Ion Battery Sei Growth And Degradation
+  * *Model:* Xiaomi MiMo V2.5 Pro
+
+## Elliptic Parabolic Coupled Field Equations (1)
+
+* **[SID-0038](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0038.md)** — Geomechanics Biot Poroelasticity & Tumor Biomechanics Biphasic Growth
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Geomechanics Biot Poroelasticity & Tumor Biomechanics Biphasic Growth
+  * *Model:* DeepSeek DeepSeek V4 Pro
+
+## Exponentially Fitted Drift Diffusion Operators With Gibbs Stationary States (1)
+
+* **[SID-0051](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0051.md)** — Semiconductor Device Transport Numerics & Population Genetics Diffusion Theory
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Semiconductor Device Transport Numerics & Population Genetics Diffusion Theory
   * *Model:* Anthropic Claude Opus 5
 
-## Measure Valued Particle Evolution (1)
+## Fourth Order Degenerate Parabolic Free Boundary Operators (1)
 
-* **[SID-002](../mappings-openai-chatgpt/gpt-5.5_entry-002.md)** — Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Stochastic Chemical Reaction Network Theory & Phylogenetic Sequential Monte Carlo
-  * *Model:* OpenAI GPT 5.5
+* **[SID-0016](../mappings-xai-grok/xai-grok-4.5-fast_entry-0016.md)** — Viscous Thin Film Rupture Under Van Der Waals & Continuum Dislocation Climb Mediated By Vacancy Diffusion
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Viscous Thin Film Rupture Under Van Der Waals & Continuum Dislocation Climb Mediated By Vacancy Diffusion
+  * *Model:* xAI Grok 4.5 Fast
 
-## Multi Slip System Flow Rules (1)
+## Fourth Order Gradient Flow With Forcing (1)
 
-* **[SID-013](../mappings-xai-grok/grok-beta_entry-013.md)** — Crystal Plasticity & Evolutionary Game Dynamics
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Crystal Plasticity & Evolutionary Game Dynamics
-  * *Model:* xAI Grok 4 Fast
+* **[SID-0039](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0039.md)** — Thermocapillary Thin Film Spreading & Ferrofluid Thin Film Spreading
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Thermocapillary Thin Film Spreading & Ferrofluid Thin Film Spreading
+  * *Model:* DeepSeek DeepSeek V4 Pro
 
-## Multiplicative Linear Boltzmann Cascades (1)
+## Fourth Order Stabilized Instability / k2 Vs K4 Competition (1)
 
-* **[SID-042](../mappings-alibaba-qwen/qwen3.8_entry-042.md)** — Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-  * *Model:* Alibaba Qwen 3.8 Max
-
-## Noise Induced Escape From Potential Wells (1)
-
-* **[SID-039](../mappings-anthropic-claude/claude-sonnet-5_entry-039.md)** — Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Chemical Physics Barrier Crossing Kinetics & Naval Architecture Capsize Risk Assessment
-  * *Model:* Anthropic Claude Sonnet 5
-
-## Non Conservative Coupled Oscillators (1)
-
-* **[SID-007](../mappings-google-gemini/gemini-3.1-pro_entry-007.md)** — Computational Aeroelasticity & Decentralized Finance Tokenomics
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Computational Aeroelasticity & Decentralized Finance Tokenomics
-  * *Model:* Google Gemini 3.1 Pro
-
-## Non Hermitian Skin Instabilities (1)
-
-* **[SID-045](../mappings-alibaba-qwen/qwen3.8_entry-045.md)** — Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-  * `Stage 2 / flagged` (14% voted to reject)
-  * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-  * *Model:* Alibaba Qwen 3.8 Max
-
-## Non Self Adjoint Gyroscopic Systems (1)
-
-* **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-  * *Model:* Z.AI GLM 5.2
-
-## Nonlinear Advection Diffusion Integro Differential Wave (1)
-
-* **[SID-020](../mappings-microsoft-copilot/copilot_entry-020.md)** — Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Wall Bounded Turbulent Boundary Layer & Cortical Spiking Neural Field
+* **[SID-0015](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0015.md)** — Thin Film Marangoni Surfactant Hydrodynamics & Active Nematic Thin Layer Defect Dynamics
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Thin Film Marangoni Surfactant Hydrodynamics & Active Nematic Thin Layer Defect Dynamics
   * *Model:* Microsoft Copilot 1.2
 
-## Nonlinear Continuum Localization / master Equation Driven Instabilities (1)
+## Free Boundary Complementarity With Nonlocal Half Space Compliance (1)
 
-* **[SID-018](../mappings-microsoft-copilot/copilot_entry-018.md)** — Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Elasto Plasticity Of Amorphous Solids & Opinion Dynamics On Weighted Social Networks
-  * *Model:* Microsoft Copilot 1.2
-
-## Nonlinear Dynamical Systems (1)
-
-* **[SID-048](../mappings-amazon-nova/1.0_entry-048.md)** — Quantum Chaos & Turbulent Flow
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Quantum Chaos & Turbulent Flow
-  * *Model:* Amazon Nova 1.0 Pro
-
-## Nonlinear Wave Instabilities (1)
-
-* **[SID-046](../mappings-amazon-nova/1.0_entry-046.md)** — Nonlinear Optics & Fluid Turbulence
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Nonlinear Optics & Fluid Turbulence
-  * *Model:* Amazon Nova 1.0 Pro
-
-## Nonlinear Wave Propagation (1)
-
-* **[SID-047](../mappings-amazon-nova/1.0_entry-047.md)** — Plasma Physics & Traffic Flow Theory
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Plasma Physics & Traffic Flow Theory
-  * *Model:* Amazon Nova 1.0 Pro
-
-## Nonlocal Curvature Flow (1)
-
-* **[SID-026](../mappings-deepseek-deepseek/deepseek_entry-026.md)** — Elastohydrodynamics Of Active Filaments & Dislocation Dynamics In Crystalline Solids
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Elastohydrodynamics Of Active Filaments & Dislocation Dynamics In Crystalline Solids
-  * *Model:* DeepSeek DeepSeek V4 Pro
-
-## Nonlocal Elliptic Operators (1)
-
-* **[SID-028](../mappings-deepseek-deepseek/deepseek_entry-028.md)** — Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Peridynamic Fracture Mechanics & Graph Based Semi Supervised Learning
-  * *Model:* DeepSeek DeepSeek V4 Pro
-
-## Nucleation Growth Coalescence Percolation (1)
-
-* **[SID-021](../mappings-meta-muse/muse-spark-1-1_entry-021.md)** — Ductile Fracture Mechanics & Early Universe Cosmology
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Ductile Fracture Mechanics & Early Universe Cosmology
-  * *Model:* Meta Muse Spark 1.1
-
-## Poisson Point Process Generating Functionals (1)
-
-* **[SID-034](../mappings-zai-glm/glm-5-2_entry-034.md)** — Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Stochastic Geometry Wireless Networks & Phase Transformation Kinetics Additive Manufacturing
-  * *Model:* Z.AI GLM 5.2
-
-## Quasinormal Mode Decay Spectra (1)
-
-* **[SID-011](../mappings-xai-grok/grok-beta_entry-011.md)** — Black Hole Perturbation Theory & Structural Vibration Analysis
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Black Hole Perturbation Theory & Structural Vibration Analysis
-  * *Model:* xAI Grok 4 Fast
-
-## Rare Event escape / absorbing Boundary drift Diffusion (1)
-
-* **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-
-## Rate And State Limit Cycle Oscillators (1)
-
-* **[SID-008](../mappings-google-gemini/gemini-3.1-pro_entry-008.md)** — Seismological Tribology & Multi Echelon Supply Chain Logistics
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Seismological Tribology & Multi Echelon Supply Chain Logistics
-  * *Model:* Google Gemini 3.1 Pro
-
-## Rate And State Memory Instabilities (1)
-
-* **[SID-025](../mappings-meta-muse/muse-spark-1-1_entry-025.md)** — Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Earthquake Friction Mechanics & Synaptic Plasticity Dynamics
-  * *Model:* Meta Muse Spark 1.1
-
-## Reflected Markov Processes And Heavy Traffic Limits (1)
-
-* **[SID-057](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-057.md)** — Queueing Networks & Synaptic Vesicle Trafficking
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Queueing Networks & Synaptic Vesicle Trafficking
-  * *Model:* OpenAI GPT 5.4 Thinking Mini
-
-## Saddle Node Bifurcation Collapse Phenomena (1)
-
-* **[SID-040](../mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-  * *Model:* Anthropic Claude Sonnet 5
-
-## Self Consistent Phase Space Advection (1)
-
-* **[SID-009](../mappings-google-gemini/gemini-3.1-pro_entry-009.md)** — Collisionless Plasma Kinetics & HFT Market Microstructure
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Collisionless Plasma Kinetics & HFT Market Microstructure
-  * *Model:* Google Gemini 3.1 Pro
-
-## Spinodal Phase Separation With Nonlocal Elasticity (1)
-
-* **[SID-027](../mappings-deepseek-deepseek/deepseek_entry-027.md)** — Phase Field Dendrite Growth & Biofilm Pattern Formation
-  * `Stage 2 / flagged` (29% voted to reject)
-  * *Domains:* Phase Field Dendrite Growth & Biofilm Pattern Formation
-  * *Model:* DeepSeek DeepSeek V4 Pro
-
-## Symplectic Map And Kick Drift Evolution (1)
-
-* **[SID-003](../mappings-openai-chatgpt/gpt-5.5_entry-003.md)** — Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
-  * `Stage 2 / rejected` (86% voted to reject)
-  * *Domains:* Nonlinear Accelerator Beam Dynamics & Adaptive Ecosystem Management
-  * *Model:* OpenAI GPT 5.5
-
-## Thresholded Greens Kernel Inverse Design (1)
-
-* **[SID-053](../mappings-anthropic-claude/claude-opus-5_entry-053.md)** — Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Computational Lithography Proximity Effect Correction & Laser Powder Bed Fusion Scan Path Design
+* **[SID-0052](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0052.md)** — Elastohydrodynamic Lubrication And Rough Surface Contact Tribology & Subglacial Hydrology And Hard Bed Glacier Sliding
+  * `Stage 2 / flagged` (44% voted to reject)
+  * *Domains:* Elastohydrodynamic Lubrication And Rough Surface Contact Tribology & Subglacial Hydrology And Hard Bed Glacier Sliding
   * *Model:* Anthropic Claude Opus 5
 
-## Transport Limited Reactive Boundary Recession (1)
+## Gradient Flow Instability Driven Free Boundary (1)
 
-* **[SID-043](../mappings-alibaba-qwen/qwen3.8_entry-043.md)** — High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-  * *Model:* Alibaba Qwen 3.8 Max
-
-## Transport With Source Sink Defect Kinetics (1)
-
-* **[SID-004](../mappings-openai-chatgpt/gpt-5.5_entry-004.md)** — Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
-  * `Stage 2 / rejected` (71% voted to reject)
-  * *Domains:* Crystal Plasticity Dislocation Dynamics & Streaming Variational Bayesian Learning
-  * *Model:* OpenAI GPT 5.5
-
-## Two Way Coupled Diffusion Deformation (1)
-
-* **[SID-012](../mappings-xai-grok/grok-beta_entry-012.md)** — Poroelasticity & Agent Based Epidemic Modeling
-  * `Stage 2 / rejected` (100% voted to reject)
-  * *Domains:* Poroelasticity & Agent Based Epidemic Modeling
-  * *Model:* xAI Grok 4 Fast
-
-## Variational Gradient Flow / nonlocal Interaction Systems (1)
-
-* **[SID-016](../mappings-microsoft-copilot/copilot_entry-016.md)** — Variational Phase Field Fracture & Kinetic Opinion Dynamics
-  * `Stage 2 / rejected` (57% voted to reject)
-  * *Domains:* Variational Phase Field Fracture & Kinetic Opinion Dynamics
+* **[SID-0013](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0013.md)** — Variational Phase Field Fracture & Thin Film Rupture With Disjoining Pressure
+  * `Stage 2 / rejected` (78% voted to reject)
+  * *Domains:* Variational Phase Field Fracture & Thin Film Rupture With Disjoining Pressure
   * *Model:* Microsoft Copilot 1.2
 
-## Weakly Nonlinear Envelope Dynamics (1)
+## Integro Differential Complementarity Systems (1)
 
-* **[SID-006](../mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — Nonlinear Fiber Optics & Computational Neuroscience
-  * `Stage 2 / flagged` (43% voted to reject)
-  * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
+* **[SID-0030](../mappings-google-gemini/google-gemini-3.1-pro_entry-0030.md)** — Machine Tribology & Subglacial Hydrology
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Machine Tribology & Subglacial Hydrology
   * *Model:* Google Gemini 3.1 Pro
+
+## Kinetic Mean Field Instabilities (1)
+
+* **[SID-0006](../mappings-meta-muse/meta-muse-spark-1.1_entry-0006.md)** — Collisionless Electrostatic Plasma Kinetics & Dilute Pusher Microswimmer Suspension Kinetics
+  * `Stage 2 / rejected` (78% voted to reject)
+  * *Domains:* Collisionless Electrostatic Plasma Kinetics & Dilute Pusher Microswimmer Suspension Kinetics
+  * *Model:* Meta Muse Spark 1.1
+
+## Load Line Constrained Bistable Reaction Diffusion (1)
+
+* **[SID-0054](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0054.md)** — Current Filamentation In S Type Ndc Semiconductor Devices & Patchy Stomatal Conductance In Heterobaric Leaves
+  * `Stage 2 / flagged` (22% voted to reject)
+  * *Domains:* Current Filamentation In S Type Ndc Semiconductor Devices & Patchy Stomatal Conductance In Heterobaric Leaves
+  * *Model:* Anthropic Claude Opus 5
+
+## Lubrication Reduced Stokes Free Surface Flow (1)
+
+* **[SID-0019](../mappings-xai-grok/xai-grok-4.5-fast_entry-0019.md)** — Viscous Thin Film Lubrication & Shallow Ice Approximation Glaciology
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Viscous Thin Film Lubrication & Shallow Ice Approximation Glaciology
+  * *Model:* xAI Grok 4.5 Fast
+
+## Markov Chain Currents On Directed Cycles (1)
+
+* **[SID-0058](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0058.md)** — Single Molecule Motor Biophysics & Closed Cyclic Queueing Network Theory
+  * `Stage 2 / rejected` (89% voted to reject)
+  * *Domains:* Single Molecule Motor Biophysics & Closed Cyclic Queueing Network Theory
+  * *Model:* Xiaomi MiMo V2.5 Pro
+
+## Moving Boundary Flux Driven Instabilities (1)
+
+* **[SID-0011](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0011.md)** — Electrodeposition Dendrite Growth & Evaporative Colloidal Fingering Deposition
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Electrodeposition Dendrite Growth & Evaporative Colloidal Fingering Deposition
+  * *Model:* Microsoft Copilot 1.2
+
+## Moving Phase Boundary And Capillary Regularized Free Boundary Growth (1)
+
+* **[SID-0024](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0024.md)** — Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+  * `Stage 2 / flagged` (0% voted to reject)
+  * *Domains:* Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+  * *Model:* OpenAI GPT 5.6 Luna
+
+## Network Flow Linear Programming Duality (1)
+
+* **[SID-0047](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0047.md)** — Genome Scale Flux Balance Analysis & Power Systems Optimal Power Flow And Electricity Markets
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Genome Scale Flux Balance Analysis & Power Systems Optimal Power Flow And Electricity Markets
+  * *Model:* Anthropic Claude Sonnet 5
+
+## Nonlinear Diffusive Fronts With Curvature Driven Instability (1)
+
+* **[SID-0014](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0014.md)** — Thin Film Viscous Flow & Population Genetics Wavefronts
+  * `Stage 2 / rejected` (78% voted to reject)
+  * *Domains:* Thin Film Viscous Flow & Population Genetics Wavefronts
+  * *Model:* Microsoft Copilot 1.2
+
+## Nonlinear Drift Conservation Law With Reciprocal Cubic Singularity (1)
+
+* **[SID-0040](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0040.md)** — Ostwald Ripening In Alloys & Stdp Synaptic Weight Distribution
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Ostwald Ripening In Alloys & Stdp Synaptic Weight Distribution
+  * *Model:* DeepSeek DeepSeek V4 Pro
+
+## Nonlinear Elastica And Sturm Liouville Operators (1)
+
+* **[SID-0041](../mappings-zai-glm/zai-glm-5.2_entry-0041.md)** — Soft Matter Biophysics & Mems Nems Compliant Mechanisms
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Soft Matter Biophysics & Mems Nems Compliant Mechanisms
+  * *Model:* Z.AI GLM 5.2
+
+## Nonlinear Traveling Wave Instability (1)
+
+* **[SID-0022](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0022.md)** — Second Order Macroscopic Traffic Flow & Deformable Porous Media Flow
+  * `Stage 2 / flagged` (22% voted to reject)
+  * *Domains:* Second Order Macroscopic Traffic Flow & Deformable Porous Media Flow
+  * *Model:* OpenAI GPT 5.6 Luna
+
+## Nonlinear Wave Equations (1)
+
+* **[SID-0004](../mappings-amazon-nova/amazon-nova-pro_entry-0004.md)** — Quantum Mechanics & Plasma Physics
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Quantum Mechanics & Plasma Physics
+  * *Model:* Amazon Nova Pro
+
+## Nonlinear Wave Operators (1)
+
+* **[SID-0001](../mappings-amazon-nova/amazon-nova-pro_entry-0001.md)** — Plasma Physics & Complex Fluid Dynamics
+  * `Stage 2 / rejected` (100% voted to reject)
+  * *Domains:* Plasma Physics & Complex Fluid Dynamics
+  * *Model:* Amazon Nova Pro
+
+## Nonlocal Integral Operator Instability / eigenvalue Selection (1)
+
+* **[SID-0012](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0012.md)** — Nonlocal Kirchhoff Plate Buckling & Neural Field Pattern Formation
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Nonlocal Kirchhoff Plate Buckling & Neural Field Pattern Formation
+  * *Model:* Microsoft Copilot 1.2
+
+## Nonlocal Threshold Plasticity With State Diffusion (1)
+
+* **[SID-0010](../mappings-meta-muse/meta-muse-spark-1.1_entry-0010.md)** — Athermal Amorphous Plasticity & Earthquake Aftershock Triggering
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Athermal Amorphous Plasticity & Earthquake Aftershock Triggering
+  * *Model:* Meta Muse Spark 1.1
+
+## Overdamped Langevin Collective Coordinate In Periodic Potential (1)
+
+* **[SID-0044](../mappings-zai-glm/zai-glm-5.2_entry-0044.md)** — Bcc Screw Dislocation Kink Pair Plasticity & Ferroic Domain Wall Periodic Pinning Depinning
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Bcc Screw Dislocation Kink Pair Plasticity & Ferroic Domain Wall Periodic Pinning Depinning
+  * *Model:* Z.AI GLM 5.2
+
+## Periodically Reconfigured Scalar Hyperbolic Conservation Law Networks (1)
+
+* **[SID-0050](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0050.md)** — Chromatographic Equilibrium Theory & Macroscopic Traffic Flow Theory
+  * `Stage 2 / flagged` (44% voted to reject)
+  * *Domains:* Chromatographic Equilibrium Theory & Macroscopic Traffic Flow Theory
+  * *Model:* Anthropic Claude Sonnet 5
+
+## Reaction Diffusion Moving Boundary (1)
+
+* **[SID-0027](../mappings-google-gemini/google-gemini-3.1-pro_entry-0027.md)** — Financial Market Microstructure & Thermochemical Fluid Dynamics
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Financial Market Microstructure & Thermochemical Fluid Dynamics
+  * *Model:* Google Gemini 3.1 Pro
+
+## Reactive Infiltration Laplacian Growth Instabilities (1)
+
+* **[SID-0008](../mappings-meta-muse/meta-muse-spark-1.1_entry-0008.md)** — Electrochemical Lithium Dendrite Electrodeposition & Carbonate Acidization Reactive Wormholing
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Electrochemical Lithium Dendrite Electrodeposition & Carbonate Acidization Reactive Wormholing
+  * *Model:* Meta Muse Spark 1.1
+
+## Regularized Laplacian Free Boundary Instabilities (1)
+
+* **[SID-0025](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0025.md)** — Hele Shaw Viscous Fingering Dynamics & Electrochemical Dendrite Growth
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Hele Shaw Viscous Fingering Dynamics & Electrochemical Dendrite Growth
+  * *Model:* OpenAI GPT 5.6 Luna
+
+## Robin First Passage Capacity Operators (1)
+
+* **[SID-0031](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0031.md)** — Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
+  * `Stage 2 / flagged` (0% voted to reject)
+  * *Domains:* Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
+  * *Model:* Alibaba Qwen 3.8 Max
+
+## Scalar Hyperbolic Conservation Shocks (1)
+
+* **[SID-0035](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0035.md)** — Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+  * `Stage 2 / flagged` (0% voted to reject)
+  * *Domains:* Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+  * *Model:* Alibaba Qwen 3.8 Max
+
+## Scalar Nonlinear Conservation Laws (1)
+
+* **[SID-0057](../mappings-xiaomi-mimo/xiaomi-mimo-v2.5-pro_entry-0057.md)** — Epitaxial Step Flow Dynamics & Vehicular Traffic Flow Theory
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Epitaxial Step Flow Dynamics & Vehicular Traffic Flow Theory
+  * *Model:* Xiaomi MiMo V2.5 Pro
+
+## Screened Poisson Operators / massive Field Theories (1)
+
+* **[SID-0042](../mappings-zai-glm/zai-glm-5.2_entry-0042.md)** — Nonlocal Continuum Mechanics & Relativistic Quantum Field Theory
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Nonlocal Continuum Mechanics & Relativistic Quantum Field Theory
+  * *Model:* Z.AI GLM 5.2
+
+## Self Consistent Drift Diffusion Poisson Systems (1)
+
+* **[SID-0018](../mappings-xai-grok/xai-grok-4.5-fast_entry-0018.md)** — Semiconductor Drift Diffusion Transport & Electrolyte Poisson Nernst Planck Transport
+  * `Stage 2 / flagged` (22% voted to reject)
+  * *Domains:* Semiconductor Drift Diffusion Transport & Electrolyte Poisson Nernst Planck Transport
+  * *Model:* xAI Grok 4.5 Fast
+
+## Singular Integral Transport Of Divergence Free Line Densities (1)
+
+* **[SID-0017](../mappings-xai-grok/xai-grok-4.5-fast_entry-0017.md)** — Continuum Dislocation Dynamics & Inviscid Vortex Dynamics
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Continuum Dislocation Dynamics & Inviscid Vortex Dynamics
+  * *Model:* xAI Grok 4.5 Fast
+
+## Singular Moving Boundary Lubrication (1)
+
+* **[SID-0028](../mappings-google-gemini/google-gemini-3.1-pro_entry-0028.md)** — Marine Glaciology & Polymer Thin Film Dynamics
+  * `Stage 2 / flagged` (44% voted to reject)
+  * *Domains:* Marine Glaciology & Polymer Thin Film Dynamics
+  * *Model:* Google Gemini 3.1 Pro
+
+## Spherical Rayleigh Taylor Instability Dynamics (1)
+
+* **[SID-0037](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0037.md)** — Inertial Confinement Fusion Implosion Stability & Single Bubble Sonoluminescence Collapse Stability
+  * `Stage 2 / flagged` (44% voted to reject)
+  * *Domains:* Inertial Confinement Fusion Implosion Stability & Single Bubble Sonoluminescence Collapse Stability
+  * *Model:* DeepSeek DeepSeek V4 Pro
+
+## Stress Mediated Atg Free Boundary Instability (1)
+
+* **[SID-0007](../mappings-meta-muse/meta-muse-spark-1.1_entry-0007.md)** — Lithium Metal Dendrite Electrodeposition & Geological Stylolite Pressure Solution
+  * `Stage 2 / rejected` (78% voted to reject)
+  * *Domains:* Lithium Metal Dendrite Electrodeposition & Geological Stylolite Pressure Solution
+  * *Model:* Meta Muse Spark 1.1
+
+## Structured Perturbation Spectral Stability (1)
+
+* **[SID-0049](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0049.md)** — Theoretical Ecology Community Matrix Stability & Robust Control Structured Singular Value Theory
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Theoretical Ecology Community Matrix Stability & Robust Control Structured Singular Value Theory
+  * *Model:* Anthropic Claude Sonnet 5
+
+## Thin Film Cavitation Reynolds Operators (1)
+
+* **[SID-0033](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0033.md)** — Elastohydrodynamic Lubrication Line Contact & Subglacial Sheet Cavitation Hydrology
+  * `Stage 2 / flagged` (33% voted to reject)
+  * *Domains:* Elastohydrodynamic Lubrication Line Contact & Subglacial Sheet Cavitation Hydrology
+  * *Model:* Alibaba Qwen 3.8 Max
+
+## Time Dependent Variational Calculus And Damped Nonlinear Oscillators (1)
+
+* **[SID-0029](../mappings-google-gemini/google-gemini-3.1-pro_entry-0029.md)** — Deep Learning Optimization Theory & Early Universe Cosmology
+  * `Stage 2 / rejected` (56% voted to reject)
+  * *Domains:* Deep Learning Optimization Theory & Early Universe Cosmology
+  * *Model:* Google Gemini 3.1 Pro
+
+## Upper Convected Maxwell Viscoelastic Flows (1)
+
+* **[SID-0036](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0036.md)** — Polymer Melt Extrusion & 3d Cell Migration In Ecm
+  * `Stage 2 / rejected` (67% voted to reject)
+  * *Domains:* Polymer Melt Extrusion & 3d Cell Migration In Ecm
+  * *Model:* DeepSeek DeepSeek V4 Pro
 

@@ -12,62 +12,77 @@ Entries that survived adversarial review and are waiting on human bibliometric v
 
 ---
 
-19 entries awaiting Stage 3.
+24 entries awaiting Stage 3.
 
-1. **[SID-045](../mappings-alibaba-qwen/qwen3.8_entry-045.md)** — Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-   * *Domains:* Non Hermitian Topolectrical Lattices & Directed Metapopulation Epidemiology
-   * *Reject-vote share:* 14% (1/7 reviewers)
-1. **[SID-055](../mappings-anthropic-claude/claude-opus-5_entry-055.md)** — Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-   * *Domains:* Athermal Amorphous Plasticity & Power Grid Cascading Outage Analysis
-   * *Reject-vote share:* 14% (1/7 reviewers)
-1. **[SID-027](../mappings-deepseek-deepseek/deepseek_entry-027.md)** — Phase Field Dendrite Growth & Biofilm Pattern Formation
-   * *Domains:* Phase Field Dendrite Growth & Biofilm Pattern Formation
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-031](../mappings-zai-glm/glm-5-2_entry-031.md)** — Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-   * *Domains:* Axially Moving Continua Mechanics & Solar Coronal Loop MHD
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-036](../mappings-anthropic-claude/claude-sonnet-5_entry-036.md)** — Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-   * *Domains:* Power Grid Cascading Failure Analysis & Structural Progressive Collapse Analysis
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-041](../mappings-alibaba-qwen/qwen3.8_entry-041.md)** — Computational Elastoplasticity & Network Traffic Equilibrium
-   * *Domains:* Computational Elastoplasticity & Network Traffic Equilibrium
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-044](../mappings-alibaba-qwen/qwen3.8_entry-044.md)** — Nuclear Criticality Transport & Spatial Invasion Ecology
-   * *Domains:* Nuclear Criticality Transport & Spatial Invasion Ecology
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-058](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-058.md)** — Semiconductor Reliability Engineering & Computational Neuroscience
-   * *Domains:* Semiconductor Reliability Engineering & Computational Neuroscience
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-060](../mappings-openai-chatgpt/gpt-5-4-thinking-mini_entry-060.md)** — Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-   * *Domains:* Thermoacoustic Combustion Control & Epileptiform Neural Dynamics
-   * *Reject-vote share:* 29% (2/7 reviewers)
-1. **[SID-006](../mappings-google-gemini/gemini-3.1-pro_entry-006.md)** — Nonlinear Fiber Optics & Computational Neuroscience
-   * *Domains:* Nonlinear Fiber Optics & Computational Neuroscience
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-010](../mappings-google-gemini/gemini-3.1-pro_entry-010.md)** — Transformation Optics & Macroscopic Pedestrian Dynamics
-   * *Domains:* Transformation Optics & Macroscopic Pedestrian Dynamics
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-015](../mappings-xai-grok/grok-beta_entry-015.md)** — Adjoint Sensitivity Analysis & Inverse Problem Ecology
-   * *Domains:* Adjoint Sensitivity Analysis & Inverse Problem Ecology
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-017](../mappings-microsoft-copilot/copilot_entry-017.md)** — Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
-   * *Domains:* Resistive Magnetohydrodynamic Tearing Modes & Interfacial Shear Delamination In Soft Adhesives
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-037](../mappings-anthropic-claude/claude-sonnet-5_entry-037.md)** — Seismic Tomography & Paleoclimate Field Reconstruction
-   * *Domains:* Seismic Tomography & Paleoclimate Field Reconstruction
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-040](../mappings-anthropic-claude/claude-sonnet-5_entry-040.md)** — Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-   * *Domains:* Power System Voltage Stability Analysis & Fisheries Bioeconomic Collapse Modeling
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-042](../mappings-alibaba-qwen/qwen3.8_entry-042.md)** — Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-   * *Domains:* Orbital Debris Cascade Kinetics & Neutron Transport Criticality
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-043](../mappings-alibaba-qwen/qwen3.8_entry-043.md)** — High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-   * *Domains:* High Aspect Ratio Plasma Feature Etching & Hypogene Karst Conduit Enlargement
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-052](../mappings-anthropic-claude/claude-opus-5_entry-052.md)** — Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-   * *Domains:* Computational Limit And Shakedown Analysis & Genome Scale Metabolic Flux Modeling
-   * *Reject-vote share:* 43% (3/7 reviewers)
-1. **[SID-054](../mappings-anthropic-claude/claude-opus-5_entry-054.md)** — Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-   * *Domains:* Structural Shakedown And Limit Analysis & Interbank Clearing Network Systemic Risk
-   * *Reject-vote share:* 43% (3/7 reviewers)
+1. **[SID-0024](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0024.md)** — Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+   * *Domains:* Dendritic Metal Solidification & Ice Lens Growth In Frost Heave
+   * *Reject-vote share:* 0% (0/9 reviewers)
+1. **[SID-0031](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0031.md)** — Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
+   * *Domains:* Narrow Escape Diffusion Limited Reaction Kinetics & Polycrystalline Photovoltaic Carrier Lifetime
+   * *Reject-vote share:* 0% (0/9 reviewers)
+1. **[SID-0035](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0035.md)** — Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+   * *Domains:* Petroleum Reservoir Fractional Flow & Gravity Thickening Sedimentation
+   * *Reject-vote share:* 0% (0/9 reviewers)
+1. **[SID-0023](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0023.md)** — Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+   * *Domains:* Electromigration Driven Void Evolution In Metal Interconnects & Solid State Dewetting Of Supported Nanofilms
+   * *Reject-vote share:* 11% (1/9 reviewers)
+1. **[SID-0032](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0032.md)** — Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
+   * *Domains:* Ultrathin Polymer Film Dewetting & Lithium Intercalation Phase Separation
+   * *Reject-vote share:* 11% (1/9 reviewers)
+1. **[SID-0048](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0048.md)** — Rate And State Fault Friction & Short Term Synaptic Plasticity
+   * *Domains:* Rate And State Fault Friction & Short Term Synaptic Plasticity
+   * *Reject-vote share:* 11% (1/9 reviewers)
+1. **[SID-0018](../mappings-xai-grok/xai-grok-4.5-fast_entry-0018.md)** — Semiconductor Drift Diffusion Transport & Electrolyte Poisson Nernst Planck Transport
+   * *Domains:* Semiconductor Drift Diffusion Transport & Electrolyte Poisson Nernst Planck Transport
+   * *Reject-vote share:* 22% (2/9 reviewers)
+1. **[SID-0022](../mappings-openai-gpt/openai-gpt-5.6-luna_entry-0022.md)** — Second Order Macroscopic Traffic Flow & Deformable Porous Media Flow
+   * *Domains:* Second Order Macroscopic Traffic Flow & Deformable Porous Media Flow
+   * *Reject-vote share:* 22% (2/9 reviewers)
+1. **[SID-0026](../mappings-google-gemini/google-gemini-3.1-pro_entry-0026.md)** — Glaciological Subglacial Hydrology & Neuromorphic Memristive Media
+   * *Domains:* Glaciological Subglacial Hydrology & Neuromorphic Memristive Media
+   * *Reject-vote share:* 22% (2/9 reviewers)
+1. **[SID-0034](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0034.md)** — Geocryology Frost Heave & Lithium Metal Dendrite Electrodeposition
+   * *Domains:* Geocryology Frost Heave & Lithium Metal Dendrite Electrodeposition
+   * *Reject-vote share:* 22% (2/9 reviewers)
+1. **[SID-0054](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0054.md)** — Current Filamentation In S Type Ndc Semiconductor Devices & Patchy Stomatal Conductance In Heterobaric Leaves
+   * *Domains:* Current Filamentation In S Type Ndc Semiconductor Devices & Patchy Stomatal Conductance In Heterobaric Leaves
+   * *Reject-vote share:* 22% (2/9 reviewers)
+1. **[SID-0011](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0011.md)** — Electrodeposition Dendrite Growth & Evaporative Colloidal Fingering Deposition
+   * *Domains:* Electrodeposition Dendrite Growth & Evaporative Colloidal Fingering Deposition
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0015](../mappings-microsoft-copilot/microsoft-copilot-1.2_entry-0015.md)** — Thin Film Marangoni Surfactant Hydrodynamics & Active Nematic Thin Layer Defect Dynamics
+   * *Domains:* Thin Film Marangoni Surfactant Hydrodynamics & Active Nematic Thin Layer Defect Dynamics
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0016](../mappings-xai-grok/xai-grok-4.5-fast_entry-0016.md)** — Viscous Thin Film Rupture Under Van Der Waals & Continuum Dislocation Climb Mediated By Vacancy Diffusion
+   * *Domains:* Viscous Thin Film Rupture Under Van Der Waals & Continuum Dislocation Climb Mediated By Vacancy Diffusion
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0033](../mappings-alibaba-qwen/alibaba-qwen-3.8-max_entry-0033.md)** — Elastohydrodynamic Lubrication Line Contact & Subglacial Sheet Cavitation Hydrology
+   * *Domains:* Elastohydrodynamic Lubrication Line Contact & Subglacial Sheet Cavitation Hydrology
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0046](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0046.md)** — Regenerative Machine Tool Chatter Dynamics & Delayed Ctl Response Viral Dynamics
+   * *Domains:* Regenerative Machine Tool Chatter Dynamics & Delayed Ctl Response Viral Dynamics
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0051](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0051.md)** — Semiconductor Device Transport Numerics & Population Genetics Diffusion Theory
+   * *Domains:* Semiconductor Device Transport Numerics & Population Genetics Diffusion Theory
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0055](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0055.md)** — Particulate Process Engineering Population Balance Modeling & Orbital Debris Environment Evolution Modeling
+   * *Domains:* Particulate Process Engineering Population Balance Modeling & Orbital Debris Environment Evolution Modeling
+   * *Reject-vote share:* 33% (3/9 reviewers)
+1. **[SID-0020](../mappings-xai-grok/xai-grok-4.5-fast_entry-0020.md)** — Computational Micromagnetics & Nematic Liquid Crystal Director Dynamics
+   * *Domains:* Computational Micromagnetics & Nematic Liquid Crystal Director Dynamics
+   * *Reject-vote share:* 44% (4/9 reviewers)
+1. **[SID-0028](../mappings-google-gemini/google-gemini-3.1-pro_entry-0028.md)** — Marine Glaciology & Polymer Thin Film Dynamics
+   * *Domains:* Marine Glaciology & Polymer Thin Film Dynamics
+   * *Reject-vote share:* 44% (4/9 reviewers)
+1. **[SID-0037](../mappings-deepseek-deepseek/deepseek-deepseek-v4-pro_entry-0037.md)** — Inertial Confinement Fusion Implosion Stability & Single Bubble Sonoluminescence Collapse Stability
+   * *Domains:* Inertial Confinement Fusion Implosion Stability & Single Bubble Sonoluminescence Collapse Stability
+   * *Reject-vote share:* 44% (4/9 reviewers)
+1. **[SID-0050](../mappings-anthropic-claude/anthropic-claude-sonnet-5_entry-0050.md)** — Chromatographic Equilibrium Theory & Macroscopic Traffic Flow Theory
+   * *Domains:* Chromatographic Equilibrium Theory & Macroscopic Traffic Flow Theory
+   * *Reject-vote share:* 44% (4/9 reviewers)
+1. **[SID-0052](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0052.md)** — Elastohydrodynamic Lubrication And Rough Surface Contact Tribology & Subglacial Hydrology And Hard Bed Glacier Sliding
+   * *Domains:* Elastohydrodynamic Lubrication And Rough Surface Contact Tribology & Subglacial Hydrology And Hard Bed Glacier Sliding
+   * *Reject-vote share:* 44% (4/9 reviewers)
+1. **[SID-0053](../mappings-anthropic-claude/anthropic-claude-opus-5_entry-0053.md)** — Applied Superconductivity Magnet Quench Protection & Clinical Neurophysiology Cortical Spreading Depolarization
+   * *Domains:* Applied Superconductivity Magnet Quench Protection & Clinical Neurophysiology Cortical Spreading Depolarization
+   * *Reject-vote share:* 44% (4/9 reviewers)
