@@ -5,8 +5,8 @@ sid_metadata:
   maturity_stage: "adversarial-rejected"
 provenance:
   company: "OpenAI"
-  model_family: "GPT-5"
-  model_version: "GPT-5.6 Luna"
+  model_family: "GPT"
+  model_version: "5.6 Luna"
   generation_timestamp: "2026-08-10"
   prompt_type: "unsupervised-structural-isomorphism-discovery"
 isomorphism_metadata:
