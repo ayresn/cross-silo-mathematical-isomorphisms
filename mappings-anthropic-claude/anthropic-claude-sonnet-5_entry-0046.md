@@ -117,15 +117,15 @@ validation_status:
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "PASS"
-    verdict_rationale: "The entry consistently demonstrates a shared linear retarded-operator class \(P(\lambda)+Q(\lambda)e^{-\lambda\tau}=0\), derives matching marginal-stability (imaginary-axis crossing) conditions in both silos, and provides the \(n\)-indexed branch formulae needed to support the listed correspondence vectors."
+    verdict_rationale: "The entry consistently demonstrates a shared linear retarded-operator class \\(P(\\lambda)+Q(\\lambda)e^{-\\lambda\\tau}=0\\), derives matching marginal-stability (imaginary-axis crossing) conditions in both silos, and provides the \\(n\\)-indexed branch formulae needed to support the listed correspondence vectors."
     failed_checks: []
     flagged_checks: []
     quoted_evidence: []
     stage_3_watch_items:
-      - "The entry explicitly notes a degree difference (Silo A: quadratic \(P\), constant \(Q\); Silo B: quartic \(P\), up-to-cubic \(Q\)); human reviewers should verify that this degree difference does not introduce hidden degeneracies in representative parameter regimes (e.g., multiple near-coincident roots) that would invalidate the simple modulus/phase crossing argument in practice."
+      - "The entry explicitly notes a degree difference (Silo A: quadratic \\(P\\), constant \\(Q\\); Silo B: quartic \\(P\\), up-to-cubic \\(Q\\)); human reviewers should verify that this degree difference does not introduce hidden degeneracies in representative parameter regimes (e.g., multiple near-coincident roots) that would invalidate the simple modulus/phase crossing argument in practice."
       - "Nonlinear consequences are explicitly excluded by the authors; Stage 3 should probe whether bifurcation direction (sub/supercritical) and amplitude scaling differ systematically between typical machining and CTL models, since linear isomorphism does not guarantee similar post-bifurcation dynamics."
-      - "Confirm the determinant/cofactor expansion used to isolate \(Q(\lambda)\) in the 4×4 CTL linearization (the claim that only the z-row carries delay and that determinants are linear in that row) for representative parameterizations and model variants."
-      - "Verify the numerical ranges and clinical relevance of the falsifiable prediction (the stated \(\tau\in[0,30]\) days window and the assumed \(2\pi/\omega_c\) clustering) against published parameter sets during bibliometric Stage 3."
+      - "Confirm the determinant/cofactor expansion used to isolate \\(Q(\\lambda)\\) in the 4×4 CTL linearization (the claim that only the z-row carries delay and that determinants are linear in that row) for representative parameterizations and model variants."
+      - "Verify the numerical ranges and clinical relevance of the falsifiable prediction (the stated \\(\\tau\\in[0,30]\\) days window and the assumed \\(2\\pi/\\omega_c\\) clustering) against published parameter sets during bibliometric Stage 3."
       - "Check prior-art overlap: Stage 3 should search for existing two-field mappings or prior uses of semi-discretization/root-continuation in delayed-CTL models to ensure novelty claims are accurate."
   eighth_adversarial_review:
     reviewer_model: "xAI Grok 4.5 Fast"

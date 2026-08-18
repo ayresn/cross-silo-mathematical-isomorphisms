@@ -67,9 +67,9 @@ validation_status:
     flagged_checks:
       - "Check 3: degenerate_optimal_face_ranging_fva_vs_security_margin is listed as a correspondence vector but is not demonstrated by an equation or operator identity on both sides."
     quoted_evidence:
-      - "signed nodal-incidence conservation operator ($Sv=0$ versus $D\,\mathrm{diag}(b)\,D^{T}\theta=p_g-p_d$)"
-      - "Stoichiometric matrix $S$ ↔ Node-edge incidence operator $D\,\mathrm{diag}(b)\,D^{T}$"
-      - "Both are signed linear incidence operators $A:\mathbb{R}^{\text{edges}}\to\mathbb{R}^{\text{nodes}}$"
+      - "signed nodal-incidence conservation operator ($Sv=0$ versus $D\\,\\mathrm{diag}(b)\\,D^{T}\\theta=p_g-p_d$)"
+      - "Stoichiometric matrix $S$ ↔ Node-edge incidence operator $D\\,\\mathrm{diag}(b)\\,D^{T}$"
+      - "Both are signed linear incidence operators $A:\\mathbb{R}^{\\text{edges}}\\to\\mathbb{R}^{\\text{nodes}}$"
     stage_3_watch_items:
       - "Resolve the S ↔ B operator-type mismatch: the correct incidence pairing appears to be S ↔ D, not S ↔ D diag(b) D^T."
       - "Probe the FBA–DC-OPF network-LP/duality analogy for prior art using the entry's own Section 5 search strings."
@@ -125,14 +125,14 @@ validation_status:
     verdict_rationale: "The entry contains a fatal mathematical-type error in its central operator mapping: it identifies the stoichiometric matrix S with the weighted graph Laplacian D diag(b) D^T, although these operators have different domains and roles, and the body itself subsequently identifies S with D instead."
     failed_checks: ["Check 2: Stoichiometric matrix S is mapped to D diag(b) D^T, which is a nodal Laplacian mapping phase angles to injections rather than an edge-to-node incidence operator; the body later correctly uses D for the incidence correspondence."]
     flagged_checks: ["Check 3: The degenerate_optimal_face_ranging_fva_vs_security_margin vector is asserted but the body does not provide an equation, operator identity, or derivation establishing the claimed OPF security-margin ranging correspondence."]
-    quoted_evidence: ["Stoichiometric matrix $S$ ↔ Node-edge incidence operator $D\,\mathrm{diag}(b)\,D^{T}$"]
-    stage_3_watch_items: ["Probe the claimed FVA-versus-security-margin correspondence: Section 2 and the Bridge assert that they are the same parametric-LP query, but no explicit security-margin ranging formulation or derivation is given.", "Check the DC-OPF linear-program claim against the displayed objective $\sum_i C_i(p_{g,i})$, since linearity of the generation-cost functions is not stated explicitly."]
+    quoted_evidence: ["Stoichiometric matrix $S$ ↔ Node-edge incidence operator $D\\,\\mathrm{diag}(b)\\,D^{T}$"]
+    stage_3_watch_items: ["Probe the claimed FVA-versus-security-margin correspondence: Section 2 and the Bridge assert that they are the same parametric-LP query, but no explicit security-margin ranging formulation or derivation is given.", "Check the DC-OPF linear-program claim against the displayed objective $\\sum_i C_i(p_{g,i})$, since linearity of the generation-cost functions is not stated explicitly."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-16"
     verdict: "REJECT"
-    verdict_rationale: "A category error in the claimed operator identity: the entry equates the stoichiometric incidence operator with a node-node Laplacian ($D\,\mathrm{diag}(b)\,D^{T}$), which are different mathematical objects and breaks the core operator correspondence required for the isomorphism."
+    verdict_rationale: "A category error in the claimed operator identity: the entry equates the stoichiometric incidence operator with a node-node Laplacian ($D\\,\\mathrm{diag}(b)\\,D^{T}$), which are different mathematical objects and breaks the core operator correspondence required for the isomorphism."
     failed_checks:
       - "Check 1: Equation Validity — the entry pairs $Sv=0$ (an edge→node incidence constraint) with $D\\,\\mathrm{diag}(b)\\,D^{T}\\theta=p_g-p_d$ (a node–node Laplacian equation) while claiming a shared signed incidence operator."
       - "Check 2: Vocabulary Matrix Coherence — the explicit mapping 'Stoichiometric matrix $S$ ↔ Node-edge incidence operator $D\\,\\mathrm{diag}(b)\\,D^{T}$' maps matrices of incompatible mathematical type (incidence vs. Laplacian)."

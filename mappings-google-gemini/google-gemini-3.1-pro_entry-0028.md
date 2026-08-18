@@ -127,10 +127,10 @@ validation_status:
     flagged_checks: []
     quoted_evidence:
       - "Mathematical Isomorphism:** Both macroscopic marine ice streams and microscopic polymer dewetting films are strictly governed by an identical coupled parabolic-elliptic system—combining a kinematic mass transport equation with an elliptic momentum operator balancing extensional membrane stresses against basal drag—which must resolve a non-integrable moving-boundary stress singularity at the exact point of substrate detachment."
-      - "**Second** (`hyperbolic_kinematic_mass_transport`), both systems transport the domain thickness via the exact identical hyperbolic-parabolic kinematic continuity operator $\partial_t h + \partial_x(uh) = \text{Source}$."
-      - "the left-hand sides are structurally identical: the extensional stress divergence $4 \bar{\nu} \leftrightarrow 4 \mu$ perfectly balances the basal drag $\tau_b \leftrightarrow \frac{\mu}{b}u$."
+      - "**Second** (`hyperbolic_kinematic_mass_transport`), both systems transport the domain thickness via the exact identical hyperbolic-parabolic kinematic continuity operator $\\partial_t h + \\partial_x(uh) = \\text{Source}$."
+      - "the left-hand sides are structurally identical: the extensional stress divergence $4 \\bar{\\nu} \\leftrightarrow 4 \\mu$ perfectly balances the basal drag $\\tau_b \\leftrightarrow \\frac{\\mu}{b}u$."
       - "Basal Drag Discontinuity ↔ Huh-Scriven Singularity"
-      - "Flotation Criterion $h(x_g) = -(\u005crho_w / \u005crho_i) z_b$ ↔ Disjoining Pressure $\Pi(h)$"
+      - "Flotation Criterion $h(x_g) = -(\\u005crho_w / \\u005crho_i) z_b$ ↔ Disjoining Pressure $\\Pi(h)$"
       - "**Third** (`moving_detachment_boundary_singularity`), both models suffer from a fundamental stress singularity at the domain detachment coordinate ($x_g$ vs. the dewetting front)."
     stage_3_watch_items:
       - "Probe the claimed correspondence between grounding-line stress behavior and the Huh–Scriven moving-contact-line singularity; the entry does not establish their asymptotic singular structures."

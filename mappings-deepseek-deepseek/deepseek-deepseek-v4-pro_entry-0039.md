@@ -108,10 +108,10 @@ validation_status:
       - "Check 3: Correspondence Vector Support - Vectors 1 and 2 are based on the fabricated operator, and Vector 3 relies on an undefined 'magnetic-slip length'."
     flagged_checks: []
     quoted_evidence:
-      - "taking the form $\partial_t h = \nabla \cdot [M(h) \nabla (\nabla^2 h + \Phi)]$ with a mobility $M(h)=h^3$, where the potential $\Phi$ encodes the destabilizing driving force—temperature or magnetic potential"
-      - "$\frac{\partial H}{\partial \tau} = \nabla \cdot \left[ H^3 \nabla \left( \nabla^2 H + \text{Ma}\, \Theta \right) \right], \qquad \text{(1)}$"
+      - "taking the form $\\partial_t h = \\nabla \\cdot [M(h) \\nabla (\\nabla^2 h + \\Phi)]$ with a mobility $M(h)=h^3$, where the potential $\\Phi$ encodes the destabilizing driving force—temperature or magnetic potential"
+      - "$\\frac{\\partial H}{\\partial \\tau} = \\nabla \\cdot \\left[ H^3 \\nabla \\left( \\nabla^2 H + \\text{Ma}\\, \\Theta \\right) \\right], \\qquad \\text{(1)}$"
       - "Thermocapillary Marangoni stress ↔ Magnetic Kelvin force potential"
-      - "Operator Role: The quantity $\Phi$ enters the lubrication momentum balance as an in-plane gradient of a potential, i.e., the term $\nabla\Phi$ in the pressure gradient."
+      - "Operator Role: The quantity $\\Phi$ enters the lubrication momentum balance as an in-plane gradient of a potential, i.e., the term $\\nabla\\Phi$ in the pressure gradient."
     stage_3_watch_items: []
   sixth_adversarial_review:
     reviewer_model: "OpenAI GPT-5.6 Luna"
@@ -121,7 +121,7 @@ validation_status:
     verdict_rationale: "The entry contains a category-error vocabulary mapping between a spreading coefficient and a magnetic pressure, and its claimed identical dispersion relation is not established from the equations as written."
     failed_checks: ["Check 2: Spreading coefficient S is mapped to magnetic pressure jump μ0 M H despite incompatible dimensional and mathematical roles.", "Check 3: The listed dispersion-relation vector is not actually demonstrated because the derivation requires an unstated thickness derivative of the auxiliary potential and the asserted values Π0=Ma and Π0=Bm do not follow from the preceding equations."]
     flagged_checks: ["Check 4: The transfer direction is asserted with a maturity comparison that is not demonstrated mathematically in the entry, although the stated numerical bifurcation threshold is specific and therefore potentially falsifiable."]
-    quoted_evidence: ["*   Spreading coefficient (S) ↔ Magnetic pressure jump (\mu_0 M H)", "*Linear stability of a flat film.* For a uniform base state (H=1) and a constant potential (\Psi_0), the normal-mode perturbation (\propto e^{\omega t + i\mathbf{k}\cdot\mathbf{x}}) yields the identical dispersion relation:", "where the control parameter is (\Pi_0 = -\partial\Psi/\partial H) evaluated at (H=1). In Silo A, (\Pi_0 = \text{Ma}), and in Silo B, (\Pi_0 = \text{Bm})."]
+    quoted_evidence: ["*   Spreading coefficient (S) ↔ Magnetic pressure jump (\\mu_0 M H)", "*Linear stability of a flat film.* For a uniform base state (H=1) and a constant potential (\\Psi_0), the normal-mode perturbation (\\propto e^{\\omega t + i\\mathbf{k}\\cdot\\mathbf{x}}) yields the identical dispersion relation:", "where the control parameter is (\\Pi_0 = -\\partial\\Psi/\\partial H) evaluated at (H=1). In Silo A, (\\Pi_0 = \\text{Ma}), and in Silo B, (\\Pi_0 = \\text{Bm})."]
     stage_3_watch_items: ["Probe the claimed exact mapping of Marangoni and magnetic control parameters and whether the ferrofluid field/thickness coupling really reduces to the asserted local potential form.", "Probe the claimed 1.65 hexagon-to-square bifurcation threshold and supercriticality independently of the entry's cited attribution.", "Probe the claimed identical contact-line regularization, especially the statement that Silo B uses a 'magnetic-slip length' of identical functional form."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

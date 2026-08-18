@@ -102,8 +102,8 @@ validation_status:
       - "Check 1: The Couette wedge term uses ∂h/∂x (total gap including elastic deformation) in the EHL equation but ∂h_b/∂x (bedrock topography only) in the subglacial equation, contradicting the 'identical' claim."
     quoted_evidence:
       - "By setting p_{EHL} = -N (or mapping EHL pressure directly to p_w), the macroscopic rigid profile h_0(x) to the bedrock bump h_b(x), and the metal elastic modulus E' to the ice rigidity, the governing systems become identical."
-      - "h(x, t) = h_0(x) + \frac{4}{\pi E'} \int_{-\infty}^{\infty} p(x', t) \ln|x - x'| dx'"
-      - "h(x, t) = h_b(x) + \frac{2(1 - \nu_i^2)}{\pi E_i} \int_{-\infty}^{\infty} (p_w(x', t) - P_{ice}) \ln|x - x'| dx'"
+      - "h(x, t) = h_0(x) + \\frac{4}{\\pi E'} \\int_{-\\infty}^{\\infty} p(x', t) \\ln|x - x'| dx'"
+      - "h(x, t) = h_b(x) + \\frac{2(1 - \\nu_i^2)}{\\pi E_i} \\int_{-\\infty}^{\\infty} (p_w(x', t) - P_{ice}) \\ln|x - x'| dx'"
     stage_3_watch_items:
       - "Verify whether the factor-of-2 discrepancy in the Boussinesq coefficients has been resolved in the tribology-glaciology EHL literature; the EHL convention may absorb the two-surface deformation factor into E' differently than the entry assumes."
       - "Verify whether the subglacial wedge term should use ∂h/∂x or ∂h_b/∂x — some glaciological models (e.g., for subglacial lake drainage) use the total gap, which would restore exact identity."

@@ -100,8 +100,8 @@ validation_status:
       - "Check 2: Category error mapping grain boundary mobility to a diffusivity, compounded by contradictory definitions of $M_{dw}$."
     flagged_checks: []
     quoted_evidence:
-      - "v_n = \frac{\sigma_w}{\beta}\,\kappa = M_{\mathrm{dw}}\,\sigma_w\,\kappa"
-      - "Domain wall mobility M_{\mathrm{dw}} = \sigma_w/\beta"
+      - "v_n = \\frac{\\sigma_w}{\\beta}\\,\\kappa = M_{\\mathrm{dw}}\\,\\sigma_w\\,\\kappa"
+      - "Domain wall mobility M_{\\mathrm{dw}} = \\sigma_w/\\beta"
     stage_3_watch_items:
       - "Prior Art: Curvature-driven coarsening (Allen-Cahn universality class) is a standard concept; verify if the explicit mapping of grain growth statistical laws to magnetic domains is novel."
   sixth_adversarial_review:
@@ -112,7 +112,7 @@ validation_status:
     verdict_rationale: "Check 2 contains a genuine mathematical type/definition error: the vocabulary matrix identifies domain-wall mobility as sigma_w/beta, while the entry's own equations define the mobility as 1/beta and sigma_w/beta as the mobility-weighted interfacial energy coefficient."
     failed_checks: ["Check 2: domain wall mobility is misdefined in the vocabulary mapping"]
     flagged_checks: ["Check 1: the magnetic-domain triple-junction/von Neumann construction is restricted in the text to exotic multi-state patterns rather than the stated two-state perpendicular-anisotropy Co/Pt setting"]
-    quoted_evidence: ["**Grain boundary mobility $M_{\mathrm{gb}}$** ↔ **Domain wall mobility $M_{\mathrm{dw}} = \sigma_w/\beta$**"]
+    quoted_evidence: ["**Grain boundary mobility $M_{\\mathrm{gb}}$** ↔ **Domain wall mobility $M_{\\mathrm{dw}} = \\sigma_w/\\beta$**"]
     stage_3_watch_items: ["Probe whether the claimed Hillert size-distribution correspondence is actually established for two-phase magnetic-domain coarsening rather than merely asserted by writing down the same mean-field equation.", "Probe the applicability of the triple-junction and von Neumann-Mullins correspondence to the stated perpendicular-anisotropy Co/Pt systems, since the entry itself invokes three-or-more-state magnetic patterns only as special constructions.", "Probe the claimed asymmetric maturity and the assertion that the magnetic-domain community lacks a comparable analytical coarsening-statistics framework."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

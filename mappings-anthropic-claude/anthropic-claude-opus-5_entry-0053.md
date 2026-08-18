@@ -82,10 +82,10 @@ validation_status:
     flagged_checks:
       - "Check 3: Vector 3 (unstable stationary nucleus first integral) is not demonstrated for Silo A by the shared first integral; Silo A uses a step-source idealization with cooling neglected."
     quoted_evidence:
-      - "Both systems are now instances of ... \hat g(0)=\hat g(\theta)=\hat g(u_+)=0,\quad \hat g'(0)=-1,\quad \hat g'(u_+)<0, with (\tau,\lambda,\theta,u_+)=(CA/hP,\ \sqrt{kA/hP},\ 1-I/I_{c0},\ \alpha_S) for Silo A"
-      - "\varphi_A(u)= \begin{cases} 0,&u<\theta_A ... \end{cases} \qquad \theta_A=1-\tfrac{I}{I_{c0}}"
-      - "\hat g_A(u)=\alpha_S\,\varphi_A(u)-u"
-      - "Both are the interior unstable zero $\theta$ of the shared source, $\hat g(\theta)=0$, $\hat g'(\theta)>0$"
+      - "Both systems are now instances of ... \\hat g(0)=\\hat g(\\theta)=\\hat g(u_+)=0,\\quad \\hat g'(0)=-1,\\quad \\hat g'(u_+)<0, with (\\tau,\\lambda,\\theta,u_+)=(CA/hP,\\ \\sqrt{kA/hP},\\ 1-I/I_{c0},\\ \\alpha_S) for Silo A"
+      - "\\varphi_A(u)= \\begin{cases} 0,&u<\\theta_A ... \\end{cases} \\qquad \\theta_A=1-\\tfrac{I}{I_{c0}}"
+      - "\\hat g_A(u)=\\alpha_S\\,\\varphi_A(u)-u"
+      - "Both are the interior unstable zero $\\theta$ of the shared source, $\\hat g(\\theta)=0$, $\\hat g'(\\theta)>0$"
     stage_3_watch_items:
       - "Probe whether redefining θ_A as the actual unstable root of α_S φ_A - u, rather than 1-I/I_c0, restores the shared three-root structure."
       - "Check the V3 Silo A MPZ derivation against the full stationary Wilson equation with cooling; the step-source idealization may not be the same first-integral nucleus."
@@ -136,7 +136,7 @@ validation_status:
     verdict_rationale: "The entry contains a fatal vocabulary/equilibrium error: it identifies the superconducting current-sharing threshold with an interior unstable zero of the nondimensional source, but the displayed Silo A equation has nonzero source at that threshold."
     failed_checks: ["Check 2: The mapping T_cs ↔ SD initiation threshold incorrectly identifies T_cs with the unstable zero theta of the shared source.", "Check 1: The claimed shared bistable operator has the stated Silo A condition g_hat(theta)=0, but the displayed Silo A source gives g_hat(theta)=-theta, so the asserted root structure is internally inconsistent."]
     flagged_checks: []
-    quoted_evidence: ["**Current-sharing temperature $T_{cs}$** ↔ **SD initiation threshold $[\mathrm{K^+}]_{e,\theta}$**\n    *   *Operator Role:* Both are the interior unstable zero $\theta$ of the shared source, $\hat g(\theta)=0$, $\hat g'(\theta)>0$, separating the two basins of $\tau\partial_t u=\lambda^2\partial_x^2u+\hat g(u)$.", "`math\n\\varphi_A(u)=\n\\begin{cases}\n0,&u<\\theta_A\\\\[3pt]\n\\Bigl(\\tfrac{u-\\theta_A}{1-\\theta_A}\\Bigr)^{2},&\\theta_A\\le u\\le 1\\\\[5pt]\n1,&u>1\n\\end{cases}\n\\qquad \\theta_A=1-\\tfrac{I}{I_{c0}}\n`", "Note $\hat g_A(0)=0$, $\hat g_A'(0)=-1$, and the upper root is $u_+=\alpha_S$, which is a fully resistive self-sustaining state iff $\alpha_S>1$ — the classical Stekly cryostability criterion recovered as a statement about root position.", "`math\n\\tau\\,\\partial_t u=\\lambda^{2}\\,\\partial_x^{2}u+\\hat g(u),\n\\qquad\n\\hat g(0)=\\hat g(\\theta)=\\hat g(u_+)=0,\\quad \\hat g'(0)=-1,\\quad \\hat g'(u_+)<0,\n`"]
+    quoted_evidence: ["**Current-sharing temperature $T_{cs}$** ↔ **SD initiation threshold $[\\mathrm{K^+}]_{e,\\theta}$**\\n    *   *Operator Role:* Both are the interior unstable zero $\\theta$ of the shared source, $\\hat g(\\theta)=0$, $\\hat g'(\\theta)>0$, separating the two basins of $\\tau\\partial_t u=\\lambda^2\\partial_x^2u+\\hat g(u)$.", "`math\\n\\\\varphi_A(u)=\\n\\\\begin{cases}\\n0,&u<\\\\theta_A\\\\\\\\[3pt]\\n\\\\Bigl(\\\\tfrac{u-\\\\theta_A}{1-\\\\theta_A}\\\\Bigr)^{2},&\\\\theta_A\\\\le u\\\\le 1\\\\\\\\[5pt]\\n1,&u>1\\n\\\\end{cases}\\n\\\\qquad \\\\theta_A=1-\\\\tfrac{I}{I_{c0}}\\n`", "Note $\\hat g_A(0)=0$, $\\hat g_A'(0)=-1$, and the upper root is $u_+=\\alpha_S$, which is a fully resistive self-sustaining state iff $\\alpha_S>1$ — the classical Stekly cryostability criterion recovered as a statement about root position.", "`math\\n\\\\tau\\\\,\\\\partial_t u=\\\\lambda^{2}\\\\,\\\\partial_x^{2}u+\\\\hat g(u),\\n\\\\qquad\\n\\\\hat g(0)=\\\\hat g(\\\\theta)=\\\\hat g(u_+)=0,\\\\quad \\\\hat g'(0)=-1,\\\\quad \\\\hat g'(u_+)<0,\\n`"]
     stage_3_watch_items: ["If the entry is otherwise retained after the equilibrium/root error is addressed, verify the stronger Section 1 claim that the two systems have an exact operator identification while Section 1 simultaneously states that their constitutive source shapes differ."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

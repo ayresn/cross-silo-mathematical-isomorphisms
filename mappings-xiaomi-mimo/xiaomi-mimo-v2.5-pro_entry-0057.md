@@ -114,7 +114,7 @@ validation_status:
     verdict_rationale: "The entry contains a mathematically incorrect second derivative for the BCF flux and applies the Lax shock condition with the density ordering appropriate to a convex, not concave, flux, so its claimed shock correspondence is not supported."
     failed_checks: ["Check 1: The displayed BCF flux second derivative is incorrect, and the stated high-density-to-low-density Lax shock configuration is incompatible with a concave flux.", "Check 3: The Rankine-Hugoniot/Lax shock correspondence is not valid as demonstrated because the stated Lax inequality cannot hold for the specified density ordering and concave flux."]
     flagged_checks: []
-    quoted_evidence: ["f''(\rho) = \frac{d^2}{d\rho^2}\!\left[2F\Omega x_s\,\rho\,\tanh\!\left(\frac{1}{2x_s\rho}\right)\right] = -8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3}\;<\;0, \quad \xi = \frac{1}{2x_s\rho} > 0", "f'(\u03c1_L) > s > f'(\u03c1_R)"]
+    quoted_evidence: ["f''(\\rho) = \\frac{d^2}{d\\rho^2}\\!\\left[2F\\Omega x_s\\,\\rho\\,\\tanh\\!\\left(\\frac{1}{2x_s\\rho}\\right)\\right] = -8F\\Omega x_s^3\\,\\frac{\\tanh\\xi\\;\\mathrm{sech}^2\\!\\xi}{\\xi^3}\\;<\\;0, \\quad \\xi = \\frac{1}{2x_s\\rho} > 0", "f'(\\u03c1_L) > s > f'(\\u03c1_R)"]
     stage_3_watch_items: ["Probe the claimed cross-domain step-bunch/traffic-jam shock correspondence after correcting the density ordering required by entropy admissibility for a concave flux.", "Probe whether the BCF continuum step-density model and its numerical conservation-law treatment are already established in the step-bunching literature."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

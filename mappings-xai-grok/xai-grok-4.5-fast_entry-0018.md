@@ -127,7 +127,7 @@ validation_status:
     verdict_rationale: "The claimed operator identity equation is mathematically incorrect for negatively charged species, failing to support the structural correspondence."
     failed_checks: ["Check 1: Equation Validity", "Check 3: Correspondence Vector Support"]
     flagged_checks: ["Check 4: Prior Art Advisory"]
-    quoted_evidence: ["the flux operators become identical: \n\mathbf{J}\propto -(\nabla u+u\nabla\psi) \nfor each carrier/ionic density u"]
+    quoted_evidence: ["the flux operators become identical: \\n\\mathbf{J}\\propto -(\\nabla u+u\\nabla\\psi) \\nfor each carrier/ionic density u"]
     stage_3_watch_items: ["Verify if Scharfetter-Gummel applied to PNP is considered standard practice in computational electrochemistry, potentially invalidating the asymmetry and novelty claims."]
   seventh_adversarial_review:
     reviewer_model: "OpenAI GPT-5.6 Luna"

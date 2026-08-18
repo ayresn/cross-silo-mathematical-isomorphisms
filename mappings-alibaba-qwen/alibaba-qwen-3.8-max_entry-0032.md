@@ -117,8 +117,8 @@ validation_status:
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "REJECT"
-    verdict_rationale: "The claimed dimensionless bridge contains a concrete nondimensionalization error (missing factors of the concentration scale \(c_{\max}\) in the B-side chemical-potential and potential definitions), which breaks the asserted operator identity between the two systems."
-    failed_checks: ["Check 1: Equation validity — inconsistent nondimensionalization between Silo A and Silo B (missing \(c_{\\max}\) factors)"]
+    verdict_rationale: "The claimed dimensionless bridge contains a concrete nondimensionalization error (missing factors of the concentration scale \\(c_{\\max}\\) in the B-side chemical-potential and potential definitions), which breaks the asserted operator identity between the two systems."
+    failed_checks: ["Check 1: Equation validity — inconsistent nondimensionalization between Silo A and Silo B (missing \\(c_{\\\\max}\\) factors)"]
     flagged_checks: []
     quoted_evidence: [
       "U_B=\\frac{c-c_0}{c_{\\max}},",

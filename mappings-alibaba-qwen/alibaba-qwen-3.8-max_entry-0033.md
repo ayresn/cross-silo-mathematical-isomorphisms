@@ -110,7 +110,7 @@ validation_status:
     verdict_rationale: "The core Reynolds-operator algebra is internally coherent, but the quantitative transfer prediction substitutes a 0.5 m bed-undulation amplitude for the sheet-aperture amplitude a used in the derived equation, making the claimed numerical onset and bed-fraction prediction unsupported and physically incompatible with the stated small-amplitude sheet model."
     failed_checks: ["Check 4: The falsifiable prediction applies the sheet-aperture amplitude a from Section 3 as though it were the amplitude of a 0.5 m bed undulation, with no stated constitutive mapping; this also violates the small-amplitude assumption because a/s_0=500 and s=s_0+a cos(kx) would become negative."]
     flagged_checks: []
-    quoted_evidence: [""Consider a fast-sliding, hard-bed glacier reach approximated by a sinusoidal bed undulation of wavelength `λ=10 m`, amplitude `a=0.5 m`, distributed sheet thickness `s_0=1 mm`""]
+    quoted_evidence: ['"Consider a fast-sliding, hard-bed glacier reach approximated by a sinusoidal bed undulation of wavelength `λ=10 m`, amplitude `a=0.5 m`, distributed sheet thickness `s_0=1 mm`"']
     stage_3_watch_items: []
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

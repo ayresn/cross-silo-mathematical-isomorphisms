@@ -102,8 +102,8 @@ validation_status:
       - "Check 4b: The falsifiable prediction's threshold t_crit = r/(2*sqrt(lambda_min)) is derived from the incorrect freeze-out formula, making the quantitative prediction wrong by a known factor"
       - "Check 4c: The Nesterov-Hubble friction analogy is a recognized result in the optimization-for-physics literature (Wibisono-Wilson-Jordan 2016, Shi-Du-Jordan-Su)"
     quoted_evidence:
-      - "This damped harmonic oscillator undergoes a fundamental phase transition (zero discriminant) when \lambda_i t^2 = \frac{r^2}{4}. In cosmology, this is the exact moment a quantum fluctuation's physical wavelength stretches beyond the Hubble horizon and 'freezes out.'"
-      - "t_{crit} = \frac{r}{2\sqrt{\lambda_{min}}}"
+      - "This damped harmonic oscillator undergoes a fundamental phase transition (zero discriminant) when \\lambda_i t^2 = \\frac{r^2}{4}. In cosmology, this is the exact moment a quantum fluctuation's physical wavelength stretches beyond the Hubble horizon and 'freezes out.'"
+      - "t_{crit} = \\frac{r}{2\\sqrt{\\lambda_{min}}}"
     stage_3_watch_items:
       - "Verify novelty of the Nesterov-acceleration ↔ Hubble-friction analogy: the basic ODE and Lagrangian correspondences (vectors 1-3) are well-established in the optimization-for-physics literature (Wibisono, Wilson, Jordan 2016; Shi, Du, Jordan, Su). The perturbation freeze-out correspondence (vector 4) may be more novel but should be checked against recent preprints."
       - "Probe the freeze-out threshold: the entry's formula lambda*t^2 = r^2/4 comes from the instantaneous discriminant of the characteristic equation. The exact Mukhanov-Sasaki-type transformation x = t^{-r/2} y removes the friction and yields the frictionless mode equation ddot(y) + [lambda - r(r-2)/(4t^2)]y = 0, giving a freeze-out at lambda*t^2 = r(r-2)/4, which differs from the entry's result by a factor of r/(r-2) (equals 3 for r=3). The Bessel-function exact solution confirms the transition occurs near lambda*t^2 ~ (r-1)^2/4. A human reviewer should assess whether this quantitative discrepancy invalidates the specific falsifiable prediction."
@@ -130,14 +130,14 @@ validation_status:
     verdict_rationale: "The entry contains a genuine equation-class/physical-correspondence failure in the claimed horizon freeze-out mapping and a category error mapping a Hessian eigenvalue to an effective comoving wavenumber squared."
     failed_checks: ["Check 1: The claimed critical-discriminant condition and identification with cosmological horizon crossing are mathematically unsupported and incorrect for the displayed perturbation equations.", "Check 2: The mapping Hessian Eigenvalue λ_i ↔ Effective Comoving Wavenumber squared k_eff^2 maps a local curvature/mass-type coefficient to a spatial Fourier wavenumber without an explicit transformation, and the two quantities play different roles in the cosmological perturbation equation.", "Check 3: The critical_horizon_freeze_out_threshold vector is not demonstrated; the body asserts an exact horizon-freeze-out equivalence from an invalid discriminant condition."]
     flagged_checks: []
-    quoted_evidence: ["This damped harmonic oscillator undergoes a fundamental phase transition (zero discriminant) when \(\lambda_i t^2 = \frac{r^2}{4}\). In cosmology, this is the exact moment a quantum fluctuation's physical wavelength stretches beyond the Hubble horizon and "freezes out."", "Hessian Eigenvalue $\lambda_i \in \mathbb{R}$ ↔ Effective Comoving Wavenumber squared $k_{eff}^2 \in \mathbb{R}$"]
+    quoted_evidence: ["This damped harmonic oscillator undergoes a fundamental phase transition (zero discriminant) when \\(\\lambda_i t^2 = \\frac{r^2}{4}\\). In cosmology, this is the exact moment a quantum fluctuation's physical wavelength stretches beyond the Hubble horizon and \"freezes out.\"", "Hessian Eigenvalue $\\lambda_i \\in \\mathbb{R}$ ↔ Effective Comoving Wavenumber squared $k_{eff}^2 \\in \\mathbb{R}$"]
     stage_3_watch_items: ["Probe bibliometrically whether the Nesterov/Bregman-Lagrangian and power-law Hubble-friction correspondence has already been established in the literature.", "Probe whether the proposed transfer to cosmological horizon-crossing analytics has prior interdisciplinary treatments, separately from the unsupported Hessian/wavenumber and freeze-out identification."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "REJECT"
-    verdict_rationale: "The entry asserts a specific 'freeze-out' discriminant condition \(\lambda_i t^2 = \frac{r^2}{4}\) without derivation and that condition is mathematically incorrect for the stated time-dependent ODE, leaving the 'critical_horizon_freeze_out_threshold' correspondence undemonstrated."
+    verdict_rationale: "The entry asserts a specific 'freeze-out' discriminant condition \\(\\lambda_i t^2 = \\frac{r^2}{4}\\) without derivation and that condition is mathematically incorrect for the stated time-dependent ODE, leaving the 'critical_horizon_freeze_out_threshold' correspondence undemonstrated."
     failed_checks: ["Check 1: Equation validity — incorrect discriminant claim for the time-dependent damped ODE", "Check 3: Correspondence vector support — 'critical_horizon_freeze_out_threshold' is listed but not demonstrated"]
     flagged_checks: []
     quoted_evidence: [

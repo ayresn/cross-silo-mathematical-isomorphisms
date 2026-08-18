@@ -75,10 +75,10 @@ validation_status:
     flagged_checks: []
     quoted_evidence: []
     stage_3_watch_items:
-      "Verify that the exact closed-form expressions for J_H (TM-4) and the fold-vs-Hopf crossover condition (TM-5) do not already appear in the fast-slow or numerical-bifurcation literature on TM-class networks (Barak & Tsodyks 2007; Mongillo, Barak & Tsodyks 2008; Litwin-Kumar & Doiron 2012, or similar). The entry narrowly claims the gap is the RSF-style algebraic trace/determinant approach specifically, not bifurcation analysis in general."
-      "Confirm the cited references exist and contain the attributed results: Ruina (1983), Gu/Rice/Ruina/Tse (1984) for RSF; Tsodyks/Pawelzik/Markram (1998), Barak/Tsodyks (2007), Mongillo/Barak/Tsodyks (2008) for TM."
-      "Independently verify the entry's claim that no prior publication connects rate-and-state friction to synaptic depression (search string: 'rate-and-state friction AND synaptic depression')."
-      "Confirm that the aging law dθ/dt = 1 − Vθ/Dc is specifically the Dieterich aging law and not the slip law or another variant, since the operator identity (RSF-2/TM-2) depends on the bilinear form of the aging law specifically."
+      - "Verify that the exact closed-form expressions for J_H (TM-4) and the fold-vs-Hopf crossover condition (TM-5) do not already appear in the fast-slow or numerical-bifurcation literature on TM-class networks (Barak & Tsodyks 2007; Mongillo, Barak & Tsodyks 2008; Litwin-Kumar & Doiron 2012, or similar). The entry narrowly claims the gap is the RSF-style algebraic trace/determinant approach specifically, not bifurcation analysis in general."
+      - "Confirm the cited references exist and contain the attributed results: Ruina (1983), Gu/Rice/Ruina/Tse (1984) for RSF; Tsodyks/Pawelzik/Markram (1998), Barak/Tsodyks (2007), Mongillo/Barak/Tsodyks (2008) for TM."
+      - "Independently verify the entry's claim that no prior publication connects rate-and-state friction to synaptic depression (search string: 'rate-and-state friction AND synaptic depression')."
+      - "Confirm that the aging law dθ/dt = 1 − Vθ/Dc is specifically the Dieterich aging law and not the slip law or another variant, since the operator identity (RSF-2/TM-2) depends on the bilinear form of the aging law specifically."
   fifth_adversarial_review:
     reviewer_model: "Z.AI GLM-5.2"
     protocol_version: "2.0-production"

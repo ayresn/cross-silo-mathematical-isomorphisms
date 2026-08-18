@@ -109,7 +109,7 @@ validation_status:
     verdict_rationale: "Check 1 fails because the stated pulmonary viscous-elastic dimensionless group is dimensionally non-dimensionless, so the claimed unified nondimensional coupling is mathematically inconsistent."
     failed_checks: ["Check 1: the pulmonary viscous-elastic dimensionless group has incorrect dimensions"]
     flagged_checks: ["Check 4: the falsifiable prediction leaves the correction coefficient alpha unspecified while asserting an approximately 10% effect at Lambda = 5"]
-    quoted_evidence: ["Pulmonary:\n`math\n\\varepsilon_{\\rm pulm} = \\frac{3\\,\\mu\\,U\\,R_0^2}{E_w\\,t_w\\,h_0^2}\n`", "Both are the ratio of viscous pressure ($\sim \mu U R / h_0^2$) to elastic restoring pressure ($\sim E'$ or $E_w t_w / R_0$)."]
+    quoted_evidence: ["Pulmonary:\n`math\n\\varepsilon_{\\rm pulm} = \\frac{3\\,\\mu\\,U\\,R_0^2}{E_w\\,t_w\\,h_0^2}\n`", "Both are the ratio of viscous pressure ($\\sim \\mu U R / h_0^2$) to elastic restoring pressure ($\\sim E'$ or $E_w t_w / R_0$)."]
     stage_3_watch_items: ["Probe the claimed pulmonary compliance scaling and the resulting dimensionless group; the displayed epsilon_pulm is not dimensionless under the units stated for mu, U, R0, Ew, tw, and h0.", "Probe the Section 4 prediction because alpha is only specified as a positive order-unity constant, yet the text invokes a specific approximately 10% correction at Lambda = 5 without deriving or fixing alpha.", "Probe the claimed EHL-to-pulmonary algorithmic transfer and its asserted computational scaling independently during Stage 3."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

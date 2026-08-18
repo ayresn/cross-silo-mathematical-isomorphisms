@@ -94,7 +94,7 @@ validation_status:
       - "Check 2: Electroforming voltage ↔ SEI formation potential maps an applied threshold to an equilibrium potential and the role explanation places them on opposite sides of the overpotential expression."
       - "Check 1: The stated memristor electric Péclet number range 40–80 for 1–2 V with z_v=+2 is inconsistent with Pe_e=z e Δφ/k_BT, which gives ≈78–156."
     quoted_evidence:
-      - "v_{\text{CF}} \;=\; \frac{\Omega_v\,D_v}{\Delta c_v}\;\left.\frac{\partial c_v}{\partial n}\right|_{\text{tip}}"
+      - "v_{\\text{CF}} \\;=\\; \\frac{\\Omega_v\\,D_v}{\\Delta c_v}\\;\\left.\\frac{\\partial c_v}{\\partial n}\\right|_{\\text{tip}}"
       - "v_n = (V_mD/Δc)∂c/∂n|_interface"
     stage_3_watch_items:
       - "Correct Stefan-condition statement for VCM filament growth and SEI growth in the cited communities; check whether corrected operators still support the claimed isomorphism."

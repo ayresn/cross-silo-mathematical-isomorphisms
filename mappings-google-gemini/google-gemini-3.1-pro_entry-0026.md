@@ -117,7 +117,7 @@ validation_status:
     verdict_rationale: "Check 3 contains a genuine mathematical failure: the claimed positive-feedback derivative under fixed boundary flux has the wrong sign in general, so the dissipative runaway-filamentation vector is not demonstrated as stated."
     failed_checks: ["Check 3: the dissipative runaway filamentation instability is supported by an incorrect fixed-boundary-flux monotonicity claim"]
     flagged_checks: ["Check 4: the asymmetry claim is asserted from comparative model maturity rather than demonstrated mathematically within the entry"]
-    quoted_evidence: ["A local perturbation in $\Sigma$ increases local conductivity $K$, which funnels flux from neighboring regions. Because the growth rate scales with $K |\nabla \Phi|^2$, this higher flux strictly implies $\frac{\partial (\partial_t \Sigma)}{\partial \Sigma} > 0$ under a fixed boundary flux, driving spontaneous spatial channelization/filamentation."]
+    quoted_evidence: ["A local perturbation in $\\Sigma$ increases local conductivity $K$, which funnels flux from neighboring regions. Because the growth rate scales with $K |\\nabla \\Phi|^2$, this higher flux strictly implies $\\frac{\\partial (\\partial_t \\Sigma)}{\\partial \\Sigma} > 0$ under a fixed boundary flux, driving spontaneous spatial channelization/filamentation."]
     stage_3_watch_items: ["Probe the claimed prior art around the proposed glaciological–memristive correspondence and, separately, verify the asserted maturity advantage of continuum neuromorphic phase-field algorithms over subglacial channelization models."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

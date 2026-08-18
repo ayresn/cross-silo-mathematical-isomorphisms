@@ -79,7 +79,7 @@ validation_status:
       - "Verify whether the Silo A collision kernel is free-molecular thermal (degree 1/6 in mass) or constant-relative-velocity hard-sphere (degree 2/3); the two are not interchangeable."
       - "Probe the standard collisional breakage birth integral for missing 1/2 or symmetrization over which colliding particle fragments."
       - "Check whether the NASA SBM \bar\nu=1.53e3 is total fragments per collision or per target object; this changes the Vector 4 fold coefficient by a factor near 2."
-      - "Recompute the falsification band if \bar\nu, \bar\sigma, \bar\tau_d each carry independent ×/÷3 uncertainty."
+      - "Recompute the falsification band if \\bar\\nu, \\bar\\sigma, \\bar\\tau_d each carry independent ×/÷3 uncertainty."
       - "Prior-art watch: Kessler-syndrome/population-balance analogies may already exist in orbital-debris modeling; use the entry's own search strings."
   third_adversarial_review:
     reviewer_model: "Google Gemini 3.1 Pro"
@@ -125,7 +125,7 @@ validation_status:
     failed_checks: ["Check 1: the claimed exact reduction of the L-dependent drag sink to the stated moment-weighted residence time is mathematically false", "Check 3: the listed two-moment-normalization vector is not demonstrated as a correspondence because the entry explicitly derives its violation in Silo B"]
     flagged_checks: []
     quoted_evidence: ["The reduction to a single $\bar\tau$ requires the moment-weighted average $\bar\tau_d=\tau_0 m_1/(L_0 m_0)$, since $\tau_d$ is $L$-dependent in B and not in A.", "The constraint is satisfied identically in Silo A by construction and violated by a scale-dependent factor in Silo B. This is a demonstrated correspondence *and* its precise point of constitutive failure."]
-    stage_3_watch_items: ["The claimed zeroth-moment fold threshold is internally inconsistent: the displayed equations give the fold at $m_0^*=m_0^{\rm crit}/2$, hence $\Theta=1/2$, whereas the entry calls $\Theta=1$ the fold threshold.", "The claimed exact shared two-moment daughter-kernel structure should be checked separately from the demonstrated constitutive mismatch; the SBM calculation in Section 3 does not establish the normalization on both sides."]
+    stage_3_watch_items: ["The claimed zeroth-moment fold threshold is internally inconsistent: the displayed equations give the fold at $m_0^*=m_0^{\\rm crit}/2$, hence $\\Theta=1/2$, whereas the entry calls $\\Theta=1$ the fold threshold.", "The claimed exact shared two-moment daughter-kernel structure should be checked separately from the demonstrated constitutive mismatch; the SBM calculation in Section 3 does not establish the normalization on both sides."]
   seventh_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"
     protocol_version: "2.0-production"

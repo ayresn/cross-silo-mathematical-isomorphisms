@@ -145,7 +145,7 @@ validation_status:
     verdict_rationale: "The entry contains a genuine equation/operator mismatch in the displayed thin-film equation and does not fully demonstrate the third listed correspondence vector, leaving fewer than three fully demonstrated vectors."
     failed_checks: ["Check 1: The displayed thin-film equation includes capillary pressure with a Laplacian, making its flux divergence a higher-order operator rather than the same second-order SIA operator claimed as identical.", "Check 3: The listed hydrostatic_vertical_momentum_balance_reduction is asserted but not demonstrated by an equation, operator identity, or derivation, so fewer than three listed vectors are fully demonstrated."]
     flagged_checks: []
-    quoted_evidence: ["p=\rho g h-\sigma\nabla^2 h.", "the hydrostatic reduction of the vertical momentum equation is the identical leading-order balance that closes the pressure (or surface potential) in both derivations."]
+    quoted_evidence: ["p=\\rho g h-\\sigma\\nabla^2 h.", "the hydrostatic reduction of the vertical momentum equation is the identical leading-order balance that closes the pressure (or surface potential) in both derivations."]
     stage_3_watch_items: ["Probe whether the proposed thin-film/SIA operator correspondence is already a standard power-law lubrication/SIA analogy in the literature.", "Verify independently the claimed MISMIP+ baseline grounding-line error of approximately 8 km and the asserted lack of comparable singularity-resolving discretizations in glaciology."]
   eighth_adversarial_review:
     reviewer_model: "Microsoft Copilot 1.2"

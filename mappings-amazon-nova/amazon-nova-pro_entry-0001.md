@@ -119,7 +119,7 @@ validation_status:
     verdict_rationale: "The entry's claimed dispersion relation is mathematically inconsistent with its stated wave equation, and fewer than three correspondence vectors are demonstrated."
     failed_checks: ["CHECK 1: The stated dispersion relation contains a sign error and does not follow from the stated nonlinear wave equation.", "CHECK 3: Fewer than three correspondence vectors are demonstrated in the body; two are only gestured at with prose."]
     flagged_checks: ["CHECK 4c: Prior-art recognition for the canonical analogy between Alfvén waves and elastic waves."]
-    quoted_evidence: ["Equation: \frac{\partial^2 A}{\partial t^2} - v_A^2 \nabla^2 A + \beta A \left( \frac{\partial A}{\partial t} \right)^2 = 0 and Dispersion Relation: \omega^2 = k^2 v_A^2 + \beta A_0^2 \omega^2. Substituting a plane wave into the wave equation yields \omega^2 (1 + \beta A_0^2) = k^2 v_A^2, but the entry's dispersion relation simplifies to \omega^2 (1 - \beta A_0^2) = k^2 v_A^2, exhibiting a sign error in the nonlinear term.", "The solitonic wave packet stability is ensured by the presence of the nonlinear term, and energy density conservation is maintained in both systems through the wave equations. (These vectors lack any supporting equation or derivation, leaving fewer than three demonstrated vectors.)"]
+    quoted_evidence: ["Equation: \\frac{\\partial^2 A}{\\partial t^2} - v_A^2 \\nabla^2 A + \\beta A \\left( \\frac{\\partial A}{\\partial t} \\right)^2 = 0 and Dispersion Relation: \\omega^2 = k^2 v_A^2 + \\beta A_0^2 \\omega^2. Substituting a plane wave into the wave equation yields \\omega^2 (1 + \\beta A_0^2) = k^2 v_A^2, but the entry's dispersion relation simplifies to \\omega^2 (1 - \\beta A_0^2) = k^2 v_A^2, exhibiting a sign error in the nonlinear term.", "The solitonic wave packet stability is ensured by the presence of the nonlinear term, and energy density conservation is maintained in both systems through the wave equations. (These vectors lack any supporting equation or derivation, leaving fewer than three demonstrated vectors.)"]
     stage_3_watch_items: ["Verify whether the specific nonlinear wave equations and dispersion relations used here correspond to any actual published models, as they appear fabricated.", "Investigate prior art for the canonical analogy between Alfvén waves (magnetic tension) and elastic waves (elastic tension), which is standard in plasma physics textbooks."]
   seventh_adversarial_review:
     reviewer_model: "OpenAI GPT-5.6 Luna"
@@ -133,7 +133,7 @@ validation_status:
     flagged_checks: []
     quoted_evidence:
       - "The correspondence between these equations is established through the nonlinear dispersion relation, solitonic wave packet stability, and energy density conservation. The nonlinear dispersion relation for both systems takes the form:"
-      - "\omega^2 = k^2 v_A^2 + \beta A_0^2 \omega^2"
+      - "\\omega^2 = k^2 v_A^2 + \\beta A_0^2 \\omega^2"
       - "The solitonic wave packet stability is ensured by the presence of the nonlinear term, and energy density conservation is maintained in both systems through the wave equations."
     stage_3_watch_items:
       - "Probe whether the claimed plasma/complex-fluid equation pairing and terminology have identifiable prior-art antecedents; novelty remains a Stage 3 bibliometric question."
