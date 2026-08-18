@@ -65,7 +65,7 @@ validation_status:
       'Mapping formula D(rho) approx -d/dh(M(h) d^2h/dx^2) (Section 2) is asserted with a (see derivation) pointer but no corresponding derivation appears anywhere in Section 3'
     ]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "REJECT"
@@ -317,7 +317,7 @@ The mapping holds under: (i) long-wavelength lubrication-like limit in Silo A (t
 - The mapping formula "D(ρ) ≈ −∂_h(M(h)∂ₓ²h)" (Section 2) is asserted with a "(see derivation)" pointer, but no corresponding derivation appears anywhere in Section 3.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-12

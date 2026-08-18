@@ -65,7 +65,7 @@ validation_status:
       - "Check the sign convention on the curvature (gamma) term between mu_A and mu_B (opposite signs as written)."
       - "Prior-art check: verify whether any existing review already connects battery dendrite ATG instability to stylolite pressure-solution instability, versus these being independently developed within their own fields."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -310,7 +310,7 @@ Vector 4 - shared_elastic_surface_chemical_variational_functional:
 - Verify whether prior literature already connects battery-dendrite ATG instability to stylolite pressure-solution instability, versus these being independently developed within their own fields.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

@@ -245,7 +245,7 @@ exceeds the finite processing threshold of the matching engine and market makers
 - The $-h_v Y_F$ / $-h_v Y_O$ terms place volumetric radiative heat loss directly in the species mass-fraction equations rather than the enthalpy/energy equation, which is non-standard combustion modeling; check whether this is a deliberate simplification.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-14

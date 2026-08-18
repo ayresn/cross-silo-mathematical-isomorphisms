@@ -56,7 +56,7 @@ validation_status:
       - "Confirm the definition of d in Section 4's formula d/dz[G(z) - G(2d-z)] = 0, given the load is described as applied at the boundary itself, and re-derive whether z = l/sqrt(2) is actually the resulting depth"
       - "Check current nonlocal-elasticity literature (e.g. stress-driven vs. strain-driven reformulations) on whether the boundary-condition 'bottleneck' Section 4 describes as unresolved has already been substantially addressed"
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -252,7 +252,7 @@ The correspondence is exact at the level of the linear differential operator. If
 - Check current nonlocal-elasticity literature (e.g., stress-driven vs. strain-driven reformulations) on whether the boundary-condition "bottleneck" Section 4 describes as unresolved has already been substantially addressed.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

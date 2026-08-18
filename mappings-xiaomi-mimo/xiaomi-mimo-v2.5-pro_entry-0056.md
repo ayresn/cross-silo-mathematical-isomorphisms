@@ -48,7 +48,7 @@ validation_status:
     quoted_evidence: ["v_n = σ_w/β · κ = M_dw σ_w κ  [Section 3, Silo B, 'zero-field overdamped limit']", "v_n = -M_dw · δF_dom/δX  [Section 3, Silo B, immediately following equation]", "M_dw = γ_LL·Δ·α / [2M_s(1+α²)]  [Section 2, 'Grain boundary mobility ↔ Domain wall mobility' entry]", "M_dw = 1/β = γ_LL·Δ / (2M_s·α)  [Section 3, Silo B]"]
     stage_3_watch_items: ["Verify Silo B's zero-field curvature-flow equation and the conflicting Section 2 vs. Section 3 M_dw formulas against the cited source (Hubert & Schäfer, 1998) to determine whether these are transcription slips or a genuine derivation error", "Confirm whether the proposed test system ([Co(0.4nm)/Pt(0.7nm)]x10, quenched from above T_C, zero field) is expected to coarsen into a true multi-domain-type network with triple junctions, or a two-state up/down pattern — predictions #1 and #3 depend on the former; prediction #2's R^2 ∝ t scaling is more likely to survive regardless, since it is a general property of non-conserved curvature-driven coarsening independent of morphology", "Given the entry's own Section 3 caveat that dipolar interactions can drive stripe-to-bubble transitions in exactly this class of PMA multilayer, check whether the proposed film's thickness/anisotropy regime actually favors the grain-like cellular morphology the Hillert-distribution comparison assumes", "Search for existing literature explicitly connecting Hillert/von-Neumann-Mullins grain-growth statistics to magnetic domain coarsening or other cellular-network coarsening (foams, biological tissue) to assess novelty of this specific pairing against the broader, already-recognized 'curvature-driven 2D network coarsening' framework", "Resolve the 'Mean grain radius R̄ ↔ Mean domain width d̄' labeling in Section 2 — d̄ is never used again, R̄ (radius) is used throughout instead, and radius vs. width is not a free notational choice once the quantitative predictions in Section 4 are at stake"]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-17"
     verdict: "FLAG"
@@ -314,7 +314,7 @@ Both products have dimensions $[\mathrm{m}^2/\mathrm{s}]$ and serve as the inter
 - Resolve the "Mean grain radius R̄ ↔ Mean domain width d̄" labeling in Section 2 — d̄ is never used again, R̄ (radius) is used throughout instead, and radius vs. width is not a free notational choice once the quantitative predictions in Section 4 are at stake.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-17

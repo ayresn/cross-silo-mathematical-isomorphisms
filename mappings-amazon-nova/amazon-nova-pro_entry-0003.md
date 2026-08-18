@@ -67,7 +67,7 @@ validation_status:
       "GBM has a closed-form lognormal solution; probe what benefit quantum-mechanical solvers would add for vanilla GBM specifically, versus models lacking closed-form solutions"
     ]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "REJECT"
@@ -279,7 +279,7 @@ The diffusion operator in both equations is structurally equivalent, representin
 - GBM has a closed-form lognormal solution; probe what benefit "quantum mechanical solvers" would add for vanilla GBM specifically, versus models lacking closed-form solutions, since this bears on whether the Section 4 prediction is a meaningful test.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-12

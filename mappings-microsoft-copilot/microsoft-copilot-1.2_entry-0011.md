@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Prior art: the broader Mullins-Sekerka / diffusion-limited moving-boundary pattern-formation framework (e.g., Langer, Rev. Mod. Phys. 1980; Ben-Jacob & Garik, Nature 1990) already links electrodeposition dendrite growth to other diffusive growth instabilities such as solidification and viscous fingering; confirm whether the specific pairing with evaporative colloidal fingering deposition has itself already appeared in the literature.", "The Section 3 dispersion relation is asserted via 'the standard linearization ... to leading orders' and described as derived independently for both silos, but only one unified derivation is shown; verify the sigma(k) functional form directly, in particular the origin of the -Pe^-1 k^2 term given that the model retains the full time-dependent (non-quasi-steady) diffusion equation rather than a quasi-static Laplacian reduction.", "Section 2's second vocabulary pair labels its two transport terms 'flux' and 'drift' inconsistently, since both are written with an explicit factor of c and are therefore both literally fluxes, while the accompanying Operator Role text treats both as pure velocity fields U_eff without the c factor; not a category error, but confirm the underlying derivations are consistent with this relabeling.", "The curvature terms in each kinetic boundary condition (-kappa_m H and -kappa_p H) are added directly to the interfacial flux rather than expressed as a Gibbs-Thomson correction to c_eq or c_sat; this is algebraically equivalent to a linearized Gibbs-Thomson correction and is not an error, but confirm the implied coefficient definitions against how each field's literature actually reports curvature coefficients."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "FLAG"
@@ -254,7 +254,7 @@ and the **quantitative** falsification test is: using the same experimental geom
 - The curvature terms in each kinetic boundary condition (−κ_m H and −κ_p H) are added directly to the interfacial flux rather than expressed as a Gibbs–Thomson correction to c_eq or c_sat; this is algebraically equivalent to a linearized Gibbs–Thomson correction and is not an error, but confirm the implied coefficient definitions against how each field's literature actually reports curvature coefficients.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-12

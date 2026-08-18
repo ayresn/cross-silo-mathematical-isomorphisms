@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ["\\frac{\\partial}{\\partial x} \\left( \\frac{h^3}{12 \\mu} \\frac{\\partial p}{\\partial x} \\right) = U \\frac{\\partial h}{\\partial x} + \\frac{\\partial h}{\\partial t}", "\\frac{\\partial}{\\partial x} \\left( \\frac{h^3}{12 \\mu_w} \\frac{\\partial p_w}{\\partial x} \\right) = U_b \\frac{\\partial h_b}{\\partial x} + \\frac{\\partial h}{\\partial t}", "where $h_b(x)$ is the bedrock topography and $U_b$ is the basal sliding velocity of the ice", "the macroscopic rigid profile $h_0(x)$ to the bedrock bump $h_b(x)$", "the Couette (wedge-action) advective source term $\\partial_x (h U)$"]
     stage_3_watch_items: ["If the entry is revised to use ∂h/∂x (not ∂h_b/∂x) in the Silo B Couette term for genuine structural identity, verify this revised source term still matches an actual published subglacial hydrology formulation rather than becoming an unsupported ad hoc fix", "Classical glacier-sliding cavitation theory (Fowler 1986/1987; Walder 1986; Kamb 1987) has a long tradition of lubrication-theory-style thin-film equations with free-boundary conditions for subglacial cavities — verify how much of Vectors 1 and 3 is already established there, versus this entry's novel contribution being primarily the elastic Boussinesq coupling (Vector 2) and the explicit EHL/MLMI framing", "Verify the claim that Elmer/Ice and ISSM currently rely on Winkler-foundation or direct dense-matrix solvers for elastic roof flexure rather than existing fast dense-matrix methods (multigrid/H-matrix/FMM) — this is the load-bearing premise of Section 4's asymmetric-transfer argument", "Confirm whether MLMI/FAS-multigrid or comparable fast dense-matrix techniques have already been proposed for glaciological elastic-flexure problems, independent of the isomorphism's validity, which would bear on the transfer's claimed novelty", "The claimed 'exact'/'identical' correspondence omits standard subglacial hydrology terms (basal melt supply, viscous/plastic creep closure via Glen's law, channelized Röthlisberger flow) present in most published sheet/cavity models — confirm whether their omission is a legitimate minimal comparison or elides a meaningful physical difference"]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "REJECT"
@@ -256,7 +256,7 @@ N \ge 0, \quad h \ge h_{resid}, \quad N (h - h_{resid}) = 0
 - Confirm whether omitting standard subglacial hydrology terms (melt supply, Glen's-law creep closure, channelized Röthlisberger flow) from the "exact" correspondence is a reasonable minimal comparison or elides a material physical difference.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-14

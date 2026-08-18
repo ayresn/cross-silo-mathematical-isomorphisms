@@ -57,7 +57,7 @@ validation_status:
       - "Bibliometrically check the generic tilted-periodic-potential / washboard Kramers-escape framework (e.g. Hanggi-Talkner-Borkovec on reaction-rate theory; Blatter et al. on collective vortex pinning; Kardar on elastic line/interface dynamics) as prior art for the structural template, separate from the novelty of the specific dislocation-to-domain-wall pairing"
       - "Verify the load-bearing literature-absence claim in Section 4 that the activation-area observable A*(H) 'has not been reported in any periodic-pinning domain-wall study,' since the asymmetric-transfer argument depends specifically on this gap"
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "FLAG"
@@ -276,7 +276,7 @@ the Silo-A and Silo-B Langevin operators coincide **symbol-for-symbol** as $\eta
 - Verify the load-bearing literature-absence claim in Section 4 that $A^*(H)$ has not been reported in any periodic-pinning domain-wall study, since the asymmetric-transfer argument depends specifically on this gap.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-15

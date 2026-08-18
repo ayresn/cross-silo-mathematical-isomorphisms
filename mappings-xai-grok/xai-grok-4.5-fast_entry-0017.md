@@ -58,7 +58,7 @@ validation_status:
       - "The claimed degree −3 homogeneity of the incompatible-elasticity stress kernel σ(x)=∫K(x−y):α(y)dy could not be independently verified from the entry text alone and should be checked against the cited dislocation-elasticity literature."
       - "If the Section 3 sign error is corrected, confirm the dislocation-side equation ∂α/∂t=−∇×(v×α) still matches under a standard field-dislocation-mechanics sign convention, since Nye-tensor sign/transpose conventions vary across the literature and the 'identical transport operator' claim in Section 1 depends on both sides sharing the same corrected sign."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -256,7 +256,7 @@ Again \(\nabla\cdot\boldsymbol{\omega}=0\) is preserved identically. Under the v
 - Section 2's third pairing lists "Elastic stress σ (via incompatibility)" (a field) against "Biot–Savart kernel" (an operator) as the two matrix tokens; the accompanying text indicates an operator-to-operator comparison was intended, but the token labels themselves are mismatched in type and would benefit from relabeling.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

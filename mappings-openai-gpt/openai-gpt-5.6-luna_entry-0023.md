@@ -54,7 +54,7 @@ validation_status:
       - "Section 4 concedes dewetting already has a mature phase-field/parametric-FEM toolkit for the base fourth-order operator. Verify historically whether the narrower claimed asymmetry (experience coupling the fourth-order operator to an auxiliary elliptic field) actually favors the electromigration community."
       - "Minor/cosmetic: Section 3 reuses the symbol boundary-of-Omega (defined as Silo A's bulk domain boundary) for Silo B's boundary as well; boundary-of-Gamma would avoid the notational overlap."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "FLAG"
@@ -376,7 +376,7 @@ The equivalence stops at this point. Electromigration contains the additional fi
 - Minor/cosmetic: Section 3 reuses "∂Ω" (defined as Silo A's bulk domain boundary) for Silo B's boundary as well, where "∂Γ" would avoid the notational overlap.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-14

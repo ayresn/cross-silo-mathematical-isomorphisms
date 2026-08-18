@@ -50,7 +50,7 @@ validation_status:
       - "The discovery_rationale premise of historically isolated communities and incompatible ontologies is questionable, since magnetohydrodynamics (which governs Alfvén waves) is a direct extension of classical fluid dynamics, so the two silos already share substantial methodological lineage."
       - "Section 4's claim that plasma physics has more mature nonlinear-wave numerical methods than complex fluid dynamics is asserted without citation; computational rheology and viscoelastic flow modeling is itself a mature field, so this comparative-maturity claim should be checked against the literature."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "REJECT"
@@ -240,7 +240,7 @@ for viscoelastic waves, where $ A_0 $ and $ u_0 $ are characteristic amplitudes.
 - Section 4's claim of plasma physics having a more mature numerical toolkit than complex fluid dynamics for nonlinear wave problems is unsupported by citation and should be checked against the computational rheology literature.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-12

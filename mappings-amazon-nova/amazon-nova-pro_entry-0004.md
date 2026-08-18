@@ -61,7 +61,7 @@ validation_status:
       - "The Section 4 falsifiable prediction's target quantity, 'critical plasma frequency threshold for the onset of nonlinear wave phenomena,' is never mathematically defined anywhere in the entry and is not a standard parameter of Hasegawa-Mima-type drift-wave systems (conventionally characterized by drift frequency / k*rho_s, not omega_pe) — probe whether it is meaningful as stated."
       - "Section 3 writes the NLSE nonlinear term as V(Psi)|Psi|^2 Psi, non-standard/redundant notation conflating an external potential with a self-interaction coefficient; worth a legibility check independent of the equation-class finding."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -301,7 +301,7 @@ The correspondence between the two equations lies in the shared nonlinear wave e
 - Section 3's NLSE nonlinear term is written as V(Ψ)|Ψ|²Ψ, non-standard/redundant notation conflating an external potential with a self-interaction coefficient.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

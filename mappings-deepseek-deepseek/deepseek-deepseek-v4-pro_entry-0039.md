@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ['equations (1) and (2) are operator-identical', 'where \(\phi_m\) satisfies \(\nabla^2\phi_m = 0\) in the space above the film and appropriate jump conditions.', 'the control parameter is \(\Pi_0 = -\partial\Psi/\partial H\) evaluated at \(H=1\)', 'these constitute the only constitutive restrictions']
     stage_3_watch_items: ['Check whether ferrofluid/Rosensweig thin-film literature treats the magnetic destabilizing term as local in h or as a non-local, wavenumber-dependent operator arising from the exterior harmonic potential, and whether that changes the claimed dispersion relation and the derived critical/fastest-growing wavenumber formulas', 'Verify the Boos and Thess (1999) citation and the specific value Ma_hex-to-sq around 1.65, and assess whether exact numerical coincidence with the predicted Bm_hex-to-sq=1.65+/-0.05 is physically plausible given the Check 1 concern', 'Check whether this specific correspondence has appeared in print, given that the general forcing-potential lubrication framework already unifies van der Waals, thermal, and electric-field-driven thin-film instabilities in standard reviews (Oron, Davis and Bankoff 1997; Craster and Matar 2009), with the electrohydrodynamic case an especially close analogue', 'Check whether a magnetic-slip contact-line regularization of identical functional form to the thermal precursor-film model has any basis in the ferrofluid wetting literature, since Section 3 does not write out or derive the Silo B expression', 'Section 2 states the thermal potential satisfies the Laplace equation in the substrate and film, while Section 3 treats the substrate temperature as simply constant or prescribed; worth checking which framing the underlying derivation actually relies on']
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -246,7 +246,7 @@ where the control parameter is \(\Pi_0 = -\partial\Psi/\partial H\) evaluated at
 - Section 2 states the thermal potential "satisfies the Laplace equation ∇²θ=0 in the substrate and film," while Section 3 treats the substrate temperature as simply constant/prescribed — worth checking which framing the underlying derivation actually relies on.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

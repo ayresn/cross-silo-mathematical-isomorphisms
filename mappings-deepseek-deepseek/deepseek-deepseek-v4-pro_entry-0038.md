@@ -56,7 +56,7 @@ validation_status:
       - "Confirm the intended definition of 'S_tumour' (Section 2, pair 5) and its relationship to 'c_0' (Sections 3-4) before this entry proceeds."
       - "Independently check the plausibility of K_exp = 2×10⁻¹³ m²/(Pa·s) and μ = 1.2 kPa against published tumour-spheroid biomechanics measurements."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -222,7 +222,7 @@ where c_0 is a lumped compressibility of the solid–fluid aggregate, K is the i
 - Independently check the plausibility of K_exp = 2×10⁻¹³ m²/(Pa·s) and μ = 1.2 kPa against published tumour-spheroid biomechanics measurements.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

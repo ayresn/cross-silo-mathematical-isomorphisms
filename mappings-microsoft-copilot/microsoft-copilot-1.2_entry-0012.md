@@ -65,7 +65,7 @@ validation_status:
       "If revised: the Silo A sign error and the unexplained '+1' constant both sit upstream of Vectors 1 and 2, so correcting them requires reworking the explicit bridge in Section 3, not a local edit"
     ]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "REJECT"
@@ -285,7 +285,7 @@ with a positive scaling constant \(C\) chosen by nondimensionalization of the ne
 - If this entry is revised: the Silo A sign error and the unexplained "+1" constant both sit upstream of Vectors 1 and 2 — correcting them requires reworking the explicit bridge in Section 3, not a local edit.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-12

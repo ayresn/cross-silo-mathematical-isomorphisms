@@ -56,7 +56,7 @@ validation_status:
       - 'ell_el = Omega*gamma/(R*T*Delta_c) in the instability-parameter block does not carry units of length as written, unlike its Hele-Shaw analog ell_gamma = gamma/Delta_p, which does. A c_eq factor may be missing from the numerator.'
       - 'If the zF error in the velocity-flux relation is corrected (V_n = Omega*J_n), re-verify whether the Section 4 falsifiable prediction''s numeric thresholds (5% growth-rate match, >=50% degrees-of-freedom reduction) still hold, since they may have been derived using the uncorrected relation.'
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-10"
     verdict: "REJECT"
@@ -313,7 +313,7 @@ The proposed transfer therefore concerns the **free-boundary operator and its re
 - If the zF error in the velocity-flux relation is corrected, re-verify whether the Section 4 falsifiable prediction's numeric thresholds (5% growth-rate match, ≥50% DOF reduction) still hold, since they may have been derived from the uncorrected relation.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-10

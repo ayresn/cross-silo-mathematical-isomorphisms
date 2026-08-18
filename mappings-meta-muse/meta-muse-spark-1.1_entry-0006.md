@@ -47,7 +47,7 @@ validation_status:
     quoted_evidence: ['dimensionless α_a=13.3', 'α_a = -σ0 n0/(μ D_r)', 'σ = d/dt log⟨|u|²⟩ = 0.32 ±0.05 s^-1', 'σ(k) = -D_r - \frac{\sigma_0 n_0}{15\mu} \mathcal{I}(k\ell_{run})']
     stage_3_watch_items: ["Independently recompute the Section 4 worked numerical example (α_a and σ(k)); Stage 2 found the stated values inconsistent with the entry's own formulas and inputs, and the sign of the predicted growth rate flips under correct recomputation.", "Check the active-suspension linear-stability literature (Saintillan-Shelley and related work) for prior explicit use of plasma Landau-damping / Penrose-criterion machinery, since the general approach resembles recognizable prior methodology (Check 4c, advisory).", "Confirm whether the D_r, D_t diffusion terms belong inside or outside the claimed shared Vlasov operator, since Section 3's operator-identity statement is silent on this."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -305,7 +305,7 @@ The correspondence extends to nonlinear Landau damping via phase-mixing, and sto
 - Confirm the dimensional bookkeeping in Vocabulary Matrix row 3 (Check 2).
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

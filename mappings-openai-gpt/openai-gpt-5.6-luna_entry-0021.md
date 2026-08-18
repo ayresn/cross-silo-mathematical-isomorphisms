@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ['two simulations with ((Pe,Da)=(100,10)) and ((Pe,Da)=(200,20)) must have the same (\Lambda=0.1) and therefore the same dimensionless steady-state concentration profile after rescaling (x) by (L), with the maximum pointwise difference in (\hat c(\xi)) below (1%) after convergence.', '\lambda_{\pm} = \frac{Pe}{2}\left(1\pm\sqrt{1+\frac{4Da}{Pe}}\right)', 'A successful transfer should collapse geometrically similar simulations onto the same nondimensional front-localization curve when (Pe) and (Da) are held fixed, despite changes in (L), (u), (D), and (k).']
     stage_3_watch_items: ["Bibliometric check for prior work connecting reactive-infiltration/dissolution fronts to combustion or autothermal-catalysis fronts via Peclet-Damkohler-type front-localization analysis (Check 4c, advisory only, not grounds for rejection).", "Verify the literature-maturity claim that autothermal catalytic-reactor continuation/bifurcation methods for (Pe,Da)-parameterized fronts are more developed than equivalent methods in the geochemical reactive-infiltration literature (Section 4, Asymmetric Maturity Rationale); not verifiable from the entry text alone.", "If revised, confirm any replacement falsifiable prediction holds both Pe and Da fixed individually, not merely their ratio Λ=Da/Pe, consistent with the entry's own correct statement in Target Bottleneck Mitigation.", "Confirm whether τ is intended as a porosity/voidage-normalized time (e.g. τ=u0t/(φL)) in both silos; if so, Silo A's φ and Silo B's ε need not be equal, so the two τ axes may not represent the same physical time-normalization, even though the spatial-operator correspondence itself is unaffected."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -414,7 +414,7 @@ Therefore the candidate claims a shared transport/front operator and parameter s
 - Confirm whether τ is intended as a porosity/voidage-normalized time (e.g. τ=u₀t/(φL)) in both silos; if so, Silo A's φ and Silo B's ε need not be equal, so the two τ axes may not represent the same physical time-normalization, even though the spatial-operator correspondence itself is unaffected.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

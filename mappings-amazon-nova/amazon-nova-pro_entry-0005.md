@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ["The nonlinear dispersion relation for these waves can be derived from the characteristic equations of the system.", "The nonlinear dispersion relation for stop-and-go waves in this model can be derived from the characteristic equations of the LWR model.", "the shockwave formation criterion (based on the gradient of the flux function)", "the conservation of Riemann invariants (or their traffic flow equivalents)"]
     stage_3_watch_items: ["The fluid-traffic kinematic-wave analogy underlying the LWR model is one of the most canonical cross-disciplinary correspondences in applied mathematics (Lighthill and Whitham, 1955; Whitham, Linear and Nonlinear Waves); confirm this entry contributes something beyond that established literature", "The proposed shock-capturing/Godunov-scheme transfer substantially overlaps with the existing Cell Transmission Model (Daganzo, mid-1990s), itself a Godunov scheme for LWR; check the entry's novelty claim against this directly", "The entry never states the fundamental-diagram closure v = V(rho), and never writes out the dispersion relation, shock criterion, or Riemann invariants it claims; any resubmission should be checked for whether real equations are actually supplied"]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -214,7 +214,7 @@ The correspondence between the two systems is established through the nonlinear 
 - The entry never states the fundamental-diagram closure $v = V(\rho)$, and never writes out the dispersion relation, shock criterion, or Riemann invariants it claims — any resubmission should be checked for whether real equations are actually supplied.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

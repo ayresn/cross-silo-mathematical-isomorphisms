@@ -58,7 +58,7 @@ validation_status:
       - "Check whether existing subglacial hydrology literature has already attempted continuum or phase-field-like treatments of the sheet-to-channel transition, independent of any memristor connection."
       - "The p_w↔φ correspondence sits within the well-known general family of potential-driven transport-law analogies (Darcy/Ohm/Fourier); confirm whether this specific elaboration has meaningful prior treatment beyond that generic analogy."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "PASS"
@@ -241,7 +241,7 @@ In glaciology, $\alpha=5/4, \beta=1.5$; in solid-state memristors, $\alpha=1, \b
 - The $p_w\leftrightarrow\phi$ correspondence sits within the well-known general family of potential-driven transport-law analogies (Darcy/Ohm/Fourier); confirm whether this specific elaboration has meaningful prior treatment beyond that generic analogy.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** PASS
 **Review Date:** 2026-08-14

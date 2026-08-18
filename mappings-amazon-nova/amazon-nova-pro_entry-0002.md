@@ -58,7 +58,7 @@ validation_status:
       - "If the Silo B equation is corrected to a genuine nonlinear Burgers-type acoustic equation, re-examine whether 'Acoustic Soliton' and dispersion_relation_threshold still hold, since Burgers-type dynamics are a nonlinearity-diffusion balance (shocks), not a nonlinearity-dispersion balance (solitons)"
       - "Check the literature for prior published optics-acoustics nonlinear-wave analogies, given that NLS/KdV/Burgers cross-domain universality is textbook material (e.g. Whitham, Newell)"
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "REJECT"
@@ -269,7 +269,7 @@ The correspondence between these two equations is established by identifying $A$
 - Check the literature for prior published optics–acoustics nonlinear-wave analogies, given that NLS/KdV/Burgers cross-domain universality is textbook material (e.g. Whitham's *Linear and Nonlinear Waves*, Newell's *Solitons in Mathematics and Physics*).
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-12

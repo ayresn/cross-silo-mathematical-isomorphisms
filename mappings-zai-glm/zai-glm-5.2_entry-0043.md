@@ -47,7 +47,7 @@ validation_status:
     quoted_evidence: ['resulting in an identical primal 1-Laplacian Euler-Lagrange operator and an identical dual $L^2$-projection problem onto a pointwise $L^\infty$ ball', '\min_{u} \left\{ \int_{\Omega} \tau_y |\nabla u| \, dx - \int_{\Omega} G u \, dx \right\}', 'The stress must satisfy the equilibrium equation $\nabla \cdot \sigma = -G$ and the von Mises yield criterion $|\sigma| \le \tau_y$.', 'The resulting variational problem for the stress is identically an $L^2$-projection of the pressure gradient onto the pointwise $L^\infty$ yield ball']
     stage_3_watch_items: ["Search specifically for augmented-Lagrangian (Glowinski-Fortin ALG2) and Chambolle-Pock-inspired primal-dual methods for Bingham/Herschel-Bulkley flow; the entry's thematic pairing resembles this existing numerical-rheology literature", "Check whether restoring a genuine viscous term (finite Bingham number, mu>0) to the Silo B primal, rather than the exact zero-viscosity limit as written, yields a dual with the claimed L2-projection/Huber-type structure -- this could be grounds for a corrected resubmission rather than a dead end", "Verify whether the exact mu=0 primal as written admits any genuine spatially-coexisting plug-and-shear solution, or is degenerate (globally static below a critical load, unbounded above it) -- Section 4's diamond-shaped-plug prediction presumes the former", "Section 2 labels sigma=(sigma_xz, sigma_yz) a 'Cauchy Stress Vector'; it is more precisely the reduced anti-plane shear-stress component pair, not the full Cauchy stress tensor"]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -242,7 +242,7 @@ The correspondence is exact under the transformation $p \leftrightarrow \sigma/\
 - Section 2 labels σ=(σxz,σyz) a "Cauchy Stress Vector"; it is more precisely the reduced anti-plane shear-stress component pair, not the full Cauchy stress tensor.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

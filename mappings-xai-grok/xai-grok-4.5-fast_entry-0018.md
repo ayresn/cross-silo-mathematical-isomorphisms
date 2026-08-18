@@ -52,7 +52,7 @@ validation_status:
       - "Section 3's unified flux form 'J∝−(∇u+u∇ψ)' uses a proportionality, not an equality, and carries no explicit species-valence (z_i) coefficient or charge-vs-molar-flux conversion factor — J_n is a charge current density (defined with elementary charge q) while J_i is a molar/particle flux (as defined in Section 3, with no charge factor). Ask for the fully worked nondimensionalization to confirm the claimed identity holds beyond the illustrative 1:1-valent LiPF₆ case used in Section 4."
       - "Confirm the Einstein-relation coefficient identification (D=μkT/q) uses a consistent mobility convention across the semiconductor and electrochemistry sides, since 'mobility' is defined slightly differently in the two literatures."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "FLAG"
@@ -247,7 +247,7 @@ for each carrier/ionic density \(u\), the Poisson operators coincide, and the bo
 - Confirm the Einstein-relation identification (D=μkT/q) uses a consistent mobility convention across both literatures.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-13

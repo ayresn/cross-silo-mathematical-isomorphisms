@@ -36,7 +36,7 @@ validation_status:
   primary_failure_risk: "continuous_rate_approximation_breakdown_outside_hopf_first_regime"
   bibliometric_validation: "pending"
   first_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-16"
     verdict: "FLAG"
@@ -224,7 +224,7 @@ J_H=\frac{(1+U\tau_dr_*)(\tau_r+\tau_d+U\tau_r\tau_dr_*)}{gU\tau_d}
 ---
 
 ### First Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-16

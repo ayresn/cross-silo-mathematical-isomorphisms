@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["Bibliometric check against the premelting-dynamics literature connecting frost heave to solidification/crystal-growth theory via curvature (Gibbs-Thomson) effects on interfacial equilibrium temperature, a line of work associated with authors such as Wettlaufer, Worster, and Rempel on continuum frost-heave models; confirm whether this entry's specific three-vector packaging is already published.", "Reconcile the Section 2 vocabulary item 3 label ('thermal diffusion length') with the dimensionless similarity parameter (Peclet number) it actually denotes in Section 3 and in the YAML vector name 'diffusion-field-similarity-parameter'."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "FLAG"
@@ -278,7 +278,7 @@ The shared structural quantity is therefore not equality of the dimensional ther
 - Reconcile the Section 2 vocabulary item 3 label ("thermal diffusion length") with the dimensionless similarity parameter (Peclet number) it actually denotes in Section 3 and in the YAML vector name "diffusion-field-similarity-parameter."
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-14

@@ -47,7 +47,7 @@ validation_status:
     quoted_evidence: ["Section 3, Silo B: 'the master equation for the occupancy p_i of node i is: dp_i/dt = (μ_{i-1} + ε_{i+1}) p_{i-1} - (μ_i + ε_i) p_i + (μ_{i+1} + ε_{i+1}) p_{i+1} (boundary terms as appropriate). For the two-node ring this reduces to the identical two-state CTMC: dp_1/dt = μ_2 p_2 - μ_1 p_1, dp_2/dt = μ_1 p_1 - μ_2 p_2'", "Section 4, Falsifiable Prediction: 'the balanced point k_a* = k_b* = K/2, achieving a peak velocity: v* = (2/K + 1/k_3 + 1/k_4)^{-1}' and 'v*/v_unbal = 25/24 ≈ 1.042, a 4.2% measurable velocity difference'"]
     stage_3_watch_items: ["Prior-art check (Check 4c, advisory): the Kolmogorov circulation/cycle condition central to Section 2's ATP-affinity <-> log-circulation-ratio pairing, and to the Hill/Jackson throughput correspondence generally, is treated for arbitrary Markov chains and stochastic networks in Kelly's 'Reversibility and Stochastic Networks' -- confirm whether this specific two-field application (rather than the general theory) has prior treatment.", "Silo B is repeatedly labeled a 'closed Jackson network,' but every worked formula in Section 3 (two-node and K-node cases) and all listed vectors use a single circulating customer/token -- a degenerate case that does not exercise Jackson's multi-customer product-form theorem. Confirm whether 'Jackson network' is the right frame.", "Section 2's first pairing gives W_ij = μ_j·δ(i,j-1) for the queue generator; given the entry's own stated forward-rate convention (μ_i is the i->i+1 rate) and the motor-side convention W_ij = k_(j->i), the delta should point the other way, δ(i,j+1). Minor, but worth a spot-check alongside the Check 1 finding.", "Vector 2 ('Hill cycle current / cycle throughput formula') asserts the general result via 'D = spanning-tree sum' without deriving it; only the unidirectional two-state/two-node special case is actually worked out (correctly). Confirm the general branched/non-simple-cycle form before extending the correspondence past simple cycles.", "Vector 4 (randomness parameter = CV^2 of cycle time) is correctly derived, but Var/Mean^2 of a sum of independent exponentials is a generic renewal-theory fact that holds identically for any sequential-exponential-stage system, not something specific to these two fields -- weigh its novelty accordingly even though it passes Check 3."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-17"
     verdict: "REJECT"
@@ -298,7 +298,7 @@ The predicted speedup ratio *v*\*/*v*_unbal = (1/*K* + 1/*k*₃ + 1/*k*₄ + 19/
 - Vector 4's underlying fact (Var/Mean² of a sum of independent exponentials) is generic renewal-theory math that would hold for any sequential-exponential-stage system, not specific to these two fields — weigh its novelty accordingly even though it correctly passes Check 3.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-17

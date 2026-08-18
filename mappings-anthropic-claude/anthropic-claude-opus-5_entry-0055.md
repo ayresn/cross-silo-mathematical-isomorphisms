@@ -37,7 +37,7 @@ validation_status:
   primary_failure_risk: "bivariate_internal_coordinate_irreducibility_the_area_to_mass_ratio_distribution_is_bimodal_and_may_not_collapse_onto_a_single_length_coordinate"
   bibliometric_validation: "pending"
   first_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "FLAG"
@@ -330,7 +330,7 @@ In Silo A this is the attrition-driven fines-explosion threshold of a continuous
 ## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-14

@@ -51,7 +51,7 @@ validation_status:
       - "Section 1 attributes the ICF instability to the 'inward acceleration phase,' while Section 3 pairs 'a dense shell' with 'a light fuel gas' — a configuration most classically associated in ICF phenomenology with deceleration-phase (near-stagnation) RT growth, not the acceleration phase. The sign-criterion mathematics itself is phase-agnostic and internally correct; confirm which interface/phase the entry intends."
       - "The claimed stabilization threshold 'V_a ≥ 4.2 m/s' for mode l=2 is asserted without showing the intermediate derivation from the stated R_min and peak-acceleration values; request or independently verify that derivation before treating the figure as validated."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -235,7 +235,7 @@ A dimensionless group that collapses the growth is the **Atwood number** \( A_t 
 - The stabilization threshold "V_a ≥ 4.2 m/s" for mode l=2 is asserted without showing the intermediate derivation from the stated R_min and peak-acceleration values; request or independently verify that derivation.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

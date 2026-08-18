@@ -37,7 +37,7 @@ validation_status:
   primary_failure_risk: "the generic operator-level claim (scalar hyperbolic conservation law with concave constitutive closure) is not itself unclaimed territory: a narrow pure-math 'delta-shock wave' literature has separately analyzed 'the chromatography equations' (Sun 2013; Zhang 2016) and Aw-Rascle-type traffic models (Shao & Huang) under the same singular-solution machinery without cross-citation, so Vectors 1-2 in isolation would not clear novelty. The entry's defensible novel content is narrower: the applied transfer of traffic's network-junction/demand-supply node formalism into SMB port-switching design (Vector 4, Section 4), which assumes the SMB ring's rotating column-role assignment maps onto a fixed-topology traffic node with time-varying control - a mapping that has not been checked against cases where the 'network topology itself' effectively reconfigures rather than just the flow-split at a static junction, and may require an extension the traffic literature has not needed to make."
   bibliometric_validation: "pending"
   first_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-16"
     verdict: "REJECT"
@@ -247,7 +247,7 @@ with signal control imposing $\xi_i(t)=\xi_i(t \bmod T_{\rm cycle})$ on the allo
 ## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-16

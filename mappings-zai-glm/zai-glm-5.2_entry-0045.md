@@ -48,7 +48,7 @@ validation_status:
     quoted_evidence: ["ρ_ch = [ω_{p,h}² v_⊥,res² ω² / (c² γ_res³ Ω_e⁴ k_∥ v_∥,res)]^{1/3}, described in Section 2 as 'The dimensionless collective-coupling parameter'", "K[JJ] E_s/(γ m c) ↔ v_⊥,res B_w/(γ m)", "ω_{p,b}²/(k_u² c²) ↔ ω_{p,h}² v_⊥,res² ω² / (Ω_e⁴ k_∥ v_∥,res)", "Ω_{w,sat}²/Ω_e² ∼ ρ_ch, i.e., B_{w,sat}/B_0 ∼ ρ_ch^{1/2}", "(∂_t² + c² k_s²) E_s = −(c²/ε_0) ∂_t J_∥"]
     stage_3_watch_items: ["Confirm whether ρ_ch can be corrected to a genuinely dimensionless quantity, and whether a corrected version still supports the claimed sinc² Madey gain curve and ρ^{1/2} saturation-amplitude scaling for chorus", "Check whether a helical-undulator FEL formulation (no [JJ] factor, genuinely circular transverse motion) would be the structurally closer analog to cyclotron gyration than the stated planar undulator", "Verify the attribution and functional form of the cited Omura nonlinear saturation formula against Omura et al. 2007/2009", "Search for prior published analogies between FEL theory and chorus or electron-cyclotron-maser theory, given the shared pendulum-trapping formalism recurs across plasma-physics coherent-emission problems", "Verify the numeric Madey gain-curve constants (G_peak ≈ 0.85ρ, ν_peak ≈ 2.6) against standard FEL references"]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-16"
     verdict: "REJECT"
@@ -274,7 +274,7 @@ with trapping frequency `Ω_{t,ch}² = k_∥ v_⊥,res Ω_w / γ_res²`, where `
 - Verify the numeric Madey gain-curve constants (`G_peak ≈ 0.85ρ`, `ν_peak ≈ 2.6`) against standard FEL references.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-16

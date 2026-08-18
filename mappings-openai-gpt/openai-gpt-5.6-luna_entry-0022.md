@@ -51,7 +51,7 @@ validation_status:
       - "The traffic side's raw second-order (two-equation, PW/Aw–Rascle-type) system is never written out explicitly in Section 3 — only the first-order LWR building block and the final general reduced ODE are shown. Confirm the general regularized traveling-wave form is a faithful reduction of an actual published second-order jamiton model rather than an assumed-by-analogy shortcut."
       - "Minor: traffic density ρ is conventionally a dimensional quantity while porosity φ is a dimensionless volume fraction; the entry never states the implicit normalization (ρ by jam density) that would make the two directly comparable as 'q' in the shared formalism. The claimed correspondence is structural rather than numerical, so this likely doesn't undermine it, but Stage 3 may want to confirm."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "FLAG"
@@ -304,7 +304,7 @@ The three demonstrated vectors are consequently: (1) characteristic speed from t
 - Minor: ρ is conventionally dimensional, φ is conventionally dimensionless; the entry never states the implicit normalization that makes them directly comparable as "q," though the claimed correspondence is structural rather than numerical.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-14

@@ -54,7 +54,7 @@ validation_status:
       - "Verify the ≈8 km MISMIP+ grounding-line position-error baseline against current published benchmark results."
       - "If revised, check whether a physically motivated identification (e.g. thin-film consistency index K = (ρg)^n/(2A)) is added to close the Check 1 coefficient gap, and whether that identification is physically defensible rather than a curve-fit forced to make the algebra close."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -245,7 +245,7 @@ The operators coincide once the identifications \(h\leftrightarrow H\), \(p\left
 - If revised, check whether a physically motivated identification (e.g. thin-film consistency index K = (ρg)^n/(2A)) is added to close the Check 1 coefficient gap, and whether that identification is physically defensible rather than a curve-fit forced to make the algebra close.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0  
 **Verdict:** REJECT  
 **Review Date:** 2026-08-13

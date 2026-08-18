@@ -44,7 +44,7 @@ validation_status:
   primary_failure_risk: "boundary_layer_constitutive_mismatch_at_order_1_over_2N (the diffusion approximation itself degrades within O(1/2N) of the absorbing boundary, precisely where the transferred scheme's headline output — the fixation flux — is evaluated)"
   bibliometric_validation: "pending"
   first_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "FLAG"
@@ -315,7 +315,7 @@ with (kᴮT, Φ, M, E_Fn) ↔ (1/4N, U, 1, (1/4N)ln π + U). The boundary work t
 ## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-14

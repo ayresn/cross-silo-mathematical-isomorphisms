@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ['-8F\Omega x_s^3\,\frac{\tanh\xi\;\mathrm{sech}^2\!\xi}{\xi^3} < 0, with \xi = \frac{1}{2x_s\rho} > 0 (Section 3, Correspondence 1)']
     stage_3_watch_items: ["Before resubmission, verify the corrected BCF second-derivative formula against the f(rho) given in Section 3 (see Check 1 finding).", "Search specifically for prior use of conservation-law / shock / kinematic-wave language applied to step bunching in the surface-physics literature -- the entry's own Section 5 strings (e.g. 'kinematic wave' AND ('step bunch' OR 'vicinal surface')) already target this, and Whitham's kinematic-wave theory (originating in Lighthill & Whitham 1955 traffic-flow papers) is a plausible common ancestor.", "Independently verify the canonical BCF step-velocity closure (tanh vs. coth form, numerical prefactor) against standard epitaxy references -- this review checked only internal/dimensional self-consistency, not fidelity to the literature's standard BCF derivation."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-17"
     verdict: "REJECT"
@@ -284,7 +284,7 @@ In epitaxy, this selects the stable step-bunch front: faster characteristics fro
 - Independently verify the canonical BCF step-velocity closure (tanh vs. coth, and the numerical prefactor) against standard epitaxy references — this review checked only the formula's internal and dimensional self-consistency, not its fidelity to the standard BCF derivation.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-17

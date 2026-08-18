@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ["The right‑hand side viscosity η_ECM is related to the plateau modulus by η_ECM = G_0λ_ECM, so that the coefficient reduces to 2, exactly mirroring the Oldroyd‑B form in Silo A.", "the extra‑stress τ^{(p)} in A is non‑dimensionalized by η_p U/L, and σ^{(ve)} in B by G_0 (the plateau modulus), which are the same after the mapping η_p ↔ G_0 λ_ECM", "for Silo B, we hypothesise an analogous threshold for the onset of fluctuating traction forces when the cell‑induced flow curvature exceeds a critical value, measurable via time‑resolved traction force microscopy"]
     stage_3_watch_items: ["Verify the exact functional form of the Pakdel-McKinley criterion against source literature; the entry's stated form, [τ_nn/(η_0γ̇)](1/R) ≥ M_crit, should be checked for missing terms against the standard presentation", "Verify whether large-deformation upper-convected Maxwell modeling is genuinely 'commonly adopted' for 3D cell migration in ECM as claimed, versus the more standard linear-elastic, poroelastic, or small-strain treatments in that literature", "Verify the derivation and literature basis for the Section 4 falsifiable-prediction formula 2πλ_ECM/√(Wi_B² − Wi_crit²) with Wi_crit ≈ 3.0, which is asserted but not derived within the entry", "Confirm whether a formal Oldroyd-B/UCM operator correspondence with log-conformation numerical-method transfer to cell-ECM mechanics has prior precedent in the biophysics or computational rheology literature, given that viscoelastic 'cell rheology' modeling is already a known general area"]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -228,7 +228,7 @@ where R is the local radius of curvature and M_{crit} is a numerically determine
 - Confirm whether a formal Oldroyd-B/UCM operator correspondence with log-conformation numerical-method transfer to cell-ECM mechanics has prior precedent in the biophysics or computational rheology literature, given that viscoelastic "cell rheology" modeling is already a known general area.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

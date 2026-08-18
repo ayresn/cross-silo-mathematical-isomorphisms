@@ -59,7 +59,7 @@ validation_status:
       "The Young's modulus used to obtain P_cr = 17.3 nN and C_thermal = 6.9 μm/N is not stated in the entry; the figures are only reproducible with E in roughly the 165-170 GPa range, an orientation-dependent choice for silicon that should be made explicit."
     ]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -257,7 +257,7 @@ Crucially, the WLC framework provides the analytical machinery for the sub-criti
 - The Young's modulus underlying the $P_{cr}=17.3$ nN and $C_{thermal}=6.9\,\mu m/N$ figures is never stated; it is only reproducible with $E\approx165$–$170$ GPa, an orientation-dependent silicon value that should be made explicit.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

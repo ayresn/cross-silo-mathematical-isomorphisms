@@ -72,7 +72,7 @@ validation_status:
       - 'Check whether the precursor or van der Waals length b in Vector 3 has a standard closed form in terms of the A, B, and γ parameters already given in the entry; none is derived in the entry.'
       - 'Reconcile the sign discrepancy between the two stated forms of the thin-film dispersion relation in Section 3, the classical dispersion relation versus the Bridge restatement; at least one contains an error independent of the broader finding.'
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "REJECT"
@@ -328,7 +328,7 @@ This identification is realized by choosing the mapping \(\mathcal{T}\) and a sp
 - Reconcile the sign discrepancy between the two stated forms of the thin-film dispersion relation in Section 3 (the "classical dispersion relation" vs. the "Bridge" restatement) — at least one contains an error independent of the broader finding.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-12

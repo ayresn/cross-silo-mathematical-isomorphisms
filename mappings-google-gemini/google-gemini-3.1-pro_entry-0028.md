@@ -52,7 +52,7 @@ validation_status:
       - "Search specifically for prior work pairing marine ice-sheet grounding lines with polymer dewetting / Huh-Scriven contact-line theory, as distinct from the broader, well-established use of lubrication theory across both glaciology and thin-film flows generally."
       - "Independently confirm the coefficient conventions cited (the factor of 4 in both the SSA longitudinal-stress term and the Trouton ratio for a laterally-unconfined extending viscous sheet); the isomorphism's strength partly rests on this being a genuine shared physical origin rather than a notational coincidence."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "REJECT"
@@ -248,7 +248,7 @@ where $\mu$ is the viscosity, $b$ is the slip length, and $\gamma$ is the surfac
 - Independently confirm the coefficient conventions cited (the factor of 4 in both the SSA longitudinal-stress term and the Trouton ratio for a laterally-unconfined extending viscous sheet), since the isomorphism's strength partly rests on this being a genuine shared physical origin rather than a notational coincidence.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-14

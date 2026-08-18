@@ -67,7 +67,7 @@ validation_status:
       - "Vector 2's claimed variational derivation should be checked against the source literature; first-principles Euler-Lagrange variation of the displayed functional does not obviously reproduce the specific local nonlinear term used in the main governing equation"
       - "Prior-art lineage: Biot-type single-layer-on-foundation buckling theory (geological folding) is a widely cited historical precedent for stiff-film-on-compliant-substrate wrinkling theory; confirm whether this correspondence is already explicit in review literature rather than newly identified here"
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -320,7 +320,7 @@ Instability occurs at Φ = 2, wavelength selection governed by Γ <<1 thin-plate
 - Prior-art lineage: Biot-type single-layer-on-foundation buckling theory (geological folding) is a widely cited historical precedent for stiff-film-on-compliant-substrate wrinkling theory; confirm at Stage 3 whether this correspondence is already explicit in review literature rather than newly identified here.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

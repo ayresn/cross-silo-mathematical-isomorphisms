@@ -56,7 +56,7 @@ validation_status:
       - 'Search the physics-for-ML literature for prior work pairing Nesterov/NAG continuous-limit dynamics with scalar-field-plus-Hubble-friction dynamics specifically; the general "momentum method as damped particle in a potential" template traces at least to Polyak''s heavy-ball method (1964).'
       - 'Check whether the Section 4 ResNet-18 falsification test actually requires or connects to Mukhanov-Sasaki-type machinery, since its t_crit formula uses only the homogeneous eigenvalue λ_min with no k-dependence.'
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "REJECT"
@@ -252,7 +252,7 @@ where $\lambda_i$ is the $i$-th eigenvalue of the Hessian $\nabla^2 L(\theta)$ (
 - Check whether the Section 4 ResNet-18 falsification test is meant to invoke Mukhanov-Sasaki machinery at all, given that its t_crit formula uses only the homogeneous eigenvalue λ_min with no k-dependence.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-14

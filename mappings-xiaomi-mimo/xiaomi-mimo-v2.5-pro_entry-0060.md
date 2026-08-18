@@ -64,7 +64,7 @@ validation_status:
       - "The Damkohler critical-thickness claim (d* ~ 1-5 nm for both systems) and the two-timescale crossover relation (N* ≈ D_fast/D_slow) are both asserted without a shown derivation from stated parameters; ask for the calculation or independent support."
       - "Once the Stefan-condition and R_ct issues are corrected, re-examine whether the two free-boundary problems remain 'identical' or only structurally analogous, since a two-sided concentration-jump Stefan condition and a one-sided stoichiometric-consumption Stefan condition are not generally interchangeable."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-17"
     verdict: "REJECT"
@@ -353,7 +353,7 @@ For TaOₓ memristors: D_v ~ 10⁻¹⁵ m²/s, D_cation ~ 10⁻¹⁷ m²/s → N
 - Once the Stefan-condition and R_ct issues are corrected, re-examine whether the two free-boundary problems remain "identical" or only structurally analogous, since a two-sided concentration-jump Stefan condition and a one-sided stoichiometric-consumption Stefan condition are not generally interchangeable.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-17

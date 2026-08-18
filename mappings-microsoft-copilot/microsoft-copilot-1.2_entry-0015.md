@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: []
     stage_3_watch_items: ["φ(x,t) is defined as 'defect density / vorticity-like mode' (Sections 1-2); density and vorticity are dimensionally distinct (~1/area vs. ~1/time). Determine which referent the reduction actually targets and whether the ambiguity affects the h↔φ correspondence.", "Silo A (Section 3): the coupled (h, Γ) system prior to the stated fast-relaxation elimination is not shown. Verify the closure genuinely yields a net-destabilizing k² coefficient with the claimed sign — this depends on the sign of dσ/dΓ and the specific closure, neither of which is derived in the entry.", "Silo B (Section 3): likewise, the projection from full tensorial active-nematic hydrodynamics onto the scalar φ equation via 'eliminating fast nematic alignment Q' is asserted rather than derived. Verify against active-nematics literature.", "Prior art (Check 4c): confirm whether this specific domain pairing (thin-film surfactant Marangoni vs. active-nematic defect/vorticity dynamics) has direct literature precedent, given both fields are separately documented instances of the broader k²/k⁴ long-wave-instability universality class.", "The boundary-condition correspondence paragraph (Section 3) is self-described as depending on 'the chosen confinement' with no worked geometry; request a concrete example if this sub-correspondence is load-bearing for the overall claim."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-12"
     verdict: "FLAG"
@@ -267,7 +267,7 @@ and the most-unstable wavelength
 - The boundary-condition correspondence paragraph (Section 3) is self-described as depending on "the chosen confinement" with no worked geometry provided; request a concrete example if this sub-correspondence is load-bearing for the overall claim.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-12

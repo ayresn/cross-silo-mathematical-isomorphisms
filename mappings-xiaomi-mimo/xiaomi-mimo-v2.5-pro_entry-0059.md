@@ -47,7 +47,7 @@ validation_status:
     quoted_evidence: ["Both are nonlinear equations of state coupling the thermodynamic state of the thin-film fluid to the effective transport coefficient in the Reynolds equation.", "In pulmonary surfactant mechanics, the Langmuir-type isotherm $\\sigma(\\Gamma)$ modifies the capillary pressure boundary condition, where $\\Gamma$ satisfies its own advection–diffusion equation coupled to the film flow.", "Both represent constitutive closures that render the Reynolds equation nonlinear through the state-dependent transport coefficient."]
     stage_3_watch_items: ["Re-derive ε_EHL and ε_pulm from the stated Reynolds/elastic equations and confirm both follow one consistent nondimensionalization convention; as given, the EHL expression scales as R¹ while the pulmonary expression scales as R₀², and several standard scaling conventions applied in parallel to both domains failed to reproduce both stated forms simultaneously.", "Bibliometric search should distinguish the entry's specific claim (transferring EHL cavitation algorithms — Elrod–Adams, MLMI, full-system Newton–Raphson — to airway closure) from the already-established use of thin-film/lubrication-theory modeling in pulmonary fluid mechanics (e.g., the Grotberg/Halpern/Gaver line of work on liquid-plug propagation and airway reopening), since the latter is not novel even if the former is.", "Vocabulary matrix item 5 (viscosity-pressure ↔ surfactant-tension) is not among the four listed triple_correspondence_vectors; confirm it is treated as exploratory/illustrative rather than part of the core validated claim, consistent with Section 3's own statement that the correspondence 'breaks' where surfactant transport becomes dominant.", "Confirm the Bretherton (1961) baseline constant 1.34 and the Ca^(2/3) scaling are quoted correctly, and verify the sign/magnitude argument for the compliance correction term α/Λ independently."]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-17"
     verdict: "FLAG"
@@ -304,7 +304,7 @@ The correction is **negative**: the capillary meniscus pressure ($\sim -2\sigma/
 - Independently verify the Bretherton (1961) constant 1.34 and the compliance-correction sign/magnitude argument.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-17

@@ -38,7 +38,7 @@ validation_status:
   primary_failure_risk: "glen_law_nonlinearity_and_regelation_channel_absent_from_the_elastic_kernel"
   bibliometric_validation: "pending"
   first_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-14"
     verdict: "REJECT"
@@ -327,7 +327,7 @@ The correspondence extends exactly as far as the linear multiplier is valid and 
 ## ADVERSARIAL REVIEWS (Stage 2)
 
 ### First Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-14

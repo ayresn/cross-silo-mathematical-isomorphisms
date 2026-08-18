@@ -58,7 +58,7 @@ validation_status:
       - "Verify the derivation of the specific numeric exponents in Section 4's falsifiable prediction (H=0.57±0.03, A=1.35±0.10, τ=1.28±0.05) from the stated governing equations — reaction-diffusion (KPP-class) fronts classically propagate ballistically rather than with power-law sub/superdiffusive radii, and the connection from D_λ to the claimed H is asserted, not shown."
       - "Verify the 'identical stick-slip linear stability threshold' (k_c=-∂_χs_y/D_χ, q_c l≈2.1) claimed at the end of Vector 3's demonstration; no linearization or dispersion-relation derivation is shown in the entry to support this specific numeric claim."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -335,7 +335,7 @@ Both define rate-independent differential inclusion `dX/dt + N_{K(χ)}(X) ∋ F`
 - Verify the "identical stick-slip linear stability threshold" (k_c, q_c l≈2.1) claimed at the end of Vector 3's demonstration; no linearization or dispersion-relation derivation is shown.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

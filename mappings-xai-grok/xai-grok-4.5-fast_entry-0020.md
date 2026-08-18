@@ -57,7 +57,7 @@ validation_status:
       "Cross-check the Section 4 transfer proposal against convergent finite-element / geometric-integrator literature that already treats LLG and harmonic-map-type liquid-crystal models within a unified framework, for direct precedent."
     ]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "FLAG"
@@ -229,7 +229,7 @@ Under the simultaneous identification \(\mathbf{m}\leftrightarrow\mathbf{n}\), \
 - Cross-check the Section 4 transfer proposal against existing convergent finite-element / geometric-integrator literature already unifying LLG and harmonic-map-type liquid-crystal numerics, for direct precedent.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** FLAG
 **Review Date:** 2026-08-13

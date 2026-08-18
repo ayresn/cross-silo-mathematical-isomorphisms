@@ -62,7 +62,7 @@ validation_status:
       "No canonical textbook LSW–STDP prior-art pairing was recognized, though general coarsening-dynamics-as-neural-competition-metaphor literature may be tangentially relevant and worth a bibliometric check."
     ]
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-15"
     verdict: "REJECT"
@@ -263,7 +263,7 @@ Thus the two systems are governed by the same non‑canonical, first‑order hyp
 - No canonical LSW–STDP textbook analogy recognized; general coarsening-dynamics-as-competition-metaphor literature may be worth a Stage 3 look.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-15

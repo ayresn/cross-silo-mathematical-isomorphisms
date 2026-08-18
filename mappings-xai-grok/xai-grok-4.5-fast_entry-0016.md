@@ -55,7 +55,7 @@ validation_status:
       - "Whether the specific fourth-order local PDE given for Silo B appears independently in the continuum-dislocation-climb literature, or was constructed to match Silo A's thin-film equation."
       - "No specific canonical textbook pairing (in the sense of Schrodinger/paraxial optics or Black-Scholes/heat equation) was recognized for thin-film rupture and dislocation climb; a general bibliometric search is still warranted given the internal gaps noted above."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -220,7 +220,7 @@ Under the simultaneous identification \(h\leftrightarrow\rho\), \(h^3\leftrighta
 - No specific canonical textbook pairing (in the sense of Schrödinger/paraxial optics or Black-Scholes/heat equation) was recognized for thin-film rupture and dislocation climb; a general bibliometric search is still warranted given the internal gaps noted above.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13

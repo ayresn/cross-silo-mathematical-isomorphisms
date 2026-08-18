@@ -57,7 +57,7 @@ validation_status:
       - "Verify the specific numeric predictions (Q_opt: 0.8 → 0.56 ± 0.06 cm³/min; D_f: 1.63 → 1.82 ± 0.05) against the cited Fredd & Fogler baseline correlation for consistent core geometry, units, and reported values."
       - "Bibliometrically confirm how explicitly Barton–Bockris-type electrodeposition-instability analyses and the cited Chadam/Ortoleva/Hinch/Bhatt reactive-infiltration analyses already invoke a shared Mullins-Sekerka framework; bears on this entry's novelty claim."
   second_adversarial_review:
-    reviewer_model: "Alibaba Qwen3.8 Max"
+    reviewer_model: "Alibaba Qwen 3.8 Max"
     protocol_version: "2.0-production"
     review_timestamp: "2026-08-13"
     verdict: "REJECT"
@@ -290,7 +290,7 @@ Dimensionless collapse: $Pe = v_0 L / D$, $Da = k_r L / D$, Wagner number $Wa_A 
 - Bibliometrically confirm how explicitly Barton–Bockris-type electrodeposition-instability analyses and the cited Chadam/Ortoleva/Hinch/Bhatt reactive-infiltration analyses already invoke a shared Mullins-Sekerka framework — bears on this entry's novelty claim.
 
 ### Second Adversarial Review
-**Reviewer:** Alibaba Qwen3.8 Max
+**Reviewer:** Alibaba Qwen 3.8 Max
 **Protocol:** v2.0
 **Verdict:** REJECT
 **Review Date:** 2026-08-13
