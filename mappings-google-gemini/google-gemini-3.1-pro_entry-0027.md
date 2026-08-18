@@ -46,7 +46,7 @@ validation_status:
     quoted_evidence: ['the highly nonlinear execution term $k \rho_B \rho_A$ cancels out entirely, mapping identically to the combustion Mixture Fraction $Z(x,t)$', '$\phi(x,t) = \rho_B(x,t) - s^{-1} \rho_A(x,t)$', '\frac{\partial \rho_B}{\partial t} = D_B \frac{\partial^2 \rho_B}{\partial x^2} - \nu_B \rho_B - k(x,t) \rho_B \rho_A + \Lambda_B(x)', '\frac{\partial \rho_A}{\partial t} = D_A \frac{\partial^2 \rho_A}{\partial x^2} - \nu_A \rho_A - k(x,t) \rho_B \rho_A + \Lambda_A(x)']
     stage_3_watch_items: ["Reaction-diffusion / two-species annihilating-particle representations of limit order books are an existing research theme in market microstructure; check whether a conserved-scalar or moving-interface treatment of the mid-price comparable to Section 3 already exists there", "Mid-price is operationalized in Section 3 as the zero-crossing of phi, not the conventional (best bid + best ask)/2; confirm whether Section 4's empirical test is meant to use the Section 3 definition or the conventional one", "Section 4's asymmetric-transfer rationale asserts LOB modeling has no FGM/CMC-style manifold reduction; check this against reduced-order Hawkes-process approximations before accepting the stated transfer direction", "The -h_v Y_F / -h_v Y_O terms place volumetric radiative heat loss directly in the species mass-fraction equations rather than the enthalpy/energy equation, which is non-standard combustion modeling; check whether this is a deliberate simplification"]
   second_adversarial_review:
-    reviewer_model: 'Alibaba Qwen3.8 Max'
+    reviewer_model: 'Alibaba Qwen 3.8 Max'
     protocol_version: '2.0-production'
     review_timestamp: '2026-08-14'
     verdict: 'REJECT'
