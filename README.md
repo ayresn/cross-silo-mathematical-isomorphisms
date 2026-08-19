@@ -107,7 +107,7 @@ Long-term, the `validated-candidate` subset of this repository — entries that 
 
 This benchmark use is deliberately restricted to validated entries. Testing a model against a Stage 1 candidate would only measure whether it reproduces the same unverified pattern-matching that generated the candidate in the first place, not whether it correctly recovers a real structural isomorphism — those are different capabilities, and conflating them would make the benchmark circular. As of this writing, no entries have completed Stage 3, so this section describes a long-term direction rather than a currently usable benchmark.
 
-The methodology used to generate Stage 1 candidates can be reviewed in the [Extraction Protocol](extraction-protocol.md) file. The methodology used to review them can be reviewed in the [Adversarial Review Protocol](adversarial-review-protocol.md) file.
+The methodology used to generate Stage 1 candidates can be reviewed in the [Extraction Protocol](extraction-protocol.md) file. The methodology used to review the candidates in Stage 2 can be reviewed in the [Adversarial Review Protocol](adversarial-review-protocol.md) file.
 
 ---
 
